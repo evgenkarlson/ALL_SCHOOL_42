@@ -1,0 +1,12 @@
+Exercitiu  : ft_putstr
+Fisiere de iesire   : ft_putstr.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti o functie ce afiseaza un sir de caractere la iesirea standard.
+
+Pointerul catre functie este adresa primului caracter al sirului.
+
+Ea trebuie sa aiba prototipul urmator:
+
+void	ft_putstr(char *str);

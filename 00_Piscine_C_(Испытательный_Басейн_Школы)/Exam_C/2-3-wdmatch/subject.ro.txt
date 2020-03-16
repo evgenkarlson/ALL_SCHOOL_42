@@ -1,0 +1,26 @@
+Exercitiu  : wdmatch
+Fisiere de iesire   : wdmatch.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Programul ia ca parametrii doua siruri de caractere si verifica si verifica 
+daca este posibila scrierea primului sir de caractere cu ajutorul caracterelor 
+celui de al doilea sir, respectand ordinea caracterelor din cel de al doilea sir.
+
+ Daca aceast lucru este posibil, programul va afisa primul sir de caractere urmat 
+ de '\n'. In caz contrar programul va afisa doar '\n'.
+
+Daca numarul de parametri este diferit de 2, programul va afisa '\n'.
+
+Exemple:
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$
+$>./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e
+quarante deux$
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+$>./wdmatch | cat -e
+$

@@ -1,0 +1,19 @@
+Exercitiu  : paramsum
+Fisiere de iesire   : paramsum.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program paramsum care afiseaza numarul de argumente transmise ca 
+parametru programului, urmat de '\n'.
+
+Daca niciun argument nu este transmis veti afisa 0, urmat de '\n'.
+
+Exemplu:
+
+$>./paramsum 1 2 3 5 7 24
+6
+$>./paramsum 6 12 24 | cat -e
+3$
+$>./paramsum | cat -e
+0$
+$>

@@ -1,0 +1,28 @@
+Assignment name  : rstr_capitalizer
+Expected files   : rstr_capitalizer.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètre une ou plusieurs chaînes de
+caractères, et qui, pour chaque argument, met le dernier caractère de chaque
+mot (s'il s'agit d'une lettre, évidemment) en majuscule et le reste en
+minuscule, et affiche le résultat sur la sortie standard suivi d'un
+'\n'.
+
+On appelle "mot" une portion de chaîne de caractères délimitée soit par des
+espaces et/ou des tabulations, soit par le début / fin de la chaîne.  Si un mot
+a une seule lettre, elle devra être mise en majuscule.
+
+S'il n'y a aucun paramêtre, le programme devra afficher '\n'.
+
+Exemple:
+
+$> ./rstr_capitalizer | cat -e
+$
+$> ./rstr_capitalizer "Premier PETIT TesT" | cat -e
+premieR petiT tesT$
+$> ./rstr_capitalizer "DeuxiEmE tEST uN PEU moinS  facile" "   attention C'EST pas dur QUAND mEmE" "ALLer UN DeRNier 0123456789pour LA rouTE    E " | cat -e
+deuxiemE tesT uN peU moinS  facilE$
+   attentioN c'esT paS duR quanD memE$
+alleR uN dernieR 0123456789pouR lA routE    E $
+$>

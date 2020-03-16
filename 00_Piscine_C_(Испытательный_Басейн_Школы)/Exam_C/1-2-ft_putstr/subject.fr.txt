@@ -1,0 +1,12 @@
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui affiche une chaîne de caractères sur la sortie standard.
+
+Le pointeur passé à la fonction est l'adresse du premier caractère de la chaîne.
+
+Elle devra être prototypée de la façon suivante :
+
+void	ft_putstr(char *str);

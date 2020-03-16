@@ -1,0 +1,11 @@
+Exercitiu : ft_strcmp
+Fisiere de iesire  : ft_strcmp.c
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Reproduceti comportamentul functiei strcmp (man strcmp).
+
+Functia voastra va treui sa aiba prototipul urmator:
+
+int    ft_strcmp(char *s1, char *s2);
+

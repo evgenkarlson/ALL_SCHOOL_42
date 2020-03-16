@@ -1,0 +1,20 @@
+Assignment name  : aff_a
+Expected files   : aff_a.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend une chaîne de caractères et affiche le premier
+caractère 'a' qu'il y rencontre, suivi d'un newline. S'il n'y a pas de
+caractère 'a' dans la chaîne, le programme affiche juste un newline. Si le
+nombre de paramètres n'est pas 1, le programme affiche 'a' suivi d'un newline.
+
+Exemple:
+
+$> ./aff_a "abc" | cat -e
+a$
+$> ./aff_a "dubO a POIL" | cat -e
+a$
+$> ./aff_a "zz sent le poney" | cat -e
+$
+$> ./aff_a | cat -e
+a$

@@ -1,0 +1,17 @@
+Exercitiu : rev_print
+Fisiere de iesire   : rev_print.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program care primeste un sir de caractere si afiseaza sirul de 
+caractere inversat, urmat de '\n'.
+Daca numarul parametrilor e diferit de 1, programul afiseaza '\n'.
+
+Exemple:
+
+$> ./rev_print "zaz" | cat -e
+zaz$
+$> ./rev_print "dub0 a POIL" | cat -e
+LIOP a 0bud$
+$> ./rev_print | cat -e
+$
