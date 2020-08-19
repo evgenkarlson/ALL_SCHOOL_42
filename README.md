@@ -1,5 +1,7 @@
 # Все задания основного обучения Школы 42 (Paris)
 
+__All subjects of 42 School 
+
 __All these subjects are the exclusive property of 42 School.__<br />
 Any reproduction, use outside the school context of 42 or without authorization is prohibited and may be treated as copyright infringement.
 
