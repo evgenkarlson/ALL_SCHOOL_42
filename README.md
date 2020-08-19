@@ -122,7 +122,7 @@ __If you want to see corrections files for these projects, go [HERE](https://git
 
 ## Piscines
 
-- [C (Languages EN & FR)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/00_Piscine_C_(Испытательный_Басейн_Школы))
+- [C (Languages EN & FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
 - [C++ (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/CPP)
 - [PHP (T1)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/PHP)
 - [Python-Django (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/Python-Django)
