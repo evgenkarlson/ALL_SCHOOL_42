@@ -7,8 +7,8 @@ __If you want to see corrections files for these projects, go [HERE](https://git
 
 
 ## Norme 42
-- [Norme 2.0.0](https://github.com/BenjaminSouchet/42_Subjects/blob/master/04_Norme/norme_2_0_0.pdf)
-- [Norme 2.0.1](https://github.com/BenjaminSouchet/42_Subjects/blob/master/04_Norme/norme_2_0_1.pdf)
+- [Norme 2.0.0](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_0.pdf)
+- [Norme 2.0.1](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_1.pdf)
 
 ## Projects
 
@@ -123,40 +123,41 @@ __If you want to see corrections files for these projects, go [HERE](https://git
 ## Piscines
 
 - [C (Languages EN & FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
-- [C++ (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/CPP)
-- [PHP (T1)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/PHP)
-- [Python-Django (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/Python-Django)
-- [Ocaml (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/OCaml)
-- [Ruby On Rails (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/Ruby_On_Rails)
-- [Swift iOS (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/iOS_Swift)
-- [Unity (T2)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/01_Piscines__(Басейны_основного_обучения)/Unity)
+- [C++ (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_cpp)
+- [PHP (T1)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php)
+- [PHP-Symphony (T1)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony)
+- [Python-Django (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django)
+- [Ocaml (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_ocaml)
+- [Ruby On Rails (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscines_ruby_on_rails)
+- [Swift iOS (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_swift_ios)
+- [Unity (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_unity)
 
 ## Rushes
 
 - AlCu (Not Available)
-- [Alum1](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/alum1.pdf)
-- [Arkanoid](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/arkanoid.pdf)
-- [Carnifex (LISP)](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/Carniflex.pdf)
-- [Cluedo (Prolog)](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/cluedo.pdf)
-- [Domino](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/Domino.pdf)
-- [Factrace](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/factrace.pdf)
-- [Hotrace](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/hotrace.pdf)
-- [Introduction to iOS](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/sujet_ios.pdf)
-- [Introduction to Wordpress](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/wordpress.pdf)
-- [LLDB](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/LLDB.pdf)
-- [Mexican Standoff](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/mexican_standoff.pdf)
-- [Puissance 4](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/puissance4.pdf)
+- [Alum1](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
+- [Arkanoid](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/arkanoid.pdf)
+- [Carnifex (LISP)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Carniflex.pdf)
+- [Cluedo (Prolog)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/cluedo.pdf)
+- [Domino](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Domino.pdf)
+- [Factrace](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/factrace.pdf)
+- [Hotrace](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/hotrace.pdf)
+- [Introduction to iOS](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/sujet_ios.pdf)
+- [Introduction to Wordpress](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wordpress.pdf)
+- [LLDB](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/LLDB.pdf)
+- [Mexican Standoff](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/mexican_standoff.pdf)
+- [Puissance 4](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/puissance4.pdf)
 - Rage Against The aPi (Not Available)
 - Rush admin sys et réseau 0 (Not Available)
 - Rush admin sys et réseau 1 (Not Available)
-- [wong_kar_wai (2048)](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/wong_kar_wai_2048.pdf)
-- [YASL](https://github.com/BenjaminSouchet/42_Subjects/blob/master/02_Rushes/yasl.pdf)
+- [wong_kar_wai (2048)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wong_kar_wai_2048.pdf)
+- [YASL](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/yasl.pdf)
 
 ## Exam C Beginner
 
-- [See all subjects (Langs : EN / FR / RO)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/03_Exam_C)
+- [See all subjects (Langs : EN / FR / RO)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
 
 ## Others
 
-- [Peer-Evaluation (Langs : EN / FR)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/05_Others/Peer-Evaluation)
-- [Vogsphere Manual (Langs : EN / FR)](https://github.com/BenjaminSouchet/42_Subjects/tree/master/05_Others/Vogsphere)
+- [Peer-Evaluation (Langs : EN / FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others)
+- [Vogsphere Manual (Langs : EN / FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others)
