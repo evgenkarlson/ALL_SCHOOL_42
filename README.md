@@ -28,10 +28,10 @@ Any reproduction, use outside the school context of 42 or without authorization 
 
 ## 2.Piscines С (начальный басейн, по Си)
 
->> Начальный басейн по Си. С НЕГО НАЧИНАЕТСЯ ОБУЧЕНИЕ В ШКОЛЕ!!!
+> Начальный басейн по Си. С НЕГО НАЧИНАЕТСЯ ОБУЧЕНИЕ В ШКОЛЕ!!!
 > - [C (Languages EN & FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
->
->> Экзаменационные задания начального басейна по С
+
+> Экзаменационные задания начального басейна по С
 > - [See all exam subjects (Langs : EN / FR / RO)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
 
 
