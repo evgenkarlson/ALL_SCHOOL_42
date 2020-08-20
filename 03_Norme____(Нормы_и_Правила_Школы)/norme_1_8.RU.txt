@@ -279,7 +279,7 @@ if (test > 0 && test < 42) return (value); 			/* WRONG: код устловия 
 
 if (test > 0 && test < 42)
 {
-return (value);										/* WRONG: табуляция перед return */
+return (value);										/* WRONG: должна быть табуляция перед return */
 }
 
 
@@ -307,7 +307,7 @@ if (a = 42)						/* RIGHT */
 
 if (a = 42)
 	if (b = 42)
-		a = 0;					/* WRONG */
+		a = 0;					/* WRONG: вложеные условия - блок кода первого условия должен быть в фигурных скобках. */
 
 
 if (a = 42)						/* RIGHT */
