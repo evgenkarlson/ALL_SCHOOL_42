@@ -9,7 +9,7 @@
 
 > Информация по Школе 42:
 > - [Cursus Manual (EN) - Учебное пособие по школе 42](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/cursus_manual.en.pdf)
-> - [Peer-Evaluation (EN) - Информация о самой идее peer-to-peer обучения](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/the_art_of_peer_evaluation.EN.pdf)
+> - [Peer-Evaluation (EN) - Информация о самой системе peer-to-peer обучения](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/the_art_of_peer_evaluation.EN.pdf)
 >
 > Подсказки для Git:
 > - [Vogsphere Manual (EN) - Информация о системе контроля версий Git](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/vogsphere.git.EN.pdf)
