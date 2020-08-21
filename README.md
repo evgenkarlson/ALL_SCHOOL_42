@@ -8,7 +8,7 @@ Any reproduction, use outside the school context of 42 or without authorization 
 
 
 
-## 1) Normes (Нормы и Правила Школы 42)
+## 1) Normes - Нормы и Правила Школы 42
 
 > Нормы и Правила Школы 42:
 > - [Norme 1.8.0 (FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf)
@@ -26,7 +26,7 @@ Any reproduction, use outside the school context of 42 or without authorization 
 
 
 
-## 2) Piscines С (Начальный басейн, по Си)
+## 2) Piscines С - Начальный басейн, по Си
 
 > Начальный басейн по Си. С НЕГО НАЧИНАЕТСЯ ОБУЧЕНИЕ В ШКОЛЕ!!!:
 > - [C Programming Language [EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
