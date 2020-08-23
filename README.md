@@ -1,7 +1,6 @@
+# School 42 / ALL Subjects!
 
 ![42](https://avatars1.githubusercontent.com/u/63114141?s=200&v=4)
-
-# School 42 / ALL Subjects!
 
 В этом репозиторий содержатся все задания Shool 42/ Школы 21!
 
