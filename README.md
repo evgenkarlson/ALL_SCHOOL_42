@@ -1,8 +1,8 @@
 # ALL SUBJECTS SCHOOL 42
 
-![42](https://avatars1.githubusercontent.com/u/63114141?s=200&v=4)
-
 Репозиторий содержит все задания басейнов школы, групповые задания(Rushes) и задания основного обучения Школы 42.
+
+![42](https://avatars1.githubusercontent.com/u/63114141?s=200&v=4)
 
 
 ## Нормы и правила  
