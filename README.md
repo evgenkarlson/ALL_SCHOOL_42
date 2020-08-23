@@ -1,9 +1,7 @@
-# School 42
 
 ![42](https://avatars1.githubusercontent.com/u/63114141?s=200&v=4)
 
-
-### ALL Subjects!
+# School 42 / ALL Subjects!
 
 
 ![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
