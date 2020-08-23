@@ -9,14 +9,14 @@
 
 ## 1. Нормы и Правила Школы 42
 Эта документация поможет вам понять стандарты написания кода, познакомит с системой обучения этой школы.
-> Информация по Школе 42:
+>> Информация по Школе 42:
 > - [Cursus Manual (EN) - Учебное пособие по школе 42](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/cursus_manual.en.pdf)
 > - [Peer-Evaluation (EN) - Информация о самой системе peer-to-peer обучения](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/the_art_of_peer_evaluation.EN.pdf)
->
-> Подсказки по использованию Git для взаимодействия с полученым репозиторием в Vogsphere:
+
+>> Подсказки по использованию Git для взаимодействия с полученым репозиторием в Vogsphere:
 > - [Vogsphere Manual (EN) - Информация о системе контроля версий, команды Git и т.д.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/vogsphere.git.EN.pdf)
->
-> Нормы Школы 42:
+
+>> Нормы Школы 42:
 > - [Norme 1.8.0 (FR)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf)
 > - [Norme 1.8.0 (RU)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.txt)
 > - [Norme 2.0.0 (EN)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_0.EN.pdf)
