@@ -1,4 +1,4 @@
-# School 42
+# SCHOOL 42 - ALL SUBJECTS
 
 ![42](https://avatars1.githubusercontent.com/u/63114141?s=200&v=4)
 
