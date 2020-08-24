@@ -2,7 +2,7 @@
 
 #### Этот репозиторий содержит все задания басейнов, групповые задания(Rushes) и задания основного обучения Школы 42.
 
-![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/05.png)
+![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00.png)
 
 
 ## 0. Нормы и правила школы
