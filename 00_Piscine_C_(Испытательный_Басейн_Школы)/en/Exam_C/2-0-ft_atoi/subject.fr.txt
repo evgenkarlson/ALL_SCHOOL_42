@@ -1,0 +1,12 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui convertit une chaîne en un entier (type int) et le retourne.
+
+Marche comme la fonction standard atoi(const char *str), voir le man.
+
+La fonction doit être prototypée comme suit:
+
+int	ft_atoi(const char *str);

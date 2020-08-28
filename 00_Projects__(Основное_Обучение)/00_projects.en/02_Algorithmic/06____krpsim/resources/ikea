@@ -1,0 +1,19 @@
+#
+# ikea demo - krpsim
+#
+# stock      name:quantity
+planche:7
+#
+# process   name:(need1:qty1;need2:qty2;[...]):(result1:qty1;result2:qty2;[...]):delay
+#
+do_montant:(planche:1):(montant:1):15
+do_fond:(planche:2):(fond:1):20
+do_etagere:(planche:1):(etagere:1):10
+do_armoire_ikea:(montant:2;fond:1;etagere:3):(armoire:1):30
+#
+# optimize time for 0 stock and no process possible,
+# or maximize some products over a long delay
+# optimize:(stock1;stock2;...)
+#
+optimize:(time;armoire)
+#

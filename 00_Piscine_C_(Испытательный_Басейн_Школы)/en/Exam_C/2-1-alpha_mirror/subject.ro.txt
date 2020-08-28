@@ -1,0 +1,27 @@
+Exercitiu  : alpha_mirror
+Fisiere de iesire  : alpha_mirror.c
+Functii autorizare : write
+--------------------------------------------------------------------------------
+
+Scrieti un program numit alpha_mirror care primeste un sir de caractere si
+afiseaza acest sir de caractere dupa ce inlocuieste fiecare caracter alfabetic
+cu caracterul alfabetic opus, urmat de '\n'.
+
+'a' devine 'z', 'Z' devine 'A'
+'d' devine 'w', 'M' devine 'N'
+
+si asa mai departe.
+
+Programul este case sensitive.
+
+Daca numarul de argumente nu este 1, se afiseaza un '\n'.
+
+Examples:
+
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$
+$>./alpha_mirror | cat -e
+$
+$>

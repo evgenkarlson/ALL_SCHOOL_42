@@ -1,0 +1,24 @@
+Exercitiu  : ft_range
+Fisiere de iesire   : ft_range.c
+Functii autorizate : malloc
+--------------------------------------------------------------------------------
+
+Scrieti functia urmatoare:
+
+int     *ft_range(int start, int end);
+
+Aceasta functie trebuie sa aloce cu ajutorul functiei malloc() un tablou de 
+intregi si sa-l umple valori (consecutive) incepand cu start si terminand cu 
+end (start si end incluse!), si sa returneze un pointer spre prima valoare 
+a tabloului.
+
+Exemplu:
+
+
+Cu parametri (1, 3) trebuie sa returnati un tablou continand valorile 1, 2 si 3.
+
+Cu parametri (-1, 2) trebuie sa returnati un tablou continand valorile -1, 0, 1 si 2.
+
+Cu parametri (0, 0) trebuie sa returnati un tablou continand valorile 0.
+
+Cu parametri (0, -3) trebuie sa returnati un tablou continand valorile 0, -1, -2 si -3.

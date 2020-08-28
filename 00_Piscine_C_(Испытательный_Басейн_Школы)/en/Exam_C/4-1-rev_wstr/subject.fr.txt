@@ -1,0 +1,29 @@
+Assignment name  : rev_wstr
+Expected files   : rev_wstr.c
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètre une chaîne de caractères, et qui
+affiche cette chaîne en inversant ses mots.
+
+On appelle "mot" une portion de chaîne de caractères délimitée soit par des
+espaces et/ou des tabulations, soit par le début / fin de la chaîne.
+
+Si le nombre de paramètres est différent de 1, le programme devra afficher
+'\n'.
+
+Dans les paramètres qui seront testés, il n'y aura pas d'espaces "en trop"
+(comprendre par là qu'il n'y aura pas d'espaces au début ou à la fin de la
+chaîne, et que les mots seront toujours séparés par exactement un espace).
+
+Exemple:
+
+$> ./rev_wstr "le temps du mepris precede celui de l'indifference" | cat -e
+l'indifference de celui precede mepris du temps le$
+$> ./rev_wstr "abcdefghijklm"
+abcdefghijklm
+$> ./rev_wstr "il contempla le mont" | cat -e
+mont le contempla il$
+$> ./rev_wstr | cat -e
+$
+$>

@@ -1,0 +1,25 @@
+Exercitiu  : expand_str
+Fisiere de iesire   : expand_str.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program care ia ca parametru un sir de caractere si afiseaza acest sir 
+cu exact trei spatii intre fiecare cuvinte, fara spatii ori tabulatori la inceputul 
+ori sfarsitul sirului, urmat de un '\n'.
+
+Numim "cuvant" o portiune a sirului de caractere delimitat de spatii sau/si tabulatori, 
+atat la inceputul cat si la sfarsitul sirului.
+
+Daca numarul de parametri transmis este diferit de 1, sau daca nu este niciun cuvant 
+de afisat, programul va afisa '\n'.
+Exemplu:
+
+$> ./expand_str "vous   voyez   c'est   facile   d'afficher   la   meme   chose" | cat -e
+vous   voyez   c'est   facile   d'afficher   la   meme   chose$
+$> ./expand_str " seulement          la c'est      plus dur " | cat -e
+seulement   la   c'est   plus   dur$
+$> ./expand_str "comme c'est cocasse" "vous avez entendu, Mathilde ?" | cat -e
+$
+$> ./expand_str "" | cat -e
+$
+$>

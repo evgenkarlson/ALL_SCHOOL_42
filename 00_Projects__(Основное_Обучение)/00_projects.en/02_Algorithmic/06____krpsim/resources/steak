@@ -1,0 +1,21 @@
+#
+# steak demo - krpsim
+#
+# stock      name:quantity
+steak_cru:3
+poele:1
+#
+# process   name:(need1:qty1;need2:qty2;[...]):(result1:qty1;result2:qty2;[...]):delay
+#
+cuisson_1:(steak_cru:2;poele:1):(steak_mi_cuit:2;poele:1):10
+cuisson_2:(steak_mi_cuit:2;poele:1):(steak_cuit:2;poele:1):10
+cuisson_3:(steak_cru:1;steak_mi_cuit:1;poele:1):(steak_mi_cuit:1;steak_cuit:1;poele:1):10
+cuisson_4:(steak_cru:1;poele:1):(steak_mi_cuit:1;poele:1):10
+cuisson_5:(steak_mi_cuit:1;poele:1):(steak_cuit:1;poele:1):10
+#
+# optimize time for 0 stock and no process possible,
+# or maximize some products over a long delay
+# optimize:(stock1;stock2;...)
+#
+optimize:(time;steak_cuit)
+#

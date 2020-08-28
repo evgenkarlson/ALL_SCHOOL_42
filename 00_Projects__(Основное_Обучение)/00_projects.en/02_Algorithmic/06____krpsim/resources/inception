@@ -1,0 +1,26 @@
+#
+# inception demo - krpsim
+#
+# stock      name:quantity
+clock:1
+#
+# process   name:(need1:qty1;need2:qty2;[...]):(result1:qty1;result2:qty2;[...]):delay
+#
+make_sec:(clock:1):(clock:1;second:1):1
+make_minute:(second:60):(minute:1):6
+make_hour:(minute:60):(hour:1):36
+make_day:(hour:24):(day:1):86
+make_year:(day:365):(year:1):365
+start_dream:(minute:1;clock:1):(dream:1):60
+start_dream_2:(minute:1;dream:1):(dream:2):60
+dream_minute:(second:1;dream:1):(minute:1;dream:1):1
+dream_hour:(second:1;dream:2):(hour:1;dream:2):1
+dream_day:(second:1;dream:3):(day:1;dream:3):1
+end_dream:(dream:3):(clock:1):60
+#
+# optimize time for no process possible (eating stock, produce all possible),
+# or maximize some products over a long delay
+# optimize:(time|stock1;time|stock2;...)
+#
+optimize:(year)
+#

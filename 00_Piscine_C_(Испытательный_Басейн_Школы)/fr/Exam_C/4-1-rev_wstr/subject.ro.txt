@@ -1,0 +1,27 @@
+Exercitiu  : rev_wstr
+Fisiere de iesire   : rev_wstr.c
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru un sir de caractere si care afiseaza acest 
+sir inversand cuvintele sale.
+
+Numim "cuvant" o portiune a sirului de caractere delimitat, fie de spatiu si/sau 
+tabulator, fie de inceputul/sfarsitul sirului.
+
+Daca numarul de parametri este diferit de 1, programul va afisa '\n'.
+
+Sirurile ce urmeaza a fi testate nu vor contine spatii nici la inceput si nici 
+la sfarsitul acestora si ca cuvintele vor fi separate intotdeauna printr-un spatiu.
+
+Exemplu:
+
+$> ./rev_wstr "le temps du mepris precede celui de l'indifference" | cat -e
+l'indifference de celui precede mepris du temps le$
+$> ./rev_wstr "abcdefghijklm"
+abcdefghijklm
+$> ./rev_wstr "il contempla le mont" | cat -e
+mont le contempla il$
+$> ./rev_wstr | cat -e
+$
+$>

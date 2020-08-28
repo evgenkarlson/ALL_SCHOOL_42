@@ -1,0 +1,28 @@
+Assignment name  : wdmatch
+Expected files   : wdmatch.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Le programme prend en paramètres deux chaînes de caractères et vérifie qu'il
+est possible d'écrire la première chaîne de caractères a l'aide des caractères
+de la deuxiême chaîne, tout en respectant l'ordre des caractères dans la
+deuxième chaîne.
+
+Si cela est possible, le programme affiche la première chaîne de caractères,
+suivie de '\n'. Sinon le programme affiche seulement '\n'.
+
+Si le nombre de paramètres transmis est différent de 2, le programme affiche
+'\n'.
+
+Exemples :
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$
+$>./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e
+quarante deux$
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+$>./wdmatch | cat -e
+$

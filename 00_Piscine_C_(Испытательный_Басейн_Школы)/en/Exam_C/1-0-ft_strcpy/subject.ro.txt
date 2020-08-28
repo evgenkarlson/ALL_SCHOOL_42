@@ -1,0 +1,11 @@
+Exercitiu  : ft_strcpy
+Fisiere de iesire   : ft_strcpy.c
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Reproduceti comportamentul functiei strcpy (man strcpy).
+
+Functia voastra va trebui sa aiba prototipul urmator:
+
+char    *ft_strcpy(char *s1, char *s2);
+

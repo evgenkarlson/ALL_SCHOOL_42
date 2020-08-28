@@ -1,0 +1,10 @@
+Assignment name  : ft_itoa
+Expected files   : ft_itoa.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Scrieti o functie care primeste un int si il converteste intr-un sir de caractere, care se termina cu null. Functia returneaza resultatul intr-un vector de char pe care trebuie sa il alocati.
+
+Functia trebuie declarata ca si mai jos:
+
+char	*ft_itoa(int nbr);

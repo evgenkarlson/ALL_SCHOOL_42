@@ -1,0 +1,12 @@
+Exercitiu  : ft_swap
+Fisiere de iesire  : ft_swap.c
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Scrieti o functie ce schimba valoarea a doi intregi ale caror adrese sunt 
+transmise ca parametri.
+
+Ea trebuie sa aibaprototipul urmator:
+
+void	ft_swap(int *a, int *b);
+

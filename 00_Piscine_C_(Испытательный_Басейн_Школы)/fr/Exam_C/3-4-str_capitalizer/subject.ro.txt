@@ -1,0 +1,27 @@
+Exercitiu  : str_capitalizer
+Fisiere de iesire   : str_capitalizer.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru unul sau mai multe siruri de caractere si 
+care pentru fiecare argument transforma primul caracter al fiecarui cuvant (daca 
+e vorba de o litera, evident) in majuscule iar restul cuvantului il transforma 
+in minuscule si afiseaza resultatul la iesirea standard, urmat de '\n'.
+
+Numim "cuvant" o portiune dintrun sir de caractere delimitat fie de spatii si/sau 
+tabulatoare, fie de inceputul/sfarsitul sirului. Daca un cuvant este compus dintr-o 
+singura litera, ea va trebui transformata in majuscula.
+
+Daca nu exista nici un parametru, programul va afisa '\n'.
+
+Exemplu:
+
+$> ./str_capitalizer | cat -e
+$
+$> ./str_capitalizer "Premier PETIT TesT" | cat -e
+Premier Petit Test$
+$> ./str_capitalizer "DeuxiEmE tEST uN PEU moinS  facile" "   attention C'EST pas dur QUAND mEmE" "ALLer UN DeRNier 0123456789pour LA rouTE    E " | cat -e
+Deuxieme Test Un Peu Moins  Facile$
+   Attention C'est Pas Dur Quand Meme$
+Aller Un Dernier 0123456789pour La Route    E $
+$>

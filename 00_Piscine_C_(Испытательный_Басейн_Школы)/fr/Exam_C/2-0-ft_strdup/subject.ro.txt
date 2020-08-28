@@ -1,0 +1,11 @@
+Exercitiu  : ft_strdup
+Fisiere de iesire   : ft_strdup.c
+Functii autorizate : malloc
+--------------------------------------------------------------------------------
+
+Reproduceti comportamentul functiei strdup (man strdup).
+
+Functia voastra va trebui sa aiba prototipul urmator:
+
+char    *ft_strdup(char *src);
+

@@ -1,0 +1,21 @@
+Assignment name  : ft_atoi_base
+Expected files   : ft_atoi_base.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Écrire une fonction convertit son argument 'str', une chaîne (en base N <= 16)
+en un entier (base 10) et le retourne.
+
+Les caractères reconnus dans l'entrée sont : 0123456789abcdef Bien entendu, la
+base demandée conditionne le nombre de caractères à prendre en compte. Par
+exemple, la base 4 reconnaîtra "0123" et la base 16 reconnaîtra
+"0123456789abcdef".
+
+Les majuscules marchent aussi : "12fdb3" est pareil que "12FDB3".
+
+Les caractères '-' doivent être interprétés seulement s'ils sont en première
+position dans la chaîne.
+
+Votre fonction sera déclarée comme suit:
+
+int	ft_atoi_base(const char *str, int str_base);

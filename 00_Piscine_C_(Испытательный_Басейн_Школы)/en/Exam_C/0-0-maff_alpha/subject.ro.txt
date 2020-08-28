@@ -1,0 +1,13 @@
+Exercitiu  : maff_alpha
+Fisiere de iesire   : maff_alpha.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program ce afiseaza alfabetul, din doua-in-doua litere cu caractere 
+minuscule, iar celelalte (intermediare) vor fi afisate cu majuscule (Vezi exemplul), 
+urmat de '\n'.
+
+Exemplu:
+
+$> ./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$

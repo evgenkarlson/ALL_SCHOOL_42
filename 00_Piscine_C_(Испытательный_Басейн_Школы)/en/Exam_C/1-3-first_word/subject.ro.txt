@@ -1,0 +1,29 @@
+Exercitiu  : first_word
+Fisiere de iesire  : first_word.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program care ia ca parametru un sir de caractere si afiseaza primul 
+cuvant din acest sir, urmat de un '\n'.
+
+Numim "cuvant" o portiune a sirului de caractere delimitat de spatii sau/si 
+tabulatori, atat la inceputul cat si la sfarsitul sirului.
+
+Daca numarul de parametri transmis este diferit de 1, sau daca nu este niciun 
+cuvant de afisat, programul va afisa \texttt'\n'.
+
+Exemplu:
+
+$> ./first_word "FOR PONY" | cat -e
+FOR$
+$> ./first_word "this        ...       is sparta, then again, maybe    not" | cat -e
+this$
+$> ./first_word "   " | cat -e
+$
+$> ./first_word "a" "b" | cat -e
+$
+$> ./first_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+$>
+
+

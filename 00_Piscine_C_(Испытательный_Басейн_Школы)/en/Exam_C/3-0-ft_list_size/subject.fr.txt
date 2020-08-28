@@ -1,0 +1,20 @@
+Assignment name  : ft_list_size
+Expected files   : ft_list_size.c, ft_list.h
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui renvoie le nombre d'éléments dans la liste chaînée
+passée en paramètre.
+
+Elle devra être prototypée de la façon suivante:
+
+int	ft_list_size(t_list *begin_list);
+
+Vous devez utiliser la structure suivante, et la rendre dans un fichier
+ft_list.h:
+
+typedef struct    s_list
+{
+	struct s_list *next;
+	void          *data;
+}                 t_list;

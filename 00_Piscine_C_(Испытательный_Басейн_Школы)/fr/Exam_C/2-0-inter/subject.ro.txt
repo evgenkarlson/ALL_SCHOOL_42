@@ -1,0 +1,22 @@
+Exercitiu  : inter
+Fisiere de iesire  : inter.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru doua siruri de caractere si care afiseaza  
+caracterele comune celor doua siruri, fara a le dubla.
+
+Afisarea se va face in ordinea aparitiei din primul sir, urmata de '\n'.
+
+Daca numarul ed parametri transmis este diferit de 2, programul va afisa '\n'.
+		 
+Exemple:
+
+$>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+padinto$
+$>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6ewg4$
+$>./inter "rien" "cette phrase ne cache rien" | cat -e
+rien$
+$>./inter | cat -e
+$

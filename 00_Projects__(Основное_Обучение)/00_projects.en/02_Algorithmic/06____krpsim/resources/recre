@@ -1,0 +1,21 @@
+#
+# recre demo - krpsim
+#
+# stock      name:quantity
+bonbon:10
+moi:1
+#
+# process   name:(need1:qty1;need2:qty2;[...]):(result1:qty1;result2:qty2;[...]):delay
+#
+manger:(bonbon:1)::10
+jouer_a_la_marelle:(bonbon:5;moi:1):(moi:1;marelle:1):20
+parier_avec_un_copain:(bonbon:2;moi:1):(moi:1;bonbon:3):10
+parier_avec_un_autre_copain:(moi:1;bonbon:2):(moi:1;bonbon:1):10
+se_battre_dans_la_cours:(moi:1):(moi:1;bonbon:1):50
+#
+# optimize time for no process possible (eating stock, produce all possible),
+# or maximize some products over a long delay
+# optimize:(time|stock1;time|stock2;...)
+#
+optimize:(marelle)
+#

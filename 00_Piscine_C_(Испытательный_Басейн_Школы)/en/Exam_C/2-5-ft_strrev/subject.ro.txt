@@ -1,0 +1,13 @@
+Exercitiu  : ft_strrev
+Fisiere de iesire   : ft_strrev.c
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Scrieti o functie ce inverseaza (pe loc) un sir de caractere.
+
+Ea trebuie sa returneze parametrul sau.
+
+Functia trebuie sa aiba prototipul urmator:
+
+char    *ft_strrev(char *str);
+

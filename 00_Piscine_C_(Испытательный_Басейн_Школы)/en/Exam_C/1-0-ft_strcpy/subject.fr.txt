@@ -1,0 +1,10 @@
+Assignment name  : ft_strcpy
+Expected files   : ft_strcpy.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Reproduisez à l'identique le comportement de la fonction strcpy (man strcpy).
+
+Votre fonction devra être prototypée de la façon suivante :
+
+char    *ft_strcpy(char *s1, char *s2);

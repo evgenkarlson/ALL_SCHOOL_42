@@ -1,0 +1,20 @@
+Exercitiu : ft_list_size
+Fisiere de iesire   : ft_list_size.c, ft_list.h
+Functii autorizate : 
+--------------------------------------------------------------------------------
+
+Scrieti o functie care returneaza numarul de elemente dintr-o lista inlantuita,
+transmisa ca parametru.
+
+Ea trebuie sa aiba prototipul urmator:
+
+		int	ft_list_size(t_list *begin_list);
+
+Trebuie sa utilizati structura urmatoare, pe care sa o predati/livrati intr-un 
+fisier ft_list.h:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

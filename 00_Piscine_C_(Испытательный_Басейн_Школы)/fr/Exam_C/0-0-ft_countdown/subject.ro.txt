@@ -1,0 +1,12 @@
+Exercitiu : ft_countdown
+Fisiere de iesire: ft_countdown.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program care afiseaza toate cifrele in ordine descrescatoare,
+urmat de '\n'.
+
+Exemplu:
+$> ./ft_countdown | cat -e
+9876543210$
+$>
