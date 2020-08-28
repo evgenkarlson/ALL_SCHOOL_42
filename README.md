@@ -3,7 +3,7 @@
 ![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
 
 
-## 0. Документация по Школе:
+# 0. Документация по Школе:
 
  
 > * [Cursus Manual (EN) - Описание учебного курса школы:](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/cursus_manual.en.pdf)
@@ -23,7 +23,7 @@
 
 
 
-## 1. Басейн по языку Си (Piscines С)
+# 1. Басейн по языку Си (Piscines С)
 
 С этого места начинается обучение.
 > Бассейн по Си :
@@ -38,7 +38,7 @@
 
 
 
-## 2. Основное обучение (Projects)
+# 2. Основное обучение (Projects)
 
 Для продвижения по заданиям Основного обучения Школы 42 на французском[[ fr ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_projects.fr/) или английском[[ en(no-sorted) ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_projects.en/)языках, вы можете скачать и использовать карту Графов: ([map_1](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph_v_0_0.png)), ([map_2](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph_v_0_1.png)).
 >> ### Global - Общая ветвь, с которой начинается основное обучение.
@@ -152,7 +152,7 @@
 
 
 
-## 3. Oстальные басейны Школы 42 (Other Piscines)
+# 3. Oстальные басейны Школы 42 (Other Piscines)
 
 >> #### Каждый из этих басейнов будет на какой то определенной, своей  ветви при прохождении основного обучения Школы 42.
 > - [C++ (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_cpp)
@@ -168,7 +168,7 @@
 
 
 
-## 4. Групповые проекты - миниХАКАТОНЫ (Rushes)
+# 4. Групповые проекты - миниХАКАТОНЫ (Rushes)
 
 > - AlCu (Not Available)
 > - [Alum1](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
