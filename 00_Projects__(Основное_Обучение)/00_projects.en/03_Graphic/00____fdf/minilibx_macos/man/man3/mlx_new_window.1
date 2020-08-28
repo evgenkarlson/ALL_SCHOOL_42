@@ -1,0 +1,79 @@
+.TH MiniLibX 3 "September 19, 2002"
+.SH NAME
+MiniLibX - Managing windows
+.SH SYNOPSYS
+
+.nf
+.I void *
+.fi
+.B mlx_new_window
+(
+.I void *mlx_ptr, int size_x, int size_y, char *title
+);
+
+.nf
+.I int
+.fi
+.B mlx_clear_window
+(
+.I void *mlx_ptr, void *win_ptr
+);
+
+.nf
+.I int
+.fi
+.B mlx_destroy_window
+(
+.I void *mlx_ptr, void *win_ptr
+);
+
+
+.SH DESCRIPTION
+The
+.B mlx_new_window
+() function creates a new window on the screen, using the
+.I size_x
+and
+.I size_y
+parameters to determine its size, and
+.I title
+as the text that should be displayed in the window's title bar.
+The
+.I mlx_ptr
+parameter is the connection identifier returned by
+.B mlx_init
+() (see the
+.B mlx
+man page).
+.B mlx_new_window
+() returns a
+.I void *
+window identifier that can be used by other MiniLibX calls.
+Note that the MiniLibX
+can handle an arbitrary number of separate windows.
+
+.B mlx_clear_window
+() and
+.B mlx_destroy_window
+() respectively clear (in black) and destroy the given window. They both have
+the same parameters:
+.I mlx_ptr
+is the screen connection identifier, and
+.I win_ptr
+is a window identifier.
+
+.SH RETURN VALUES
+If
+.B mlx_new_window()
+fails to create a new window (for wathever reason), it will return NULL,
+otherwise a non-null pointer is returned as a window identifier.
+.B mlx_clear_window
+and
+.B mlx_destroy_window
+right now return nothing.
+
+.SH SEE ALSO
+mlx(3), mlx_pixel_put(3), mlx_new_image(3), mlx_loop(3)
+
+.SH AUTHOR
+Copyright ol@ - 2002-2015 - Olivier Crouzet
