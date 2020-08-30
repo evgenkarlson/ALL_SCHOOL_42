@@ -115,6 +115,7 @@
 > - Particle System (T2)
 
 >> ### [Web branch - Ветвь Web.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+> - piscine PHP (T1) - [[смотри пункт 3]](# 3. Oстальные басейны Школы 42 (Other Piscines))
 > - Camagru (T1)
 > - Matcha (T2)
 > - Hypertube (T3)
@@ -123,21 +124,25 @@
 > - Darkly (T2)
 
 >> ### [OCaml branch - Ветвь OCaml.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+> - piscine Ocaml (T2) - [[смотри пункт 3]](# 3. Oстальные басейны Школы 42 (Other Piscines))
 > - H42N42 (T2)
 > - ft_turing (T2)
 > - ft_ality (T1)
 
 >> ### [Android / iOS branch - Ветвь Android / iOS](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
+> - piscine Swift iOS (T2) - [[смотри пункт 3]](# 3. Oстальные басейны Школы 42 (Other Piscines))
 > - Swifty Companion (T1)
 > - Swifty Proteins (T2)
 > - ft_hangouts (T1)
 
 >> ### [C++ branch - Ветвь C++.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
+> - piscine C++ (T2) - [[смотри пункт 3]](# 3. Oстальные басейны Школы 42 (Other Piscines))
 > - Abstract VM (T2)
 > - Nibbler (T2)
 > - Bomberman (T3)
 
 >> ### [Unity branch - Ветвь Unity](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
+> - piscine Unity (T2) - [[смотри пункт 3]](# 3. Oстальные басейны Школы 42 (Other Piscines))
 > - XV (T3)
 > - In the Shadows (T2)
 
