@@ -72,45 +72,46 @@
 
 >> ### [UNIX: ветвь unix.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
 > - ft_ls
-> - ft_ssl_md5
-> - ft_ssl_des
-> - ft_ssl_rsa
+>   - ft_ssl_md5
+>   - ft_ssl_des
+>   - ft_ssl_rsa
 > - minishell
-> - ft_select (Optional Project)
+>   - ft_select (Optional Project)
 > - 21sh
-> - Taskmaster (Optional Project)
+>   - Taskmaster (Optional Project)
 > - 42sh
 > - Malloc
-> - ft_script
-> - Philosophers
+>   - ft_script
+>   - Philosophers
 > - Nm-otool
-> - Dr Quine
-> - Famine
-> - LibftASM
->   - Root-me | App-Systeme
->   - Root-me | Cracking
->   - Snow Crash
->   - RainFall
->   - strace
->   - GBmu
-> - ft_linux
-> - little-penguin-1
-> - Process and Memory 
-> - Drivers and Interrupts -=OR=- Drivers and Keyboard
-> - Filesystem (T3)
-> - KFS-1 (T3)
-> - KFS-2 (T2)
-> - KFS-3 (T3)
-> - KFS-4 (T3)
-> - Woody Woodpacker (T2)
-> - ft_p (T2)
-> - IRC (T2)
-> - Matt Daemon (T2)
-> - Lem-ipc (T2)
-> - Zappy (T3)
-> - ft_ping (T1)
-> - ft_traceroute (T1)
-> - ft_nmap (T3)
+>   - ft_p
+>   - IRC
+>     - ft_ping
+>     - ft_traceroute
+>     - ft_nmap
+>     - Zappy
+>     - Lem-ipc
+>     - Matt Daemon
+>     - Durex
+>   - LibftASM
+>     - Root-me | App-Systeme
+>     - Root-me | Cracking
+>     - Snow Crash
+>     - RainFall
+>     - strace
+>     - GBmu
+>    - little-penguin-1
+>     - Process and Memory 
+>     - Drivers and Interrupts -=OR=- Drivers and Keyboard
+>     - Filesystem
+>   - Woody Woodpacker
+>     - Famine
+>     - Dr Quine
+>   - ft_linux
+>     - KFS-1
+>     - KFS-2
+>     - KFS-3
+>     - KFS-4
 
 >> ### [Algorithmic branch - Ветвь Алгоритмов.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
 > - Ft_printf (T1) 
