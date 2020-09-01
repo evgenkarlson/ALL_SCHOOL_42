@@ -62,7 +62,7 @@
 ## 2. Основное обучение (Projects)
 
 Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
->> ### [[GLOBAL: Общая ветвь, с которой начинается основное обучение.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
+>> ### [[GLOBAL - Общая ветвь, с которой начинается основное обучение]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
 > - 42_commandements
 > - piscine reloaded
 > - libft
@@ -70,7 +70,7 @@
 > - get_next_Line
 > - fillit
 
->> ### [[Ветвь UNIX.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+>> ### [[Ветвь UNIX]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
 > - ft_ls
 > - minishell
 >   - ft_select (Optional Project)
@@ -110,7 +110,7 @@
 >     - KFS-3
 >     - KFS-4
 
->> ### [[Ветвь Алгоритмов.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
+>> ### [[Ветвь Алгоритмов]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
 > - Ft_printf
 >   - ft_ssl_md5
 >   - ft_ssl_des
@@ -133,7 +133,7 @@
 > - KrpSim
 > - Gomoku
 
->> ### [[Ветвь Графики.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
+>> ### [[Ветвь Графики]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
 > - FDF
 > - Fract'Ol
 > - Wolf3D
@@ -147,7 +147,7 @@
 > - Particle System
 > - Shader Pixel
 
->> ### [[WEB ветвь.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+>> ### [[WEB ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
 > - piscine PHP - [смотри пункт 3]
 > - Camagru
 > - Matcha
@@ -156,13 +156,13 @@
 > - Red Tetris
 > - Darkly
 
->> ### [[OCaml ветвь.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+>> ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
 > - piscine Ocaml - [смотри пункт 3]
 > - ft_ality
 > - ft_turing
 > - H42N42
 
->> ### [[Android & iOS ветвь.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
+>> ### [[Android & iOS ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
 > - piscine Swift iOS - [смотри пункт 3]
 > - Swifty Companion
 > - Swifty Proteins
@@ -171,18 +171,18 @@
 > - swingy
 > - fixme
 
->> ### [[C++ ветвь.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
+>> ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
 > - piscine C++ - [смотри пункт 3]
 > - Abstract VM
 > - Nibbler
 > - Bomberman
 
->> ### [[Unity ветвь.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
+>> ### [[Unity ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
 > - piscine Unity - [смотри пункт 3]
 > - XV
 > - In the Shadows
 
->> ### [[Системное & Сетевое Администрированияети.]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Network_Admin/)
+>> ### [[Системное & Сетевое Администрированияети]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Network_Admin/)
 > - init
 > - docker-1
 > - cloud-1
