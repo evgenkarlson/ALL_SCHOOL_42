@@ -3,7 +3,7 @@
 
 # ALL SUBJECTS of「 SCHOOL 42 」
 
-Этот репозиторий содержит все [[ pdf файлы ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_projects.en/) c заданиями Школы 42, по которым вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png).
+Этот репозиторий содержит все pdf файлы c заданиями Школы 42, для перемещения по которым вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png).
 
 Основное обучение Школы 42 содержит задания, по разработке программного обеспечения, решая которые вы будете погружаться в суть операционных систем, сетей, облаков, содержащихся в них служб, развивая навыки программирования и открывая для себя мир цифровой деятельности. 
 
@@ -54,7 +54,7 @@
 
 # 2. Основное обучение (Projects)
 
-Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_projects.en/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
+Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
 >> ### [Global - Общая ветвь, с которой начинается основное обучение.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
 > - 42 Commandements (T0)
 > - Piscine Reloaded (T0)
