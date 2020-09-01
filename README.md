@@ -39,7 +39,7 @@
 
 
 
-# 1. Басейн по языку Си (Piscines С)
+## 1. Басейн по языку Си (Piscines С)
 
  * Именно с этого басейна начнётся обучение программированию в школе 42. 
 
@@ -60,7 +60,7 @@
 > Одно из правил школы — «Если ты что-то не знаешь, спроси у соседа справа, потом у соседа слева, а потом у Гугла».
 
 
-# 2. Основное обучение (Projects)
+## 2. Основное обучение (Projects)
 
 Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
 >> ### [Global - Общая ветвь, с которой начинается основное обучение.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
@@ -179,7 +179,7 @@
 
 
 
-# 3. Oстальные басейны Школы 42 (Other Piscines)
+## 3. Oстальные басейны Школы 42 (Other Piscines)
 
 >> #### Каждый из этих басейнов будет на какой то определенной, своей  ветви при прохождении основного обучения Школы 42.
 > - [C++ (T2)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_cpp)
@@ -195,7 +195,7 @@
 
 
 
-# 4. Групповые проекты - миниХАКАТОНЫ (Rushes)
+## 4. Групповые проекты - миниХАКАТОНЫ (Rushes)
 
 > - AlCu (Not Available)
 > - [Alum1](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
