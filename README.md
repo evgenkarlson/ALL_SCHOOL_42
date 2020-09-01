@@ -62,37 +62,41 @@
 ## 2. Основное обучение (Projects)
 
 Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
->> ### [Global - Общая ветвь, с которой начинается основное обучение.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
-> - 42 Commandements (T0)
-> - Piscine Reloaded (T0)
-> - Libft (T1)
-> - Fillit (T1)
-> - Get Next Line (T1)
+>> ### [GLOBAL: Общая ветвь, с которой начинается основное обучение.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
+> - 42_commandements
+> - piscine reloaded
+> - libft
+> - ft_debut
+> - get_next_Line
+> - fillit
 
-> > ### [Unix branch - Ветвь Unix.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
-> - Ft_ls (T1)
-> - minishell (T1)
-> - ft_select (Optional Project) (T1)
-> - 21sh (T2)
-> - Taskmaster (Optional Project) (T2)
-> - 42sh (T3)
-> - Malloc (T2)
-> - ft_script (T1)
-> - Philosophers (T1)
-> - Nm-otool (T2)
-> - Dr Quine (T2)
-> - Famine (T2)
-> - LibftASM (T2)
-> - Root-me | App-Systeme (T4)
-> - Root-me | Cracking (T4)
-> - Snow Crash (T3)
-> - RainFall (T4)
-> - strace (T2)
-> - GBmu (T4)
-> - ft_linux (T1)
-> - little-penguin-1 (T2)
-> - Process and Memory (T2)
-> - Drivers and Interrupts (T3)
+>> ### [UNIX: ветвь unix.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+> - ft_ls
+> - ft_ssl_md5
+> - ft_ssl_des
+> - ft_ssl_rsa
+> - minishell
+> - ft_select (Optional Project)
+> - 21sh
+> - Taskmaster (Optional Project)
+> - 42sh
+> - Malloc
+> - ft_script
+> - Philosophers
+> - Nm-otool
+> - Dr Quine
+> - Famine
+> - LibftASM
+>   - Root-me | App-Systeme
+>   - Root-me | Cracking
+>   - Snow Crash
+>   - RainFall
+>   - strace
+>   - GBmu
+> - ft_linux
+> - little-penguin-1
+> - Process and Memory 
+> - Drivers and Interrupts -=OR=- Drivers and Keyboard
 > - Filesystem (T3)
 > - KFS-1 (T3)
 > - KFS-2 (T2)
@@ -214,4 +218,5 @@
 > - Rush admin sys et réseau 1 (Not Available)
 > - [wong_kar_wai (2048)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wong_kar_wai_2048.pdf)
 > - [YASL](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/yasl.pdf)
+
 
