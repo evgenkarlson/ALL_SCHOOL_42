@@ -2,8 +2,8 @@
 ![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
 
 ### Содержание
-- [Введение](/#-ALL-SUBJECTS-of「-SCHOOL-42-」)
-- [0. Документация по школе](/##-0.-Документация-по-школе)
+- [Введение](#ALL-SUBJECTS-of「-SCHOOL-42-」)
+- [0. Документация по школе](##0.-Документация-по-школе)
 - [1. Басейн по языку Си (Piscines С)](/##-1.-Басейн-по-языку-Си-(Piscines-С))
 - [2. Основное обучение (Projects)](/##-2.-Основное-обучение-(Projects))
 - [3. Oстальные басейны Школы 42 (Other Piscines)](/##-3.-Oстальные-басейны-Школы-42-(Other-Piscines))
