@@ -70,11 +70,8 @@
 > - get_next_Line
 > - fillit
 
->> ### [UNIX: ветвь unix.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+>> ### [UNIX Ветвь.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
 > - ft_ls
->   - ft_ssl_md5
->   - ft_ssl_des
->   - ft_ssl_rsa
 > - minishell
 >   - ft_select (Optional Project)
 > - 21sh
@@ -113,74 +110,95 @@
 >     - KFS-3
 >     - KFS-4
 
->> ### [Algorithmic branch - Ветвь Алгоритмов.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
-> - Ft_printf (T1) 
-> - Push Swap (T1)
-> - Filler (T1) 
-> - Lem_in (T2)
-> - Mod1 (Optional Project) (T2)
-> - Corewar (T3)
-> - Corewar Championship (Optional Project) (T0)
-> - ComputorV1 (T1)
-> - Expert System (T2)
-> - N-puzzle (T2)
-> - Ft_linear_regression (T1) 
-> - Rubik (T2)
-> - KrpSim (T2)
-> - Gomoku (T4) 
+>> ### [Ветвь Алгоритмов.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
+> - Ft_printf
+>   - ft_ssl_md5
+>   - ft_ssl_des
+>   - ft_ssl_rsa
+> - Push_swap
+> - Filler
+> - Lem_in
+>   - Mod1 (Optional Project)
+> - Corewar
+>   - Corewar Championship (Optional Project)
+> - ComputorV1
+>   - ComputorV2
+> - Expert System
+> - N-puzzle
+> - Ft_linear_regression
+>   - DSLR
+>   - Multilayer_perceptron
+>   - Total_perspective_vortex
+> - Rubik
+> - KrpSim
+> - Gomoku
 
->> ### [Graphic branch - Ветвь Графики.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
-> - FDF (T1)
-> - Fract'Ol (T1)
-> - Wolf3D (T2)
-> - RTv1 (T2)
-> - RT (T3) 
-> - Scop (T2)
-> - 42run (T2)
-> - HumanGL (T1)
-> - Particle System (T2)
+>> ### [Ветвь Графики.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
+> - FDF
+> - Fract'Ol
+> - Wolf3D
+> - RTv1
+> - Doom Nukem
+> - RT
+> - Scop
+> - 42run
+> - HumanGL
+> - ft_vox
+> - Particle System
+> - Shader Pixel
 
->> ### [Web branch - Ветвь Web.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
-> - piscine PHP (T1) - [смотри пункт 3]
-> - Camagru (T1)
-> - Matcha (T2)
-> - Hypertube (T3)
-> - Friends with Benefits (T1) 
-> - Red Tetris (T2) 
-> - Darkly (T2)
+>> ### [Ветвь WEB.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+> - piscine PHP - [смотри пункт 3]
+> - Camagru
+> - Matcha
+> - Hypertube
+> - Friends with Benefits
+> - Red Tetris
+> - Darkly
 
->> ### [OCaml branch - Ветвь OCaml.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
-> - piscine Ocaml (T2) - [смотри пункт 3]
-> - H42N42 (T2)
-> - ft_turing (T2)
-> - ft_ality (T1)
+>> ### [OCaml Ветвь.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+> - piscine Ocaml - [смотри пункт 3]
+> - ft_ality
+> - ft_turing
+> - H42N42
 
 >> ### [Android & iOS branch - Ветвь Android & iOS](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
-> - piscine Swift iOS (T2) - [смотри пункт 3]
-> - Swifty Companion (T1)
-> - Swifty Proteins (T2)
-> - ft_hangouts (T1)
+> - piscine Swift iOS - [смотри пункт 3]
+> - Swifty Companion
+> - Swifty Proteins
+> - ft_hangouts
+> - avaj-launcher
+> - swingy
+> - fixme
 
 >> ### [C++ branch - Ветвь C++.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
-> - piscine C++ (T2) - [смотри пункт 3]
-> - Abstract VM (T2)
-> - Nibbler (T2)
-> - Bomberman (T3)
+> - piscine C++ - [смотри пункт 3]
+> - Abstract VM
+> - Nibbler
+> - Bomberman
 
 >> ### [Unity branch - Ветвь Unity](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
-> - piscine Unity (T2) - [смотри пункт 3]
-> - XV (T3)
-> - In the Shadows (T2)
+> - piscine Unity - [смотри пункт 3]
+> - XV
+> - In the Shadows
 
 >> ### [Network & System Administrator - Сети и Администрирование.](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Network_Admin/)
-> - cloud-1 (T1)
-> - roger-skyline-1 (T1)
-> - roger-skyline-2 (T4)
-> - Docker (T1)
-> - Projet Libre (T4)
+> - init
+> - docker-1
+> - cloud-1
+> - roger-skyline-1
+> - roger-skyline-2
+
+>> ### [Ai - Искуственный интелект](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
+> - walking_marvin
+> - ft_sommelier
+> - reverse_game_of_life
 
 
 
+>> ### [Side Projects - Сторонние Проекты](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/12_Side_Projects/)
+> - ft_db
+> - KIFT
 
 
 ## 3. Oстальные басейны Школы 42 (Other Piscines)
