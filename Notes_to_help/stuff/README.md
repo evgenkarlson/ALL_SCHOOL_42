@@ -10,24 +10,24 @@
 
 ---
 
- Polotence                                                                                                                
+ Polotence
 ---
-* [Unix OS](polotence/polotence.1_unix-os.md)                                                                          
-* [bash](polotence/polotence.2_bash.md)                                                                                
-* [Vim](polotence/polotence.3_vim.md)                                                                                  
-* [Code check](polotence/polotence.4_code-check.md)                                                                    
-* [Other](polotence/polotence.5_other.md)                                                                              
+* [Unix OS](polotence/polotence.1_unix-os.md)
+* [bash](polotence/polotence.2_bash.md)
+* [Vim](polotence/polotence.3_vim.md)
+* [Code check](polotence/polotence.4_code-check.md)
+* [Other](polotence/polotence.5_other.md)
 
- Materials                                                                                                                
+ Materials
 ---
-* [Правила Школы 21](materials/21school_rules_kzn2020.md)                                                                  
-* [FAQ Школы 21](https://docs.google.com/spreadsheets/d/1TdkoNjlj8RChC64Vi9igEjNY2q_sc_JMcunMk3oYywg/edit#gid=1558877365)  
-* [Переводы](materials/translations.md)                                                                                    
+* [Правила Школы 21](materials/21school_rules_kzn2020.md)
+* [FAQ Школы 21](https://docs.google.com/spreadsheets/d/1TdkoNjlj8RChC64Vi9igEjNY2q_sc_JMcunMk3oYywg/edit#gid=1558877365)
+* [Переводы](materials/translations.md)
 
- Library                                                                                                                  
+ Library
 ---
-* [Training: материалы для обучения](library/training.md)                                                                  
-* [C Tutor](http://pythontutor.com/c.html#mode=display) - визуализатор кода                                                
-* [Адам Дуглас - Автостопом по Галактике](library/adam_duglas-avtostopom_po_galaktike.pdf)                                 
-* [Cheatsheet GitHub Markdown](./library/cheatsheet_gh-markdown.md)                                                        
-* [Cheatsheet VSCode](./library/cheatsheet_vscode.md)                                                                      
+* [Training: материалы для обучения](library/training.md)
+* [C Tutor](http://pythontutor.com/c.html#mode=display) - визуализатор кода
+* [Адам Дуглас - Автостопом по Галактике](library/adam_duglas-avtostopom_po_galaktike.pdf)
+* [Cheatsheet GitHub Markdown](./library/cheatsheet_gh-markdown.md)
+* [Cheatsheet VSCode](./library/cheatsheet_vscode.md)
