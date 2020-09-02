@@ -1,0 +1,88 @@
+1
+00:00:06,320 --> 00:00:09,630
+You now know how to use pointers to functions in C.
+
+2
+00:00:09,630 --> 00:00:14,440
+What you need to understand is that the goal isn't to
+
+3
+00:00:14,440 --> 00:00:17,110
+make you use pointers to functions everywhere,
+
+4
+00:00:17,110 --> 00:00:18,410
+or any old how.
+
+5
+00:00:18,410 --> 00:00:20,740
+Pointers to functions are for specific cases
+
+6
+00:00:20,740 --> 00:00:23,810
+which you'll learn to identify
+
+7
+00:00:23,810 --> 00:00:25,060
+with experience.
+
+8
+00:00:25,060 --> 00:00:28,060
+I strongly advise you to do some research on the internet
+
+9
+00:00:28,060 --> 00:00:30,730
+and find other ways to exploit this notion.
+
+10
+00:00:30,730 --> 00:00:33,660
+The Internet holds many examples and tutorials, and everything
+
+11
+00:00:33,660 --> 00:00:36,220
+you could possibly need to master this notion.
+
+12
+00:00:36,220 --> 00:00:40,190
+I really strongly advise you to do so, because pointers to functions
+
+13
+00:00:40,190 --> 00:00:42,920
+is a notion you'll come across a lot, later on,
+
+14
+00:00:42,920 --> 00:00:46,630
+under a slightly different shape, when you'll learn C++,
+
+15
+00:00:46,630 --> 00:00:50,330
+and we'll see that it's a notion at the center of many problems,
+
+16
+00:00:50,330 --> 00:00:52,280
+and that needs to be mastered.
+
+17
+00:00:52,280 --> 00:00:55,010
+So it's important to start right away,
+
+18
+00:00:55,010 --> 00:00:57,400
+by understanding how to use pointers to functions,
+
+19
+00:00:57,400 --> 00:00:58,990
+and know what they truly conceal.
+
+20
+00:00:58,990 --> 00:01:02,320
+But that's your responsibility, so good luck for today's exercises
+
+21
+00:01:02,320 --> 00:01:04,891
+and see you very soon for another video.
+
+22
+00:01:04,891 --> 00:01:06,341
+Goodbye.
+

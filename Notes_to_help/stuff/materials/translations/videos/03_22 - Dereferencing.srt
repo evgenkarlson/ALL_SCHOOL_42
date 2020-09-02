@@ -1,0 +1,307 @@
+1
+00:00:06,305 --> 00:00:07,295
+Hello.
+
+2
+00:00:07,295 --> 00:00:11,295
+In this video, we'll see how we can use pointers, aka dereferencing pointers,
+
+3
+00:00:11,295 --> 00:00:15,025
+meaning access the variable towards which it points.
+
+4
+00:00:15,129 --> 00:00:19,129
+Let's use the same main as earlier.
+
+5
+00:00:19,129 --> 00:00:23,129
+We have a variable "a" (an int), a variable "ptr", which is a pointer to int.
+
+6
+00:00:24,935 --> 00:00:28,935
+I've given the variable "a" a value of 3. And "ptr" equals to "a"'s address.
+
+7
+00:00:31,901 --> 00:00:37,631
+Now... If I want to see the value of the variable pointed by "ptr",
+
+8
+00:00:37,657 --> 00:00:41,657
+For that - you'll see it's pretty simple - you just have to write " *ptr "
+
+9
+00:00:42,739 --> 00:00:46,739
+Here's a mnemotechnic way to remember this
+
+10
+00:00:46,739 --> 00:00:50,739
+"ptr" is a pointer... to int.
+
+11
+00:00:50,739 --> 00:00:56,299
+so *ptr... is an int ! As simple as this.
+
+12
+00:00:57,103 --> 00:01:01,103
+If you memorise this, you'll have less problems with pointers.
+
+13
+00:01:01,717 --> 00:01:05,717
+So here, I'm going to use a function, called "ft_putnbr",
+
+14
+00:01:05,717 --> 00:01:09,717
+which allows me to display numbers.
+
+15
+00:01:11,334 --> 00:01:14,784
+What does it take as parameters? It takes an int !
+
+16
+00:01:15,231 --> 00:01:19,231
+So here, if I hadn't used an int, there'd be an error message during compilation.
+
+17
+00:01:19,647 --> 00:01:24,897
+" *ptr " is an int. It means "I'm going to check the address pointed by ptr"
+
+18
+00:01:25,878 --> 00:01:28,298
+Let's try and compile this main.
+
+19
+00:01:32,056 --> 00:01:36,056
+Here we go! The value 3 is displayed.
+
+20
+00:01:36,483 --> 00:01:40,483
+Now... Just to show you that we did indeed get the value of "a",
+
+21
+00:01:41,388 --> 00:01:46,478
+I'm going to display the value 3 first, then I'll change it's value to 42,
+
+22
+00:01:47,701 --> 00:01:51,701
+and add a "\n" to make the display clearer
+
+23
+00:01:57,461 --> 00:02:03,701
+And on the next line, I'll re-display the value of " *ptr ".
+
+24
+00:02:03,743 --> 00:02:07,743
+And you'll see... So I've modified "a".
+
+25
+00:02:08,960 --> 00:02:11,370
+Oops, something went wrong...
+
+26
+00:02:12,960 --> 00:02:15,360
+Sorry... We needed inverted comas here...
+
+27
+00:02:16,616 --> 00:02:20,616
+See, inverted comas and quotation marks are not the same thing.
+
+28
+00:02:20,616 --> 00:02:24,616
+inverted comas are for a character's value, and we'll see quotation marks later on.
+
+29
+00:02:25,532 --> 00:02:26,762
+Sorry again.
+
+30
+00:02:27,504 --> 00:02:29,314
+Here we go. Let's execute our program.
+
+31
+00:02:29,314 --> 00:02:32,534
+See, we have 3 there, for the first display of " *ptr ",
+
+32
+00:02:32,534 --> 00:02:35,664
+and the second time we have 42.
+
+33
+00:02:35,698 --> 00:02:38,388
+So it allowed me to display the value.
+
+34
+00:02:38,444 --> 00:02:41,644
+But I could also change the value directly.
+
+35
+00:02:41,993 --> 00:02:47,903
+For example: If I do " *ptr = 42; ", and set "a" to be displayed by my function
+
+36
+00:02:49,700 --> 00:02:53,700
+Compiling again...
+
+37
+00:02:54,083 --> 00:02:56,743
+See, it's the same thing !
+
+38
+00:02:57,742 --> 00:03:01,568
+So basically, by writing *ptr here, what happens?
+
+39
+00:03:02,658 --> 00:03:06,308
+First action: so, ptr is an address,
+
+40
+00:03:06,308 --> 00:03:09,018
+*ptr I'm checking what's at this address,
+
+41
+00:03:09,284 --> 00:03:13,284
+And now, at this address, where I'm at, I'm giving it the value 42.
+
+42
+00:03:14,600 --> 00:03:18,600
+Pretty simple so far (!) Now, let's make things a little harder.
+
+43
+00:03:20,835 --> 00:03:24,835
+What's interesting is that we can have pointers to pointers.
+
+44
+00:03:25,094 --> 00:03:33,304
+So for example, here I'm gonna do "**ptr2" which is a pointer to pointer to int.
+
+45
+00:03:33,985 --> 00:03:37,985
+So the address that "ptr2" contains, is the address of a pointer to int.
+
+46
+00:03:38,487 --> 00:03:41,727
+So if we follow the same logic as before,
+
+47
+00:03:41,727 --> 00:03:45,567
+I'm gonna have to give "ptr2" the address of a pointer to int,
+
+48
+00:03:45,780 --> 00:03:48,680
+because I can't give it it address of "a" straight away,
+
+49
+00:03:48,680 --> 00:03:50,930
+so I'm going to give it ptr's address.
+
+50
+00:03:51,452 --> 00:03:54,902
+And now, well, we're going to do the same thing,
+
+51
+00:03:54,916 --> 00:03:58,916
+except I'm going to add a second asterisk, and here too...
+
+52
+00:03:59,248 --> 00:04:02,508
+and you'll see that we're going to get the exact same result.
+
+53
+00:04:02,542 --> 00:04:09,972
+Because "ptr2" is the address of "ptr", when I do "<i>ptr2", what's "</i>ptr2"'s title?
+
+54
+00:04:10,059 --> 00:04:12,929
+well it's a pointer to int.
+
+55
+00:04:13,220 --> 00:04:15,910
+Now, I'm adding another asterisk.
+
+56
+00:04:15,910 --> 00:04:19,910
+The first time, I went to see what was in "ptr"'s address,
+
+57
+00:04:19,920 --> 00:04:22,530
+"ptr2" contains an address, I'm checking what's at this address,
+
+58
+00:04:22,558 --> 00:04:25,958
+it happens to be another address, so I'm adding a second asterisk,
+
+59
+00:04:25,958 --> 00:04:29,958
+so, second action: I'm going further a notch. Now I'm checking "a",
+
+60
+00:04:30,551 --> 00:04:34,551
+and from here, I will be able to display it, so "ptr2" is an int,
+
+61
+00:04:34,828 --> 00:04:38,828
+so I can type this, and it should work. 
+
+62
+00:04:43,219 --> 00:04:44,509
+It worked!
+
+63
+00:04:45,319 --> 00:04:47,029
+And just for fun...
+
+64
+00:04:47,221 --> 00:04:50,881
+I'm going to show you a main I prepared just for this,
+
+65
+00:04:50,881 --> 00:04:52,621
+we can do this infinitely!
+
+66
+00:04:53,030 --> 00:04:57,030
+See, we have "ptr", "ptr2", "ptr3", etc... (pointer to pointer to pointer to ...)
+
+67
+00:04:57,619 --> 00:05:01,619
+"ptr" is a pointer to int, it points to "a".
+
+68
+00:05:01,669 --> 00:05:05,669
+"ptr2" is a pointer to pointer to int, etc...
+
+69
+00:05:05,857 --> 00:05:09,857
+You see at the end? I'm going to display "a"'s value, but going through "ptr7".
+
+70
+00:05:10,058 --> 00:05:14,058
+Pointer to pointer to... You get it, loads of pointers.
+
+71
+00:05:14,521 --> 00:05:17,411
+But I'll still be able to display the value of "a".
+
+72
+00:05:17,690 --> 00:05:19,830
+Let's check if it worked
+
+73
+00:05:30,512 --> 00:05:33,932
+So here I've compiled with my second main.
+
+74
+00:05:34,209 --> 00:05:37,309
+And it displays the value "3".
+
+75
+00:05:37,309 --> 00:05:42,549
+So from "ptr7', going through many pointers, I was able to display "a"'s value.
+
+76
+00:05:43,198 --> 00:05:47,198
+So now you know how to dereference pointers.
+
+77
+00:05:47,198 --> 00:05:51,000
+In the next video, we'll cover Pointer Arithmetic.

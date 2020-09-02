@@ -1,0 +1,400 @@
+1
+00:00:06,373 --> 00:00:07,373
+Hello,
+
+2
+00:00:07,373 --> 00:00:10,355
+In this video, I'm going to show you how to create macros
+
+3
+00:00:10,355 --> 00:00:13,945
+with the preprocessor, using the preprocessor command: "define".
+
+4
+00:00:14,879 --> 00:00:17,329
+So to use the command "define",
+
+5
+00:00:17,330 --> 00:00:20,100
+you just need <b>#define</b>,
+
+6
+00:00:20,893 --> 00:00:24,893
+and the name of your preprocessor command. For example "TOTO".
+
+7
+00:00:25,057 --> 00:00:27,078
+and specify what it'll be replaced with.
+
+8
+00:00:27,078 --> 00:00:29,928
+Be careful, a <b>#define</b> replaces exactly
+
+9
+00:00:29,928 --> 00:00:32,308
+word per word, what you wrote on the right
+
+10
+00:00:32,551 --> 00:00:35,131
+except in particular cases you'' learn about later on.
+
+11
+00:00:35,131 --> 00:00:37,161
+Because we can create intelligent macros.
+
+12
+00:00:37,161 --> 00:00:40,195
+So imagine that I want "TOTO" to be replaced by an int.
+
+13
+00:00:40,918 --> 00:00:43,368
+So, as soon as I write "TOTO" anywhere,
+
+14
+00:00:44,306 --> 00:00:45,936
+(E.g.: I'm going to write it here)
+
+15
+00:00:46,314 --> 00:00:49,234
+during pre-compilation, so "cpp main.c"
+
+16
+00:00:49,504 --> 00:00:51,434
+my "TOTO" has been replaced by an <i>int</i>
+
+17
+00:00:51,797 --> 00:00:53,487
+I could write anything,
+
+18
+00:00:53,952 --> 00:00:57,802
+I could, for example, write jibberish,
+
+19
+00:00:58,244 --> 00:01:02,584
+during the pre-compilation phase, aka during pre-processing,
+
+20
+00:01:03,348 --> 00:01:05,608
+It doesn't think about what it does.
+
+21
+00:01:05,937 --> 00:01:09,857
+It just takes my macro, and replace it word by word.
+
+22
+00:01:12,255 --> 00:01:14,995
+So that's good, because we can create macros like this
+
+23
+00:01:15,453 --> 00:01:19,033
+which will allow us to do things, for example, if we wanted to
+
+24
+00:01:19,033 --> 00:01:21,893
+replace the int, and instead,
+
+25
+00:01:22,330 --> 00:01:25,640
+write "TOTO", you can do so.
+
+26
+00:01:25,640 --> 00:01:30,204
+You could, for example, write a text, any text,
+
+27
+00:01:30,204 --> 00:01:33,244
+let's say "Bonjour, bienvenue" ("Hello, welcome")
+
+28
+00:01:35,313 --> 00:01:39,403
+As soon as you write "TOTO, it'll be replaced by the string
+
+29
+00:01:39,403 --> 00:01:41,673
+"Bonjour, bienvenue" - with quotation marks -
+
+30
+00:01:41,904 --> 00:01:44,714
+That means that if I wrote this,
+
+31
+00:01:45,705 --> 00:01:47,065
+I'll put back my <i>int</i> here,
+
+32
+00:01:47,274 --> 00:01:50,394
+if I set a "char *str" here,
+
+33
+00:01:51,113 --> 00:01:53,613
+and then say that str = "TOTO",
+
+34
+00:01:55,531 --> 00:01:56,721
+here's what'd happen:
+
+35
+00:01:56,721 --> 00:01:58,675
+see, <i>str</i> is equal to "Bonjour, bienvenue"
+
+36
+00:01:58,675 --> 00:02:01,885
+so you could, for example, write sentences at the top of your files,
+
+37
+00:02:01,885 --> 00:02:03,365
+or even put them in a file.h,
+
+38
+00:02:03,365 --> 00:02:05,678
+and use that same sentence in multiple functions,
+
+39
+00:02:05,678 --> 00:02:07,728
+this way you'll have at least one macro
+
+40
+00:02:07,728 --> 00:02:10,638
+and you can change it in one place, and the rest will follow.
+
+41
+00:02:10,638 --> 00:02:14,078
+It's the same principle as functions' prototypes in files.h.
+
+42
+00:02:14,607 --> 00:02:19,129
+The other advantage of macros, is that you can make them intelligent...
+
+43
+00:02:19,129 --> 00:02:22,429
+and so you can use brackets and pass parameters,
+
+44
+00:02:22,429 --> 00:02:25,019
+you'll see these parameters will be replaced.
+
+45
+00:02:25,019 --> 00:02:27,810
+For example: I want to pass parameters "x"
+
+46
+00:02:28,733 --> 00:02:31,933
+and every time I'll write "TOTO()" with something between brackets,
+
+47
+00:02:31,933 --> 00:02:33,123
+I'll replace it by
+
+48
+00:02:34,480 --> 00:02:37,930
+"int x". You'll see what it could do.
+
+49
+00:02:38,900 --> 00:02:42,170
+I don't advise you to write it this way, because it's hard to read,
+
+50
+00:02:42,170 --> 00:02:44,280
+but it's one of <b>#define</b>'s usage.
+
+51
+00:02:44,590 --> 00:02:48,110
+Here I'm going to declare a variable "a". I don't even need to add the ";"
+
+52
+00:02:48,607 --> 00:02:49,567
+a variable "b",
+
+53
+00:02:52,578 --> 00:02:55,648
+and here's what happens when I do "cpp main.c"
+
+54
+00:02:56,638 --> 00:02:58,698
+"int a; int b;"
+
+55
+00:02:59,662 --> 00:03:03,212
+You can see that my code is less legible this way.
+
+56
+00:03:03,692 --> 00:03:06,062
+So I don't advise you to do these kind of things.
+
+57
+00:03:06,690 --> 00:03:11,490
+The <i>define</i> will also allow you to link strings, for example.
+
+58
+00:03:11,490 --> 00:03:14,090
+Watch out, though, it's a little more complicated.
+
+59
+00:03:14,582 --> 00:03:16,512
+That's the last example I'll show you.
+
+60
+00:03:16,512 --> 00:03:19,869
+You could write "#x"
+
+61
+00:03:19,869 --> 00:03:25,639
+and "#x" means it would replace the brackets' content in "TOTO()"
+
+62
+00:03:25,639 --> 00:03:30,379
+by the value of what's in <b>TOTO()</b>'s brackets.
+
+63
+00:03:31,051 --> 00:03:36,401
+For example, if I added a "char *str" here
+
+64
+00:03:38,746 --> 00:03:40,968
+and say that "str" is equal to ...
+
+65
+00:03:46,308 --> 00:03:47,448
+"str" is equal to this.
+
+66
+00:03:48,218 --> 00:03:55,888
+Now, if I wrote "write(1, str, 1)",
+
+67
+00:03:56,738 --> 00:03:59,048
+What I'm going to display on screen,
+
+68
+00:03:59,048 --> 00:03:59,978
+theoretically,
+
+69
+00:04:03,016 --> 00:04:04,636
+I'm gonna display "a" onscreen.
+
+70
+00:04:05,418 --> 00:04:10,228
+Now, if instead this I wrote ... "b" ...
+
+71
+00:04:15,069 --> 00:04:16,209
+I could display "b".
+
+72
+00:04:16,992 --> 00:04:19,702
+One last example, just to make it cristal clear.
+
+73
+00:04:19,883 --> 00:04:20,763
+if I wrote...
+
+74
+00:04:22,133 --> 00:04:24,373
+"Bonjour les aminches". ("Hello frienchs")
+
+75
+00:04:26,730 --> 00:04:29,911
+we may have a problem with spaces. We never know...
+
+76
+00:04:29,911 --> 00:04:32,601
+I'm gonna check if it works. Looks like it
+
+77
+00:04:32,601 --> 00:04:33,871
+I do indeed have "b".
+
+78
+00:04:33,872 --> 00:04:39,072
+If now, I changed my write() and instead of 1, I picked 10,
+
+79
+00:04:40,052 --> 00:04:42,462
+I think "Bonjour les aminches" is longer than 10.
+
+80
+00:04:42,505 --> 00:04:49,005
+We can see that the TOTO() string has been replaced by the string between brackets.
+
+81
+00:04:50,336 --> 00:04:52,086
+We can then assemble macros,
+
+82
+00:04:53,389 --> 00:04:55,579
+I'm gonna show you another simple example.
+
+83
+00:04:55,579 --> 00:04:58,689
+So, for example, <b>#define</b>
+
+84
+00:04:59,708 --> 00:05:04,858
+we could call it "TITI(x)"
+
+85
+00:05:05,468 --> 00:05:08,165
+which will call "TOTO(x)",
+
+86
+00:05:09,994 --> 00:05:10,844
+semi-colon
+
+87
+00:05:13,751 --> 00:05:14,581
+"TOTO(x)".
+
+88
+00:05:17,241 --> 00:05:19,281
+Dunno. That's gonna make a mess.
+
+89
+00:05:20,875 --> 00:05:21,895
+Let me show you.
+
+90
+00:05:22,657 --> 00:05:24,907
+So "cpp main.c"
+
+91
+00:05:25,211 --> 00:05:28,491
+and here you can see,
+
+92
+00:05:30,675 --> 00:05:33,745
+Oh yeah, that's because I called "TOTO" and not "TITI"!
+
+93
+00:05:38,608 --> 00:05:41,638
+Here you can see we have the same string twice.
+
+94
+00:05:41,638 --> 00:05:44,068
+So CPP hasn't transformed this into a string.
+
+95
+00:05:44,068 --> 00:05:46,538
+but this means that soon it will become a string.
+
+96
+00:05:46,991 --> 00:05:52,491
+You can see we have our "TOTO" twice, and that we can assemble <b>#define</b>s together
+
+97
+00:05:52,491 --> 00:05:54,941
+and preprocessors will run as many time as needed,
+
+98
+00:05:54,941 --> 00:05:56,591
+until there's no "define" left.
+
+99
+00:05:56,863 --> 00:06:00,517
+What you need to remember, is that a "define" allows you to change
+
+100
+00:06:00,517 --> 00:06:03,177
+a macro, word by word, by the content of your choosing.
+

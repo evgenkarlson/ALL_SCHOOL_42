@@ -1,0 +1,520 @@
+1
+00:00:05,957 --> 00:00:06,666
+Hello
+
+2
+00:00:06,666 --> 00:00:08,506
+In this video, I'm going to show you
+
+3
+00:00:08,506 --> 00:00:11,393
+how to protect our files.h, with the preprocessor's help,
+
+4
+00:00:11,393 --> 00:00:12,759
+against multiple inclusions.
+
+5
+00:00:12,837 --> 00:00:14,994
+What's a multiple inclusion of files.h ?
+
+6
+00:00:14,994 --> 00:00:16,698
+You've just learnt about "include"
+
+7
+00:00:16,698 --> 00:00:19,716
+and I'm already showing you something that'll cause problems...
+
+8
+00:00:19,716 --> 00:00:21,064
+If you don't protect them,
+
+9
+00:00:21,064 --> 00:00:22,955
+you'll have problems with your files.h.
+
+10
+00:00:23,052 --> 00:00:27,062
+Here I have a main.c that I'm going to compile.
+
+11
+00:00:27,071 --> 00:00:29,691
+This main.c has an include of the file test1.h
+
+12
+00:00:30,128 --> 00:00:31,878
+Let me show you this test1.h file.
+
+13
+00:00:32,170 --> 00:00:35,380
+It's simply a #include of test2.h
+
+14
+00:00:35,658 --> 00:00:41,108
+test2.h, as you've probably guessed, will be test1.h's include.
+
+15
+00:00:41,190 --> 00:00:43,410
+So the preprocessor will try and do
+
+16
+00:00:43,419 --> 00:00:45,479
+inclusions, as many times as possible.
+
+17
+00:00:45,562 --> 00:00:48,482
+Surely you've realised that I've just created an infinite loop
+
+18
+00:00:48,482 --> 00:00:49,878
+and we're gonna have problems
+
+19
+00:00:50,285 --> 00:00:51,605
+Let me show you.
+
+20
+00:00:51,935 --> 00:00:52,725
+Here.
+
+21
+00:00:52,947 --> 00:00:54,007
+We have a problem.
+
+22
+00:00:54,178 --> 00:00:55,358
+How to avoid this?
+
+23
+00:00:55,358 --> 00:00:58,596
+Because maybe you sometimes want a file to include another.
+
+24
+00:00:58,596 --> 00:01:00,636
+You'll see, it's quite useful.
+
+25
+00:01:01,038 --> 00:01:05,428
+So how could we protect our files.h ?
+
+26
+00:01:05,509 --> 00:01:07,159
+And that's how we're gonna do it.
+
+27
+00:01:07,781 --> 00:01:10,223
+First, we're gonna start with something standard.
+
+28
+00:01:10,223 --> 00:01:14,483
+It's an <b>#ifndef</b>, if we haven't defined yet.
+
+29
+00:01:14,845 --> 00:01:17,153
+So we're gonna base our macro on our file's name.
+
+30
+00:01:17,153 --> 00:01:18,493
+Let's be good pupils
+
+31
+00:01:18,508 --> 00:01:19,900
+and respect the Standard.
+
+32
+00:01:19,900 --> 00:01:23,782
+So, __FT_, and name of my file in capital letters,
+
+33
+00:01:23,782 --> 00:01:27,472
+you should generally write your macros' names in capital letters.
+
+34
+00:01:29,068 --> 00:01:31,428
+_H__ at the end.
+
+35
+00:01:31,914 --> 00:01:33,954
+So, this means:
+
+36
+00:01:34,107 --> 00:01:34,867
+if,
+
+37
+00:01:35,923 --> 00:01:38,063
+if this macro hasn't been defined,
+
+38
+00:01:38,356 --> 00:01:40,359
+well, here, we're going to include this.
+
+39
+00:01:40,359 --> 00:01:43,239
+if it becomes "defined", then we'll stop including it.
+
+40
+00:01:43,433 --> 00:01:45,748
+You'll see that, normally, by doing this,
+
+41
+00:01:45,748 --> 00:01:48,545
+it shouldn't work yet. We're going to have to add something
+
+42
+00:01:48,545 --> 00:01:49,602
+Basically,
+
+43
+00:01:49,602 --> 00:01:53,254
+once I've gone in this "if" once, I'm making sure it don't go in it again.
+
+44
+00:01:53,254 --> 00:01:57,634
+Which means I have to make sure that this file.h is included only once.
+
+45
+00:01:57,683 --> 00:01:58,758
+A s simple as that.
+
+46
+00:01:58,758 --> 00:02:04,330
+If I go in it, it means that __FT_TEST1_H__ hasn't been defined yet.
+
+47
+00:02:04,410 --> 00:02:07,662
+So, when I go in it, I'm going to try and define it.
+
+48
+00:02:07,662 --> 00:02:15,292
+You'll see. __FT_TEST1_H__
+
+49
+00:02:15,323 --> 00:02:17,030
+And this, normally,
+
+50
+00:02:17,030 --> 00:02:21,710
+should make sure that test1 can be included only once.
+
+51
+00:02:21,928 --> 00:02:23,217
+Demonstration!
+
+52
+00:02:23,217 --> 00:02:24,899
+Normally, now...
+
+53
+00:02:24,899 --> 00:02:26,357
+it compiles.
+
+54
+00:02:26,357 --> 00:02:29,429
+If I do a "cpp main.c", here's what's gonna happen:
+
+55
+00:02:29,429 --> 00:02:31,846
+Remember that main.c includes test1.h.
+
+56
+00:02:32,533 --> 00:02:33,893
+and if you look,
+
+57
+00:02:34,526 --> 00:02:35,926
+test1.h,
+
+58
+00:02:35,926 --> 00:02:36,714
+well, here...
+
+59
+00:02:36,714 --> 00:02:40,531
+it included test2.h, which included test1.h, actually... but...
+
+60
+00:02:40,531 --> 00:02:41,994
+Oh, sorry...
+
+61
+00:02:41,994 --> 00:02:44,318
+this test1.h has just included test2.h.
+
+62
+00:02:44,318 --> 00:02:47,623
+test2.h attempted to include test1.h, but it was empty.
+
+63
+00:02:47,823 --> 00:02:48,823
+Here you go.
+
+64
+00:02:49,188 --> 00:02:51,996
+I'm gonna try and add some code, to make it clearer for you.
+
+65
+00:02:52,036 --> 00:02:55,039
+So, here, for example, I'm going to add a function's prototype.
+
+66
+00:02:55,039 --> 00:02:57,127
+A void. Let's call it "pouet1" {"honk1")
+
+67
+00:02:57,727 --> 00:03:00,275
+Just like this. You'll see better.
+
+68
+00:03:00,275 --> 00:03:02,375
+So, "puet1" is in "test1".
+
+69
+00:03:02,440 --> 00:03:04,080
+and in "test2",
+
+70
+00:03:06,023 --> 00:03:08,603
+I'm gonna add "pouet2"
+
+71
+00:03:16,446 --> 00:03:18,216
+See, I haven't protected "test2".
+
+72
+00:03:18,216 --> 00:03:21,058
+but that's okay, because "test1" will be included only once.
+
+73
+00:03:21,058 --> 00:03:22,606
+I'm sure of it, now.
+
+74
+00:03:22,606 --> 00:03:24,223
+I haven't protected test2 either.
+
+75
+00:03:24,223 --> 00:03:26,458
+Normally, you should protect all your files.h.
+
+76
+00:03:26,458 --> 00:03:27,848
+But that was just an example.
+
+77
+00:03:27,848 --> 00:03:29,289
+Let me show you what happens.
+
+78
+00:03:29,289 --> 00:03:32,861
+We can see that test1 has been included.
+
+79
+00:03:32,871 --> 00:03:35,111
+In the beginning, the first time we go in test1,
+
+80
+00:03:35,111 --> 00:03:38,327
+"ifndef" hasn't beed defined. Therefore we keep going down,
+
+81
+00:03:38,327 --> 00:03:40,467
+here we have the inclusion of "test2"
+
+82
+00:03:40,467 --> 00:03:42,939
+so we keep going down,
+
+83
+00:03:42,939 --> 00:03:45,866
+and we have the define of __FT_TEST, etc.
+
+84
+00:03:45,866 --> 00:03:48,617
+we keep going down, then we have test2's inclusion,
+
+85
+00:03:48,617 --> 00:03:51,388
+Here, in test2, we still have the inclusion of test1.
+
+86
+00:03:51,388 --> 00:03:57,569
+checking the ifndef of FT_TEST1_H,
+
+87
+00:03:57,569 --> 00:04:01,453
+this time it's been defined, so we won't include what's between
+
+88
+00:04:01,453 --> 00:04:03,346
+the "ifndef" and the "endif".
+
+89
+00:04:03,346 --> 00:04:05,914
+So we'll never re-include test2 again.
+
+90
+00:04:05,914 --> 00:04:07,488
+Going back to test2,
+
+91
+00:04:07,488 --> 00:04:09,104
+I'm still going down,
+
+92
+00:04:09,104 --> 00:04:11,725
+Here, I have to write this.
+
+93
+00:04:11,725 --> 00:04:14,676
+I get out of test2, go into test1, going back to test1.
+
+94
+00:04:14,676 --> 00:04:16,295
+I have to write this.
+
+95
+00:04:16,295 --> 00:04:18,210
+and I'm done including test1
+
+96
+00:04:18,210 --> 00:04:19,309
+in my main.
+
+97
+00:04:19,309 --> 00:04:22,050
+So here, you can see we included test2 and test1.
+
+98
+00:04:22,050 --> 00:04:23,840
+There hasn't been an infinite loop.
+
+99
+00:04:24,421 --> 00:04:26,810
+Normally, just to be thorough,
+
+100
+00:04:26,810 --> 00:04:30,439
+We should have protected test2 too, by adding...
+
+101
+00:04:30,439 --> 00:04:32,277
+this should be a reflex to you, now.
+
+102
+00:04:32,277 --> 00:04:36,125
+You should start protecting your files.h as soon as you create them.
+
+103
+00:04:36,125 --> 00:04:36,895
+By adding...
+
+104
+00:04:36,895 --> 00:04:37,721
+this ...
+
+105
+00:04:37,721 --> 00:04:41,960
+Piece of advice: learn to create macros with vim or emacs,
+
+106
+00:04:41,960 --> 00:04:44,237
+and create a script that does it automatically.
+
+107
+00:04:44,237 --> 00:04:46,257
+It'll be a time-saviour.
+
+108
+00:04:50,323 --> 00:04:52,234
+So, be careful.
+
+109
+00:04:52,234 --> 00:04:54,124
+Be really careful.
+
+110
+00:04:54,713 --> 00:04:56,213
+You'll see,
+
+111
+00:04:56,485 --> 00:04:59,228
+Once you've defined FT_TEST2 for example,
+
+112
+00:04:59,228 --> 00:05:01,188
+You can use it further into the code.
+
+113
+00:05:01,188 --> 00:05:03,057
+And watch out, this could be dangerous,
+
+114
+00:05:03,057 --> 00:05:04,783
+Because, imagine, in my main.
+
+115
+00:05:04,783 --> 00:05:06,649
+I don't know why anyone would do this,
+
+116
+00:05:06,649 --> 00:05:08,629
+But in my main, here,
+
+117
+00:05:08,681 --> 00:05:16,408
+if I do #ifndef, __FT_TEST2_H__.
+
+118
+00:05:16,408 --> 00:05:20,566
+if it hasn't been defined, I'm going to display my main.
+
+119
+00:05:20,566 --> 00:05:23,554
+And you'll see that if I do CPP,
+
+120
+00:05:23,554 --> 00:05:24,597
+my main had gone...
+
+121
+00:05:24,597 --> 00:05:26,929
+Because, once we've defined it anywhere really,
+
+122
+00:05:26,929 --> 00:05:29,939
+you see that my files have been added to my .c file.
+
+123
+00:05:30,002 --> 00:05:32,042
+And now, it's defined forever.
+
+124
+00:05:32,042 --> 00:05:34,742
+So if there are other things using the same macro,
+
+125
+00:05:34,777 --> 00:05:36,212
+well... the same define,
+
+126
+00:05:36,212 --> 00:05:38,875
+well, the "ifndef" won't work. The "ifdef" will work.
+
+127
+00:05:38,875 --> 00:05:41,610
+So be careful to set the right names,
+
+128
+00:05:41,610 --> 00:05:43,668
+otherwise, you'll have serious problems,
+
+129
+00:05:43,668 --> 00:05:45,075
+That's it. Now you know
+
+130
+00:05:45,075 --> 00:05:49,065
+how to protect your files.h against multiple inclusion.
+

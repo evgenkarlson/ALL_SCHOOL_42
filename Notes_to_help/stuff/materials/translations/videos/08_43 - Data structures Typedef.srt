@@ -1,0 +1,339 @@
+1
+00:00:06,042 --> 00:00:06,782
+Hello,
+
+2
+00:00:06,782 --> 00:00:09,100
+Now that we're done with preprocessors,
+
+3
+00:00:09,100 --> 00:00:11,908
+let's move on to other keywords in C we haven't seen yet,
+
+4
+00:00:11,908 --> 00:00:13,448
+such as "typedef".
+
+5
+00:00:13,448 --> 00:00:16,988
+"typedef" is a keyword that allows us to redefine a type.
+
+6
+00:00:16,988 --> 00:00:19,148
+Meaning, you can create your own type.
+
+7
+00:00:19,148 --> 00:00:22,078
+There are huge differences with the macro "define",
+
+8
+00:00:22,078 --> 00:00:24,568
+which allows you to do a replacement, word by word,
+
+9
+00:00:24,568 --> 00:00:27,068
+whereas "typedef" really is for creating a new type.
+
+10
+00:00:27,068 --> 00:00:31,348
+And I'm going to show you those differences between "typedef" and "define"
+
+11
+00:00:31,348 --> 00:00:32,848
+How do we create a "typedef"?
+
+12
+00:00:32,848 --> 00:00:37,138
+Well, it's simple: "typedef" + type of base we want to transform.
+
+13
+00:00:37,138 --> 00:00:41,538
+for example, let's say I want my "int" to be called "cacahuete" ("peanut"),
+
+14
+00:00:43,470 --> 00:00:47,620
+As it's not a preprocessor word, it's really something that's executable.
+
+15
+00:00:48,730 --> 00:00:50,460
+So we have to add " ; " at the end.
+
+16
+00:00:51,741 --> 00:00:52,841
+That's important.
+
+17
+00:00:53,291 --> 00:00:58,781
+Now that I've done this, underneath my code I can write "cacahuete",
+
+18
+00:00:59,691 --> 00:01:01,231
+the variable "a", for example,
+
+19
+00:01:01,231 --> 00:01:02,375
+and then "a = 10".
+
+20
+00:01:03,337 --> 00:01:07,337
+And normally there shouldn't be any error during compilation.
+
+21
+00:01:09,237 --> 00:01:12,187
+For the moment, you can't really see a difference with "define"
+
+22
+00:01:12,187 --> 00:01:14,147
+except that it's in reverse,
+
+23
+00:01:14,147 --> 00:01:18,407
+meaning that "cacahuete" was on the left, and on the right was what's to be replaced
+
+24
+00:01:18,407 --> 00:01:21,947
+The real difference is during compilation.
+
+25
+00:01:21,947 --> 00:01:23,907
+The preprocessor will take care of it.
+
+26
+00:01:24,437 --> 00:01:25,853
+which requires other things.
+
+27
+00:01:25,853 --> 00:01:28,673
+meaning "typedef" also is subject to the scope.
+
+28
+00:01:29,233 --> 00:01:31,703
+What is meant by "typedef is subject to the scope"?
+
+29
+00:01:31,703 --> 00:01:34,283
+It means that, depending on where I put my "typedef",
+
+30
+00:01:34,283 --> 00:01:36,083
+It'll only affect an area.
+
+31
+00:01:36,083 --> 00:01:39,163
+For example, here, "typedef" only affects the main.
+
+32
+00:01:39,163 --> 00:01:42,943
+Let me show you. I'm going to create a new function as an example.
+
+33
+00:01:42,943 --> 00:01:51,007
+"void ft_fct(void)" and declare a new variable "cacahuete",
+
+34
+00:01:52,447 --> 00:01:53,787
+which I'm gonna call "a".
+
+35
+00:01:53,787 --> 00:01:56,307
+And I'm gonna do the same thing underneath: "a = 10".
+
+36
+00:01:56,307 --> 00:01:59,027
+Normally, this should not compile.
+
+37
+00:01:59,650 --> 00:02:02,030
+Here we go. There's a problem in ft_fct.
+
+38
+00:02:03,758 --> 00:02:10,008
+I have "cacahuete undeclared", because it has been declared beneath, here.
+
+39
+00:02:12,591 --> 00:02:14,800
+As I was saying, it's subjected to the scope.
+
+40
+00:02:14,980 --> 00:02:18,140
+If I added the typedef all the way at the top, out of the scope,
+
+41
+00:02:18,961 --> 00:02:21,961
+It doesn't respect the Standard, but that's OK.
+
+42
+00:02:21,961 --> 00:02:23,001
+It compiles.
+
+43
+00:02:24,045 --> 00:02:26,015
+That's the first big difference.
+
+44
+00:02:26,015 --> 00:02:29,523
+The second difference is something we could not do with a "define"
+
+45
+00:02:29,523 --> 00:02:31,903
+unfortunately it doesn't respect the Standard,
+
+46
+00:02:31,903 --> 00:02:33,823
+but I'll show you just to be exhaustive.
+
+47
+00:02:34,025 --> 00:02:38,015
+Imagine I write "int *", and call it "int_p".
+
+48
+00:02:39,302 --> 00:02:42,792
+Now. I have a new type of variable "int_p" which is a "int * "
+
+49
+00:02:43,949 --> 00:02:45,069
+Had I written this...
+
+50
+00:02:46,125 --> 00:02:46,995
+you'll see ...
+
+51
+00:02:47,518 --> 00:02:51,988
+had I written "int* a, b, c".
+
+52
+00:02:52,767 --> 00:02:54,607
+The asterisk is in the wrong place.
+
+53
+00:02:56,847 --> 00:03:00,027
+That's why we have to put it on the right, you'll see even better.
+
+54
+00:03:00,813 --> 00:03:04,331
+Here we can see that only "a" will be a pointer to int.
+
+55
+00:03:04,331 --> 00:03:05,921
+"b" and "c" are <b>int</b>s.
+
+56
+00:03:07,191 --> 00:03:09,261
+When we write this, here's what happens
+
+57
+00:03:09,755 --> 00:03:15,100
+Had I done a <b>#define</b>, let's call it "INTP",
+
+58
+00:03:17,536 --> 00:03:19,166
+it'd be replaced by "int * "
+
+59
+00:03:19,433 --> 00:03:21,573
+so had I written "INTP",
+
+60
+00:03:22,811 --> 00:03:24,311
+That's actually the same thing,
+
+61
+00:03:24,311 --> 00:03:27,531
+the asterisk, instead of being on the left, it'll be on the right.
+
+62
+00:03:27,531 --> 00:03:30,871
+because it's a word-by-word replacement, so my "a" would be a "int * "
+
+63
+00:03:30,871 --> 00:03:32,671
+but my "b" and my "c" would be ints.
+
+64
+00:03:33,621 --> 00:03:39,021
+However, with "typedef", if I wrote "int_p",
+
+65
+00:03:39,638 --> 00:03:44,188
+this time, "a", "b" and "c" would be pointers to int.
+
+66
+00:03:45,300 --> 00:03:47,790
+You probably don't see the point yet...
+
+67
+00:03:47,790 --> 00:03:49,430
+but there are many points to this.
+
+68
+00:03:49,430 --> 00:03:52,490
+The most blatant point, is the last one I'll show you, actually.
+
+69
+00:03:52,490 --> 00:03:57,150
+Going back to write()'s man, which we've already seen, with includes, etc...
+
+70
+00:03:57,150 --> 00:04:01,200
+Here, you see that write() takes a "size_t",
+
+71
+00:04:01,200 --> 00:04:03,500
+and returns a "ssize_t".
+
+72
+00:04:04,550 --> 00:04:05,780
+Those are typedefs.
+
+73
+00:04:05,780 --> 00:04:10,150
+Meaning that if one day, the person who created write() wants to modify
+
+74
+00:04:10,150 --> 00:04:11,590
+its data type,
+
+75
+00:04:12,242 --> 00:04:17,062
+by adding "include unistd", you have the "typedef" of "size_t",
+
+76
+00:04:17,062 --> 00:04:20,622
+and if tomorrow they want "size_t" to go from being an "unsigned int",
+
+77
+00:04:20,622 --> 00:04:24,302
+to becoming a "long unsigned int", they'd only need to change it in one place.
+
+78
+00:04:24,302 --> 00:04:30,262
+and if you've used "size_t" in your code, they'll also become "long unsigned ints"
+
+79
+00:04:31,008 --> 00:04:34,808
+The advantage is that it really performs a thorough check during compilation,
+
+80
+00:04:34,808 --> 00:04:36,858
+and it also tells us the names,
+
+81
+00:04:36,858 --> 00:04:40,308
+and not "int", because it's not a word-by-word replacement,
+
+82
+00:04:40,308 --> 00:04:42,928
+it's a "typedef int cacahuete",
+
+83
+00:04:42,928 --> 00:04:46,618
+and behind, it'll inform you about errors with a variable of type "cacahuete".
+
+84
+00:04:46,618 --> 00:04:48,820
+It also allows you to find things more easily.
+
+85
+00:04:49,850 --> 00:04:51,780
+That's it for "typedef".

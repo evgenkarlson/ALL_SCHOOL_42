@@ -1,0 +1,277 @@
+1
+00:00:05,862 --> 00:00:08,682
+Let's now see how to open files in C.
+
+2
+00:00:09,092 --> 00:00:11,692
+For that, we use the system call "open",
+
+3
+00:00:11,692 --> 00:00:15,012
+which can take 2 or 3 parameters, depending on usage.
+
+4
+00:00:15,353 --> 00:00:18,253
+The first parameter is the file to open,
+
+5
+00:00:18,253 --> 00:00:20,683
+the path can be relative or absolute,
+
+6
+00:00:21,044 --> 00:00:24,784
+The 2nd is the opening mode : read only, write only, both,
+
+7
+00:00:25,324 --> 00:00:27,904
+and the permissions, in case of new file creation.
+
+8
+00:00:27,904 --> 00:00:32,164
+"open" will either return an int, corresponding to the
+
+9
+00:00:32,164 --> 00:00:35,054
+open File Descriptor, or -1 in case of error.
+
+10
+00:00:35,483 --> 00:00:38,433
+Before showing you (with code) how to open a file,
+
+11
+00:00:38,433 --> 00:00:40,573
+let me first talk about flags.
+
+12
+00:00:41,731 --> 00:00:44,671
+As I've mentioned, we have 3 flags that allow us to control
+
+13
+00:00:44,671 --> 00:00:46,341
+the level of access to the file :
+
+14
+00:00:46,341 --> 00:00:48,561
+O_RDONLY -> open read only.
+
+15
+00:00:48,561 --> 00:00:51,161
+O_WRONLY -> open write only.
+
+16
+00:00:51,161 --> 00:00:53,721
+and O_RDWR -> open read write.
+
+17
+00:00:54,202 --> 00:00:57,052
+We've also got flags that allow us
+
+18
+00:00:57,052 --> 00:00:59,082
+to modify OPEN's behavior, such as
+
+19
+00:00:59,082 --> 00:01:02,322
+O_CREAT, which allows us to create a
+file, if it doesn't exists yet.
+
+20
+00:01:02,322 --> 00:01:05,462
+Flags can be combined with a binary OR,
+
+21
+00:01:05,462 --> 00:01:07,922
+and there are many others to use, check out the man.
+
+22
+00:01:07,922 --> 00:01:10,332
+Let's now move on to code.
+
+23
+00:01:15,433 --> 00:01:19,163
+In this very simple example, I've included the headers required by OPEN,
+
+24
+00:01:20,113 --> 00:01:25,373
+I've declared an int, called "fd", to which I've assigned OPEN's return
+
+25
+00:01:25,373 --> 00:01:28,433
+of a file "alph", that contains a few letters,
+
+26
+00:01:28,433 --> 00:01:29,873
+and in read only mode.
+
+27
+00:01:29,873 --> 00:01:33,423
+Then I get "fd" to be displayed, just to check I got a valid
+
+28
+00:01:33,423 --> 00:01:35,213
+file descriptor.
+
+29
+00:01:35,833 --> 00:01:37,583
+Let's compile this example.
+
+30
+00:01:39,992 --> 00:01:41,262
+"3" is being displayed.
+
+31
+00:01:42,972 --> 00:01:44,472
+Let's reopen the code.
+
+32
+00:01:45,132 --> 00:01:49,132
+So, OPEN has indeed returned 3, and I've displayed it.
+
+33
+00:01:50,363 --> 00:01:53,103
+The file is opened and I can manipulate it by using
+
+34
+00:01:53,103 --> 00:01:54,413
+this File Descriptor 3.
+
+35
+00:01:55,802 --> 00:01:59,342
+Now, let's see how to open a file in Write mode.
+
+36
+00:02:02,253 --> 00:02:04,783
+Let's get a file "42" created,
+
+37
+00:02:06,485 --> 00:02:10,485
+in write mode only, and get it to be created if it doesn't exist,
+
+38
+00:02:13,156 --> 00:02:16,866
+and to give me write and read permissions,
+
+39
+00:02:17,978 --> 00:02:20,258
+and to display the file descriptor.
+
+40
+00:02:21,693 --> 00:02:23,253
+Compiling...
+
+41
+00:02:25,582 --> 00:02:28,312
+"3" is displayed, so my file has indeed been opened.
+
+42
+00:02:29,322 --> 00:02:31,962
+A file "42" has indeed been created.
+
+43
+00:02:31,962 --> 00:02:34,962
+and I have read and write permissions on it.
+
+44
+00:02:36,342 --> 00:02:41,212
+Before moving on to the rest, let me show you how important
+
+45
+00:02:41,212 --> 00:02:42,392
+OPEN's return is.
+
+46
+00:02:42,392 --> 00:02:45,762
+Always check this! Let me remind you that
+
+47
+00:02:45,762 --> 00:02:48,592
+open returns -1 in case of error, and that you cannot
+
+48
+00:02:48,592 --> 00:02:50,992
+manipulate a file descriptor that's equal to -1.
+
+49
+00:02:51,943 --> 00:02:57,283
+So let's check that "fd" is not equal to -1.
+
+50
+00:03:07,042 --> 00:03:10,122
+I'll leave the putnbr(), so we can see
+
+51
+00:03:10,122 --> 00:03:12,712
+that the FD is equal to -1, and ask it to open a file
+
+52
+00:03:12,712 --> 00:03:17,102
+in a directory to which I don't have access: "/dev".
+
+53
+00:03:18,686 --> 00:03:20,396
+Recompiling.
+
+54
+00:03:21,960 --> 00:03:23,000
+Launching.
+
+55
+00:03:23,313 --> 00:03:26,443
+We can see that my FD is equal to -1,
+
+56
+00:03:26,443 --> 00:03:29,573
+that my OPEN hasn't worked, and so
+
+57
+00:03:29,573 --> 00:03:31,793
+I cannot manipulate my file.
+
+58
+00:03:33,032 --> 00:03:36,002
+Now, let me show you how to close a file.
+
+59
+00:03:37,264 --> 00:03:40,124
+For that, we have the system call CLOSE.
+
+60
+00:03:40,703 --> 00:03:42,733
+This one only takes a File Descriptor
+
+61
+00:03:42,733 --> 00:03:47,833
+as a parameter, and returns 0 normally, or -1 in case of error.
+
+62
+00:03:51,233 --> 00:03:52,753
+Reopening my code...
+
+63
+00:03:54,182 --> 00:03:56,482
+Putting back the "42" file.
+
+64
+00:03:59,957 --> 00:04:02,847
+I'll leave here, in case of error.
+
+65
+00:04:04,743 --> 00:04:08,743
+And then I'll close my file at the end of my code.
+
+66
+00:04:23,667 --> 00:04:25,317
+Recompiling.
+
+67
+00:04:27,652 --> 00:04:31,652
+"3". My file's been opened, and closed in a transparent manner.
+
+68
+00:04:33,103 --> 00:04:36,200
+This concludes this video on file opening and closing.
+
+69
+00:04:36,200 --> 00:04:40,061
+See you in the next video, where we'll see how to read from a file.
+

@@ -1,0 +1,546 @@
+1
+00:00:06,191 --> 00:00:09,811
+In this second video, I'm going to show
+you how to solve the problem
+
+2
+00:00:09,811 --> 00:00:13,891
+we've come across in the first video,
+by balancing our binary trees.
+
+3
+00:00:14,311 --> 00:00:16,111
+Reminder:
+
+4
+00:00:17,771 --> 00:00:21,301
+we've seen that a tree such this one
+lost all of its interests,
+
+5
+00:00:21,301 --> 00:00:24,321
+we can easily guess why,
+and we'd rather have
+
+6
+00:00:24,321 --> 00:00:27,521
+this type of tree, which is much
+more balanced.
+
+7
+00:00:27,521 --> 00:00:30,671
+A little uglier, but more balanced.
+
+8
+00:00:30,671 --> 00:00:33,521
+So here, we can see that several
+nodes have one child,
+
+9
+00:00:33,521 --> 00:00:36,341
+sometimes they have 2, 
+and there's about the same number
+
+10
+00:00:36,341 --> 00:00:39,331
+of elements on either sides.
+
+11
+00:00:39,331 --> 00:00:43,521
+So the search-time will always
+be optimal.
+
+12
+00:00:43,881 --> 00:00:47,331
+The only disadvantages of this tree,
+are that you'll have to
+
+13
+00:00:47,331 --> 00:00:50,691
+struggle to balance it, as well as
+the insertion and removal will
+
+14
+00:00:50,691 --> 00:00:52,481
+be a little longer.
+
+15
+00:00:54,411 --> 00:00:58,411
+To balance it, we'll use what we call
+a Red-black tree.
+
+16
+00:00:59,067 --> 00:01:01,457
+I'll show you what it looks like in C.
+
+17
+00:01:03,751 --> 00:01:05,150
+It looks like this.
+
+18
+00:01:05,150 --> 00:01:08,381
+Moreover, we have an enum which
+defines the node's color.
+
+19
+00:01:09,277 --> 00:01:10,567
+Black or red.
+
+20
+00:01:11,281 --> 00:01:14,751
+The structure is the same, but we've
+added the field "color".
+
+21
+00:01:15,302 --> 00:01:18,802
+There's an advantage in keeping the
+same structure:
+
+22
+00:01:19,031 --> 00:01:23,901
+we'll be able to tell the compiler
+that our structure
+
+23
+00:01:23,901 --> 00:01:27,161
+is a struct s_btree.
+
+24
+00:01:27,891 --> 00:01:30,791
+And it'll reply 
+"ok, no worries mate, I'll do it".
+
+25
+00:01:31,233 --> 00:01:34,113
+So you'll be able to use all the 
+traversal-functions you've
+
+26
+00:01:34,113 --> 00:01:36,883
+created for simple btrees.
+
+27
+00:01:38,443 --> 00:01:42,443
+It'll spare you having to re-write
+loads of code, when the treatment
+
+28
+00:01:42,443 --> 00:01:45,433
+is exactly the same, and the structure
+is almost the same.
+
+29
+00:01:45,433 --> 00:01:46,913
+That's called polymorphism.
+
+30
+00:01:46,913 --> 00:01:50,723
+That's a pretty primary shape in C,
+we can do much more,
+
+31
+00:01:51,833 --> 00:01:54,083
+but you'll discover that on your own.
+
+32
+00:01:54,703 --> 00:01:57,293
+Why red? Why black?
+
+33
+00:01:57,523 --> 00:01:59,803
+Let me explain, with some theory.
+
+34
+00:02:00,463 --> 00:02:02,973
+Red and black trees have several
+properties.
+
+35
+00:02:02,973 --> 00:02:06,673
+The 1st, is that the parent node,
+the tree's root, is black.
+
+36
+00:02:07,783 --> 00:02:11,573
+The 2nd, is that all leaves, including
+those that are NULL,
+
+37
+00:02:11,573 --> 00:02:13,083
+are empty leaves,
+
+38
+00:02:13,773 --> 00:02:15,863
+they're also black. Just like the root.
+
+39
+00:02:17,179 --> 00:02:22,039
+3rd property says that a red node only has
+black paths.
+
+40
+00:02:22,039 --> 00:02:25,529
+Either they're both NULL, either
+they're real nodes, but black,
+
+41
+00:02:25,529 --> 00:02:27,889
+either a mix of both.
+
+42
+00:02:28,802 --> 00:02:29,952
+You see the idea.
+
+43
+00:02:30,103 --> 00:02:32,593
+The last property, 
+the most interesting one,
+
+44
+00:02:32,593 --> 00:02:37,093
+is that from whichever node of the tree,
+the amount of black nodes
+
+45
+00:02:37,093 --> 00:02:42,123
+crossed (distance), between this node and
+the last leaf is the same for
+
+46
+00:02:42,123 --> 00:02:44,053
+every leaf of this node.
+
+47
+00:02:44,983 --> 00:02:47,683
+Basically, this means the tree is balanced
+
+48
+00:02:48,663 --> 00:02:50,653
+It's a bit hard to get...
+
+49
+00:02:52,303 --> 00:02:54,743
+Now, the insertion.
+
+50
+00:02:55,753 --> 00:02:58,313
+This, we'll ask you to do,
+as well as the removal.
+
+51
+00:02:58,313 --> 00:03:00,853
+I'm only going to show you one case
+of insertion,
+
+52
+00:03:00,853 --> 00:03:03,773
+for other cases, you can do your
+own research on the internet,
+
+53
+00:03:03,773 --> 00:03:07,803
+where it'll be explained much better,
+and where you'll find better diagrams.
+
+54
+00:03:09,432 --> 00:03:12,142
+I'm just going to show you a simple
+case of insertion,
+
+55
+00:03:12,633 --> 00:03:15,743
+which requires two operations,
+you're going to use :
+
+56
+00:03:16,693 --> 00:03:20,483
+changing node color, 
+and tree rotation.
+
+57
+00:03:20,692 --> 00:03:22,282
+Let me show you.
+
+58
+00:03:27,292 --> 00:03:32,212
+To insert, in a red-black binary tree,
+we first proceed to an insertion
+
+59
+00:03:32,212 --> 00:03:34,982
+like in a basic binary tree,
+so by dichotomy.
+
+60
+00:03:34,982 --> 00:03:39,883
+In the diagram, "G" means grand-parents,
+
+61
+00:03:39,883 --> 00:03:41,413
+it's the node's grand-parent.
+
+62
+00:03:41,413 --> 00:03:46,683
+"P" = parents, "U" = uncle,
+"N" is the node we've just inserted.
+
+63
+00:03:47,473 --> 00:03:50,423
+The colors are in parenthesis :
+Black or Red.
+
+64
+00:03:51,722 --> 00:03:56,532
+After having done our basic insertion,
+imagine we get this tree.
+
+65
+00:03:59,683 --> 00:04:03,023
+The node is red, because by default,
+all nodes are red.
+
+66
+00:04:03,633 --> 00:04:07,873
+We can see that this tree doesn't respect
+the properties of red-black trees.
+
+67
+00:04:08,703 --> 00:04:12,703
+The "P" is red, and should have two
+black children, but only has one,
+
+68
+00:04:12,703 --> 00:04:14,093
+the one that's NULL.
+
+69
+00:04:14,093 --> 00:04:15,303
+The other is red.
+
+70
+00:04:16,442 --> 00:04:20,223
+Let's proceed to something quite
+complicated.
+
+71
+00:04:20,223 --> 00:04:23,103
+Because the uncle is black and the
+father is red.
+
+72
+00:04:23,103 --> 00:04:26,103
+So let's do something to balance it.
+
+73
+00:04:26,103 --> 00:04:29,233
+It's a particular case, there are 
+four or five like this.
+
+74
+00:04:29,523 --> 00:04:31,073
+So let's rotate the tree.
+
+75
+00:04:31,073 --> 00:04:33,633
+We're going to rotate to the right,
+around "G".
+
+76
+00:04:34,462 --> 00:04:36,392
+You may want to put on your seat-belts.
+
+77
+00:04:36,414 --> 00:04:39,294
+Post-rotation, we get what's bellow.
+
+78
+00:04:39,802 --> 00:04:43,802
+"G" is where "U" used to be,
+with "U" still under it,
+
+79
+00:04:44,352 --> 00:04:46,292
+because it's still a binary tree,
+
+80
+00:04:46,292 --> 00:04:48,722
+and "P" is now above "G".
+
+81
+00:04:48,722 --> 00:04:51,902
+If you think about it, you'll notice that
+
+82
+00:04:51,902 --> 00:04:56,852
+if I do this to my tree at the beginning,
+it'll still be valid,
+
+83
+00:04:56,852 --> 00:04:59,512
+and we'll still be able to traverse it
+in depth,
+
+84
+00:04:59,512 --> 00:05:01,102
+and it'll still be sorted.
+
+85
+00:05:01,102 --> 00:05:05,782
+In the end, "G" is bigger than "P",
+so we'll be able to move it
+
+86
+00:05:05,782 --> 00:05:06,942
+bellow on the right.
+
+87
+00:05:09,813 --> 00:05:12,353
+And we happen to be in this case.
+
+88
+00:05:12,353 --> 00:05:16,013
+But we're breaking the rules of
+red-black trees.,
+
+89
+00:05:16,013 --> 00:05:18,283
+because the parent is red, not black.
+
+90
+00:05:19,772 --> 00:05:23,122
+So, let's proceed to a color change
+between "P" and "G",
+
+91
+00:05:24,043 --> 00:05:25,963
+it'll look like the following diagram.
+
+92
+00:05:26,752 --> 00:05:31,392
+"P" is at the root of the tree, 
+so it becomes black,
+
+93
+00:05:31,763 --> 00:05:33,553
+and "G" becomes red.
+
+94
+00:05:33,553 --> 00:05:35,983
+This way, we have a balanced binary tree.
+
+95
+00:05:36,383 --> 00:05:37,643
+Keep in mind that
+
+96
+00:05:37,643 --> 00:05:41,078
+this is not the only case of insertions.
+There are 4 or 5, I think.
+
+97
+00:05:41,078 --> 00:05:43,278
+But you'll see for yourselves.
+
+98
+00:05:43,748 --> 00:05:47,748
+Every time you make an insertion,
+you must check the tree
+
+99
+00:05:47,748 --> 00:05:50,538
+recursively, to make sure you haven't
+
+100
+00:05:50,538 --> 00:05:51,508
+messed it up.
+
+101
+00:05:51,508 --> 00:05:55,908
+For example, the fact that this one is 
+black or red could infringe
+
+102
+00:05:55,923 --> 00:06:01,163
+one of the properties, forcing you to
+make more changes.
+
+103
+00:06:01,672 --> 00:06:04,733
+Normally, we get by with
+2 rotations and 2-3 color changes,
+
+104
+00:06:04,733 --> 00:06:06,313
+in the worst case scenario.
+
+105
+00:06:07,163 --> 00:06:10,273
+The other cases, 
+you'll find them yourselves, as well as
+
+106
+00:06:10,273 --> 00:06:12,283
+cases of removal.
+
+107
+00:06:12,933 --> 00:06:17,933
+And to finish this video, 
+I'm going to give you some advice.
+
+108
+00:06:18,691 --> 00:06:22,071
+The first is for you to create a 
+function which displays your tree.
+
+109
+00:06:23,071 --> 00:06:25,571
+The first element and the two 
+following ones, etc...
+
+110
+00:06:25,571 --> 00:06:28,111
+I also advise you to display nodes
+that are NULL too,
+
+111
+00:06:28,111 --> 00:06:30,051
+and to keep unfolding them.
+
+112
+00:06:30,783 --> 00:06:34,203
+It'll allow you to debug all your 
+functions, and check
+
+113
+00:06:34,203 --> 00:06:40,453
+whether your insertion went well,
+and if the tree is balanced.
+
+114
+00:06:42,144 --> 00:06:46,144
+It takes time to code this, but it's
+quite practical.
+
+115
+00:06:47,152 --> 00:06:50,862
+The second advice is to read thoroughly
+whatever you find on the internet.
+
+116
+00:06:50,862 --> 00:06:53,262
+Binary trees are used a lot
+
+117
+00:06:53,262 --> 00:06:55,572
+and you'll find a lot of material
+on the subject.
+
+118
+00:06:55,572 --> 00:06:59,172
+Which will probably be clearer than
+this video, and will surely help better.
+
+119
+00:06:59,172 --> 00:07:00,042
+Good day.
+

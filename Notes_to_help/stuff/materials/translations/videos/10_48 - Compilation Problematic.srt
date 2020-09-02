@@ -1,0 +1,132 @@
+1
+00:00:06,400 --> 00:00:08,760
+So far, you've always compiled
+
+2
+00:00:08,921 --> 00:00:10,891
+your C sources using GCC
+
+3
+00:00:11,015 --> 00:00:12,565
+from your terminal.
+
+4
+00:00:12,691 --> 00:00:16,191
+You were writing lines like : "gcc [source file name].c",
+
+5
+00:00:16,191 --> 00:00:18,370
+in this case: source.c
+
+6
+00:00:18,731 --> 00:00:21,331
+which compiled your program
+
+7
+00:00:21,411 --> 00:00:23,351
+to an executable called "a.out".
+
+8
+00:00:23,411 --> 00:00:25,501
+We've seen that we could also, queue files,
+
+9
+00:00:25,501 --> 00:00:27,221
+when we have multiple sources,
+
+10
+00:00:27,351 --> 00:00:29,281
+or use *.c to compile them all
+
+11
+00:00:29,362 --> 00:00:31,182
+and generate the same a.out.
+
+12
+00:00:31,312 --> 00:00:34,362
+Perhaps some of you use the option "-o"
+
+13
+00:00:34,532 --> 00:00:36,436
+to specify a program's name,
+
+14
+00:00:36,560 --> 00:00:41,390
+here, for example, "-o awesomeprog" which is created from source.c
+
+15
+00:00:41,390 --> 00:00:44,450
+and now we have our executable "awesomeprog"
+
+16
+00:00:44,601 --> 00:00:47,601
+which is next to our previous executable "a.out".
+
+17
+00:00:48,861 --> 00:00:53,351
+What you need to understand is that GCC is a complex compiler
+
+18
+00:00:53,530 --> 00:00:57,530
+and you must take the time to really understand how it works
+
+19
+00:00:57,618 --> 00:00:59,598
+and get to know its options.
+
+20
+00:01:00,331 --> 00:01:04,361
+The sooner you'll do this, the sooner you'll be comfortable with the compiler
+
+21
+00:01:04,361 --> 00:01:06,931
+and able to fully take advantage of it.
+
+22
+00:01:07,661 --> 00:01:10,901
+Gradually, as you learn how to use GCC,
+
+23
+00:01:10,901 --> 00:01:13,071
+you'll realize that this compiler
+
+24
+00:01:13,071 --> 00:01:16,101
+has very complex options, and sometimes,
+
+25
+00:01:16,101 --> 00:01:19,111
+if we want to use separate compilation,
+
+26
+00:01:19,121 --> 00:01:23,391
+or set tasks before and after compilation,
+
+27
+00:01:23,400 --> 00:01:27,400
+or add "include" directories, or libraries... Who knows!
+
+28
+00:01:27,400 --> 00:01:31,319
+compilation lines in the terminal can become really complicated.
+
+29
+00:01:31,319 --> 00:01:35,299
+And soon, we realise that we're gonna need a Shell script to organise it all.
+
+30
+00:01:35,842 --> 00:01:38,052
+In the first part of this course
+
+31
+00:01:38,052 --> 00:01:41,181
+we'll discover a new tool called Makefile
+
+32
+00:01:41,191 --> 00:01:46,061
+which will allow us to solve this problem efficiently,
+
+33
+00:01:46,068 --> 00:01:48,618
+and do exactly what we want.
+

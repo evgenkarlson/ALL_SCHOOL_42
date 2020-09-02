@@ -1,0 +1,512 @@
+1
+00:00:06,573 --> 00:00:07,357
+
+
+2
+00:00:07,357 --> 00:00:11,164
+We know that we need to define
+
+3
+00:00:11,164 --> 00:00:13,930
+our structure in order to use it
+
+4
+00:00:13,930 --> 00:00:15,717
+as a link in our list.
+
+5
+00:00:15,717 --> 00:00:18,258
+So let's create our .h
+
+6
+00:00:18,258 --> 00:00:21,574
+and we protect it from multiple inclusion.
+
+7
+00:00:32,500 --> 00:00:34,292
+What I like here,
+
+8
+00:00:34,292 --> 00:00:39,718
+is that we can create a typedef on the future defintion of our list.
+
+9
+00:00:40,331 --> 00:00:46,476
+Thus we can write struct s_list
+
+10
+00:00:46,476 --> 00:00:50,511
+Let's say it contains a "char *str",
+
+11
+00:00:50,511 --> 00:00:52,700
+and like I said
+
+12
+00:00:52,700 --> 00:00:59,560
+a pointer to a struct s_list next.
+
+13
+00:01:01,309 --> 00:01:04,046
+Thanks to my typedef,
+
+14
+00:01:04,046 --> 00:01:06,719
+I can write this here.
+
+15
+00:01:06,729 --> 00:01:08,137
+Now
+
+16
+00:01:08,994 --> 00:01:11,888
+let's get to our function "<i>main</i>".
+
+17
+00:01:11,888 --> 00:01:16,464
+We'll need our list definition
+
+18
+00:01:16,464 --> 00:01:18,936
+so we include list.h,
+
+19
+00:01:25,266 --> 00:01:27,594
+we return (0).
+
+20
+00:01:31,115 --> 00:01:33,773
+Due to the fact that we're using a list,
+
+21
+00:01:33,773 --> 00:01:38,061
+we're going to create a pointer "list" to our "t_list" type.
+
+22
+00:01:40,051 --> 00:01:42,169
+What do we do with that?
+
+23
+00:01:42,169 --> 00:01:44,516
+We're going to initialise it to NULL.
+
+24
+00:01:44,516 --> 00:01:47,962
+So we're gonna need stdlib.h.
+
+25
+00:01:49,375 --> 00:01:50,236
+Here.
+
+26
+00:01:51,683 --> 00:01:54,107
+I'll explain this later.
+
+27
+00:01:54,107 --> 00:01:56,352
+Let's say that list is equal to
+
+28
+00:01:56,352 --> 00:02:01,237
+a new link added to our list,
+
+29
+00:02:01,237 --> 00:02:06,018
+which will contain, for example, "toto".
+
+30
+00:02:08,471 --> 00:02:11,442
+We're going to repeat this operation,
+
+31
+00:02:11,442 --> 00:02:13,952
+but with "tata" this time,
+
+32
+00:02:13,952 --> 00:02:17,271
+and finally with "tutu", just for fun.
+
+33
+00:02:18,879 --> 00:02:21,954
+In order to test all of this,
+
+34
+00:02:21,954 --> 00:02:24,247
+we're going to create a function "print_list"
+
+35
+00:02:24,247 --> 00:02:28,305
+which will simply display what's in our list.
+
+36
+00:02:28,305 --> 00:02:31,378
+Don't forget to declare prototypes.
+
+37
+00:02:33,108 --> 00:02:35,575
+So "add_link" returns ... a t_list*,
+
+38
+00:02:38,015 --> 00:02:42,876
+and takes our list and a char *str as parameters,
+
+39
+00:02:42,876 --> 00:02:47,528
+to fill up our newly created links,
+
+40
+00:02:47,528 --> 00:02:51,122
+And finally, print_list
+
+41
+00:02:51,122 --> 00:02:54,815
+which takes a t_list * as a parameter.
+
+42
+00:02:58,712 --> 00:03:01,382
+Let's move on to "add_link".
+
+43
+00:03:03,329 --> 00:03:06,688
+What do you think "add_link" will do on our list?
+
+44
+00:03:06,688 --> 00:03:10,877
+Don't forget the .h inclusion.
+
+45
+00:03:10,877 --> 00:03:15,401
+It returns a t_list *
+
+46
+00:03:16,321 --> 00:03:19,191
+and takes our list as a parameter
+
+47
+00:03:19,191 --> 00:03:23,455
+- list to which it will add our link -
+
+48
+00:03:23,455 --> 00:03:26,461
+t_list *list and some data to fill it up with.
+
+49
+00:03:27,081 --> 00:03:28,356
+Here.
+
+50
+00:03:28,825 --> 00:03:30,616
+We'll need <b>malloc</b> here.
+
+51
+00:03:30,616 --> 00:03:32,677
+So we've got to include stdlib.h.
+
+52
+00:03:33,507 --> 00:03:34,778
+Good.
+
+53
+00:03:36,483 --> 00:03:38,963
+We know that we have to create a link.
+
+54
+00:03:38,963 --> 00:03:40,698
+Let's call it "tmp"
+
+55
+00:03:40,698 --> 00:03:43,387
+we return it... well, that's a bit useless
+
+56
+00:03:43,387 --> 00:03:47,106
+because we're going to segfault... So let's make tmp
+
+57
+00:03:47,106 --> 00:03:51,920
+point to a valid memory area with <b>malloc</b>.
+
+58
+00:03:51,920 --> 00:04:00,268
+tmp = malloc(sizeof *(t_list))
+
+59
+00:04:00,268 --> 00:04:02,987
+We can use the alias in sizeof.
+
+60
+00:04:04,547 --> 00:04:08,432
+If tmp is not NULL, then <b>malloc</b> was successful.
+
+61
+00:04:08,432 --> 00:04:12,976
+Therefore we can manipulate our link and fill it up.
+
+62
+00:04:12,976 --> 00:04:15,603
+let's say that the variable "str"
+
+63
+00:04:15,603 --> 00:04:19,862
+which is a pointer to char contained in our structure,
+
+64
+00:04:19,862 --> 00:04:24,507
+is equal to the str passed as a parameter.
+
+65
+00:04:27,877 --> 00:04:31,705
+Now let's say that tmp->next=list.
+
+66
+00:04:33,465 --> 00:04:35,965
+If tmp was null we would return NULL,
+
+67
+00:04:35,965 --> 00:04:38,353
+which would indicate an error,
+
+68
+00:04:39,103 --> 00:04:40,447
+Good.
+
+69
+00:04:40,903 --> 00:04:42,535
+What would happen
+
+70
+00:04:42,535 --> 00:04:47,962
+If I called this function for the first time?
+
+71
+00:04:47,962 --> 00:04:50,356
+I'm gonna create tmp,
+
+72
+00:04:50,356 --> 00:04:53,264
+and say that it contains "toto"
+
+73
+00:04:53,264 --> 00:04:56,579
+and that its "->next" points to list.
+
+74
+00:04:56,579 --> 00:04:59,146
+Except that list is equal to NULL
+
+75
+00:04:59,146 --> 00:05:02,102
+so it points to NULL.
+
+76
+00:05:02,102 --> 00:05:06,134
+The second time, I return list
+
+77
+00:05:06,134 --> 00:05:10,609
+which, this time, is equal to our first tmp,
+
+78
+00:05:10,609 --> 00:05:15,265
+I create a new tmp which contains "tata".
+
+79
+00:05:15,265 --> 00:05:18,867
+I say that its next points to list.
+
+80
+00:05:18,867 --> 00:05:21,152
+List is equal to our first tmp
+
+81
+00:05:21,152 --> 00:05:24,606
+So it's the same thing.
+
+82
+00:05:24,606 --> 00:05:26,283
+When we call for the 3rd time,
+
+83
+00:05:26,283 --> 00:05:29,775
+you know what I'm going to say,
+
+84
+00:05:29,775 --> 00:05:32,305
+I fill up tmp with "tutu"
+
+85
+00:05:32,305 --> 00:05:34,715
+and I say that its "next" points to list
+
+86
+00:05:34,715 --> 00:05:38,409
+which is now equal to our 2nd tmp.
+
+87
+00:05:39,259 --> 00:05:41,076
+Let's write print_list now
+
+88
+00:05:41,076 --> 00:05:43,832
+in order to check if everything works.
+
+89
+00:05:44,852 --> 00:05:47,979
+I'll just need list.h,
+
+90
+00:05:48,549 --> 00:05:51,787
+we don't return anything,
+
+91
+00:05:51,787 --> 00:05:56,534
+I take a t_list *list as a parameter.
+
+92
+00:05:58,364 --> 00:05:59,670
+So,
+
+93
+00:06:00,551 --> 00:06:03,473
+I want to display str, which is a char *
+
+94
+00:06:03,473 --> 00:06:08,639
+we're going to use ft_pustr(list->str)
+
+95
+00:06:08,639 --> 00:06:11,809
+not particularly difficult.
+
+96
+00:06:11,809 --> 00:06:16,719
+I'll have to print the data from all of my links,
+
+97
+00:06:16,719 --> 00:06:20,339
+so I'm gonna need a <b>while</b>
+
+98
+00:06:21,394 --> 00:06:23,980
+but how will it stop?
+
+99
+00:06:23,980 --> 00:06:28,291
+If I go back to my schema
+
+100
+00:06:29,061 --> 00:06:32,514
+the next is equal to the address
+
+101
+00:06:32,514 --> 00:06:34,364
+of our 2nd link in the list.
+
+102
+00:06:34,364 --> 00:06:39,106
+So if I do list->next, in our 3rd case,
+
+103
+00:06:39,106 --> 00:06:41,076
+list is here, containing "tutu",
+
+104
+00:06:41,076 --> 00:06:46,016
+->next brings us to the link containing "tata".
+
+105
+00:06:46,016 --> 00:06:48,197
+So I moved on to the 2nd element.
+
+106
+00:06:48,197 --> 00:06:50,447
+If I do ->next again, I will reach
+
+107
+00:06:50,447 --> 00:06:53,250
+the 3rd element which contains "toto".
+
+108
+00:06:53,250 --> 00:06:56,411
+Doing -> one more time, I'll reach
+
+109
+00:06:56,411 --> 00:06:59,999
+a pointer which points to NULL.
+
+110
+00:06:59,999 --> 00:07:02,707
+Looks like an exit condition...
+
+111
+00:07:02,707 --> 00:07:03,659
+So,
+
+112
+00:07:04,025 --> 00:07:07,043
+let's say that list=list->next
+
+113
+00:07:07,043 --> 00:07:11,515
+doing this, list->next will bring me to "tata"
+
+114
+00:07:11,515 --> 00:07:13,136
+list is now equal to the link
+
+115
+00:07:13,136 --> 00:07:14,211
+containing "tata".
+
+116
+00:07:14,211 --> 00:07:17,082
+If I do list->next again, I'll reach
+
+117
+00:07:17,082 --> 00:07:19,413
+the link containing "toto".
+
+118
+00:07:20,303 --> 00:07:23,687
+As long as list != NULL.
+
+119
+00:07:25,927 --> 00:07:30,251
+Let's compile and test this.
+
+120
+00:07:32,405 --> 00:07:35,955
+And if I launch the program, I have "tutu tata toto".
+
+121
+00:07:35,955 --> 00:07:38,106
+What does this mean?
+
+122
+00:07:39,676 --> 00:07:43,030
+The most perceptive of you will note
+
+123
+00:07:43,030 --> 00:07:47,068
+that I first created "toto", then "tata", and then "tutu",
+
+124
+00:07:47,068 --> 00:07:50,818
+but we can read "tutu", "tata", "toto".
+
+125
+00:07:50,818 --> 00:07:53,432
+Let's go back to my schema
+
+126
+00:07:55,302 --> 00:07:58,248
+We can notice that, every time,
+
+127
+00:07:58,248 --> 00:08:01,174
+the head of my list is moved to the element I just created.
+
+128
+00:08:01,174 --> 00:08:04,835
+Therefore, my list will be in reverse from the way I created it.
+

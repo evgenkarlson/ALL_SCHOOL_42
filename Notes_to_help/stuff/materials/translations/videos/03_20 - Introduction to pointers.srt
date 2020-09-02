@@ -1,0 +1,135 @@
+1
+00:00:06,243 --> 00:00:10,243
+Hello and welcome to day 03, Pointers day!
+
+2
+00:00:10,525 --> 00:00:14,525
+Pointers are a new variable type that I am going to teach you.
+
+3
+00:00:14,947 --> 00:00:18,947
+It's one of the most useful type of variables in C.
+
+4
+00:00:18,947 --> 00:00:22,947
+It's the one that'll allow you to possess another variable's address
+
+5
+00:00:22,947 --> 00:00:24,887
+and modify it remotely.
+
+6
+00:00:24,952 --> 00:00:27,952
+And that's what we're going to have a look at in a few moments.
+
+7
+00:00:28,068 --> 00:00:31,698
+In order to use pointers, you need to understand something important first,
+
+8
+00:00:31,698 --> 00:00:33,948
+that something is Memory.
+
+9
+00:00:34,006 --> 00:00:39,906
+When a process is launched, it has the right to virtually have all the existing memory.
+
+10
+00:00:40,884 --> 00:00:44,884
+With 32 bits we'll be at 4GB and with 64 bits, we'll be at much more
+
+11
+00:00:44,909 --> 00:00:48,909
+I don't know the numbers by heart... But it's 2 to the power of 64...
+
+12
+00:00:48,909 --> 00:00:52,139
+There. You do the maths.
+
+13
+00:00:52,419 --> 00:00:54,649
+So this is virtual memory.
+
+14
+00:00:54,695 --> 00:00:58,695
+Which means than behind this memory, whether it's mapped somewhere on the RAM,
+
+15
+00:00:58,695 --> 00:01:02,695
+or on the hard drive, or wherever else... Do some research. And check out "swap",
+
+16
+00:01:02,695 --> 00:01:06,355
+and you might understand this better...
+
+17
+00:01:06,484 --> 00:01:10,484
+This memory is mapped by something called MMU,
+
+18
+00:01:10,484 --> 00:01:14,484
+which allows you to reserve memory somewhere, physically on the computer.
+
+19
+00:01:14,507 --> 00:01:20,187
+However, a given process has its own memory, and it does what it wants with it.
+
+20
+00:01:20,830 --> 00:01:24,830
+The memory is divided into two parts : high memory and low memory.
+
+21
+00:01:25,296 --> 00:01:30,076
+We call high memory, "stack". Dunno if you've hear this before, but ...
+
+22
+00:01:30,726 --> 00:01:34,726
+the stack... every time you call a function,
+
+23
+00:01:34,726 --> 00:01:38,726
+every time you do anything, etc... when you type "int a;" for example,
+
+24
+00:01:38,726 --> 00:01:42,726
+in your main, let's say... You've just allocated 4 bits, or 8,
+
+25
+00:01:42,739 --> 00:01:46,739
+depending on which architecture we're using, on the stack.
+
+26
+00:01:46,741 --> 00:01:50,261
+So on the high part of the memory.
+
+27
+00:01:50,282 --> 00:01:54,032
+So you're all the way at the top, at the level of 2 to the power of 64,
+
+28
+00:01:54,032 --> 00:01:57,082
+And little by little, you go down, along with the stack.
+
+29
+00:01:57,114 --> 00:02:00,384
+The more elements you add, the further down the stack you'll go.
+
+30
+00:02:00,591 --> 00:02:04,591
+On the other hand, you've got low memory. Also called "heap"
+
+31
+00:02:04,682 --> 00:02:07,022
+A notion we'll explore some other day.
+
+32
+00:02:07,044 --> 00:02:09,564
+The heap is the place where you can allocate memory.
+
+33
+00:02:09,564 --> 00:02:11,984
+Again, that's for another day.
+
+34
+00:02:12,293 --> 00:02:16,293
+In the next videos, we'll learn how pointers work and what they're for, etc...

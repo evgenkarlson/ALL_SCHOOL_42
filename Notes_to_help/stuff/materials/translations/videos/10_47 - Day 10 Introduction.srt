@@ -1,0 +1,35 @@
+1
+00:00:06,000 --> 00:00:10,970
+Hello, and welcome to this Day 10 of C bootcamp
+
+2
+00:00:11,440 --> 00:00:14,840
+I hope that the previous days went well
+
+3
+00:00:15,000 --> 00:00:17,400
+and that this one will also be a great success.
+
+4
+00:00:17,570 --> 00:00:19,980
+We'll gonna learn various new concepts,
+
+5
+00:00:20,130 --> 00:00:23,850
+2 of which in particular : a new tool called <b>Makefile</b>
+
+6
+00:00:24,000 --> 00:00:28,180
+that will make your compilations easier
+
+7
+00:00:28,450 --> 00:00:31,431
+and a new C feature : <b>pointers to functions</b>.
+
+8
+00:00:33,466 --> 00:00:36,756
+which will make your code a little more modular, more interesting.
+
+9
+00:00:36,760 --> 00:00:39,750
+See you in a bit to talk about <b>Makefile</b>s.

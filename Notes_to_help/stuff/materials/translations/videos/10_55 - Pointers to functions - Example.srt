@@ -1,0 +1,372 @@
+1
+00:00:06,383 --> 00:00:09,613
+You now know how to declare and use a pointer to function
+
+2
+00:00:09,613 --> 00:00:10,823
+in your programs.
+
+3
+00:00:10,823 --> 00:00:13,883
+But you may be wondering what's the point of this,
+
+4
+00:00:13,883 --> 00:00:16,883
+because if we already have the possibility to call functions in
+
+5
+00:00:16,883 --> 00:00:20,043
+a normal way, why bother using a complicated syntax to be able to
+
+6
+00:00:20,043 --> 00:00:22,443
+call them via a pointer to function.
+
+7
+00:00:22,443 --> 00:00:25,533
+This is an excellent question, and of course,
+
+8
+00:00:25,533 --> 00:00:27,623
+you can still use this technique.
+
+9
+00:00:27,623 --> 00:00:30,733
+However, you have to remember that, as you'll discover,
+
+10
+00:00:30,733 --> 00:00:33,943
+there are certain particular cases where pointers to function
+
+11
+00:00:33,943 --> 00:00:36,763
+can be really helpful but mostly, they can render your code
+
+12
+00:00:36,763 --> 00:00:39,113
+more readable and more stable.
+
+13
+00:00:39,113 --> 00:00:41,223
+How about I show you some examples?
+
+14
+00:00:41,223 --> 00:00:44,383
+These example will show you that pointers to functions are totally
+
+15
+00:00:44,383 --> 00:00:45,793
+appropriate for our solution.
+
+16
+00:00:45,793 --> 00:00:48,673
+What you need to understand, before checking out the example,
+
+17
+00:00:48,673 --> 00:00:51,643
+is that I chose to show it to you in pseudo-code, and not in C,
+
+18
+00:00:51,643 --> 00:00:54,723
+because if I showed you the real code in C,
+
+19
+00:00:54,723 --> 00:00:57,893
+you'd have all the answers for today's exercises,
+
+20
+00:00:57,893 --> 00:01:00,213
+and you know it's not the point.
+
+21
+00:01:00,213 --> 00:01:03,663
+So, today we're going to see a syntax that doesn't exist,
+
+22
+00:01:03,663 --> 00:01:05,983
+that I've invented for this demonstration.
+
+23
+00:01:05,983 --> 00:01:08,293
+Just enough for you to get how to use
+
+24
+00:01:08,293 --> 00:01:09,553
+pointers to function.
+
+25
+00:01:09,553 --> 00:01:12,073
+You'll have to transcribe this example in C,
+
+26
+00:01:12,073 --> 00:01:15,803
+in order to use it normally. But that's something you'll do on your own.
+
+27
+00:01:15,803 --> 00:01:18,943
+The example I'm offering is to imagine we're in a situation
+
+28
+00:01:18,943 --> 00:01:22,343
+where we have 3 functions which allow us
+
+29
+00:01:22,343 --> 00:01:27,213
+to write an arbitrary data,
+
+30
+00:01:27,213 --> 00:01:30,493
+either on the standard output, thanks to put_stdout(),
+
+31
+00:01:30,493 --> 00:01:32,603
+either in a file, thanks to put_file(),
+
+32
+00:01:32,603 --> 00:01:34,853
+either on the network, thanks to put_network().
+
+33
+00:01:34,853 --> 00:01:37,943
+Let's imagine we have these functions. They're implemented and are
+
+34
+00:01:37,943 --> 00:01:39,763
+perfectly functional.
+
+35
+00:01:39,763 --> 00:01:43,833
+Here, our goal will be to write a function "put" which will take 2 parameters.
+
+36
+00:01:43,833 --> 00:01:47,143
+The 1st is a parameter I've called "where"
+
+37
+00:01:47,143 --> 00:01:51,013
+which will allow us to know on which output to write : STDOUT,
+
+38
+00:01:51,013 --> 00:01:54,133
+a file, or the network.
+
+39
+00:01:54,692 --> 00:01:58,692
+The 2nd parameter, "what", represents
+
+40
+00:01:58,692 --> 00:01:59,662
+the data to write.
+
+41
+00:01:59,662 --> 00:02:02,262
+The exact type of this data isn't important, here,
+
+42
+00:02:02,262 --> 00:02:04,292
+it's just to say that it exists.
+
+43
+00:02:04,793 --> 00:02:08,793
+The naive approach, as the one you'd have had before today,
+
+44
+00:02:08,793 --> 00:02:14,303
+would be to write something like " if "where" is worth STDOUT,
+
+45
+00:02:14,303 --> 00:02:18,853
+then I'll call put_stdout(), with "what" as a parameter,
+
+46
+00:02:18,853 --> 00:02:23,323
+or else, if "where" is a file ... " See where I'm going with this.
+
+47
+00:02:23,323 --> 00:02:27,723
+The problem here, is that every time
+
+48
+00:02:27,723 --> 00:02:31,503
+you want to add a possible destination, for example, with a function
+
+49
+00:02:31,503 --> 00:02:35,183
+put_stderr() to write on the error output,
+
+50
+00:02:35,183 --> 00:02:39,923
+I'm gonna have to position myself here, and add an "else if", etc...
+
+51
+00:02:41,693 --> 00:02:44,173
+We realise that we're basically
+
+52
+00:02:44,173 --> 00:02:46,323
+growing an entire forest of IFs
+
+53
+00:02:46,323 --> 00:02:48,823
+and it's unacceptable
+
+54
+00:02:48,823 --> 00:02:51,263
+to write ugly things like this in your code.
+
+55
+00:02:51,263 --> 00:02:54,013
+A clean and efficient solution to this problematic
+
+56
+00:02:54,013 --> 00:02:56,903
+is to use a set of pointers to functions
+
+57
+00:02:56,903 --> 00:02:59,423
+to be able to call the right function.
+
+58
+00:02:59,423 --> 00:03:00,783
+Let's see what we have here.
+
+59
+00:03:00,783 --> 00:03:04,983
+We have 3 functions:put_stdout(), put_file() and put_network(),
+
+60
+00:03:04,983 --> 00:03:07,523
+which will all have the same prototype.
+
+61
+00:03:07,563 --> 00:03:11,443
+They don't return anything in particular, and all take the argument "what"
+
+62
+00:03:11,443 --> 00:03:13,833
+as a parameter, to write it where it should.
+
+63
+00:03:13,833 --> 00:03:17,833
+So it'll be possible for us to regroup a bunch of pointers to these functions
+
+64
+00:03:17,833 --> 00:03:23,453
+in an array, and associate to each entry
+
+65
+00:03:23,453 --> 00:03:27,453
+the moment we'll want to use it, and so, if we're asked for an STDOUT,
+
+66
+00:03:27,453 --> 00:03:32,373
+a file or a network, and, in pair, the function to use in this case.
+
+67
+00:03:33,493 --> 00:03:36,923
+The pseudo-code would look something like this.
+
+68
+00:03:37,373 --> 00:03:40,553
+Let's imagine our array of pointers to functions,
+
+69
+00:03:40,553 --> 00:03:45,963
+which would be made of a list of pairs, for example an array of pairs,
+
+70
+00:03:45,963 --> 00:03:51,233
+or what you want to do in C, where we'd have, as a first information.
+
+71
+00:03:51,984 --> 00:03:55,414
+where to write, in which case selecting this array's entry,
+
+72
+00:03:55,414 --> 00:03:59,634
+and as a second info, a pointer to the function that needs to be used
+
+73
+00:03:59,634 --> 00:04:01,234
+in this case.
+
+74
+00:04:01,234 --> 00:04:04,264
+Which will allow us, below, in our function put(),
+
+75
+00:04:04,264 --> 00:04:07,234
+to lighten the code, and make it much more practical,
+
+76
+00:04:07,234 --> 00:04:10,754
+keeping in mind we're still taking "where" and "what" as parameters,
+
+77
+00:04:11,452 --> 00:04:14,112
+then we'll simply do a loop.
+
+78
+00:04:14,112 --> 00:04:17,272
+In my pseudo-code, I've used the keyword "for",
+
+79
+00:04:17,272 --> 00:04:21,062
+but you'll use "while", or recursion, up to you.
+
+80
+00:04:21,952 --> 00:04:26,372
+So, for each entry in my array, I'm gonna have a couple
+
+81
+00:04:26,372 --> 00:04:29,442
+the "where" of reference, and the function put_...() associated,
+
+82
+00:04:29,442 --> 00:04:35,162
+and I'll check whether the "where" that I was asked to use
+
+83
+00:04:35,162 --> 00:04:37,782
+corresponds to the "where" in our array.
+
+84
+00:04:37,782 --> 00:04:41,782
+If it's the case, then I'll use the associated put_...() function,
+
+85
+00:04:41,782 --> 00:04:44,512
+else, if nothing happens, the array keeps looping
+
+86
+00:04:44,512 --> 00:04:48,042
+until we find the right function, or if we don't, we'll have to
+
+87
+00:04:48,042 --> 00:04:50,772
+handle error cases, but this is going
+
+88
+00:04:50,772 --> 00:04:52,462
+further than this exercise's goal.
+
+89
+00:04:52,462 --> 00:04:56,452
+This is a canonic shape in programming.
+
+90
+00:04:56,452 --> 00:04:59,342
+You'll realise that you'll sometimes come across
+
+91
+00:04:59,342 --> 00:05:02,642
+this kind of situation, and in those moments, it could be interesting
+
+92
+00:05:02,642 --> 00:05:06,642
+to remember pointers to functions, to know how to use them appropriately.
+
+93
+00:05:07,839 --> 00:05:10,859
+See you in a moment for the conclusion of today's lesson.
+

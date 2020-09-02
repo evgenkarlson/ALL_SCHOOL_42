@@ -1,0 +1,135 @@
+1
+00:00:06,240 --> 00:00:08,360
+Hello, and welcome to D07 of the C bootcamp.
+
+2
+00:00:08,970 --> 00:00:11,680
+We're now going to explore the stages of compilation
+
+3
+00:00:12,200 --> 00:00:18,040
+Up till now, you were used to
+
+4
+00:00:18,041 --> 00:00:21,170
+compiling your files.c
+
+5
+00:00:21,170 --> 00:00:23,080
+to get an executable.
+
+6
+00:00:23,080 --> 00:00:27,000
+Let's start with an example. Here's my main.c,
+
+7
+00:00:27,000 --> 00:00:31,690
+with a putstr and a putchar.
+
+8
+00:00:31,690 --> 00:00:34,331
+It needs both to compile.
+
+9
+00:00:34,480 --> 00:00:40,560
+So we compile main.c with ft_putchar and ft_putstr.
+
+10
+00:00:41,280 --> 00:00:45,471
+It'll produce an executable "j07" (d07), with the "-o" option.
+
+11
+00:00:47,480 --> 00:00:53,560
+Let's launch "j07", which displays "42", followed by a line break.
+
+12
+00:00:55,020 --> 00:00:58,780
+Let's now divide this compilation into two stages.
+
+13
+00:00:59,527 --> 00:01:04,650
+In the first stage we'll compile our files.c in computer langage...
+
+14
+00:01:05,920 --> 00:01:10,120
+files.c to files.o
+
+15
+00:01:11,010 --> 00:01:13,614
+And then we'll go through another stage, called "linkage"
+
+16
+00:01:14,240 --> 00:01:17,306
+where we'll use the files.o to generate an executable.
+
+17
+00:01:19,200 --> 00:01:28,520
+Let's delete "j07" and compile our files, one by one, with the "-c" option.
+
+18
+00:01:28,520 --> 00:01:30,180
+which will just do the compiling.
+
+19
+00:01:31,480 --> 00:01:34,080
+For example, let's start with "ft_putstr".
+
+20
+00:01:36,671 --> 00:01:42,520
+It compiles. We don't have an executable upon completion, but ft_putstr.o is here.
+
+21
+00:01:45,031 --> 00:01:51,240
+Same thing for ft_putchar. Then with main.c
+
+22
+00:01:55,280 --> 00:01:59,740
+So we have putchar.o, putstr.o and main.o.
+
+23
+00:02:01,110 --> 00:02:06,550
+All that's left to do is to link those files.o.
+
+24
+00:02:12,470 --> 00:02:15,290
+still "j07" as the executable's name.
+
+25
+00:02:18,040 --> 00:02:21,680
+We get the same thing. Why do we do this?
+
+26
+00:02:22,200 --> 00:02:25,960
+If you've started working on bigger projects...
+
+27
+00:02:26,520 --> 00:02:28,240
+... with many files and functions,
+
+28
+00:02:28,560 --> 00:02:32,050
+This will allow you to take your files one by one and only recompile
+
+29
+00:02:32,050 --> 00:02:34,880
+the file you've modified. By using your Makefile.
+
+30
+00:02:37,194 --> 00:02:45,040
+If we modified ft_putchar.c, we could simply just recompile it's .o ...
+
+31
+00:02:51,740 --> 00:02:56,980
+I've recompiled my putchar.c into a .o, then re-link with my files.o
+
+32
+00:02:58,200 --> 00:02:59,400
+into a new executable.
+
+33
+00:03:00,330 --> 00:03:04,130
+This will allow you to go much faster, and to compile less code each time,
+
+34
+00:03:04,130 --> 00:03:08,680
+instead of recompiling everything.

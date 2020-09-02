@@ -1,0 +1,199 @@
+1
+00:00:06,188 --> 00:00:07,038
+Hello,
+
+2
+00:00:07,038 --> 00:00:10,308
+In this video, I'm going to show you how to use preprocessor commands
+
+3
+00:00:10,308 --> 00:00:16,338
+in order to remove or add "code" elements to a file.c, for example.
+
+4
+00:00:16,848 --> 00:00:18,323
+This will often get used in files.h,
+
+5
+00:00:18,323 --> 00:00:21,323
+and I think I'll get back to that in the following video.
+
+6
+00:00:21,323 --> 00:00:27,713
+They're called: "if...", "ifdef", "ifndef", "endif" & "elif".
+
+7
+00:00:28,797 --> 00:00:30,987
+Let me use an example, it'll be better.
+
+8
+00:00:30,987 --> 00:00:32,597
+Here I have my main.c
+
+9
+00:00:33,527 --> 00:00:35,117
+and I'm gonna do a "#" ...
+
+10
+00:00:35,117 --> 00:00:37,527
+You've seen "defines", we're gonna use that
+
+11
+00:00:37,527 --> 00:00:38,867
+I'm gonna use "ifdef".
+
+12
+00:00:40,508 --> 00:00:47,338
+If there exists a "define" of, let's say, "TOTO", then I'm going to do things...
+
+13
+00:00:50,818 --> 00:00:54,058
+For example, my main will be written.
+
+14
+00:00:54,058 --> 00:00:54,858
+Otherwise,
+
+15
+00:00:56,988 --> 00:01:00,478
+if "TOTO" hasn't been defined, The main won't even show.
+
+16
+00:01:00,478 --> 00:01:09,328
+Basically, "ifdef" means : if "TOTO" is defined, whatever is between <b>#</b> and <b>endif</b>
+
+17
+00:01:09,328 --> 00:01:12,578
+will be added to the file. Otherwise, it won't be.
+
+18
+00:01:13,002 --> 00:01:16,242
+So, here, has "TOTO" been defined? No.
+
+19
+00:01:16,242 --> 00:01:19,222
+As is hasn't been defined, if I do : "cpp main.c",
+
+20
+00:01:19,777 --> 00:01:21,237
+There's nothing anymore.
+
+21
+00:01:23,147 --> 00:01:25,267
+Same thing the other way round: "ifndef"
+
+22
+00:01:26,167 --> 00:01:34,157
+it means: if "TOTO" has not been defined, then, whatever's between <b>#ifndef</b>
+
+23
+00:01:34,157 --> 00:01:37,997
+and the corresponding <b>endif</b>, should be displayed onscreen.
+
+24
+00:01:40,663 --> 00:01:42,313
+This time my main came back.
+
+25
+00:01:44,101 --> 00:01:48,361
+We could assemble them. For example we could do:
+
+26
+00:01:48,361 --> 00:01:52,581
+if "ifndef TITI"
+
+27
+00:01:54,604 --> 00:01:56,254
+and add another "endif" here.
+
+28
+00:01:58,387 --> 00:02:01,928
+That would mean that if "TOTO" hasn't been defined,
+
+29
+00:02:01,928 --> 00:02:05,408
+we'll display what's between this "endif" and this "ifndef".
+
+30
+00:02:05,408 --> 00:02:07,878
+and if "TITI" hasn't been defined,
+
+31
+00:02:07,878 --> 00:02:11,258
+it'll display only what's between this "ifndef" and this "endif".
+
+32
+00:02:12,434 --> 00:02:14,712
+So normally, my main should appear.
+
+33
+00:02:14,712 --> 00:02:17,182
+Because neither TOTO nor TITI have been defined.
+
+34
+00:02:17,182 --> 00:02:17,982
+Let's see.
+
+35
+00:02:18,379 --> 00:02:19,679
+The main has reappeared !
+
+36
+00:02:20,025 --> 00:02:23,345
+Now, in order to define "TOTO", we've seen <b>define</b>s,
+
+37
+00:02:23,345 --> 00:02:25,155
+I told you we could use them as macros
+
+38
+00:02:25,155 --> 00:02:27,455
+but we could also just use them to define "TOTO".
+
+39
+00:02:27,455 --> 00:02:29,201
+If I write this... It's valid.
+
+40
+00:02:29,201 --> 00:02:32,721
+It means "TOTO" won't be replaced by anything. That's okay.
+
+41
+00:02:32,721 --> 00:02:36,631
+but for the preprocessor, "TOTO" is something that exists.
+
+42
+00:02:37,079 --> 00:02:39,036
+So, normally...
+
+43
+00:02:39,036 --> 00:02:42,736
+Again, "ifndef" means that "TOTO" hasn't been defined.
+
+44
+00:02:42,736 --> 00:02:46,216
+as we've now defined it, my main's disappeared.
+
+45
+00:02:47,806 --> 00:02:51,686
+Along with "ifndef' and "ifdef", you also have "elif",
+
+46
+00:02:51,686 --> 00:02:55,176
+"elif" = "else if"
+
+47
+00:02:55,176 --> 00:03:00,796
+But my advice is to avoid those and rather do blocks with "ifdef" and "ifndef",
+
+48
+00:03:00,796 --> 00:03:02,186
+it'd be easier.
+
+49
+00:03:02,186 --> 00:03:05,220
+With this, you'll be able to protect your files.h
+
+50
+00:03:05,220 --> 00:03:07,800
+and that's what we'll see in the next video.

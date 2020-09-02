@@ -1,0 +1,500 @@
+1
+00:00:05,783 --> 00:00:08,493
+In this first video, I'm going to
+explain how to use
+
+2
+00:00:08,493 --> 00:00:11,423
+binary trees in their most simple form.
+
+3
+00:00:11,423 --> 00:00:13,663
+What's a binary tree?
+
+4
+00:00:13,663 --> 00:00:17,003
+It's a data structure which allows us
+to store and organise elements
+
+5
+00:00:17,003 --> 00:00:21,593
+of any type, the same way a chained
+list would.
+
+6
+00:00:21,593 --> 00:00:26,723
+Except that a chained list only has
+one following element.
+
+7
+00:00:26,723 --> 00:00:29,883
+Here, you'll have two: right and left.
+
+8
+00:00:30,553 --> 00:00:33,553
+Let me show you how a tree looks
+like schematically.
+
+9
+00:00:40,332 --> 00:00:42,782
+So this is a tree. Super pretty.
+
+10
+00:00:43,404 --> 00:00:46,334
+You can see that's it's organised
+in a strange manner.
+
+11
+00:00:47,714 --> 00:00:49,414
+How is it sorted?
+
+12
+00:00:49,414 --> 00:00:53,414
+It's simple. For each node, you'll have
+
+13
+00:00:53,414 --> 00:00:55,884
+on the left, all elements that are 
+inferior to it,
+
+14
+00:00:55,884 --> 00:00:58,794
+on the right, all elements that are 
+superior or equal to it.
+
+15
+00:00:58,794 --> 00:01:01,422
+If I take any node to compare it to
+another,
+
+16
+00:01:01,422 --> 00:01:05,052
+for example, 2 compared to 4. 
+4 > 2,
+
+17
+00:01:05,052 --> 00:01:06,472
+so it's on the right.
+
+18
+00:01:06,472 --> 00:01:09,702
+If I take 0, it's inferior to 2,
+so it's on the left.
+
+19
+00:01:09,702 --> 00:01:13,582
+And if I take 1, it's smaller than 2,
+
+20
+00:01:13,582 --> 00:01:16,943
+but superior or equal to the other 1,
+so it's in the right place.
+
+21
+00:01:17,303 --> 00:01:19,563
+That's how a binary tree is sorted.
+
+22
+00:01:20,063 --> 00:01:23,603
+What's the point of using binary trees,
+when it comes to a list?
+
+23
+00:01:24,043 --> 00:01:26,933
+With the tree, the traversal 
+is much faster.
+
+24
+00:01:27,042 --> 00:01:30,492
+I'm going to transcribe my tree
+into the shape of a list, like here.
+
+25
+00:01:33,854 --> 00:01:35,974
+See, same elements are sorted.
+
+26
+00:01:35,974 --> 00:01:39,974
+Imagine, for example, that I'm looking
+for the 4. So the worst case scenario.
+
+27
+00:01:39,974 --> 00:01:44,354
+I'm gonna have to take one, two, three,
+four, five, six paths.
+
+28
+00:01:44,354 --> 00:01:46,644
+So I have to do six jumps to
+reach my 4.
+
+29
+00:01:46,644 --> 00:01:52,794
+Whereas in my tree, I do one... two...
+three.
+
+30
+00:01:52,794 --> 00:01:54,724
+So half as many.
+
+31
+00:01:54,724 --> 00:01:57,274
+This allows us to go faster.
+
+32
+00:01:57,274 --> 00:02:00,564
+And it'll be very useful when you'll
+have to store
+
+33
+00:02:00,564 --> 00:02:02,584
+a large amount of data.
+
+34
+00:02:02,584 --> 00:02:06,004
+That's actually what databases 
+use to store multiple
+
+35
+00:02:06,004 --> 00:02:07,404
+elements together.
+
+36
+00:02:08,943 --> 00:02:12,944
+Another case of binary tree usage,
+is with certain types of parsers.
+
+37
+00:02:12,944 --> 00:02:16,944
+You'll learn about that later, it's
+not today's topic.
+
+38
+00:02:17,372 --> 00:02:20,692
+It allows us to store other things,
+such as tokens.
+
+39
+00:02:23,353 --> 00:02:25,713
+What does a binary tree look like in C?
+
+40
+00:02:31,333 --> 00:02:32,523
+It looks like this.
+
+41
+00:02:32,523 --> 00:02:35,173
+Here we have the complicated shape
+of the binary tree.
+
+42
+00:02:35,173 --> 00:02:36,923
+Considering we have a parent, too.
+
+43
+00:02:36,923 --> 00:02:41,973
+So we have a structure s_btree,
+which is a node from the tree.
+
+44
+00:02:42,432 --> 00:02:46,432
+It has a parent, the equivalent of
+"previous" in a double chained list,
+
+45
+00:02:46,432 --> 00:02:51,532
+and has two children: right and left.
+
+46
+00:02:51,562 --> 00:02:56,432
+And then data, to store data.
+
+47
+00:02:58,612 --> 00:03:00,382
+How to traverse a tree?
+
+48
+00:03:00,382 --> 00:03:02,402
+You've seen it is weirdly sorted.
+
+49
+00:03:03,502 --> 00:03:07,502
+There are many techniques, depending
+on what you want to do with them.
+
+50
+00:03:08,462 --> 00:03:10,462
+Let me show you the diagram.
+
+51
+00:03:13,113 --> 00:03:16,843
+The first type of traversal is the
+Depth-first order traversal,
+
+52
+00:03:17,432 --> 00:03:20,752
+meaning we'll retrieve the sorted
+elements in the fist case,
+
+53
+00:03:20,952 --> 00:03:23,212
+knowing there are different 
+variations.
+
+54
+00:03:23,212 --> 00:03:26,942
+The most common type of traversal is :
+I'm scanning through the right,
+
+55
+00:03:26,942 --> 00:03:29,362
+I'm scanning myself,
+I'm scanning through the left,
+
+56
+00:03:29,362 --> 00:03:32,492
+Or the other way around:
+left-me-right.
+
+57
+00:03:33,796 --> 00:03:39,106
+If we base our example on this tree,
+I'm starting on the first node,
+
+58
+00:03:40,491 --> 00:03:45,411
+I'm going to the left, and again,
+
+59
+00:03:46,564 --> 00:03:50,204
+Here I don't have a left side nor a 
+right side, so I'll display myself (0).
+
+60
+00:03:50,282 --> 00:03:54,802
+Going back up, displaying myself (1),
+going to the right (1),
+
+61
+00:03:55,725 --> 00:03:59,585
+going back up, displaying myself (2),
+going to the right
+
+62
+00:04:00,509 --> 00:04:07,319
+(3, as there's nothing on the left) and
+then I go back to the right and display 4.
+
+63
+00:04:08,112 --> 00:04:11,652
+That's in-order traversal.
+
+64
+00:04:13,230 --> 00:04:17,839
+There's also the pre-order traversal,
+which looks like in-order traversal,
+
+65
+00:04:17,839 --> 00:04:19,600
+exept here, we display before.
+
+66
+00:04:19,600 --> 00:04:26,940
+It'd look like this:
+2-1-0-1-3-4.
+
+67
+00:04:27,953 --> 00:04:30,743
+In the post-order traversal, we display 
+after, but we're not
+
+68
+00:04:30,743 --> 00:04:32,003
+going to do them all.
+
+69
+00:04:32,003 --> 00:04:34,873
+The second case of traversal is
+the Breadth-first traversal.
+
+70
+00:04:35,062 --> 00:04:38,512
+In this case, I'll read it myself.
+
+71
+00:04:39,442 --> 00:04:42,062
+Then I'll read my children,
+
+72
+00:04:42,062 --> 00:04:44,002
+then my children's children...
+by level.
+
+73
+00:04:44,002 --> 00:04:50,702
+I'd get something like this:
+2-1-3-0-1-4.
+
+74
+00:04:52,216 --> 00:04:55,226
+It's a little different. 
+A little more complicated
+
+75
+00:04:55,226 --> 00:04:56,756
+to implement in C.
+
+76
+00:04:56,756 --> 00:05:00,106
+In the case of an in-depth traversal,
+we use a DFS.
+
+77
+00:05:00,106 --> 00:05:01,496
+Google it.
+
+78
+00:05:01,496 --> 00:05:03,806
+For the breath-first traversal, 
+we use a BFS,
+
+79
+00:05:03,806 --> 00:05:06,456
+You can google it too, if you're curious.
+
+80
+00:05:07,017 --> 00:05:09,097
+So, that's how you do traversal.
+
+81
+00:05:10,369 --> 00:05:12,909
+One of binary trees' disadvantage
+compared to lists,
+
+82
+00:05:12,909 --> 00:05:15,089
+is that the insertion is more complicated.
+
+83
+00:05:15,089 --> 00:05:19,809
+Here, if you want to add elements,
+it's a bit tricky,
+
+84
+00:05:19,809 --> 00:05:22,415
+so we use what's called dichotomy.
+
+85
+00:05:23,082 --> 00:05:27,922
+It consists of testing a value,
+e.g.: the first one you
+
+86
+00:05:27,922 --> 00:05:29,502
+come across in the tree.
+
+87
+00:05:29,502 --> 00:05:31,602
+Let's say you want to insert -1.
+
+88
+00:05:32,293 --> 00:05:34,833
+Here, you'll check whether -1 is smaller.
+
+89
+00:05:34,833 --> 00:05:35,673
+It is.
+
+90
+00:05:35,703 --> 00:05:37,763
+So you go on the left.
+
+91
+00:05:37,763 --> 00:05:40,053
+Check if -1 is still smaller.
+
+92
+00:05:40,053 --> 00:05:41,353
+It is.
+Going on the left.
+
+93
+00:05:41,353 --> 00:05:43,913
+It's the case here too, so you'll
+add a -1 here.
+
+94
+00:05:43,913 --> 00:05:46,083
+So it'll be the left child of 0.
+
+95
+00:05:46,803 --> 00:05:49,913
+Now let's imagine you want to add
+a 1, or another 0.
+
+96
+00:05:50,872 --> 00:05:54,572
+You'll check if 0 is smaller than 2.
+Yes. So you're gonna go on the 1,
+
+97
+00:05:55,302 --> 00:05:58,722
+check if 0 is smaller than 1. Yes.
+You go here.
+
+98
+00:05:58,733 --> 00:06:02,733
+Here, it's superior or equal, so
+you'll add it on the right.
+
+99
+00:06:03,930 --> 00:06:06,470
+And you've just done an insertion 
+in a tree.
+
+100
+00:06:06,782 --> 00:06:10,782
+This type of binary tree isn't necessarily
+adapted to all cases.
+
+101
+00:06:11,312 --> 00:06:17,362
+Imagine I inserted all my elements in
+a certain order, and end up
+
+102
+00:06:17,362 --> 00:06:19,222
+with something like this.
+
+103
+00:06:20,373 --> 00:06:23,213
+I've inserted 10, then 9, then 8, then 7,
+then 6.
+
+104
+00:06:23,474 --> 00:06:29,004
+My 10 has an element on the left,
+but none on the right.
+
+105
+00:06:29,004 --> 00:06:31,984
+Same for the 9, etc... to infinity.
+
+106
+00:06:32,683 --> 00:06:35,313
+It looks more like a comb than a tree.
+
+107
+00:06:35,313 --> 00:06:39,313
+So we look the speed, and waste memory
+
+108
+00:06:39,313 --> 00:06:42,213
+by having 2 nodes every time, when we only
+use one.
+
+109
+00:06:42,213 --> 00:06:46,033
+In the next video, I'll show you 
+how to solve this problem.
+

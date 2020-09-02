@@ -1,0 +1,191 @@
+1
+00:00:06,230 --> 00:00:09,011
+Now let's learn how to write in a file descriptor.
+
+2
+00:00:09,051 --> 00:00:10,441
+We'll use the system call
+
+3
+00:00:10,451 --> 00:00:12,661
+<b>write</b>, which takes 3 parameters.
+
+4
+00:00:12,661 --> 00:00:15,397
+The 1st parameter is the File Descriptor we'll write in.
+
+5
+00:00:15,397 --> 00:00:18,417
+The 2nd parameter is what we want to write.
+
+6
+00:00:18,417 --> 00:00:21,117
+The 3rd parameter is the number of bytes we need.
+
+7
+00:00:21,367 --> 00:00:23,887
+Write returns the number of bytes written
+
+8
+00:00:23,887 --> 00:00:25,067
+or -1 in case of error.
+
+9
+00:00:27,505 --> 00:00:29,775
+So here's my opening file function
+
+10
+00:00:31,035 --> 00:00:33,715
+and I'm gonna create a function ft_putchar()
+
+11
+00:00:33,782 --> 00:00:36,162
+which takes a file descriptor
+
+12
+00:00:36,162 --> 00:00:39,582
+and a character as parameters.
+
+13
+00:00:41,487 --> 00:00:45,307
+In the FD we'll write the character
+
+14
+00:00:45,307 --> 00:00:46,347
+in 1 byte.
+
+15
+00:00:48,324 --> 00:00:49,904
+I'll call this function
+
+16
+00:00:49,904 --> 00:00:51,974
+right after opening the file
+
+17
+00:00:54,596 --> 00:00:55,816
+to write a "z".
+
+18
+00:00:58,242 --> 00:01:00,552
+Compiling...
+
+19
+00:01:01,655 --> 00:01:02,435
+Launching...
+
+20
+00:01:02,841 --> 00:01:04,781
+The file "42" has been created,
+
+21
+00:01:04,781 --> 00:01:06,519
+it weighs 1 byte.
+
+22
+00:01:06,519 --> 00:01:08,769
+If we look inside, there is a "z".
+
+23
+00:01:09,493 --> 00:01:11,323
+Let's do it again.
+
+24
+00:01:12,236 --> 00:01:14,016
+There still is only one "z".
+
+25
+00:01:14,776 --> 00:01:17,356
+That's when the Open flags I was talking about earlier
+
+26
+00:01:17,356 --> 00:01:18,986
+come in to help us.
+
+27
+00:01:21,238 --> 00:01:23,758
+So we'll ask Open to open this file
+
+28
+00:01:23,771 --> 00:01:25,981
+in APPEND mode, which will allow us
+
+29
+00:01:25,981 --> 00:01:27,911
+to write from the last byte
+
+30
+00:01:27,911 --> 00:01:28,921
+in the file.
+
+31
+00:01:30,872 --> 00:01:32,112
+Compiling again.
+
+32
+00:01:34,053 --> 00:01:35,383
+Launching again...
+
+33
+00:01:35,810 --> 00:01:38,320
+And now there are 2 "z" in my file.
+
+34
+00:01:39,072 --> 00:01:40,562
+And now 3 !
+
+35
+00:01:41,758 --> 00:01:43,658
+Let's try to write something
+
+36
+00:01:43,658 --> 00:01:45,338
+more interesting than "z".
+
+37
+00:01:46,920 --> 00:01:49,340
+I'm going to rename my putchar function
+
+38
+00:01:49,351 --> 00:01:50,881
+to putstr_fd
+
+39
+00:01:55,231 --> 00:01:57,201
+which will take a pointer to character.
+
+40
+00:02:02,347 --> 00:02:05,957
+And ask it to write "Hello World".
+
+41
+00:02:14,353 --> 00:02:15,613
+Recompiling...
+
+42
+00:02:17,832 --> 00:02:18,662
+Relaunching...
+
+43
+00:02:19,546 --> 00:02:22,186
+and now there is "Hello World"
+
+44
+00:02:22,186 --> 00:02:24,246
+entirely written in my file '42'.
+
+45
+00:02:24,246 --> 00:02:26,446
+I can launch it many times
+
+46
+00:02:26,446 --> 00:02:28,426
+it'll write the words each time.
+
+47
+00:02:29,258 --> 00:02:32,018
+This concludes the part about writing in a File Descriptor.
+
+48
+00:02:32,018 --> 00:02:34,780
+In the next video we'll learn how to read from a file.

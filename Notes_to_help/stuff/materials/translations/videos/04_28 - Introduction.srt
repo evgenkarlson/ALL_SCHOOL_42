@@ -1,0 +1,99 @@
+1
+00:00:06,102 --> 00:00:07,882
+Hello everyone,
+
+2
+00:00:07,988 --> 00:00:09,858
+and welcome to d04 of C Bootcamp.
+
+3
+00:00:09,858 --> 00:00:11,678
+Today's topic: Recursion.
+
+4
+00:00:11,853 --> 00:00:13,693
+Recursion is a programming concept
+
+5
+00:00:13,693 --> 00:00:17,123
+that might seem strange at first for some of you.
+
+6
+00:00:17,123 --> 00:00:19,543
+But we'll divide this lesson into two parts.
+
+7
+00:00:19,543 --> 00:00:21,423
+First part: Theory:
+
+8
+00:00:21,423 --> 00:00:25,213
+What is it and how will it change my life?
+
+9
+00:00:25,213 --> 00:00:27,434
+but most importantly, why should I care about recursion?
+
+10
+00:00:27,434 --> 00:00:29,714
+and then, second part, Practice:
+
+11
+00:00:29,714 --> 00:00:33,034
+We'll check out a mathematical example first,
+
+12
+00:00:33,034 --> 00:00:34,684
+then in real code.
+
+13
+00:00:34,684 --> 00:00:36,914
+To see how it works in real life.
+
+14
+00:00:36,914 --> 00:00:40,954
+make sure, before starting this lesson,
+
+15
+00:00:40,954 --> 00:00:45,204
+that you really understand how functions work:
+
+16
+00:00:45,204 --> 00:00:46,974
+how to call a function,
+
+17
+00:00:46,974 --> 00:00:48,534
+how to pass it parameters,
+
+18
+00:00:48,534 --> 00:00:50,464
+how to make it return values,
+
+19
+00:00:50,464 --> 00:00:52,064
+how it's evaluated, etc...
+
+20
+00:00:52,064 --> 00:00:53,524
+If you didn't get these facts,
+
+21
+00:00:53,524 --> 00:00:55,084
+I strongly advise you to revise
+
+22
+00:00:55,084 --> 00:00:57,173
+these notions before starting these videos.
+
+23
+00:00:57,173 --> 00:00:58,923
+Otherwise, you might get lost,
+
+24
+00:00:58,923 --> 00:01:00,520
+and end up wasting your time.
+
+25
+00:01:00,520 --> 00:01:02,060
+Let's get started.

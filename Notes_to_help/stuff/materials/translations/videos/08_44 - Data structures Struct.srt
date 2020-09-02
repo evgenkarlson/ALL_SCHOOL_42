@@ -1,0 +1,464 @@
+1
+00:00:06,533 --> 00:00:07,540
+Hello,
+
+2
+00:00:07,540 --> 00:00:08,995
+In this video,
+
+3
+00:00:08,995 --> 00:00:11,760
+I'm going to talk about a new keyword: "struct".
+
+4
+00:00:11,760 --> 00:00:15,970
+"struct" is a keyword that will allow you to create groups of data,
+
+5
+00:00:15,970 --> 00:00:18,281
+which will be linked all together.
+
+6
+00:00:18,281 --> 00:00:20,343
+we call this a structure, actually.
+
+7
+00:00:20,343 --> 00:00:23,418
+and we'll see that in a moment, I'm going to show you an example.
+
+8
+00:00:23,418 --> 00:00:25,813
+Imagine we have a problem, and want to do
+
+9
+00:00:25,813 --> 00:00:28,023
+geometric calculations on ... points.
+
+10
+00:00:28,291 --> 00:00:29,511
+Imagine.
+
+11
+00:00:30,278 --> 00:00:34,375
+So imagine I have 10 points in an area.
+
+12
+00:00:34,375 --> 00:00:39,267
+One of the methods to define  10 points in a 2D area,
+
+13
+00:00:39,267 --> 00:00:40,778
+with variables, we'll use ints,
+
+14
+00:00:40,778 --> 00:00:42,924
+Let's not get crazy and use "floats".
+
+15
+00:00:42,924 --> 00:00:46,134
+So you'll have the choice to do this: "int x[10]" for example.
+
+16
+00:00:46,135 --> 00:00:49,265
+So those are the "x" coordinates of your 10 points.
+
+17
+00:00:49,270 --> 00:00:54,090
+and "int y[10]" are the "y" coordinates of your 10 points.
+
+18
+00:00:54,090 --> 00:00:56,809
+You'll always have to maintain your "x" and "y" together,
+
+19
+00:00:56,810 --> 00:00:59,230
+in parallel, and position yourself with both.
+
+20
+00:00:59,230 --> 00:01:01,662
+Okay, you probably think that it's a bit boring.
+
+21
+00:01:01,662 --> 00:01:06,797
+We could have, for example, done something called "point",
+
+22
+00:01:06,818 --> 00:01:10,498
+and here we'd have put 20.
+
+23
+00:01:10,498 --> 00:01:15,760
+and said that all odd numbers are "x", and all even numbers were "y",
+
+24
+00:01:15,760 --> 00:01:17,543
+or the other way round. Same thing.
+
+25
+00:01:17,543 --> 00:01:20,163
+So every time we wanted to access a point, we'd have to
+
+26
+00:01:20,163 --> 00:01:25,273
+access a value, the "+ 1" value, and then multiply each time by 2,
+
+27
+00:01:25,273 --> 00:01:29,401
+to access the following point. It's a bit hectic.
+
+28
+00:01:29,401 --> 00:01:32,101
+Let me teach you a way to move around more smoothly
+
+29
+00:01:32,101 --> 00:01:34,861
+between points, and how to define what a point is.
+
+30
+00:01:34,861 --> 00:01:38,841
+Those are called "struct". Because, to me, a point is 2 ints.
+
+31
+00:01:38,841 --> 00:01:41,881
+So how do we write it? We declare it: "struct".
+
+32
+00:01:41,881 --> 00:01:42,811
+And then, the name.
+
+33
+00:01:42,811 --> 00:01:46,674
+For example, let's call it "s_point".
+
+34
+00:01:46,674 --> 00:01:49,072
+We can declare a structure by doing this:
+
+35
+00:01:49,072 --> 00:01:50,762
+Here, you just say that it exists
+
+36
+00:01:50,762 --> 00:01:52,593
+It's a bit like functions' prototypes
+
+37
+00:01:52,593 --> 00:01:55,544
+There'll be a difference between declaring it and defining it.
+
+38
+00:01:55,544 --> 00:01:57,225
+I'm going to define it directly.
+
+39
+00:01:57,225 --> 00:02:00,015
+To define it, just like a function, I need curly brackets.
+
+40
+00:02:00,015 --> 00:02:01,507
+and end with a "<b> ; </b>"
+
+41
+00:02:01,507 --> 00:02:02,959
+So here, in my structure,
+
+42
+00:02:02,959 --> 00:02:07,495
+I'm going to define data, that my structure possesses once I've build one.
+
+43
+00:02:07,495 --> 00:02:11,814
+So for example, an "int x" and an "int y".
+
+44
+00:02:11,814 --> 00:02:13,102
+There.
+
+45
+00:02:13,102 --> 00:02:15,834
+So, based on this, I can, for example,
+
+46
+00:02:15,834 --> 00:02:19,201
+declare a new variable,
+
+47
+00:02:19,201 --> 00:02:20,881
+of type "struct s_point".
+
+48
+00:02:20,881 --> 00:02:23,273
+We'll have to write "struct" too, that's important.
+
+49
+00:02:23,273 --> 00:02:24,757
+The keyword ahead is important.
+
+50
+00:02:24,757 --> 00:02:28,739
+For those of you who know other languages where the "struct" disappears, be careful.
+
+51
+00:02:28,739 --> 00:02:31,430
+So the "struct s_point", let's call it "a", for example.
+
+52
+00:02:31,430 --> 00:02:34,731
+And now, if I wanted to modify the "x" of my structure "a",
+
+53
+00:02:34,736 --> 00:02:37,715
+Well, I'd have to write "a.x".
+
+54
+00:02:37,715 --> 00:02:40,884
+By adding that dot here, I can access the variable "x",
+
+55
+00:02:40,889 --> 00:02:44,233
+from my variable "a", which is a structure of type "s_point".
+
+56
+00:02:44,233 --> 00:02:46,445
+So now, in "x", I can put 10, for example.
+
+57
+00:02:46,445 --> 00:02:49,518
+and in "a.y" I could put 42.
+
+58
+00:02:49,518 --> 00:02:51,550
+In the long list of structures' advantages
+
+59
+00:02:51,550 --> 00:02:53,809
+for example, one of the advantages of structure,
+
+60
+00:02:53,809 --> 00:02:56,837
+is that, when you want to copy a dot into another,
+
+61
+00:02:56,837 --> 00:03:01,887
+you could do this...
+
+62
+00:03:01,892 --> 00:03:04,194
+And now, "b" is a copy of "a" (♫)
+
+63
+00:03:04,194 --> 00:03:06,190
+It means that if we modify "a", now,
+
+64
+00:03:06,195 --> 00:03:08,215
+"b" won't be affected. And vice versa.
+
+65
+00:03:08,215 --> 00:03:12,029
+So "b", now, it's "x" us worth 10 and it's "y" is worth 42.
+
+66
+00:03:12,029 --> 00:03:13,478
+So that's a huge advantage.
+
+67
+00:03:13,478 --> 00:03:16,406
+What out, when you do a function call, remember that we copy
+
+68
+00:03:16,406 --> 00:03:20,031
+So if you set a structure as a parameter, you'll get the exact same problem,
+
+69
+00:03:20,031 --> 00:03:24,462
+you'll have to copy - in this case - 2 ints, and risk doing heavy operations,
+
+70
+00:03:24,462 --> 00:03:27,527
+which would take up a lot of memory, having ginormous structures.
+
+71
+00:03:27,532 --> 00:03:28,915
+And is probably will happen.
+
+72
+00:03:28,915 --> 00:03:29,842
+So. In general...
+
+73
+00:03:29,842 --> 00:03:32,723
+we use pointers to structures, when we try and pass them...
+
+74
+00:03:32,723 --> 00:03:37,041
+except if you know what you're doing, in which case it's okay.
+
+75
+00:03:37,041 --> 00:03:40,749
+So, we've seen how to build structures.
+
+76
+00:03:40,749 --> 00:03:42,314
+And how to add data in them.
+
+77
+00:03:42,314 --> 00:03:44,556
+We can do what we want, we can even use "floats"
+
+78
+00:03:44,556 --> 00:03:46,324
+we can use <b>char</b>s, or other structures.
+
+79
+00:03:46,324 --> 00:03:48,169
+and add as many data inside as we want.
+
+80
+00:03:48,169 --> 00:03:50,049
+They just have to have different names.
+
+81
+00:03:50,049 --> 00:03:52,638
+Except for "x" and "y". Those can't have the same name.
+
+82
+00:03:52,638 --> 00:03:54,424
+See? It's just like normal variables.
+
+83
+00:03:54,424 --> 00:03:57,537
+Because otherwise, we don't know which fields you want to access.
+
+84
+00:03:57,537 --> 00:03:59,962
+So now, let me show you how to ...
+
+85
+00:03:59,962 --> 00:04:03,280
+The advantage of "typedef" with structures,
+
+86
+00:04:03,280 --> 00:04:06,051
+If you write this : "typedef struct s_point"
+
+87
+00:04:06,051 --> 00:04:09,051
+and then let's call this t_point;
+
+88
+00:04:09,051 --> 00:04:14,688
+What it does, is that instead of writing struct s_point, tabulation, variable's name
+
+89
+00:04:14,688 --> 00:04:22,552
+I'll just be able to write "t_point", and it'll be the exact same thing.
+
+90
+00:04:22,552 --> 00:04:26,474
+So here, you see that "typedef" helps save up lines.
+
+91
+00:04:26,474 --> 00:04:28,730
+Well, save up width. That's a small advantage.
+
+92
+00:04:28,730 --> 00:04:30,539
+Tess stuff to type.
+
+93
+00:04:30,539 --> 00:04:32,111
+Quite practical.
+
+94
+00:04:32,112 --> 00:04:34,389
+And I'm going to show you something else.
+
+95
+00:04:34,389 --> 00:04:35,989
+One last thing about structures.
+
+96
+00:04:35,989 --> 00:04:38,328
+So we've seen we could add data in those.
+
+97
+00:04:38,328 --> 00:04:41,541
+We've discovered a new operator : full-stop / dot.
+
+98
+00:04:41,541 --> 00:04:43,888
+There's a special rule for pointers...
+
+99
+00:04:43,888 --> 00:04:47,180
+Imagine I want to create a pointer called "ptr",
+
+100
+00:04:47,180 --> 00:04:56,763
+"ptr" takes the value of my structure's address (structure "a").
+
+101
+00:04:56,763 --> 00:04:58,317
+So, the thing is...
+
+102
+00:04:58,317 --> 00:05:01,071
+in order to access the element "x",
+
+103
+00:05:01,071 --> 00:05:04,712
+from "a", via "ptr",
+
+104
+00:05:04,712 --> 00:05:08,098
+In your minds, in all logic, we could've written this:
+
+105
+00:05:08,098 --> 00:05:10,502
+(*ptr), full.stop, "x".
+
+106
+00:05:10,502 --> 00:05:14,802
+Because basically, *ptr is the same as "a"
+
+107
+00:05:14,802 --> 00:05:17,218
+Had I written this... No problem, it works.
+
+108
+00:05:17,218 --> 00:05:21,736
+there's another way to write it. Using arrows.
+
+109
+00:05:21,736 --> 00:05:24,974
+The arrow can replace the asterisk-dot.
+
+110
+00:05:24,974 --> 00:05:27,462
+Meaning you're dereferencing your pointer.
+
+111
+00:05:27,462 --> 00:05:30,733
+And behind, you're going to look for a structure's element, because
+
+112
+00:05:30,733 --> 00:05:34,072
+the element towards which pointed your pointer, is a structure.
+
+113
+00:05:34,072 --> 00:05:36,401
+That's it, we've covered the basics of structures.
+
+114
+00:05:36,401 --> 00:05:40,141
+As simple as this. And with these basics, we'll be able to achieve many things.
+
+115
+00:05:40,141 --> 00:05:43,110
+It's a notion that we use a lot in C, so try and practice,
+
+116
+00:05:43,110 --> 00:05:46,760
+because you'll see, we're gonna use this notion a lot.
+

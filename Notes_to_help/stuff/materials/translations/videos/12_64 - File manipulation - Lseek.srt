@@ -1,0 +1,195 @@
+1
+00:00:05,973 --> 00:00:09,783
+You have to understand that when we run operations on a File Descriptor,
+
+2
+00:00:09,783 --> 00:00:13,073
+and that one hasn't been closed, there's a sort of reading 'head'
+
+3
+00:00:13,073 --> 00:00:14,783
+that points to the ongoing byte.
+
+4
+00:00:14,783 --> 00:00:19,383
+Let's call the difference between the ongoing byte and the byte 0 : Offset.
+
+5
+00:00:20,115 --> 00:00:21,185
+So the first...
+
+6
+00:00:21,353 --> 00:00:24,533
+Let's use this example where I've described a few operations
+
+7
+00:00:24,533 --> 00:00:27,663
+on a File Descriptor, and the consequences of the Offset.
+
+8
+00:00:27,663 --> 00:00:30,573
+So now we have a README file of 42 bytes,
+
+9
+00:00:30,573 --> 00:00:32,953
+which we open without any particular flag.
+
+10
+00:00:32,953 --> 00:00:34,323
+The File Descriptor is 42.
+
+11
+00:00:34,323 --> 00:00:36,263
+The offset currently is at 0.
+
+12
+00:00:36,263 --> 00:00:38,863
+Let's read 12 byte from this FD.
+
+13
+00:00:38,863 --> 00:00:41,583
+This should take the Offset to 0 + 12.
+
+14
+00:00:41,583 --> 00:00:46,303
+Let's then read 30 bytes, which will give us an offset of 42.
+
+15
+00:00:46,303 --> 00:00:50,303
+Offset of 42, file of 42, we've therefore reached the end of the file.
+
+16
+00:00:50,303 --> 00:00:53,423
+Let's do a READ of a byte, which will return 0,
+
+17
+00:00:53,423 --> 00:00:55,373
+because we cannot go forward.
+
+18
+00:00:55,373 --> 00:00:58,273
+How could we move the head of reading
+
+19
+00:00:58,273 --> 00:01:00,293
+to another place in the file?
+
+20
+00:01:00,293 --> 00:01:02,943
+The last call system I'll show you
+
+21
+00:01:02,943 --> 00:01:04,553
+will answer this question.
+
+22
+00:01:04,663 --> 00:01:05,963
+It's called LSEEK.
+
+23
+00:01:05,963 --> 00:01:09,873
+LSEEK takes 3 parameters : 1) the file descriptor in question,
+
+24
+00:01:10,833 --> 00:01:13,923
+2) the offset of the result or calculation
+
+25
+00:01:14,605 --> 00:01:18,375
+3) the mode of calculation.
+
+26
+00:01:18,375 --> 00:01:21,285
+Have a look in it man, it's all explained there.
+
+27
+00:01:21,952 --> 00:01:25,552
+LSEEk returns the new offset, or -1 in case of error.
+
+28
+00:01:27,893 --> 00:01:31,663
+Let me show you an example of LSEEK usage.
+
+29
+00:01:34,142 --> 00:01:36,692
+Our offset is equal to 42.
+
+30
+00:01:36,692 --> 00:01:41,422
+Let's do an LSEEK of -40, with the SEEK_END mode, which means
+
+31
+00:01:41,422 --> 00:01:42,722
+we start from the end.
+
+32
+00:01:42,773 --> 00:01:48,733
+So, 42 - 40, LSEEK returns the offset 2, and we're back to the
+
+33
+00:01:48,733 --> 00:01:50,433
+second byte of the file.
+
+34
+00:01:50,433 --> 00:01:52,333
+Let me illustrate this with code.
+
+35
+00:01:57,113 --> 00:02:02,213
+I have my base of opening and reading of the file in "read only"
+
+36
+00:02:04,625 --> 00:02:10,925
+I'm simply going to add LSEEK here to go back 10 bytes.
+
+37
+00:02:12,042 --> 00:02:15,452
+The result won't be useful, It'll cause an infinite loop,
+
+38
+00:02:15,452 --> 00:02:18,702
+but it'll illustrate what i want, perfectly.
+
+39
+00:02:22,623 --> 00:02:23,663
+Compiling...
+
+40
+00:02:25,743 --> 00:02:29,223
+Launching, and, infinite loop, as expected.
+
+41
+00:02:30,363 --> 00:02:33,463
+LSEEK could be useful to reach the end of the file,
+
+42
+00:02:33,463 --> 00:02:37,123
+but it's useless, as Open already does it with the flag O_APPEND.
+
+43
+00:02:38,403 --> 00:02:42,403
+Moreover, re-reading data isn't very useful...
+
+44
+00:02:42,403 --> 00:02:44,263
+Even if that's what I just did.
+
+45
+00:02:45,179 --> 00:02:49,179
+This concludes today's lessons.
+
+46
+00:02:49,782 --> 00:02:53,612
+I strongly advise you to read the mans for different system calls,
+
+47
+00:02:53,612 --> 00:02:57,102
+and also, remember to alway check the returns of your syscalls,
+
+48
+00:02:57,102 --> 00:02:59,122
+especially for OPEN and READ.
+
+49
+00:02:59,122 --> 00:02:59,862
+Thank you.

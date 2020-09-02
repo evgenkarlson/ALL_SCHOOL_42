@@ -1,0 +1,283 @@
+1
+00:00:06,169 --> 00:00:06,869
+Hello,
+
+2
+00:00:06,869 --> 00:00:09,509
+In this video, I'm going to talk about a new keyword
+
+3
+00:00:09,509 --> 00:00:12,664
+something we haven't seen yet : "enum".
+
+4
+00:00:12,664 --> 00:00:15,924
+Be careful, enums are something a bit particular.
+
+5
+00:00:15,924 --> 00:00:20,211
+It'll allow you to set words instead of having numbers...
+
+6
+00:00:20,211 --> 00:00:22,624
+Enums are a bit like ints, actually,
+
+7
+00:00:22,624 --> 00:00:25,404
+but we generally use those to make lists.
+
+8
+00:00:25,404 --> 00:00:27,788
+it helps you know where you stand in your code.
+
+9
+00:00:27,788 --> 00:00:29,508
+for example, if you have values that
+
+10
+00:00:29,518 --> 00:00:32,088
+mean certain things such as error 1, error 2, error 3,
+
+11
+00:00:32,088 --> 00:00:34,857
+one of them is a segfault, the other is ... I don't know...
+
+12
+00:00:34,857 --> 00:00:38,087
+You need to name errors, and generally to do so, you'll use "enum",
+
+13
+00:00:38,087 --> 00:00:41,787
+to avoid having to use defines, one on top of each other, etc...
+
+14
+00:00:41,787 --> 00:00:44,597
+Or you're not sure you haven't used the same define twice,
+
+15
+00:00:44,597 --> 00:00:46,082
+with the same number.
+
+16
+00:00:46,082 --> 00:00:48,692
+So that's something that happens during compiling,
+
+17
+00:00:48,692 --> 00:00:51,720
+and that will allow you to generate a set of digits, you'll see.
+
+18
+00:00:51,720 --> 00:00:54,869
+I think an example would be quite appropriate, here,
+
+19
+00:00:54,869 --> 00:00:58,720
+Declaring enums is a bit like declaring structures...
+
+20
+00:00:58,720 --> 00:01:02,620
+You have to write "enum" followed by its name,
+
+21
+00:01:02,620 --> 00:01:06,620
+let's call it e_list.
+
+22
+00:01:06,625 --> 00:01:10,665
+Always followed by a semi-colon, because it's something that happens during
+
+23
+00:01:10,665 --> 00:01:14,228
+compiling, so we need to define what we're doing.
+
+24
+00:01:14,228 --> 00:01:16,998
+Just like structures, we can write "enum e_list"
+
+25
+00:01:16,998 --> 00:01:20,023
+and say it exists, but that's not very interesting, you'll see.
+
+26
+00:01:20,023 --> 00:01:22,241
+And here's how it works.
+
+27
+00:01:22,241 --> 00:01:29,495
+I'm going to devine a value 1, a value 2, a value 3, etc...
+
+28
+00:01:29,495 --> 00:01:36,652
+So let's call them val1, with a comma, val2, with a comma, val3, etc...
+
+29
+00:01:36,652 --> 00:01:43,318
+Now I can create objects of type e_list, exactly like structures,
+
+30
+00:01:43,318 --> 00:01:47,698
+and I have my variable "a" of type e_list.
+
+31
+00:01:47,698 --> 00:01:51,928
+And I'm gonna give "a" the value "val1".
+
+32
+00:01:51,928 --> 00:01:55,788
+Now, that's the one 'crappy' thing about enums in C...
+
+33
+00:01:55,788 --> 00:01:59,697
+all of a sudden, val1, which was part of the enum e__list,
+
+34
+00:01:59,697 --> 00:02:02,807
+but now it's become some sort of keyword.
+
+35
+00:02:02,807 --> 00:02:08,794
+Meaning val1 is worth 0, val2 is worth 1, and val3 is worth 2.
+
+36
+00:02:08,794 --> 00:02:13,603
+Basically it increases numbers, from 0.
+
+37
+00:02:13,603 --> 00:02:21,065
+For example, you could write that val1 is worth 4,
+
+38
+00:02:21,065 --> 00:02:24,515
+and then val2 will be worth 5, and val3, is 6.
+
+39
+00:02:24,515 --> 00:02:30,127
+You could also write that val1 is worth 4, val2 is worth 7, and therefore
+
+40
+00:02:30,130 --> 00:02:31,966
+val3 should be worth 8... Normally...
+
+41
+00:02:31,966 --> 00:02:35,622
+Let's check it out. So here, if I write val3...
+
+42
+00:02:35,622 --> 00:02:37,785
+and here, the value of my main's return.
+
+43
+00:02:37,785 --> 00:02:41,778
+I'm going to use a small trick to avoid having to show you functions.
+
+44
+00:02:43,435 --> 00:02:46,075
+First, let's see if it compiles.
+
+45
+00:02:46,075 --> 00:02:49,695
+It does. Let's execute "a" and then I'll do an " <b>echo$?</b> "
+
+46
+00:02:49,695 --> 00:02:52,621
+to get the last executable's return value,
+
+47
+00:02:52,621 --> 00:02:55,771
+and here we can see that it's 8. So val3 is indeed worth 8.
+
+48
+00:02:55,771 --> 00:03:00,441
+So that's about all you need to know about enums...
+
+49
+00:03:00,441 --> 00:03:05,221
+Normally you shouldn't be able to set the same value twice...
+
+50
+00:03:05,221 --> 00:03:07,625
+For example if you say : "val1 = 7" and "val3 = 7",
+
+51
+00:03:07,625 --> 00:03:10,765
+I think you're going to have a problem, but I'm not so sure...
+
+52
+00:03:10,765 --> 00:03:13,765
+Because it could let you do it...
+
+53
+00:03:13,765 --> 00:03:18,095
+Depending on versions, it let's you set the values you want...
+
+54
+00:03:18,095 --> 00:03:20,735
+The advantage is that it'll just keep listing...
+
+55
+00:03:20,735 --> 00:03:23,645
+As soon as you add a variable, it'll increase by 1 each time.
+
+56
+00:03:23,645 --> 00:03:25,835
+And that's the true advantage of enums.
+
+57
+00:03:25,835 --> 00:03:29,505
+Careful! The issue with enums is that all the names you're going to use here,
+
+58
+00:03:29,505 --> 00:03:33,105
+become names usable without having to write e__list before them.
+
+59
+00:03:33,105 --> 00:03:38,385
+So it's risky, dangerous, but there are cases in which that's exploitable.
+
+60
+00:03:38,385 --> 00:03:41,785
+Usually, when people set variable names, like this, for their enums,
+
+61
+00:03:41,785 --> 00:03:45,785
+they have fun re-adding their enums' names in front of their variable names.
+
+62
+00:03:45,785 --> 00:03:53,715
+So, for example, we could write : e__list val1, etc...
+
+63
+00:03:53,720 --> 00:03:57,470
+As simple as this. We could also add typedefs before,
+
+64
+00:03:57,470 --> 00:04:01,010
+if you want, but that's not very useful...
+
+65
+00:04:01,010 --> 00:04:05,780
+Because this e__list, I just used it to declare "a'.
+
+66
+00:04:05,780 --> 00:04:08,740
+But I could have used an int, it would've been the same.
+
+67
+00:04:08,740 --> 00:04:11,291
+Be careful, if you have 2 different enums,
+
+68
+00:04:11,291 --> 00:04:13,331
+and try and add them together,
+
+69
+00:04:13,331 --> 00:04:15,901
+certain compilation options will cause
+
+70
+00:04:15,901 --> 00:04:18,630
+errors, just to show you there's a
+
+71
+00:04:18,630 --> 00:04:20,600
+difference between both enums.

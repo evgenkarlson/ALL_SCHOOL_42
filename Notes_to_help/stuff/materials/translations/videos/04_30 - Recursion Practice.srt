@@ -1,0 +1,515 @@
+1
+00:00:06,056 --> 00:00:10,688
+Now that we've seen the theory, let's move on to practice with examples.
+
+2
+00:00:10,688 --> 00:00:14,444
+If you'll allow me, I'm going to begin with examples that don't work at all...
+
+3
+00:00:14,444 --> 00:00:20,346
+Because I'd rather make those mistakes myself, in front of you,
+
+4
+00:00:20,346 --> 00:00:24,866
+to show you what not to do, rather than you making them yourselves.
+
+5
+00:00:24,866 --> 00:00:29,501
+So, I'm going to apply what I did in the previous video. Literally.
+
+6
+00:00:29,501 --> 00:00:32,423
+I'm going to create a recursive function, and call it "fn()".
+
+7
+00:00:32,423 --> 00:00:35,743
+For a function to be recursive, it needs to call itself.
+
+8
+00:00:35,743 --> 00:00:36,513
+There.
+
+9
+00:00:36,513 --> 00:00:37,483
+That's it.
+
+10
+00:00:37,483 --> 00:00:39,313
+I've created a self-calling function.
+
+11
+00:00:39,313 --> 00:00:43,103
+I'm going to create a main, calling fn() too.
+
+12
+00:00:43,103 --> 00:00:46,833
+This program won't be doing much...
+
+13
+00:00:46,833 --> 00:00:49,043
+Let's add "return (0)", 'cause we're civilised
+
+14
+00:00:49,043 --> 00:00:49,973
+There...
+
+15
+00:00:49,973 --> 00:00:55,863
+I'm going to compile this, and you'll see, it won't display much, but it'll do something fun.
+
+16
+00:00:55,863 --> 00:00:58,763
+Segfault ! But why?
+
+17
+00:00:59,583 --> 00:01:04,353
+If you paid attention during the 1st video (and had I remembered what I said 10min ago)
+
+18
+00:01:04,353 --> 00:01:08,713
+we'd remember that a function needs a stopping condition. Otherwise...
+
+19
+00:01:08,713 --> 00:01:10,133
+we put in on the stack...
+
+20
+00:01:10,133 --> 00:01:11,563
+it calls itself, we put in on the stack...
+
+21
+00:01:11,563 --> 00:01:14,533
+and again and again (x6) ...
+
+22
+00:01:14,533 --> 00:01:15,723
+And at some point,
+
+23
+00:01:15,723 --> 00:01:15,973
+IT
+
+24
+00:01:15,973 --> 00:01:16,223
+BLOWS
+
+25
+00:01:16,223 --> 00:01:16,543
+UP
+
+26
+00:01:16,543 --> 00:01:16,793
+IN
+
+27
+00:01:16,793 --> 00:01:17,043
+OUR
+
+28
+00:01:17,043 --> 00:01:17,333
+FACES
+
+29
+00:01:17,333 --> 00:01:20,353
+because we've exceeded the stack's size.
+
+30
+00:01:20,353 --> 00:01:21,753
+We mustn't do this.
+
+31
+00:01:21,753 --> 00:01:23,333
+You'll be surprised.
+
+32
+00:01:23,333 --> 00:01:28,613
+So now, I'm wondering... Maybe I should add a stopping condition...
+
+33
+00:01:28,613 --> 00:01:33,433
+so that my function doesn't call itself endlessly.
+
+34
+00:01:33,433 --> 00:01:36,973
+So... I don't know... Let's start by adding a variable?
+
+35
+00:01:36,973 --> 00:01:39,793
+I'm used to this... So let's add a variable here,
+
+36
+00:01:39,793 --> 00:01:43,513
+then initialise it to 0 to have a counter.
+
+37
+00:01:43,513 --> 00:01:45,393
+Then, let's make an experiment.
+
+38
+00:01:45,393 --> 00:01:51,143
+If "i <= 5", then I'll call "fn()"
+
+39
+00:01:51,143 --> 00:01:55,383
+Else, I'll return 0.
+
+40
+00:01:55,383 --> 00:01:57,213
+Okay?
+
+41
+00:01:57,213 --> 00:02:03,553
+And before calling fn(), I'm going to increment my "i", else it'll never increase
+
+42
+00:02:03,553 --> 00:02:07,253
+it'll remain at 0 and my thingy won't ever work.
+
+43
+00:02:07,253 --> 00:02:08,853
+Let's be logical.
+
+44
+00:02:08,853 --> 00:02:11,523
+I'm going to compile this thing. It should work, right?
+
+45
+00:02:12,433 --> 00:02:15,643
+Hmmmm... "warning"... that's alright...
+
+46
+00:02:16,233 --> 00:02:18,133
+Nope, actually it doesn't work...
+
+47
+00:02:18,133 --> 00:02:20,423
+That's ridiculous, right?
+
+48
+00:02:20,423 --> 00:02:23,703
+Sooo... What could I have possibly done wrong?
+
+49
+00:02:23,703 --> 00:02:24,733
+That's right!
+
+50
+00:02:24,733 --> 00:02:27,903
+Look at the function. Look closely.
+
+51
+00:02:27,903 --> 00:02:33,163
+I go into my function, I declare an "i", I say "i = 0;", okay.
+
+52
+00:02:33,163 --> 00:02:38,663
+I check whether "i <= 5". Well we know it's 0. So I increment it and call fn().
+
+53
+00:02:38,663 --> 00:02:42,173
+So I go back into fn() for another loop, and then ...
+
+54
+00:02:42,173 --> 00:02:47,443
+Oh right! I declare a variable, set it to 0... Of course it doesn't work!
+
+55
+00:02:47,443 --> 00:02:53,013
+'Cause remember: I put fn() on the stack, it's got its own context and variables,
+
+56
+00:02:53,013 --> 00:02:59,163
+so it's got its "i" that's worth 0, then it increases to 1, then i call back fn(),
+
+57
+00:02:59,163 --> 00:03:05,073
+so I add another fn() on the stack, that's got its own context and its own variables
+
+58
+00:03:05,073 --> 00:03:06,763
+... see where I'm going with this?
+
+59
+00:03:06,763 --> 00:03:10,383
+So my second fn() also has its own "i", which is set to 0, and it's worth 1,
+
+60
+00:03:10,383 --> 00:03:15,213
+and therefore isn't worth 5... So I call it. And again, and again...
+
+61
+00:03:15,213 --> 00:03:18,003
+You get my drift.
+
+62
+00:03:18,003 --> 00:03:20,553
+So how could we fix this?
+
+63
+00:03:20,627 --> 00:03:25,951
+Remember the basics of C? The parts about passing parameters and return values?
+
+64
+00:03:25,951 --> 00:03:33,789
+You know that there's a way to pass values between functions. So what could we do?
+
+65
+00:03:33,789 --> 00:03:39,459
+We could... not declare our "i" here, but instead, pass it as a parameter!
+
+66
+00:03:40,048 --> 00:03:42,728
+Here we could test it.
+
+67
+00:03:42,728 --> 00:03:47,798
+Actually, I'm going to add a return(0), "warning" once is fun, twice, it's rotten.
+
+68
+00:03:47,798 --> 00:03:51,798
+Then I'll pass my present "i" to my newer calling of fn(),
+
+69
+00:03:52,062 --> 00:03:56,412
+I'm going to call it with 0 in my main(). To start by 0.
+
+70
+00:03:56,412 --> 00:04:03,774
+So I'm gonna have fn() with 0. It's worth less than 5, so I'll increase it by 1,
+
+71
+00:04:05,005 --> 00:04:06,915
+then call fn() with its new value (1)
+
+72
+00:04:07,132 --> 00:04:11,633
+Now. I have an fn() with 1. Still worth less than 5. So let's increment it.
+
+73
+00:04:11,633 --> 00:04:15,836
+It now calls an fn(), that's now worth 2. And that's the behavior I wanted!
+
+74
+00:04:15,836 --> 00:04:26,192
+So to show you it works, let me first add a write() of "D" for "demo" or "display".
+
+75
+00:04:26,192 --> 00:04:29,352
+Right here, before calling my function.
+
+76
+00:04:29,352 --> 00:04:31,972
+Let's compile.
+
+77
+00:04:31,972 --> 00:04:33,062
+Here we go!
+
+78
+00:04:33,062 --> 00:04:35,442
+It displays "D" six times... Why six?
+
+79
+00:04:35,442 --> 00:04:37,412
+Because I went from 0 to 5. Included.
+
+80
+00:04:37,412 --> 00:04:38,752
+So that's 6.
+
+81
+00:04:38,752 --> 00:04:43,632
+As it displays "D" six times, it proves my function was called 6 times exactly.
+
+82
+00:04:43,632 --> 00:04:44,822
+That's what I wanted!
+
+83
+00:04:45,288 --> 00:04:51,528
+Let me show you one last example to illustrate the principles of stack calling
+
+84
+00:04:51,982 --> 00:04:53,972
+I'm just gonna add another write().
+
+85
+00:04:53,972 --> 00:04:57,462
+A write() of "F" for "finished!", right after a call to fn().
+
+86
+00:04:57,882 --> 00:05:03,588
+So there are two options... Either it'll display "DF" 6 times,
+
+87
+00:05:03,588 --> 00:05:06,588
+either it'll display something else.
+
+88
+00:05:06,588 --> 00:05:09,078
+In your opinion, what will be displayed?
+
+89
+00:05:09,163 --> 00:05:10,183
+Let's see...
+
+90
+00:05:10,183 --> 00:05:13,733
+Personally, I don't know. I'll find out with you!
+
+91
+00:05:13,734 --> 00:05:15,194
+What will be displayed?
+
+92
+00:05:15,227 --> 00:05:17,757
+Well, six times D and six times F.
+
+93
+00:05:17,861 --> 00:05:19,471
+Why do you think that is?
+
+94
+00:05:19,656 --> 00:05:21,116
+The reason is very simple.
+
+95
+00:05:21,307 --> 00:05:27,857
+At the beginning, I'm "pushing" my fn() on the stack, so it executes up to a point,
+
+96
+00:05:27,857 --> 00:05:31,687
+there's a write(D). Then a call to fn(). So I did a write(D) , then called fn().
+
+97
+00:05:31,687 --> 00:05:34,977
+a second fn() goes over my fn(), which isn't finished yet...
+
+98
+00:05:34,977 --> 00:05:36,187
+I add one on top.
+
+99
+00:05:36,187 --> 00:05:37,797
+I execute till it displays "D".
+
+100
+00:05:37,797 --> 00:05:39,097
+I call fn() again, etc...
+
+101
+00:05:39,097 --> 00:05:41,297
+I display "D". I call fn(), etc, etc...
+
+102
+00:05:41,297 --> 00:05:43,367
+After a while, I stop calling fn().
+
+103
+00:05:43,367 --> 00:05:44,237
+I go back.
+
+104
+00:05:44,727 --> 00:05:48,727
+I get back to my old fn() which was called by fn(). It finishes,
+
+105
+00:05:48,812 --> 00:05:51,612
+So write(F) happens.
+
+106
+00:05:51,612 --> 00:05:55,362
+So after displaying all Ds, I'll now display F, then return,
+
+107
+00:05:55,362 --> 00:05:58,622
+display f and return, display F and return etc, etc...
+
+108
+00:05:58,622 --> 00:06:03,312
+Till I reach the bottom of my pile calling fn(), then return to my main() and exit my program.
+
+109
+00:06:03,312 --> 00:06:08,842
+There you go. That's an example of a recursive function. That doesn't do much,
+
+110
+00:06:08,842 --> 00:06:14,552
+but it works perfectly. It has a stop-condition that works.
+
+111
+00:06:14,554 --> 00:06:17,734
+It displays what we ask without problems.
+
+112
+00:06:17,734 --> 00:06:22,544
+And if you look closely, you'll notice, in the end, it looks like a loop...
+
+113
+00:06:22,544 --> 00:06:30,624
+I've got "instruction blocks", and a counter. My instructions are repeated.
+
+114
+00:06:30,624 --> 00:06:36,524
+Recursion and iteration are quite different.
+
+115
+00:06:36,524 --> 00:06:39,254
+You can do many things with both.
+
+116
+00:06:39,254 --> 00:06:42,804
+Some operations are easier with iteration,
+
+117
+00:06:42,804 --> 00:06:44,834
+others much simpler with recursion.
+
+118
+00:06:44,834 --> 00:06:47,464
+You'll learn with experience.
+
+119
+00:06:47,464 --> 00:06:51,224
+There are two things to remember from this video.
+
+120
+00:06:51,224 --> 00:06:55,224
+... about recursive functions.
+
+121
+00:06:55,224 --> 00:06:56,594
+A recursive function is...
+
+122
+00:06:56,594 --> 00:06:59,134
+1) a function that calls itself
+
+123
+00:06:59,134 --> 00:07:02,954
+2) it has a stopping condition
+
+124
+00:07:02,954 --> 00:07:05,904
+(especially if you don't want it to blow up in your face)
+
+125
+00:07:05,904 --> 00:07:11,814
+And if you use counters. Make sure to relay them between each function's instances.
+
+126
+00:07:11,814 --> 00:07:14,964
+(parameters & return values)
+
+127
+00:07:14,964 --> 00:07:20,434
+That's all for today! So good luck for today's exercises...
+
+128
+00:07:20,434 --> 00:07:21,934
+You're gonna need it!
+
+129
+00:07:21,934 --> 00:07:23,384
+Till next time!

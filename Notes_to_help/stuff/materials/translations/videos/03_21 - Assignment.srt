@@ -1,0 +1,207 @@
+1
+00:00:06,293 --> 00:00:07,273
+Hello.
+
+2
+00:00:07,282 --> 00:00:12,822
+In this video I'm going to teach you how to declare & assign a pointer to something
+
+3
+00:00:14,217 --> 00:00:18,217
+So, I've prepared a main, as you can see on the screen.
+
+4
+00:00:18,217 --> 00:00:22,217
+I've also prepared a couple of functions, which we'll talk about later.
+
+5
+00:00:22,428 --> 00:00:25,558
+I'm going to explain how to declare a pointer to int.
+
+6
+00:00:25,558 --> 00:00:29,558
+'Cause a pointer must point towards something, and you have to tell it
+
+7
+00:00:29,558 --> 00:00:33,248
+what kind of thing it should point to.
+
+8
+00:00:33,248 --> 00:00:36,188
+It's easier than it seems, you'll see.
+
+9
+00:00:36,365 --> 00:00:38,755
+So. I wanna do a pointer to int...
+
+10
+00:00:38,755 --> 00:00:42,755
+It's quite simple, just type "int", and then, stuck to our variable
+
+11
+00:00:42,830 --> 00:00:46,830
+- we could put the star on the left too, but to respect our school's Norm,
+
+12
+00:00:46,830 --> 00:00:49,320
+we have to put it on the right -
+
+13
+00:00:49,559 --> 00:00:53,559
+see what I just did? I've declared my pointer "ptr" to int.
+
+14
+00:00:53,559 --> 00:00:56,479
+The star means it's a pointer. And what does it point to?
+
+15
+00:00:56,536 --> 00:01:00,356
+It points to whatever's on the left - in this case, an int.
+
+16
+00:01:00,881 --> 00:01:04,881
+Now, I want to take a's address, and put it in "ptr".
+
+17
+00:01:04,881 --> 00:01:07,911
+As I've said earlier, a pointer contains an address.
+
+18
+00:01:07,911 --> 00:01:10,331
+Here it contains an int's address.
+
+19
+00:01:10,635 --> 00:01:14,305
+So before, when you wanted to declare a, and to set a's value to 3,
+
+20
+00:01:14,305 --> 00:01:15,915
+you'd type "a = 3;".
+
+21
+00:01:16,120 --> 00:01:20,120
+Now I'm going to declare "ptr" is equal to something...
+
+22
+00:01:20,120 --> 00:01:24,120
+and we're going to need the "&" sign, to retrieve the address of something...
+
+23
+00:01:25,636 --> 00:01:29,636
+Here I want to retrieve a's address. So " ptr = &a; "
+
+24
+00:01:29,832 --> 00:01:33,832
+So here I've basically written "ptr is equal to a's address".
+
+25
+00:01:34,345 --> 00:01:37,195
+So "ptr" contains a's address.
+
+26
+00:01:37,248 --> 00:01:40,828
+Everything's got an address in C. And I'm going to prove it to you shortly.
+
+27
+00:01:41,142 --> 00:01:44,622
+So let's display this onscreen...
+
+28
+00:01:45,145 --> 00:01:49,145
+I'm going to display ptr's value. I've created a little function just for that...
+
+29
+00:01:49,513 --> 00:01:53,513
+(look at the screen)
+
+30
+00:01:55,212 --> 00:01:58,472
+Here we go : This is a's address.
+
+31
+00:01:58,690 --> 00:02:01,320
+It's not its value. It's its address.
+
+32
+00:02:01,461 --> 00:02:05,461
+Which means I can change a's value, Ex: " a = 42; "
+
+33
+00:02:06,435 --> 00:02:10,435
+If I then re-display a's address, you'll see it won't have changed...
+
+34
+00:02:17,037 --> 00:02:20,447
+"a" is a memory slot,
+
+35
+00:02:20,447 --> 00:02:23,527
+and no matter how much I try to modify it, its address won't change.
+
+36
+00:02:23,527 --> 00:02:26,417
+See, it's the same thing displayed twice.
+
+37
+00:02:26,687 --> 00:02:30,687
+So. We've seen we could display an int's address with a pointer to int.
+
+38
+00:02:30,687 --> 00:02:33,187
+And now I'm going to purposely make a mistake.
+
+39
+00:02:33,187 --> 00:02:35,717
+And declare a "char", let's call it "c",
+
+40
+00:02:35,853 --> 00:02:39,413
+I'm going to give it a value, let's go with 'b',
+
+41
+00:02:39,724 --> 00:02:43,724
+And now I'm going to try and put c's address in ptr.
+
+42
+00:02:44,105 --> 00:02:47,405
+What's gonna happen ?!
+
+43
+00:02:47,894 --> 00:02:51,894
+Yup, I got an error message: "assignment from incompatible pointer type".
+
+44
+00:02:51,928 --> 00:02:55,928
+Which means I'm trying to put a character's address in a pointer to int...
+
+45
+00:02:56,852 --> 00:03:00,512
+They're not compatible. Won't work.
+
+46
+00:03:00,776 --> 00:03:04,776
+What I should have done to make it compatible
+
+47
+00:03:04,776 --> 00:03:08,776
+is declare a pointer to char instead of a pointer to int.
+
+48
+00:03:09,018 --> 00:03:13,018
+Here we go, that should do the trick. ptr has become a pointer to char.
+
+49
+00:03:13,018 --> 00:03:15,008
+Let's re-compile... It works.
+
+50
+00:03:15,281 --> 00:03:19,281
+So we've seen how we can dereference a variable, how to retrieve its address,
+
+51
+00:03:19,286 --> 00:03:21,746
+and assign it to a pointer.
+
+52
+00:03:22,148 --> 00:03:26,148
+In the next video I'll show you how to use this pointer to access a variable.

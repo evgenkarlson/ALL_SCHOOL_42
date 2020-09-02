@@ -1,0 +1,58 @@
+1
+00:00:05,792 --> 00:00:08,392
+Hello everyone, 
+and welcome to D13 of the C Bootcamp.
+
+2
+00:00:08,392 --> 00:00:10,642
+Today, we're going to talk about
+binary trees.
+
+3
+00:00:10,642 --> 00:00:13,172
+Firstly, I'd like to say that you've lost.
+(the game)
+
+4
+00:00:13,172 --> 00:00:16,312
+and now I'm going to explain
+the notions you're going to need
+
+5
+00:00:16,312 --> 00:00:17,452
+for today's exercises.
+
+6
+00:00:17,452 --> 00:00:20,772
+You have to be comfortable with
+pointers to functions,
+
+7
+00:00:20,772 --> 00:00:22,762
+an pointers to structures.
+
+8
+00:00:22,762 --> 00:00:25,262
+Well... if you've understood how chained
+lists work,
+
+9
+00:00:25,262 --> 00:00:28,622
+it'll help, because it's the same
+principle, sort of.
+
+10
+00:00:28,773 --> 00:00:32,482
+First I'll talk about simple
+binary trees, which should go
+
+11
+00:00:32,482 --> 00:00:36,573
+relatively fast, then I'll show you a
+more complicated type of
+
+12
+00:00:36,573 --> 00:00:39,433
+binary trees, that we call
+"red-black trees"
+

@@ -1,0 +1,155 @@
+1
+00:00:05,771 --> 00:00:07,505
+In this video we'll learn
+
+2
+00:00:07,505 --> 00:00:09,170
+how to read from a File Descriptor.
+
+3
+00:00:09,170 --> 00:00:10,821
+We'll use the system call Read,
+
+4
+00:00:10,821 --> 00:00:12,892
+which takes 3 parameters.
+
+5
+00:00:12,892 --> 00:00:14,773
+The 1st one is the File Descriptor
+
+6
+00:00:14,773 --> 00:00:16,083
+from which we'll read from,
+
+7
+00:00:16,083 --> 00:00:17,974
+the 2nd one is the output buffer,
+
+8
+00:00:17,974 --> 00:00:20,547
+and the last one is the number of bytes needed to read.
+
+9
+00:00:20,547 --> 00:00:23,126
+Read returns the number of bytes that have been read
+
+10
+00:00:23,126 --> 00:00:24,166
+or -1 on error.
+
+11
+00:00:25,110 --> 00:00:26,940
+Here's an example.
+
+12
+00:00:28,937 --> 00:00:31,499
+I've reopened my opening file function.
+
+13
+00:00:31,499 --> 00:00:33,952
+My file '42' is open in read-only mode
+
+14
+00:00:34,472 --> 00:00:37,728
+I'm gonna set the buffer size to 4096,
+
+15
+00:00:39,954 --> 00:00:42,708
+create an Int to stock the Read's return
+
+16
+00:00:44,568 --> 00:00:47,386
+and the buffer, which is static
+
+17
+00:00:47,405 --> 00:00:51,127
+but you could also create it with Malloc.
+
+18
+00:00:53,357 --> 00:00:55,913
+Adding a byte... You'll see why.
+
+19
+00:01:08,283 --> 00:01:11,806
+I ask Read to read 4096 bytes from my file '42'
+
+20
+00:01:11,806 --> 00:01:13,616
+and save them in buff.
+
+21
+00:01:14,774 --> 00:01:18,807
+Don't forget the '\0' at the end of the string.
+
+22
+00:01:24,307 --> 00:01:27,307
+We're going to print the buffer
+
+23
+00:01:30,587 --> 00:01:33,001
+and the number of characters that have been read.
+
+24
+00:01:38,356 --> 00:01:41,399
+Compiling... Launching...
+
+25
+00:01:43,199 --> 00:01:46,191
+The buffer is displayed, I've read 31 bytes
+
+26
+00:01:46,191 --> 00:01:48,709
+much less than 4096.
+
+27
+00:01:55,339 --> 00:01:57,939
+In some cases, you won't know
+
+28
+00:01:57,939 --> 00:02:00,044
+how many bytes are needed
+
+29
+00:02:00,044 --> 00:02:04,283
+you'll have to use a loop on Read.
+
+30
+00:02:08,343 --> 00:02:11,268
+Read returns 0 when it reaches the end of the file,
+
+31
+00:02:11,268 --> 00:02:13,790
+use this condition for your loop.
+
+32
+00:02:36,650 --> 00:02:39,874
+Let's set a limit of 10 characters.
+
+33
+00:02:39,874 --> 00:02:41,523
+The file is 33 characters long...
+
+34
+00:02:43,253 --> 00:02:44,855
+Recompiling... Relaunching...
+
+35
+00:02:49,525 --> 00:02:54,614
+In each loop, Read returns 10 characters
+
+36
+00:02:54,654 --> 00:02:57,057
+and returns 0 once the last one has been reached.
+
+37
+00:02:57,247 --> 00:02:59,353
+Then we get out of the loop.
+
+38
+00:02:59,824 --> 00:03:03,110
+This concludes the part about reading from a File Descriptor.
+
+39
+00:03:03,110 --> 00:03:05,743
+In the next video, we'll talk about offset.

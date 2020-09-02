@@ -1,0 +1,460 @@
+1
+00:00:05,963 --> 00:00:09,133
+Now that we know the syntax and the simple semantics of Makefiles,
+
+2
+00:00:09,133 --> 00:00:12,003
+we're going to be able to put all of this in action,
+
+3
+00:00:12,003 --> 00:00:14,353
+and create a first real Makefile
+
+4
+00:00:14,353 --> 00:00:17,013
+which will do something,
+
+5
+00:00:17,013 --> 00:00:18,833
+like compile your program.
+
+6
+00:00:18,833 --> 00:00:22,443
+Let's define a certain number of variables, and rules,
+
+7
+00:00:22,443 --> 00:00:24,073
+which will be rather standard.
+
+8
+00:00:24,073 --> 00:00:27,013
+But I'd like to insist on something very important,
+
+9
+00:00:27,013 --> 00:00:29,913
+it's that this Makefile is not meant to be complete, accurate,
+
+10
+00:00:29,913 --> 00:00:33,563
+or enough to submit your project.
+
+11
+00:00:33,563 --> 00:00:35,913
+What I'm showing you are merely examples,
+
+12
+00:00:35,913 --> 00:00:38,163
+like an initiation to the problematics,
+
+13
+00:00:38,163 --> 00:00:39,943
+they're not answers.
+
+14
+00:00:39,943 --> 00:00:42,683
+So if you submit this Makefile, you'll have problems,
+
+15
+00:00:42,683 --> 00:00:45,833
+you'll see it's full of errors, that there are things
+
+16
+00:00:45,833 --> 00:00:49,253
+that it can't do, and it's up to you to figure it out for yourselves
+
+17
+00:00:49,253 --> 00:00:51,303
+by reading documentation, etc..
+
+18
+00:00:51,303 --> 00:00:55,462
+Take this code for what it's worth, it's just an average example
+
+19
+00:00:55,462 --> 00:00:59,332
+of a Makefile's possibilities, to compile a program.
+
+20
+00:00:59,652 --> 00:01:03,652
+I've started by defining a variable I've called NAME.
+
+21
+00:01:04,632 --> 00:01:07,853
+it'll take for value, the executable name
+
+22
+00:01:07,853 --> 00:01:09,473
+I'm trying to generate.
+
+23
+00:01:09,473 --> 00:01:13,023
+It's a rule, I called it NAME, but you could call it TARGET,
+
+24
+00:01:13,023 --> 00:01:15,413
+or TOTO if you wanted to.
+
+25
+00:01:15,413 --> 00:01:18,463
+However, NAME seems like a reasonable name to me, so I'll advise
+
+26
+00:01:18,463 --> 00:01:19,473
+you to use it.
+
+27
+00:01:20,358 --> 00:01:23,668
+Below, I defined a 2nd variable called SRC,
+
+28
+00:01:23,668 --> 00:01:27,668
+which will gather all C sources I want to compile.
+
+29
+00:01:27,782 --> 00:01:30,642
+So in this case, I'm targeting the file "source.c" which is
+
+30
+00:01:30,642 --> 00:01:34,452
+in my current directory, but I could add as many as I needed.
+
+31
+00:01:34,901 --> 00:01:39,611
+If you need more lines to add your sources,
+
+32
+00:01:39,611 --> 00:01:44,381
+you'll need to jump lines with "\", the same way used for
+
+33
+00:01:44,381 --> 00:01:48,381
+preprocessor macros in C.
+
+34
+00:01:48,932 --> 00:01:52,332
+Here, I only have one source file, so we don't have to do it.
+
+35
+00:01:52,862 --> 00:01:57,612
+Below, I have 5 rules that are pretty standard for a Makefile :
+
+36
+00:01:57,612 --> 00:02:01,792
+ALL (rule that takes the same name as the target program),
+
+37
+00:02:01,792 --> 00:02:03,792
+CLEAN, FCLEAN and RE.
+
+38
+00:02:04,899 --> 00:02:08,519
+We know that if we invoke "make" without arguments, it's the 1st
+
+39
+00:02:08,519 --> 00:02:12,952
+rule encountered in my Makefile that'll be executed. So here it's ALL.
+
+40
+00:02:12,952 --> 00:02:15,442
+This convention will allow you to
+
+41
+00:02:15,442 --> 00:02:18,362
+call the rule that'll launch the compilation.
+
+42
+00:02:18,362 --> 00:02:23,512
+This rule is the rule NAME, or actually the value that'll be taken
+
+43
+00:02:23,512 --> 00:02:24,622
+from the variable NAME.
+
+44
+00:02:24,622 --> 00:02:27,122
+So in our example, we're talking about "awesomeprog".
+
+45
+00:02:27,122 --> 00:02:29,562
+So, this rule NAME, is the rule that will
+
+46
+00:02:29,562 --> 00:02:35,262
+launch compiling, by calling GCC with the option "-o",
+
+47
+00:02:35,262 --> 00:02:38,092
+to specify the executable name to be generated,
+
+48
+00:02:38,092 --> 00:02:41,662
+and I'm going to use my variable $(NAME) to specify that name.
+
+49
+00:02:42,301 --> 00:02:45,161
+Then I'll list the sources I wish to compile,
+
+50
+00:02:45,161 --> 00:02:48,511
+for this, I use my variable $(SRC),
+
+51
+00:02:48,511 --> 00:02:50,551
+which I've defined just above.
+
+52
+00:02:51,187 --> 00:02:53,687
+The 3 rules below are utilitarian rules
+
+53
+00:02:53,687 --> 00:02:55,707
+to help with the project.
+
+54
+00:02:55,707 --> 00:03:00,457
+The 1st is the rule CLEAN, which will just clean by removing
+
+55
+00:03:00,457 --> 00:03:03,517
+all object files (.o) generated during compiling.
+
+56
+00:03:03,517 --> 00:03:06,307
+You'll have the possibility to use this rule
+
+57
+00:03:06,307 --> 00:03:09,697
+to erase other useless files,
+
+58
+00:03:09,702 --> 00:03:11,942
+for example, files that have "~" in your Shell.
+
+59
+00:03:12,562 --> 00:03:15,912
+Here, I chose not to do it, but you definitely should.
+
+60
+00:03:15,912 --> 00:03:18,102
+The 2nd rule is FCLEAN,
+
+61
+00:03:18,102 --> 00:03:20,942
+which is a lot like CLEAN, and that's why
+
+62
+00:03:20,942 --> 00:03:23,742
+it'll call CLEAN - which it depends on -
+
+63
+00:03:23,742 --> 00:03:26,532
+every time I call FCLEAN, CLEAN will be called first.
+
+64
+00:03:26,532 --> 00:03:31,442
+This rule adds the deletion of the generated executable.
+
+65
+00:03:31,924 --> 00:03:33,514
+What's it good for?
+
+66
+00:03:33,652 --> 00:03:37,022
+If I compile my program, I get files.o and my executable.
+
+67
+00:03:37,022 --> 00:03:39,912
+if I call CLEAN, it'll remove all the files.o,
+
+68
+00:03:39,912 --> 00:03:43,482
+but keep my executable. If I call FCLEAN, I'm going to
+
+69
+00:03:43,482 --> 00:03:46,632
+clean up all files.o and also delete the executable.
+
+70
+00:03:47,503 --> 00:03:50,623
+The last of these utilitarian rules, is the rule "RE" which allows
+
+71
+00:03:50,633 --> 00:03:53,453
+a reset of the compilation, meaning starting all over again
+
+72
+00:03:53,453 --> 00:03:55,603
+in a clean environment.
+
+73
+00:03:55,603 --> 00:03:59,723
+For this I first have a call to the FCLEAN rule which it depends on,
+
+74
+00:03:59,723 --> 00:04:02,203
+then a call to the rule ALL.
+
+75
+00:04:02,224 --> 00:04:04,924
+Basically, when I call the rule RE,
+
+76
+00:04:04,924 --> 00:04:09,794
+first, everything will get cleaned up, and then my program
+
+77
+00:04:09,794 --> 00:04:11,294
+will be compiled again.
+
+78
+00:04:11,294 --> 00:04:14,874
+Let's use this Makefile together.
+
+79
+00:04:15,560 --> 00:04:19,560
+In my directory, I have a file source.c and my Makefile.
+
+80
+00:04:20,192 --> 00:04:23,142
+If I call MAKE, the default rule that will be called
+
+81
+00:04:23,142 --> 00:04:27,142
+will be my first, so ALL, which calls the rule $(NAME),
+
+82
+00:04:27,142 --> 00:04:30,262
+which is going to compile my program with
+
+83
+00:04:30,262 --> 00:04:33,602
+gcc -o awesomeprog source.c.
+
+84
+00:04:33,606 --> 00:04:38,166
+Notice how the variables "NAME" and "SRC"
+
+85
+00:04:38,166 --> 00:04:40,826
+have, respectively, been replaced by their values.
+
+86
+00:04:41,773 --> 00:04:44,203
+I also have the opportunity to try CLEAN.
+
+87
+00:04:44,812 --> 00:04:48,262
+As I didn't get any files.o during this compiling,
+
+88
+00:04:48,262 --> 00:04:51,002
+it's kind of useless, but it'll rarely be the case.
+
+89
+00:04:51,942 --> 00:04:56,752
+If I want to clean some more and remove the executable,
+
+90
+00:04:56,752 --> 00:04:58,842
+I can call FCLEAN,
+
+91
+00:05:02,938 --> 00:05:06,358
+which will clean up my directory by removing not only files.o, but also
+
+92
+00:05:06,358 --> 00:05:07,758
+the generated executable.
+
+93
+00:05:07,758 --> 00:05:12,698
+And if I want to start over and clean everything up and recompile,
+
+94
+00:05:12,698 --> 00:05:15,068
+I'll call MAKE RE.
+
+95
+00:05:15,068 --> 00:05:18,488
+Here we can see everything's been cleaned up / erased,
+
+96
+00:05:18,488 --> 00:05:20,928
+and then everything's been recompiled.
+
+97
+00:05:20,928 --> 00:05:24,208
+So in my directory, I have an executable that's ready.
+
+98
+00:05:25,258 --> 00:05:28,718
+I think we've gone through the basics of Makefiles.
+
+99
+00:05:28,718 --> 00:05:31,068
+That should get you started.
+
+100
+00:05:31,673 --> 00:05:33,743
+As I've said many times,
+
+101
+00:05:33,743 --> 00:05:36,503
+this lesson is just a preview. It's not meant to give you
+
+102
+00:05:36,503 --> 00:05:38,723
+all of the answers. Just the notions.
+
+103
+00:05:39,223 --> 00:05:42,843
+You'd better go check what the Internet
+
+104
+00:05:42,843 --> 00:05:44,403
+has to offer.
+
+105
+00:05:44,403 --> 00:05:47,903
+You'll come across many tutorials, and articles on the subject,
+
+106
+00:05:47,903 --> 00:05:51,583
+and you'll be able to make your own Makefiles.
+
+107
+00:05:51,583 --> 00:05:55,003
+You'll see we can do a lot of interesting things with Makefiles,
+
+108
+00:05:55,003 --> 00:05:56,213
+Such as making sure your
+
+109
+00:05:56,213 --> 00:05:58,783
+compiling doesn't just generate some
+
+110
+00:05:58,783 --> 00:06:01,333
+files.o and link them to an executable,
+
+111
+00:06:01,333 --> 00:06:04,613
+but instead, something more complex, with directories, copies, links,
+
+112
+00:06:04,613 --> 00:06:08,143
+and everything that's necessary to
+
+113
+00:06:08,143 --> 00:06:11,353
+compile a real program.
+
+114
+00:06:12,333 --> 00:06:14,873
+On these words, I'll leave you to your exercises.
+
+115
+00:06:14,873 --> 00:06:16,460
+Good luck!
+

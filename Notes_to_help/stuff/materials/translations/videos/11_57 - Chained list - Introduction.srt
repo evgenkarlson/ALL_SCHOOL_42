@@ -1,0 +1,107 @@
+1
+00:00:06,718 --> 00:00:07,421
+Hello
+
+2
+00:00:07,421 --> 00:00:09,614
+and welcome to D11 of C bootcamp.
+
+3
+00:00:09,614 --> 00:00:11,539
+Today we'll learn an important concept:
+
+4
+00:00:11,539 --> 00:00:12,643
+chained lists.
+
+5
+00:00:12,643 --> 00:00:15,448
+Chained lists are, to put it simply,
+
+6
+00:00:15,448 --> 00:00:17,495
+a group of links dispersed in memory
+
+7
+00:00:17,495 --> 00:00:19,784
+but interconnected, forming a chain.
+
+8
+00:00:20,603 --> 00:00:23,084
+These links, basically structures,
+
+9
+00:00:23,084 --> 00:00:24,450
+contain some data
+
+10
+00:00:24,450 --> 00:00:25,783
+and, a characteristic
+
+11
+00:00:25,783 --> 00:00:28,132
+that I'd like to highlight,
+
+12
+00:00:28,311 --> 00:00:33,812
+a link or a pointer to the next element/structure in our list.
+
+13
+00:00:35,596 --> 00:00:38,380
+Thus, adding or deleting an element
+
+14
+00:00:38,380 --> 00:00:40,513
+or even changing your list's order
+
+15
+00:00:40,513 --> 00:00:41,973
+is easy and only requires you
+
+16
+00:00:41,973 --> 00:00:43,997
+to be comfortable with pointers.
+
+17
+00:00:44,709 --> 00:00:46,305
+Unlike arrays,
+
+18
+00:00:46,305 --> 00:00:48,275
+When you want to add an element to an array,
+
+19
+00:00:48,275 --> 00:00:50,301
+you have to allocate a larger memory area
+
+20
+00:00:50,301 --> 00:00:52,463
+than the one needed for the first array
+
+21
+00:00:52,463 --> 00:00:55,418
+then you have to copy all of your first array’s elements
+
+22
+00:00:55,418 --> 00:00:57,138
+and finally to free the first array
+
+23
+00:00:57,138 --> 00:01:00,777
+then add all the elements you want and then free your first array.
+
+24
+00:01:00,777 --> 00:01:04,467
+Even if it doesn't cause problems when you manipulate a small amount of data,
+
+25
+00:01:04,467 --> 00:01:08,563
+<b>malloc</b> will have a hard time trying to find a contiguous area that's large enough
+
+26
+00:01:08,563 --> 00:01:11,730
+when you'll try to manipulate a bigger quantity of data.
+
+27
+00:01:12,030 --> 00:01:16,093
+Chained lists only need to be linked to the new element.

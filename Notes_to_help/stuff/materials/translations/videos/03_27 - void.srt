@@ -1,0 +1,351 @@
+1
+00:00:05,991 --> 00:00:06,761
+Hello!
+
+2
+00:00:06,765 --> 00:00:10,245
+In this video, I'm going to talk about something special.
+
+3
+00:00:10,245 --> 00:00:12,617
+There's a certain type of pointer,
+
+4
+00:00:12,617 --> 00:00:15,377
+you may have noticed it in my videos...
+
+5
+00:00:15,760 --> 00:00:19,770
+See here? There's "void *ptr".
+
+6
+00:00:20,225 --> 00:00:23,345
+That's weird, considering the meaning of the word void ...
+
+7
+00:00:23,345 --> 00:00:25,435
+You cannot declare an object of type "void".
+
+8
+00:00:25,435 --> 00:00:28,275
+However, you can declare an object of type "void *ptr".
+
+9
+00:00:28,275 --> 00:00:30,485
+You can add as many asterisks as you want,
+
+10
+00:00:30,485 --> 00:00:31,935
+but the logic changes.
+
+11
+00:00:31,935 --> 00:00:33,945
+What's a "void *ptr"?
+
+12
+00:00:33,945 --> 00:00:35,405
+It's a pointer to nothing.
+
+13
+00:00:36,038 --> 00:00:38,608
+In the end, it means it's a pointer to anything.
+
+14
+00:00:39,140 --> 00:00:40,800
+Let me show you with an example.
+
+15
+00:00:40,810 --> 00:00:44,713
+So here we have a main with an "a", a "ptr" and a "ptr2".
+
+16
+00:00:45,393 --> 00:00:47,833
+"a" has a value, and "ptr" = the address of "a",
+
+17
+00:00:47,833 --> 00:00:50,743
+"ptr2" = the address of "ptr". So far, so good.
+
+18
+00:00:50,743 --> 00:00:53,038
+That'll compile. "a" is an int,
+
+19
+00:00:53,038 --> 00:00:55,808
+"ptr" is a pointer to int, and it takes the address of "a",
+
+20
+00:00:55,808 --> 00:00:57,748
+"ptr2" is a pointer to pointer to int,
+
+21
+00:00:57,748 --> 00:00:59,628
+so it takes "ptr"s address. All good.
+
+22
+00:00:59,724 --> 00:01:02,674
+And now, I'm going to create a new object,
+
+23
+00:01:03,034 --> 00:01:04,584
+a "void *".
+
+24
+00:01:05,024 --> 00:01:07,474
+I'm going to call it "superptr".
+
+25
+00:01:09,488 --> 00:01:11,630
+And so "superptr", will take as a value,
+
+26
+00:01:12,370 --> 00:01:16,540
+the address of "ptr2".
+
+27
+00:01:16,960 --> 00:01:17,780
+For example...
+
+28
+00:01:17,780 --> 00:01:20,710
+And you'll see I'll manage to compile anyway.
+
+29
+00:01:22,737 --> 00:01:25,627
+No errors, no problem...
+
+30
+00:01:26,508 --> 00:01:29,168
+even though I've used compilation flags...
+
+31
+00:01:29,757 --> 00:01:31,557
+basically, as I've mentioned before
+
+32
+00:01:31,557 --> 00:01:33,877
+all pointers are addresses.
+
+33
+00:01:34,375 --> 00:01:37,005
+Inside the memory, they all have the same size.
+
+34
+00:01:37,005 --> 00:01:40,225
+Which means that the only difference between "ptr" and "ptr2",
+
+35
+00:01:40,227 --> 00:01:42,257
+happens during compilation...
+
+36
+00:01:42,268 --> 00:01:44,108
+in order to avoid errors,
+
+37
+00:01:44,108 --> 00:01:46,828
+we said that "ptr2" was a pointer to pointer to int
+
+38
+00:01:46,828 --> 00:01:49,318
+and "ptr" was a pointer to int. So if we mix them up,
+
+39
+00:01:49,318 --> 00:01:52,618
+and say that "ptr2" equals to "ptr" - although they're both addresses,
+
+40
+00:01:52,618 --> 00:01:55,828
+the compiler will tell us there's a problem and we've mixed them up
+
+41
+00:01:55,828 --> 00:01:57,318
+and that we shouldn't have.
+
+42
+00:01:57,318 --> 00:01:59,648
+Now... There's something that exists,
+
+43
+00:01:59,648 --> 00:02:02,308
+that may be of use, but you'll see that much later,
+
+44
+00:02:02,598 --> 00:02:03,598
+called "void *".
+
+45
+00:02:03,598 --> 00:02:05,438
+Basically, "void *",
+
+46
+00:02:05,738 --> 00:02:08,408
+their point is that they're just addresses
+
+47
+00:02:08,608 --> 00:02:10,658
+and they can take any pointer's address
+
+48
+00:02:10,658 --> 00:02:13,398
+but mostly they can return this address to anyone.
+
+49
+00:02:13,398 --> 00:02:14,307
+Normally.
+
+50
+00:02:14,857 --> 00:02:16,057
+See, for example,
+
+51
+00:02:16,057 --> 00:02:18,247
+I'm going to do something very dirty.
+
+52
+00:02:18,397 --> 00:02:20,487
+I'm going to write "ptr = superptr"
+
+53
+00:02:22,696 --> 00:02:24,213
+And if all goes well,
+
+54
+00:02:24,213 --> 00:02:26,743
+and if the compiler isn't too mean,
+
+55
+00:02:26,743 --> 00:02:28,943
+normally it should compile.
+
+56
+00:02:28,944 --> 00:02:30,934
+I don't know if you can see,
+
+57
+00:02:30,934 --> 00:02:33,704
+but I wrote that "superptr" equals to the address of "ptr2"
+
+58
+00:02:34,477 --> 00:02:37,617
+and then I made it so "ptr" contains the address of "ptr2"...
+
+59
+00:02:37,617 --> 00:02:41,367
+so "ptr" is a pointer to int, and "ptr2" is a pointer to pointer to int.
+
+60
+00:02:41,370 --> 00:02:44,280
+So yeah, there are many stupid things you can do with "void *"
+
+61
+00:02:44,282 --> 00:02:46,112
+What's great about "void *",
+
+62
+00:02:46,112 --> 00:02:48,112
+is that it can take any address,
+
+63
+00:02:48,112 --> 00:02:50,542
+which will be useful when writing generic functions.
+
+64
+00:02:50,542 --> 00:02:52,570
+But you'll see that much later.
+
+65
+00:02:52,570 --> 00:02:56,241
+So, for now, just know that a "void *" is a pointer on anything
+
+66
+00:02:56,241 --> 00:03:00,241
+and you can use it to pass a pointer's address to another pointer,
+
+67
+00:03:00,241 --> 00:03:03,691
+without knowing its type.
+
+68
+00:03:04,252 --> 00:03:05,702
+That's all you need to know.
+
+69
+00:03:05,702 --> 00:03:06,702
+But beware...
+
+70
+00:03:07,122 --> 00:03:09,223
+Okay, last notion for today.
+
+71
+00:03:09,513 --> 00:03:16,383
+If you do "superptr[1] = 12", just for giggles,
+
+72
+00:03:16,725 --> 00:03:19,945
+you'll see that we have a problem... Normally...
+
+73
+00:03:19,954 --> 00:03:23,674
+That's because we're trying to dereference a "void *"...
+
+74
+00:03:24,241 --> 00:03:27,451
+The problem being, as I've mentioned before,
+
+75
+00:03:27,451 --> 00:03:31,451
+"[1]" is like writing "*(something + 1)"
+
+76
+00:03:32,763 --> 00:03:34,323
+And that's a problem.
+
+77
+00:03:34,765 --> 00:03:36,885
+My compiler needs to know (when I do "+ 1")
+
+78
+00:03:36,885 --> 00:03:41,385
+the size of what I point to. And right now I'm pointing to "void"
+
+79
+00:03:41,385 --> 00:03:44,555
+So it doesn't know its size. And that's a problem.
+
+80
+00:03:44,555 --> 00:03:47,525
+So it refuses to do the "+ 1" I asked him to do.
+
+81
+00:03:47,525 --> 00:03:50,515
+and even if I hadn't done the "+ 1", had I just done this...
+
+82
+00:03:50,515 --> 00:03:53,203
+When I use the "*", it needs to load what I'm pointing to
+
+83
+00:03:53,203 --> 00:03:54,523
+in the memory.
+
+84
+00:03:54,523 --> 00:03:56,483
+But as it doesn't know the required size,
+
+85
+00:03:56,483 --> 00:03:58,343
+It's not a "char", it's not an "int"...
+
+86
+00:03:58,343 --> 00:03:59,733
+It doesn't know what it is...
+
+87
+00:03:59,733 --> 00:04:01,853
+Therefore it refuses to do this operation.
+
+88
+00:04:01,853 --> 00:04:04,973
+Conclusion : "void *" are just for transporting addresses.

@@ -1,0 +1,116 @@
+1
+00:00:06,250 --> 00:00:11,916
+Now that you've seen every thing about
+
+2
+00:00:11,916 --> 00:00:13,176
+chained lists,
+
+3
+00:00:13,176 --> 00:00:15,836
+Let me give you some tips
+
+4
+00:00:15,836 --> 00:00:18,937
+There are many ways to write add_link().
+
+5
+00:00:18,937 --> 00:00:21,445
+We can write it like this,
+
+6
+00:00:21,933 --> 00:00:25,517
+with an <b>int</b> to return different error codes, for example,
+
+7
+00:00:26,467 --> 00:00:29,528
+and a double pointer to list as another parameter,
+
+8
+00:00:30,348 --> 00:00:34,968
+as well as our char *str, to fill up our link.
+
+9
+00:00:39,538 --> 00:00:41,201
+What does this mean?
+
+10
+00:00:41,201 --> 00:00:46,525
+It means that when we'll call our add_link(), from our main,
+
+11
+00:00:46,525 --> 00:00:49,091
+(let's write add_link())
+
+12
+00:00:50,811 --> 00:00:55,411
+and return the address of 'list',
+
+13
+00:00:55,411 --> 00:01:00,371
+with, for example, "titi".
+
+14
+00:01:00,381 --> 00:01:03,567
+If we do this... as we already had a pointer,
+
+15
+00:01:03,567 --> 00:01:08,545
+and send this pointer's address, we get a double pointer.
+
+16
+00:01:10,025 --> 00:01:12,255
+Remember pointers.
+
+17
+00:01:12,255 --> 00:01:17,201
+We know that, for example, if we have an int "i" that's worth 10,
+
+18
+00:01:20,731 --> 00:01:29,700
+we can create an int*, let's say "p", that'll contain the address of "i".
+
+19
+00:01:33,550 --> 00:01:35,754
+What happens with a double pointer?
+
+20
+00:01:36,784 --> 00:01:44,725
+We're gonna get an int**, e.g.: "pp", that contains the address of "p".
+
+21
+00:01:47,835 --> 00:01:49,012
+Meaning...
+
+22
+00:01:50,112 --> 00:01:53,252
+that the function called, can modify
+
+23
+00:01:53,252 --> 00:01:57,081
+our pointer's address, in the calling function.
+
+24
+00:01:57,901 --> 00:01:59,191
+In other words...
+
+25
+00:02:01,551 --> 00:02:04,371
+by erasing all of this, I could simply write:
+
+26
+00:02:05,771 --> 00:02:08,471
+*list = malloc
+
+27
+00:02:08,981 --> 00:02:14,490
+and so "list" will point towards a valid memory area.
+
+28
+00:02:14,490 --> 00:02:17,860
+and will be set (initialised) automatically, in your function main().
+
+29
+00:02:18,330 --> 00:02:19,100
+Good luck.
+

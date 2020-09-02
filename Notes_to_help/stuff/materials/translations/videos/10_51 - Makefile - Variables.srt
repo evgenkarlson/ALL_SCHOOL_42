@@ -1,0 +1,195 @@
+1
+00:00:06,343 --> 00:00:09,393
+Now that you know how to define rules for your Makefile,
+
+2
+00:00:09,393 --> 00:00:12,543
+Let's discover together how to use those variables.
+
+3
+00:00:12,543 --> 00:00:16,543
+We're quickly going to see that certain names will be ccomplex
+
+4
+00:00:16,543 --> 00:00:19,943
+to write, will have to be dynamic, or will be created
+
+5
+00:00:19,943 --> 00:00:22,113
+from something else.
+
+6
+00:00:22,113 --> 00:00:24,373
+So it'll be very practical to be able to regroup
+
+7
+00:00:24,373 --> 00:00:26,593
+these complicated expressions in a variable,
+
+8
+00:00:26,593 --> 00:00:29,003
+and then reuse it in your Makefile.
+
+9
+00:00:29,668 --> 00:00:31,978
+The syntax, for variables, is very simple:
+
+10
+00:00:31,978 --> 00:00:35,978
+You just write the name of the variable,
+
+11
+00:00:35,978 --> 00:00:39,628
+followed by the "=" sign, then the definition of this variable.
+
+12
+00:00:39,628 --> 00:00:42,458
+For example, here, the string
+
+13
+00:00:42,458 --> 00:00:44,598
+"42 is for the braves".
+
+14
+00:00:45,208 --> 00:00:46,858
+Please excuse my accent.
+
+15
+00:00:49,913 --> 00:00:52,573
+And now, I have the possibility
+
+16
+00:00:52,573 --> 00:00:56,203
+to refer to my variable TEXT in my Makefile,
+
+17
+00:00:56,203 --> 00:00:59,553
+which will be replaced by "42 is for the braves".
+
+18
+00:01:00,732 --> 00:01:06,182
+Notice how I chose to use capital letters for my variable?
+
+19
+00:01:06,182 --> 00:01:09,502
+It's a norm I'll ask you to respect as well.
+
+20
+00:01:09,502 --> 00:01:12,452
+In the Makefile, your variables are in capital letters.
+
+21
+00:01:12,750 --> 00:01:15,580
+Once we have this variable, we're going to want to use it.
+
+22
+00:01:16,173 --> 00:01:19,123
+For example, I'm going to define a regle_a ("rule_a")
+
+23
+00:01:20,162 --> 00:01:23,982
+which will use the variable TEXT.
+
+24
+00:01:24,750 --> 00:01:27,570
+For this, the syntax is a little special,
+
+25
+00:01:27,570 --> 00:01:30,990
+we're going to use "$" and then the name of the variable
+
+26
+00:01:30,990 --> 00:01:34,710
+we want to refer to, in parenthesis.
+
+27
+00:01:35,584 --> 00:01:40,694
+This way, by reading regle_a, the command "make" will know it has to replace
+
+28
+00:01:40,694 --> 00:01:46,014
+"$(TEXT)" by "42 is for the braves".
+
+29
+00:01:46,522 --> 00:01:48,462
+Let's test this together.
+
+30
+00:01:48,932 --> 00:01:51,852
+I advise you to add a shortcut for "make",
+
+31
+00:01:51,852 --> 00:01:55,852
+know that if you invoke "make"
+
+32
+00:01:55,852 --> 00:01:59,852
+without arguments, the first rule encountered in your Makefile,
+
+33
+00:01:59,852 --> 00:02:01,492
+will be the one used.
+
+34
+00:02:01,492 --> 00:02:03,982
+It's a practical behavior to use your
+
+35
+00:02:03,982 --> 00:02:05,842
+default compilation rule.
+
+36
+00:02:05,842 --> 00:02:08,282
+In my example's case, the first rule of my
+
+37
+00:02:08,282 --> 00:02:13,142
+Makefile being regle_a, if I invoke "make" without parameters,
+
+38
+00:02:13,142 --> 00:02:15,472
+this regle_a is the one that'll be executed.
+
+39
+00:02:15,472 --> 00:02:19,672
+Proof : "echo" of my variable TEXT has been replaced by
+
+40
+00:02:19,672 --> 00:02:22,202
+the string "42 is for the braves".
+
+41
+00:02:22,202 --> 00:02:25,332
+We can see that the display of the line below, corresponds well.
+
+42
+00:02:25,382 --> 00:02:28,532
+Evidently, we can do much more complex things with
+
+43
+00:02:28,532 --> 00:02:30,682
+Makefile's variables.
+
+44
+00:02:30,682 --> 00:02:33,842
+You'll see that we can generate data, but that's something
+
+45
+00:02:33,842 --> 00:02:35,816
+I'll let you discover on your own.
+
+46
+00:02:35,816 --> 00:02:39,496
+There are hundreds of tutorials on the Internet,
+
+47
+00:02:39,496 --> 00:02:42,266
+which will teach you the basics of variables.
+
+48
+00:02:42,983 --> 00:02:46,283
+See you in a moment for the rest of the lesson.
+
+49
+00:02:46,283 --> 00:02:49,693
+We'll look at a more complete example of Makefile.

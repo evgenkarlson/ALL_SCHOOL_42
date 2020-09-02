@@ -1,0 +1,484 @@
+1
+00:00:06,200 --> 00:00:07,139
+Hello again,
+
+2
+00:00:07,328 --> 00:00:09,396
+Let's keep going with #include,
+
+3
+00:00:09,405 --> 00:00:12,553
+but this time I'll explain the advantages of using files.h
+
+4
+00:00:13,224 --> 00:00:15,150
+to protect your functions, etc.
+
+5
+00:00:15,150 --> 00:00:18,420
+from prototype errors, etc.
+
+6
+00:00:19,144 --> 00:00:20,054
+Here's an example
+
+7
+00:00:20,309 --> 00:00:22,909
+I have a main that calls a function ft_fct
+
+8
+00:00:23,135 --> 00:00:24,765
+I added the prototype before.
+
+9
+00:00:24,767 --> 00:00:27,742
+This function takes an int as a parameter, and returns nothing.
+
+10
+00:00:27,742 --> 00:00:29,212
+This function doesn't do much.
+
+11
+00:00:29,223 --> 00:00:31,033
+It'll display "coucou" onscreen.
+
+12
+00:00:32,192 --> 00:00:33,642
+What I can show you, is :
+
+13
+00:00:33,720 --> 00:00:36,160
+Imagine you had a dozen files.c
+
+14
+00:00:36,166 --> 00:00:38,886
+which all called ft_fct.
+
+15
+00:00:39,198 --> 00:00:41,718
+You'd have to add the prototype each time.
+
+16
+00:00:41,816 --> 00:00:44,576
+So here, 1st advantage of #includes:
+
+17
+00:00:44,602 --> 00:00:47,273
+You'll be able to include this file,
+
+18
+00:00:47,273 --> 00:00:49,453
+everywhere.
+
+19
+00:00:49,663 --> 00:00:51,213
+You'll just have to do it once.
+
+20
+00:00:51,213 --> 00:00:53,513
+You'll then be able to change ft_fct's prototype
+
+21
+00:00:53,534 --> 00:00:55,490
+without having do rewrite it in 10 files,
+
+22
+00:00:55,490 --> 00:00:57,370
+you'll just write it in one single file
+
+23
+00:00:57,370 --> 00:00:59,536
+and it'll be re-copied during preprocessing,
+
+24
+00:00:59,536 --> 00:01:00,636
+before compilation,
+
+25
+00:01:01,244 --> 00:01:03,304
+And your new version of ft_fct will be here.
+
+26
+00:01:03,304 --> 00:01:05,225
+But mainly, it'll prevent other problems.
+
+27
+00:01:05,225 --> 00:01:07,105
+Let me show you with a simple example:
+
+28
+00:01:08,244 --> 00:01:09,130
+Imagine, imagine,
+
+29
+00:01:10,040 --> 00:01:12,240
+This was my function ft_fct,
+
+30
+00:01:12,654 --> 00:01:14,002
+I already added the include,
+
+31
+00:01:14,002 --> 00:01:15,212
+I'm going to remove it.
+
+32
+00:01:16,222 --> 00:01:18,832
+So, ft_fct took an int as a parameter,
+
+33
+00:01:18,832 --> 00:01:20,872
+I'm going to remove this too.
+
+34
+00:01:20,872 --> 00:01:22,372
+Doesn't take anything anymore.
+
+35
+00:01:24,313 --> 00:01:27,173
+So now my ft_fct doesn't take anything as a parameter.
+
+36
+00:01:27,230 --> 00:01:28,650
+Now, in my main,
+
+37
+00:01:28,662 --> 00:01:29,642
+no modifications,
+
+38
+00:01:29,645 --> 00:01:32,785
+I declare that ft_fct is going to take one parameter: an int.
+
+39
+00:01:33,015 --> 00:01:34,545
+So I send it a parameter.
+
+40
+00:01:35,708 --> 00:01:36,978
+And here, if I compile,
+
+41
+00:01:37,128 --> 00:01:38,348
+Here's what happens.
+
+42
+00:01:39,340 --> 00:01:40,070
+With ft_fct.c
+
+43
+00:01:41,058 --> 00:01:41,858
+It compiled.
+
+44
+00:01:43,062 --> 00:01:43,892
+It works.
+
+45
+00:01:43,892 --> 00:01:45,742
+Except that I'm doing something absurd
+
+46
+00:01:46,385 --> 00:01:47,698
+Because here,
+
+47
+00:01:47,698 --> 00:01:49,527
+I didn't pass anything as a parameter
+
+48
+00:01:49,527 --> 00:01:52,447
+Whereas in my main, I passed something.
+
+49
+00:01:52,819 --> 00:01:54,943
+We should've taken the problem in reverse...
+
+50
+00:01:54,943 --> 00:01:57,294
+ft_fct should have taken something as a parameter,
+
+51
+00:01:57,294 --> 00:01:58,982
+and I should've declared it didn't.
+
+52
+00:01:58,982 --> 00:02:01,803
+And in this case, it would've checked for infos on the stack
+
+53
+00:02:01,803 --> 00:02:03,268
+And we would've had a problem:
+
+54
+00:02:03,268 --> 00:02:04,605
+my code would've gone nuts.
+
+55
+00:02:04,788 --> 00:02:07,198
+So here, you see we can have difference
+
+56
+00:02:07,200 --> 00:02:09,750
+problems between files that really define functions,
+
+57
+00:02:09,750 --> 00:02:12,323
+and files that use them (where you've set a prototype)
+
+58
+00:02:12,435 --> 00:02:14,365
+The way to prevent this,
+
+59
+00:02:14,417 --> 00:02:15,747
+is to use includes.
+
+60
+00:02:15,916 --> 00:02:18,406
+So I've created a file fct.h.
+
+61
+00:02:19,159 --> 00:02:21,779
+which is local, hence why I'm using quotation marks
+
+62
+00:02:22,228 --> 00:02:25,448
+and it defines my function ft_fct
+
+63
+00:02:25,456 --> 00:02:26,581
+properly.
+
+64
+00:02:26,591 --> 00:02:30,494
+I'm going to include it into the ftc.c file to show you its benefits.
+
+65
+00:02:30,644 --> 00:02:32,129
+It's some sort of security.
+
+66
+00:02:32,129 --> 00:02:34,719
+I'm also going to include it in my main.c
+
+67
+00:02:35,597 --> 00:02:37,688
+So instead of writing the prototype, here,
+
+68
+00:02:37,688 --> 00:02:39,068
+I'm going to include it.
+
+69
+00:02:41,328 --> 00:02:42,458
+fct.h
+
+70
+00:02:43,394 --> 00:02:44,927
+And now, I'm gonna check
+
+71
+00:02:44,927 --> 00:02:46,597
+this ftc.h I've created.
+
+72
+00:02:47,732 --> 00:02:48,921
+So, here, we said
+
+73
+00:02:48,921 --> 00:02:50,421
+it took an int as a parameter.
+
+74
+00:02:51,852 --> 00:02:53,089
+So. My main,
+
+75
+00:02:53,089 --> 00:02:53,903
+no problem.
+
+76
+00:02:53,903 --> 00:02:55,617
+It does take an int as a parameter.
+
+77
+00:02:55,617 --> 00:02:57,377
+So let's compile and see what it does
+
+78
+00:02:57,377 --> 00:02:58,567
+And you'll see that,
+
+79
+00:02:58,567 --> 00:03:02,253
+considering there's a problem somewhere between the prototype and my function.
+
+80
+00:03:02,253 --> 00:03:03,862
+Now, it's up to me to decide...
+
+81
+00:03:03,862 --> 00:03:06,452
+in the end, ft_fct doesn't actually take any parameter,
+
+82
+00:03:06,612 --> 00:03:07,542
+So I tell myself
+
+83
+00:03:07,542 --> 00:03:09,350
+that actually, the function I created
+
+84
+00:03:09,350 --> 00:03:11,582
+doesn't take anything as a parameter anymore.
+
+85
+00:03:11,582 --> 00:03:13,722
+So I need to change it's prototype in fct.h.
+
+86
+00:03:14,012 --> 00:03:16,072
+I'm going to change it's prototype in fct.h.
+
+87
+00:03:16,072 --> 00:03:16,831
+So, here,
+
+88
+00:03:16,831 --> 00:03:18,331
+I'm going to pass it "void"
+
+89
+00:03:19,479 --> 00:03:20,179
+Here.
+
+90
+00:03:20,974 --> 00:03:21,974
+Recompiling
+
+91
+00:03:22,292 --> 00:03:23,034
+Once again,
+
+92
+00:03:23,034 --> 00:03:24,074
+I have another error.
+
+93
+00:03:24,094 --> 00:03:26,374
+But this time, the error isn't in fct.c anymore.
+
+94
+00:03:26,680 --> 00:03:28,250
+Now it's in the main.c.
+
+95
+00:03:28,963 --> 00:03:30,323
+Because, this time, my main,
+
+96
+00:03:30,323 --> 00:03:31,803
+as I've changed the prototype,
+
+97
+00:03:31,803 --> 00:03:33,042
+Well my main tells me that
+
+98
+00:03:33,042 --> 00:03:35,742
+Ah! I've tried to call it by passing it 10 as parameter.
+
+99
+00:03:35,742 --> 00:03:36,699
+and it doesn't work.
+
+100
+00:03:36,699 --> 00:03:38,489
+So here too, I'm gonna have
+
+101
+00:03:38,526 --> 00:03:41,076
+to remove the call with the parameter.
+
+102
+00:03:42,198 --> 00:03:43,206
+And this time,
+
+103
+00:03:43,206 --> 00:03:44,286
+It'll compile.
+
+104
+00:03:44,815 --> 00:03:45,886
+I can even show you...
+
+105
+00:03:45,886 --> 00:03:47,562
+If I do a CPP of main.c,
+
+106
+00:03:47,562 --> 00:03:48,562
+you see,
+
+107
+00:03:48,694 --> 00:03:50,051
+here we see
+
+108
+00:03:50,051 --> 00:03:51,851
+that we have our fct.h file
+
+109
+00:03:51,857 --> 00:03:53,787
+that's been re-written.
+
+110
+00:03:54,178 --> 00:03:56,668
+You can see the prototype written at the top.
+
+111
+00:03:57,785 --> 00:03:59,120
+Normally,
+
+112
+00:03:59,120 --> 00:04:01,510
+we'd like to avoid writing prototypes
+
+113
+00:04:01,510 --> 00:04:03,140
+at the beginning of every file.
+
+114
+00:04:03,140 --> 00:04:05,244
+But instead, use includes from here, now,
+
+115
+00:04:05,244 --> 00:04:06,829
+but most importantly,
+
+116
+00:04:06,829 --> 00:04:09,969
+don't forget to include the files.h in the corresponding files.c
+
+117
+00:04:09,969 --> 00:04:12,519
+So normally you should put your prototypes in files.h
+
+118
+00:04:13,171 --> 00:04:15,319
+and include them to their appropriate files.c
+
+119
+00:04:15,319 --> 00:04:17,160
+so that when you modify a function,
+
+120
+00:04:17,160 --> 00:04:19,317
+you'll know straight away during compilation.
+
+121
+00:04:19,317 --> 00:04:22,977
+And you'll be able to modify the files.h and files.c, accordingly.
+

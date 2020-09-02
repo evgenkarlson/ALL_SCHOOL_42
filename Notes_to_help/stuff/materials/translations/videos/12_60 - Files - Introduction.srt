@@ -1,0 +1,187 @@
+1
+00:00:06,408 --> 00:00:07,157
+Hi everyone
+
+2
+00:00:07,157 --> 00:00:09,080
+and welcome to this D12 of C bootcamp.
+
+3
+00:00:09,080 --> 00:00:11,622
+Today we'll learn how to manipulate files in C.
+
+4
+00:00:12,147 --> 00:00:13,849
+We'll see how to open a file,
+
+5
+00:00:13,849 --> 00:00:16,034
+close it, read from it
+
+6
+00:00:16,034 --> 00:00:17,712
+or write in it.
+
+7
+00:00:17,945 --> 00:00:19,095
+Let's start with
+
+8
+00:00:19,095 --> 00:00:21,018
+the concept of file descriptor (FD)
+
+9
+00:00:21,785 --> 00:00:23,369
+When you ask your system
+
+10
+00:00:23,369 --> 00:00:24,525
+to open a file
+
+11
+00:00:24,525 --> 00:00:26,682
+it returns a file descriptor.
+
+12
+00:00:27,178 --> 00:00:28,575
+A file descriptor is an integer.
+
+13
+00:00:29,057 --> 00:00:32,613
+The system keeps in memory some sort of table which associates every
+
+14
+00:00:32,613 --> 00:00:35,296
+file descriptor opened by a process with a file
+
+15
+00:00:35,823 --> 00:00:37,796
+When you get this file descriptor,
+
+16
+00:00:37,804 --> 00:00:40,464
+you can use it to manipulate the file.
+
+17
+00:00:40,545 --> 00:00:42,915
+Look at this example :
+
+18
+00:00:42,938 --> 00:00:45,818
+My program asks the system to open
+
+19
+00:00:45,825 --> 00:00:47,876
+the file named README, the system opens it
+
+20
+00:00:47,876 --> 00:00:49,586
+and returns the file descriptor 42.
+
+21
+00:00:49,885 --> 00:00:51,624
+Now, I can refer to FD 42
+
+22
+00:00:51,624 --> 00:00:53,597
+to manipulate this file
+
+23
+00:00:55,154 --> 00:00:57,692
+You have probably already used file descriptors
+
+24
+00:00:57,692 --> 00:00:59,041
+maybe without knowing it,
+
+25
+00:00:59,051 --> 00:01:01,351
+especially in the ft_putchar() function
+
+26
+00:01:01,959 --> 00:01:03,803
+which you must know very well by now.
+
+27
+00:01:03,815 --> 00:01:05,212
+This function allows you to
+
+28
+00:01:05,212 --> 00:01:07,554
+write your character in FD 1
+
+29
+00:01:08,060 --> 00:01:09,938
+If you read the man for "write"
+
+30
+00:01:10,290 --> 00:01:12,454
+you'll learn that the first parameter
+
+31
+00:01:12,454 --> 00:01:14,386
+is a file descriptor.
+
+32
+00:01:14,386 --> 00:01:16,988
+the file descriptor 1, which is part of a set
+
+33
+00:01:17,009 --> 00:01:18,920
+called standard file descriptors.
+
+34
+00:01:19,383 --> 00:01:20,892
+There are 3 standard file descriptors :
+
+35
+00:01:21,719 --> 00:01:23,779
+FD 0 or STDIN
+
+36
+00:01:24,307 --> 00:01:25,347
+which is your standard input
+
+37
+00:01:25,360 --> 00:01:26,640
+for example, when you type
+
+38
+00:01:26,661 --> 00:01:27,801
+on your keyboard in your shell,
+
+39
+00:01:27,813 --> 00:01:29,565
+you are using the standard input
+
+40
+00:01:31,226 --> 00:01:35,194
+FD 1 or STDOUT is the standard output
+
+41
+00:01:35,304 --> 00:01:37,736
+think of the characters displayed in your shell
+
+42
+00:01:37,736 --> 00:01:39,161
+like when you use putchar()
+
+43
+00:01:39,353 --> 00:01:42,653
+FD 2 or STDERR is the error output
+
+44
+00:01:42,653 --> 00:01:45,579
+which is also displayed in your shell.
+
+45
+00:01:46,649 --> 00:01:48,297
+This concludes the introduction,
+
+46
+00:01:48,297 --> 00:01:49,208
+in the next video,
+
+47
+00:01:49,208 --> 00:01:51,286
+we'll learn how to open and close a file.

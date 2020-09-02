@@ -1,0 +1,588 @@
+1
+00:00:06,748 --> 00:00:09,198
+Recursion is a programming method,
+
+2
+00:00:09,198 --> 00:00:13,078
+that's completely different from what you've seen so far.
+
+3
+00:00:13,078 --> 00:00:15,128
+What you've learnt so far, is what we call :
+
+4
+00:00:15,128 --> 00:00:16,504
+Iterative programming
+
+5
+00:00:16,504 --> 00:00:18,774
+Iterative programming is a programming technique
+
+6
+00:00:18,774 --> 00:00:22,224
+that uses instruction loops that repeat themselves,
+
+7
+00:00:22,224 --> 00:00:24,354
+that evaluate to nothing,
+
+8
+00:00:24,354 --> 00:00:26,374
+and that uses what we call side effects
+
+9
+00:00:26,374 --> 00:00:28,234
+in order to return values
+
+10
+00:00:28,234 --> 00:00:30,184
+meaning they use variables.
+
+11
+00:00:30,184 --> 00:00:32,964
+Let's use your FT_strlen() as an example.
+
+12
+00:00:32,964 --> 00:00:35,224
+(I hope you've done it!)
+
+13
+00:00:35,224 --> 00:00:38,744
+that takes a variable, initialises it to 0,
+
+14
+00:00:38,744 --> 00:00:41,714
+and does a loop that, at each iteration,
+
+15
+00:00:41,714 --> 00:00:44,084
+(note iteration: iterative programming, and all)
+
+16
+00:00:44,084 --> 00:00:48,084
+will increase your variable by 1.
+
+17
+00:00:48,084 --> 00:00:50,703
+So it's using an external variable
+
+18
+00:00:50,703 --> 00:00:52,813
+in order to return its result.
+
+19
+00:00:52,813 --> 00:00:55,753
+Its result - it doesn't really return one -
+
+20
+00:00:55,753 --> 00:00:57,893
+is stored within a variable.
+
+21
+00:00:57,893 --> 00:01:00,753
+Iterative programming is exactly like this.
+
+22
+00:01:00,753 --> 00:01:03,053
+The ft_strlen() is a canonical example.
+
+23
+00:01:03,053 --> 00:01:07,913
+Recursive programming is a little different.
+
+24
+00:01:07,913 --> 00:01:11,243
+You have to picture it just like Russian dolls...
+
+25
+00:01:11,243 --> 00:01:13,573
+We'll have functions calling themselves, and then
+
+26
+00:01:13,573 --> 00:01:16,103
+they call themselves again, and call themselves again,
+
+27
+00:01:16,103 --> 00:01:17,683
+and call themselves again, etc...
+
+28
+00:01:17,683 --> 00:01:19,153
+Up to a certain point
+
+29
+00:01:19,153 --> 00:01:23,153
+where we'll use mechanisms to return results.
+
+30
+00:01:23,803 --> 00:01:26,873
+In order to understand this, you must first understand
+
+31
+00:01:26,873 --> 00:01:28,183
+the principles of a pile.
+
+32
+00:01:28,183 --> 00:01:30,553
+and by "pile", I mean the stack.
+
+33
+00:01:30,553 --> 00:01:33,173
+It's a program's reserved region of memory
+
+34
+00:01:33,173 --> 00:01:36,833
+that'll fill up as we call functions,
+
+35
+00:01:36,833 --> 00:01:38,553
+that's pretty much empty
+
+36
+00:01:38,553 --> 00:01:40,313
+at the beginning of the program
+
+37
+00:01:40,313 --> 00:01:41,703
+For example,
+
+38
+00:01:41,703 --> 00:01:44,783
+let's use a simple program,
+
+39
+00:01:44,783 --> 00:01:46,743
+at the very beginning, the stack is empty
+
+40
+00:01:47,123 --> 00:01:50,193
+when we start the program, the main is called,
+
+41
+00:01:50,193 --> 00:01:53,203
+so the function "main" will be put on the stack.
+
+42
+00:01:53,203 --> 00:01:55,923
+We could also say that it's pushed onto the stack.
+
+43
+00:01:56,403 --> 00:01:58,453
+And then, somewhere in your code,
+
+44
+00:01:58,453 --> 00:02:02,003
+the main will call your ft_putstr().
+
+45
+00:02:02,003 --> 00:02:06,683
+Therefore, we call ft_putstr(), that'll also be added to the stack.
+
+46
+00:02:06,683 --> 00:02:09,983
+And somewhere in ft_putstr()'s code,
+
+47
+00:02:09,983 --> 00:02:14,373
+ft_putchar() will also be called, and therefore will also be added to the stack.
+
+48
+00:02:14,373 --> 00:02:18,003
+ft_putchar() will then call "write", which will also be added onto the stack.
+
+49
+00:02:18,003 --> 00:02:18,703
+etc, etc...
+
+50
+00:02:18,703 --> 00:02:22,453
+Basically, every time we call a function,
+
+51
+00:02:22,453 --> 00:02:26,483
+this function will be pushed onto the stack, it'll evaluate itself,
+
+52
+00:02:26,483 --> 00:02:30,233
+and, at some point, when we're done with our function,
+
+53
+00:02:30,233 --> 00:02:32,953
+we'll return to our previous function.
+
+54
+00:02:35,033 --> 00:02:37,503
+Our function that was on top of the stack,
+
+55
+00:02:37,503 --> 00:02:41,533
+will be removed from the stack, we can also say that it's popped from the stack,
+
+56
+00:02:41,533 --> 00:02:47,843
+so our function will be gone, and be replaced by the previous one.
+
+57
+00:02:47,843 --> 00:02:51,313
+In our example, we'll remove "write" and ft_putchar() will remain.
+
+58
+00:02:51,313 --> 00:02:53,803
+and our execution will come back to ft_putchar().
+
+59
+00:02:53,803 --> 00:02:57,733
+We'll keep going and remove ft_putchar(), and go back to ft_putstr().
+
+60
+00:02:57,733 --> 00:03:00,333
+Then go back to the main, etc...
+
+61
+00:03:00,333 --> 00:03:03,362
+As I said before, it's just like Russian dolls.
+
+62
+00:03:03,362 --> 00:03:06,282
+Functions pile up on top of each other,
+
+63
+00:03:06,282 --> 00:03:09,853
+or within one another,
+
+64
+00:03:09,853 --> 00:03:13,023
+and that's the principle we'll use for recursive functions.
+
+65
+00:03:13,023 --> 00:03:17,713
+A recursive function, is a function that calls itself
+
+66
+00:03:17,923 --> 00:03:20,513
+and that pushes itself on the stack, on top of itself.
+
+67
+00:03:20,513 --> 00:03:22,443
+In principle, it's not that complicated.
+
+68
+00:03:22,443 --> 00:03:24,823
+However, we'll do this until
+
+69
+00:03:24,823 --> 00:03:26,373
+we reach two possible outcomes:
+
+70
+00:03:26,393 --> 00:03:28,723
+either you have a function that's okay with always
+
+71
+00:03:28,723 --> 00:03:30,363
+just calling itself, in which case
+
+72
+00:03:30,363 --> 00:03:33,463
+every time it'll finish its action, we'll re-push another instance
+
+73
+00:03:33,463 --> 00:03:34,993
+of our function onto the stack.
+
+74
+00:03:34,993 --> 00:03:37,083
+And as you can imagine, if we don't stop it,
+
+75
+00:03:37,083 --> 00:03:40,273
+the stack will grow, and grow...
+
+76
+00:03:40,273 --> 00:03:41,863
+till it goes "ka-boom!"
+
+77
+00:03:41,863 --> 00:03:45,003
+The program will crash, because your system will inform it
+
+78
+00:03:45,003 --> 00:03:48,623
+that it's gone over the stack's capacity, (the one allocated to it)
+
+79
+00:03:48,623 --> 00:03:51,713
+and as you can imagine, that wasn't such a brilliant idea.
+
+80
+00:03:51,713 --> 00:03:54,863
+The second possible output, in this kind of situation,
+
+81
+00:03:54,863 --> 00:03:56,713
+and that's what we normally should do,
+
+82
+00:03:56,713 --> 00:03:58,493
+when we use recursion properly,
+
+83
+00:03:58,493 --> 00:04:01,463
+is to get to a point in our execution
+
+84
+00:04:01,463 --> 00:04:03,193
+where there's a stopping condition.
+
+85
+00:04:03,193 --> 00:04:05,653
+And tell ourselves, at some point in our function,
+
+86
+00:04:05,653 --> 00:04:09,493
+let's call it fn(), which is a function that calls itself,
+
+87
+00:04:09,493 --> 00:04:13,843
+that there's a condition that states that if a criteria is met,
+
+88
+00:04:13,843 --> 00:04:16,863
+then we can stop calling it, and return it instead.
+
+89
+00:04:16,863 --> 00:04:18,533
+It's as if you said:
+
+90
+00:04:18,533 --> 00:04:21,183
+"Enough, I'm stopping now. I'm not going to keep on
+
+91
+00:04:21,183 --> 00:04:23,913
+using recursion, otherwise the stack will break down".
+
+92
+00:04:23,913 --> 00:04:27,212
+It's the same principle as a stopping condition in a loop.
+
+93
+00:04:27,212 --> 00:04:29,212
+Actually, it's exactly the same principle.
+
+94
+00:04:29,212 --> 00:04:31,422
+Except that it's being implemented differently.
+
+95
+00:04:31,422 --> 00:04:33,352
+So when we reach our stopping condition,
+
+96
+00:04:33,352 --> 00:04:35,512
+we stop pilling up functions onto the stack.
+
+97
+00:04:35,512 --> 00:04:36,802
+we pop the functions,
+
+98
+00:04:36,802 --> 00:04:41,142
+and we go down the stack to return to our initial state.
+
+99
+00:04:41,982 --> 00:04:46,342
+Now, let's check out a small mathematical example (on Vim).
+
+100
+00:04:46,342 --> 00:04:49,302
+I know everybody's not a fan of math,
+
+101
+00:04:49,302 --> 00:04:52,552
+but in the case, the example is appropriate.
+
+102
+00:04:52,552 --> 00:04:54,292
+Let's talk about factorial functions,
+
+103
+00:04:54,292 --> 00:04:56,642
+for those of you who haven't done math in a while,
+
+104
+00:04:56,642 --> 00:04:58,862
+or those that have a selective memory,
+
+105
+00:04:58,862 --> 00:05:02,452
+a factorial function can be written 
+as follows:
+
+106
+00:05:02,452 --> 00:05:07,322
+Factorial 5 = 5 x 4 x 3 x 2 x 1. (x = multiplication)
+
+107
+00:05:08,903 --> 00:05:13,428
+Same goes for 6 : 6 x 5 x 4 x 3 x 2 x 1.
+
+108
+00:05:13,428 --> 00:05:15,388
+I'm sure you get it.
+
+109
+00:05:16,558 --> 00:05:18,848
+I can show you with another couple of factorial,
+
+110
+00:05:18,848 --> 00:05:25,558
+factorial 4 = 4 x 3 x 2 x 1.
+
+111
+00:05:25,752 --> 00:05:28,792
+factorial 3 = 3 x 2 x 1.
+
+112
+00:05:28,792 --> 00:05:32,339
+And if you think about it,
+
+113
+00:05:32,339 --> 00:05:38,649
+we could say that factorial 5 is like doing 5 x 4!
+
+114
+00:05:40,892 --> 00:05:46,062
+or factorial 4 is the same as 3! multiplied by 4.
+
+115
+00:05:46,803 --> 00:05:51,173
+I could go on like this forever. Or till I reach factorial 1.
+
+116
+00:05:51,552 --> 00:05:54,352
+Simple fact: factorial 1, is 1.
+
+117
+00:06:03,802 --> 00:06:09,372
+Notice the resemblance with recursion?
+
+118
+00:06:09,372 --> 00:06:12,242
+We can see that 5! = 5 x 4!,
+
+119
+00:06:12,242 --> 00:06:15,122
+4! = 4 x 3!,
+
+120
+00:06:15,122 --> 00:06:17,802
+all the way to 1! = 1,
+
+121
+00:06:17,802 --> 00:06:20,392
+which is kind of a stopping condition.
+
+122
+00:06:20,392 --> 00:06:25,222
+Just in case it's not clear enough yet,
+
+123
+00:06:25,222 --> 00:06:31,842
+let's say that for n > 0,
+
+124
+00:06:32,593 --> 00:06:42,783
+n! = n x (n - 1) x (n - 2) x , etc...
+
+125
+00:06:45,101 --> 00:06:48,141
+until 3 x 2 x 1.
+
+126
+00:06:48,834 --> 00:06:51,274
+Base on this example, we could say that:
+
+127
+00:06:51,274 --> 00:06:57,454
+factorial n = n x factorial (n - 1),
+
+128
+00:06:57,454 --> 00:06:59,974
+Easy peasy, right?
+
+129
+00:06:59,974 --> 00:07:12,692
+So factorial(n - 1) is equal to (n - 1) x factorial(n - 2)
+
+130
+00:07:13,032 --> 00:07:14,332
+etc, etc...
+
+131
+00:07:14,332 --> 00:07:18,332
+till we reach 1. Which will end our recursion.
+
+132
+00:07:18,332 --> 00:07:20,942
+That was a form of recursion.
+
+133
+00:07:20,942 --> 00:07:22,782
+Written in math, granted, but still.
+
+134
+00:07:23,662 --> 00:07:26,332
+I'm going to show you recursion in code. Not in C though,
+
+135
+00:07:26,332 --> 00:07:29,973
+that'd be too easy. But in pseudo-code ;)
+
+136
+00:07:31,403 --> 00:07:40,093
+We can write that the function fact(N) is equal to N x fact(N -1).
+
+137
+00:07:41,976 --> 00:07:45,846
+Therefore it's a recursive function, and it need a stopping condition.
+
+138
+00:07:45,853 --> 00:07:49,353
+As you now know, the factorial for 1 is equal to 1.
+
+139
+00:07:50,193 --> 00:07:52,993
+From this example, you should be able to build a recursion,
+
+140
+00:07:52,993 --> 00:07:55,443
+with a stopping condition, that'll execute,
+
+141
+00:07:55,443 --> 00:07:57,753
+without making your program explode.
+
+142
+00:07:57,753 --> 00:07:59,823
+At least I hope so...
+
+143
+00:07:59,823 --> 00:08:05,953
+So. In order to calculate the factorial N, we need to calculate that of (N - 1), etc.
+
+144
+00:08:08,492 --> 00:08:12,252
+It looks a bit like a loop... And it could be written as such.
+
+145
+00:08:12,252 --> 00:08:14,822
+You'll have to do it anyway.
+
+146
+00:08:14,822 --> 00:08:17,662
+Let's stop for now, and see you in the next video,
+
+147
+00:08:17,662 --> 00:08:19,982
+for more examples in real C code.

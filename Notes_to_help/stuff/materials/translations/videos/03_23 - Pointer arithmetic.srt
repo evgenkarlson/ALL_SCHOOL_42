@@ -1,0 +1,367 @@
+1
+00:00:06,330 --> 00:00:07,470
+Hello again
+
+2
+00:00:07,560 --> 00:00:10,860
+In this video, I'm going to tell you about Pointer Arithmetics.
+
+3
+00:00:11,095 --> 00:00:15,095
+I hope you're focused, because this is usually the moment where people drop out.
+
+4
+00:00:15,407 --> 00:00:18,807
+You'll see, it's quite simple really, but for some mysterious reason,
+
+5
+00:00:18,807 --> 00:00:21,517
+people usually struggle with these notions...
+
+6
+00:00:21,565 --> 00:00:22,615
+Let's do this!
+
+7
+00:00:22,693 --> 00:00:25,073
+Here's the main I've prepared.
+
+8
+00:00:25,398 --> 00:00:29,398
+I've declared "a" and "b", both ints. I've assigned values to those variables,
+
+9
+00:00:29,398 --> 00:00:33,398
+and then I'm using self-made functions to display the address of "a",
+
+10
+00:00:33,398 --> 00:00:37,398
+and then display its value. And then same for "b" (address then value)
+
+11
+00:00:37,543 --> 00:00:41,273
+Let's see what happens.
+
+12
+00:00:41,779 --> 00:00:45,779
+See, we have the address of "a" and "b".
+
+13
+00:00:46,344 --> 00:00:49,244
+Notice how similar those addresses are?
+
+14
+00:00:49,257 --> 00:00:53,257
+"a" is actually 4 bytes further from "b". That's normal.
+
+15
+00:00:53,848 --> 00:00:57,668
+I told you about the stack earlier. And when you declare objects on the stack...
+
+16
+00:00:57,678 --> 00:01:00,778
+- the stack is actually all the way at the top of the addresses -
+
+17
+00:01:00,778 --> 00:01:04,678
+... so when you declare something on the stack, you go through addresses downwards.
+
+18
+00:01:04,678 --> 00:01:07,908
+The difference between "a" and "b" is 4, because an int is 4 bytes.
+
+19
+00:01:07,908 --> 00:01:11,468
+So here you go. The address of "a" is 4 bytes away from the address of "b".
+
+20
+00:01:11,468 --> 00:01:12,468
+Now that I'm aware of this, I'll be able to use pointers to move to "a" and to "b".
+
+21
+00:01:18,014 --> 00:01:21,424
+Let's create a pointer "*ptr".
+
+22
+00:01:22,185 --> 00:01:26,185
+and "ptr = &b;" (the address of "b")
+
+23
+00:01:27,074 --> 00:01:29,344
+Yes. I've selected b's address,
+
+24
+00:01:29,344 --> 00:01:33,924
+as I told you, "b" is after "a" on the stack, but the address comes first...
+
+25
+00:01:35,690 --> 00:01:38,100
+that's just how it is.
+
+26
+00:01:39,414 --> 00:01:43,414
+If I wanted to do the exact same thing here, I'd have to write this...
+
+27
+00:01:44,394 --> 00:01:48,394
+That used to be "a"'s address ("&a"), "ptr" being the address of "b"
+
+28
+00:01:48,676 --> 00:01:52,676
+you'd think we could write "ptr + 4", as "b" is 4 bytes away from "a"...
+
+29
+00:01:53,023 --> 00:01:57,853
+But our compiler is smarter than that. It knows "ptr" is a pointer to int.
+
+30
+00:01:57,868 --> 00:02:04,178
+So when you type "ptr" + a value, it multiplies this value by the size of an int
+
+31
+00:02:05,642 --> 00:02:09,652
+It's logical for you to move int by int,
+
+32
+00:02:09,709 --> 00:02:13,709
+so to go from "b" to "a", I'd have to type "ptr + 1".
+
+33
+00:02:14,896 --> 00:02:18,066
+Now. Here I used to display the value of "a"...
+
+34
+00:02:18,456 --> 00:02:22,456
+To display the value of the pointed object, we used an asterisk.
+
+35
+00:02:22,649 --> 00:02:26,059
+So "*ptr" should display the value of "b".
+
+36
+00:02:26,059 --> 00:02:30,059
+But now I can do "ptr + 1".
+
+37
+00:02:31,215 --> 00:02:33,695
+Normally I should be allowed to do this.
+
+38
+00:02:34,454 --> 00:02:36,214
+So what does that mean?
+
+39
+00:02:36,558 --> 00:02:40,558
+It means I'm taking the address contained within "ptr", I'm gonna do +1,
+
+40
+00:02:40,791 --> 00:02:44,791
+the compiler knows it's a pointer to int, so it's going to add 4 bytes,
+
+41
+00:02:45,022 --> 00:02:49,022
+and this asterisk means "check out what's at this new address".
+
+42
+00:02:50,071 --> 00:02:57,631
+Logically, I should display the address of "a", and its value (3).
+
+43
+00:03:00,800 --> 00:03:04,800
+Even though I'm using "ptr", which points to "b"
+
+44
+00:03:05,667 --> 00:03:07,587
+Recompiling. Relaunching.
+
+45
+00:03:07,892 --> 00:03:11,372
+Here you go. If you compare this to our previous result,
+
+46
+00:03:11,372 --> 00:03:13,382
+I've displayed the address of "a".
+
+47
+00:03:13,595 --> 00:03:15,925
+Wait, there's a slight difference... That's odd...
+
+48
+00:03:16,050 --> 00:03:19,050
+Oh yeah, that's because I recompiled and relaunched the program,
+
+49
+00:03:19,050 --> 00:03:21,280
+so it doesn't have the EXACT same address...
+
+50
+00:03:21,280 --> 00:03:25,040
+But that's okay. What's important is that I am indeed displaying "a"'s address,
+
+51
+00:03:25,040 --> 00:03:27,020
+even though I used "b"'s address.
+
+52
+00:03:27,580 --> 00:03:30,780
+'Cause addresses can change every time you relaunch a program.
+
+53
+00:03:30,780 --> 00:03:32,400
+But that's another story.
+
+54
+00:03:32,931 --> 00:03:36,931
+Now that we've done this, I want to show you that it's different with "chars" ...
+
+55
+00:03:37,317 --> 00:03:40,507
+So imagine I change my int here and replace it with a char,
+
+56
+00:03:40,507 --> 00:03:44,507
+So "char a", "char b" and instead of "ptr" pointing to an int,
+
+57
+00:03:44,507 --> 00:03:47,267
+I'm going to make it point to a char.
+
+58
+00:03:47,280 --> 00:03:51,060
+I need to change this because I can't use 3 anymore as it requires characters...
+
+59
+00:03:51,060 --> 00:03:54,750
+so I'm going to use the ASCII character '3' for "a", just to mess with you.
+
+60
+00:03:54,750 --> 00:03:57,060
+I'm going to use the ASCII character 'o' for "b",
+
+61
+00:03:57,319 --> 00:04:01,319
+and here, I'm going to replace "ft_putnbr" by "ft_putchar",
+
+62
+00:04:01,552 --> 00:04:04,072
+because we want to display characters.
+
+63
+00:04:04,129 --> 00:04:06,979
+So here, normally, I have "a" with the ASCII value of '3',
+
+64
+00:04:06,979 --> 00:04:09,719
+"b" with the ASCII value of 'o',
+
+65
+00:04:09,719 --> 00:04:12,099
+"ptr" that points to "b",
+
+66
+00:04:12,099 --> 00:04:18,399
+"ptr + 1", which should be the address of "b" + 1.
+
+67
+00:04:19,056 --> 00:04:22,886
+Yes. A char is one byte.
+
+68
+00:04:22,886 --> 00:04:26,266
+So when you move from char to char, we move byte by byte.
+
+69
+00:04:26,731 --> 00:04:29,921
+Just to show you, I'm going to add extra lines.
+
+70
+00:04:30,252 --> 00:04:33,002
+I'm taking the address of "b",
+
+71
+00:04:33,002 --> 00:04:35,582
+I'm going to display the address of "b".
+
+72
+00:04:35,858 --> 00:04:38,008
+And then I'll display the rest.
+
+73
+00:04:38,415 --> 00:04:45,295
+... typing ...
+
+74
+00:04:46,065 --> 00:04:49,435
+Recompiling & relaunching
+
+75
+00:04:49,816 --> 00:04:57,216
+As you can see, "ptr + 1" (one byte because we're using chars)
+
+76
+00:04:57,730 --> 00:05:00,155
+and we can do this with any type of variable.
+
+77
+00:05:00,155 --> 00:05:04,245
+And every time you do, the computer knows the variable's size you're pointing to.
+
+78
+00:05:04,245 --> 00:05:06,665
+So it'll be able to "move" accordingly.
+
+79
+00:05:07,065 --> 00:05:08,865
+Last detail... Just for laughs.
+
+80
+00:05:09,469 --> 00:05:11,019
+Let's use ints again.
+
+81
+00:05:16,911 --> 00:05:20,911
+I'm going to change the value of "a" to 1, the value of "b" to 42.
+
+82
+00:05:21,272 --> 00:05:25,272
+We'll keep what displays the address of "b".
+
+83
+00:05:25,609 --> 00:05:33,869
+And change "ptr + 1" into "ptr + a". You can 'call' a pointer with an int.
+
+84
+00:05:33,869 --> 00:05:37,869
+It's the same as 1. 1 being a static variable.
+
+85
+00:05:40,970 --> 00:05:43,770
+Let's check out the output.
+
+86
+00:05:44,847 --> 00:05:48,847
+The address of "b" is displayed. Same for the address of "a'.
+
+87
+00:05:49,290 --> 00:05:51,420
+And I forgot to display something...
+
+88
+00:05:51,420 --> 00:05:53,920
+I forgot to change my ft_putchar into a ft_putnbr...
+
+89
+00:05:57,977 --> 00:06:04,167
+See, I've displayed 1, which is the value of "a" from "ptr" which pointed to "b".
+
+90
+00:06:04,843 --> 00:06:08,563
+We've covered Pointer Arithmetics. See it wasn't that complicated, was it?
+
+91
+00:06:08,563 --> 00:06:11,373
+Just remember that you can do calculations with an address,
+
+92
+00:06:11,373 --> 00:06:14,120
+and then use an asterisk to check what's at this address.

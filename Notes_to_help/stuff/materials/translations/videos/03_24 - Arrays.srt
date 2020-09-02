@@ -1,0 +1,647 @@
+1
+00:00:01,097 --> 00:00:03,517
+♫ ( TIME TO PLAY THE GAME ! ) ♫
+
+2
+00:00:06,199 --> 00:00:09,819
+Hello. In this video, we'll talk about arrays.
+
+3
+00:00:09,981 --> 00:00:13,661
+Actually, earlier on, we've seen we could declare "a" and "b" on the stack,
+
+4
+00:00:13,710 --> 00:00:16,380
+and that we could go from one to the other
+
+5
+00:00:16,380 --> 00:00:19,290
+because they're almost stored in the same place.
+
+6
+00:00:19,428 --> 00:00:21,178
+Now. I'd like to have 10 ints
+
+7
+00:00:21,178 --> 00:00:23,048
+rather than declare 10 variables
+
+8
+00:00:23,048 --> 00:00:25,718
+like a,b,c,d,e,f,g... etc till I have 10,
+
+9
+00:00:25,752 --> 00:00:30,902
+I'd like to declare a variable that possesses 10 ints 'within'
+
+10
+00:00:31,249 --> 00:00:32,949
+That's called an array.
+
+11
+00:00:33,249 --> 00:00:36,099
+Here's a piece of code used earlier
+
+12
+00:00:36,241 --> 00:00:38,501
+We could declare an int by writing "int b"
+
+13
+00:00:38,573 --> 00:00:40,403
+Now I'm gonna call it "tab"
+
+14
+00:00:40,502 --> 00:00:43,582
+and you're going to discover a new syntax.
+
+15
+00:00:43,698 --> 00:00:46,678
+When I write "int tab[10]",
+
+16
+00:00:46,799 --> 00:00:50,799
+I'm saying that on the stack, there'll be 10 ints
+
+17
+00:00:50,975 --> 00:00:54,265
+And that "tab" will be some sort of implicit pointer
+
+18
+00:00:54,265 --> 00:00:56,215
+on the first of these ints
+
+19
+00:00:56,286 --> 00:00:58,426
+We're still using pointers
+
+20
+00:00:58,597 --> 00:01:01,237
+Now, look : Here, in "putaddr",
+
+21
+00:01:01,237 --> 00:01:02,967
+I used to give it an address,
+
+22
+00:01:02,967 --> 00:01:05,347
+Here I'm going to give it "tab" instead.
+
+23
+00:01:05,358 --> 00:01:07,668
+And if I want to display one of tab's numbers,
+
+24
+00:01:07,668 --> 00:01:09,508
+so far I haven't set any...
+
+25
+00:01:09,751 --> 00:01:12,121
+we'll be able to access one of tab's elements
+
+26
+00:01:12,121 --> 00:01:14,161
+by using square brackets ( [ ] )
+
+27
+00:01:14,313 --> 00:01:17,093
+For example, the first element is "tab[0]"
+
+28
+00:01:17,093 --> 00:01:20,523
+You'll understand why in a moment.
+
+29
+00:01:23,424 --> 00:01:25,564
+First, let me show you that it works.
+
+30
+00:01:27,597 --> 00:01:31,597
+Compiling & executing
+
+31
+00:01:32,202 --> 00:01:35,502
+We can see that "tab" is an address
+
+32
+00:01:35,513 --> 00:01:39,513
+And that "tab[0]" has the value '42'.
+
+33
+00:01:41,022 --> 00:01:46,712
+Now let me explain why the first element of "tab" is "tab[0]",
+
+34
+00:01:51,512 --> 00:02:01,102
+Basically, "tab[something]" is like writing " *( tab + brackets' content ) "
+
+35
+00:02:02,241 --> 00:02:04,541
+When I write this ...
+
+36
+00:02:04,877 --> 00:02:06,557
+see these two lines?
+
+37
+00:02:06,730 --> 00:02:11,340
+"tab[0] = 42;", or *(tab + 0) = 42
+
+38
+00:02:13,326 --> 00:02:15,286
+It's the exact same thing.
+
+39
+00:02:15,517 --> 00:02:17,177
+Let me prove it to you.
+
+40
+00:02:19,594 --> 00:02:21,684
+Re-compiling, re-launching.
+
+41
+00:02:22,327 --> 00:02:24,557
+I still have the value "42".
+
+42
+00:02:25,086 --> 00:02:29,086
+I told you that "tab" was some sort of pointer,
+
+43
+00:02:29,086 --> 00:02:33,086
+that points towards the 1st element of an array of ints.
+
+44
+00:02:33,893 --> 00:02:37,893
+When I do "+ 0", it's the address of the first element
+
+45
+00:02:38,371 --> 00:02:41,391
+and when I do *(tab + 0)
+
+46
+00:02:41,432 --> 00:02:43,842
+I get an int which is the 1st element on my array.
+
+47
+00:02:44,041 --> 00:02:47,241
+So "tab[0]" and "*(tab + 0)" are the exact same thing,
+
+48
+00:02:47,496 --> 00:02:50,076
+If I wanted to access the 4th element,
+
+49
+00:02:50,076 --> 00:02:51,966
+Well I'd do "tab + 3".
+
+50
+00:02:51,966 --> 00:02:54,966
+("tab + 0" for the 1st, "tab + 1" for the 2nd, "tab + 2" for the 3rd, etc...
+
+51
+00:02:54,968 --> 00:02:57,048
+Remember in a previous video ?
+
+52
+00:02:57,048 --> 00:02:59,438
+Normally with "+ 3" , as we're using ints,
+
+53
+00:02:59,438 --> 00:03:01,588
+by taking their real size into account,
+
+54
+00:03:01,588 --> 00:03:03,668
+it's actually "+ 12" : " + 3 * 4 bytes "
+
+55
+00:03:03,668 --> 00:03:05,818
+because an int = 4 bytes.
+
+56
+00:03:06,630 --> 00:03:10,630
+So I've used both "*(tab + 3)" and "tab[3]".
+
+57
+00:03:10,985 --> 00:03:11,895
+And it works.
+
+58
+00:03:13,780 --> 00:03:17,300
+So here I have a memory slot that's allocated 10 elements.
+
+59
+00:03:17,336 --> 00:03:20,416
+If the first element is at "+ 0",
+
+60
+00:03:20,448 --> 00:03:23,068
+the last is at ...
+
+61
+00:03:23,241 --> 00:03:23,831
+"+ 9"!
+
+62
+00:03:24,473 --> 00:03:25,793
+And not at "+ 10".
+
+63
+00:03:25,890 --> 00:03:26,760
+Be careful.
+
+64
+00:03:27,140 --> 00:03:29,460
+When you have an array of 10 elements,
+
+65
+00:03:29,648 --> 00:03:32,328
+the last element is the array's length "- 1"
+
+66
+00:03:32,365 --> 00:03:33,275
+to access it.
+
+67
+00:03:33,810 --> 00:03:36,200
+Because, in order to access the first element,
+
+68
+00:03:36,201 --> 00:03:37,461
+we access it by "0".
+
+69
+00:03:37,646 --> 00:03:39,516
+Now that we've seen this,
+
+70
+00:03:39,520 --> 00:03:42,120
+I'm going to prove that it is indeed a pointer.
+
+71
+00:03:42,745 --> 00:03:46,045
+So imagine... I'm going to use "*ptr"
+
+72
+00:03:47,721 --> 00:03:51,421
+and do "ptr = tab;"
+
+73
+00:03:51,639 --> 00:03:53,759
+"tab" being an address.
+
+74
+00:03:54,285 --> 00:03:56,105
+(I hope it compiles)
+
+75
+00:03:57,864 --> 00:04:00,264
+It does. All good.
+
+76
+00:04:01,665 --> 00:04:04,525
+So "ptr" has taken tab's value
+
+77
+00:04:04,525 --> 00:04:06,605
+Reminder: "tab" is an address.
+
+78
+00:04:06,605 --> 00:04:09,465
+the address of the first element of the array I allocated.
+
+79
+00:04:10,185 --> 00:04:14,185
+So if I do "*(ptr + 3)"
+
+80
+00:04:15,512 --> 00:04:17,482
+"ptr + 3" is an address
+
+81
+00:04:17,631 --> 00:04:19,811
+"*(ptr + 3)" is an int
+
+82
+00:04:20,170 --> 00:04:22,870
+Let's give it a value, such as 867,
+
+83
+00:04:24,705 --> 00:04:27,465
+and here I'll display "tab[3]"
+
+84
+00:04:27,559 --> 00:04:28,819
+Will it work ...?
+
+85
+00:04:33,455 --> 00:04:35,235
+867. All good!
+
+86
+00:04:37,539 --> 00:04:40,059
+See, arrays are just another way
+
+87
+00:04:40,079 --> 00:04:44,079
+of writing pointers arithmetics more simply.
+
+88
+00:04:46,189 --> 00:04:51,769
+and (at the top) it also allows us to declare more elements
+
+89
+00:04:52,823 --> 00:04:56,823
+Just to be thorough, let me show you something else.
+
+90
+00:04:57,441 --> 00:04:59,691
+Let's make an array of ints...
+
+91
+00:05:00,374 --> 00:05:04,374
+and underneath, I'm going to create an array containing two elements
+
+92
+00:05:05,483 --> 00:05:08,483
+... actually, let's add more things.
+
+93
+00:05:10,913 --> 00:05:12,653
+This one, I shall call "tabptr".
+
+94
+00:05:13,050 --> 00:05:18,990
+It'll contain 2 pointers to int.
+
+95
+00:05:19,285 --> 00:05:21,565
+It's an array of pointers to int.
+
+96
+00:05:21,595 --> 00:05:23,465
+And we could do this to infinity
+
+97
+00:05:23,465 --> 00:05:25,495
+(pointer to pointer to pointer to...)
+
+98
+00:05:25,948 --> 00:05:27,348
+Let's imagine now...
+
+99
+00:05:27,456 --> 00:05:33,576
+I want to modify "tab2" from "tabptr"...
+
+100
+00:05:34,429 --> 00:05:40,939
+"tabprt[0]" is a pointer to int
+
+101
+00:05:41,135 --> 00:05:42,865
+so it'll take an int's address.
+
+102
+00:05:42,920 --> 00:05:46,920
+solet's give it tab's value.
+
+103
+00:05:47,280 --> 00:05:51,280
+"tabptr[1]" is equal to "tab2"
+
+104
+00:05:52,232 --> 00:05:57,182
+and now I want to modify "tab2[3]" through "tabptr".
+
+105
+00:05:57,625 --> 00:05:59,635
+- I've linked tabptr[0] -
+
+106
+00:06:01,534 --> 00:06:07,244
+To check out tab2[3], it's easy...
+
+107
+00:06:07,655 --> 00:06:11,655
+tabptr[1] represents "tab2"
+
+108
+00:06:11,994 --> 00:06:15,994
+and now, [3],
+
+109
+00:06:15,994 --> 00:06:19,024
+if I set the value to 42, it should work.
+
+110
+00:06:19,359 --> 00:06:22,389
+Let's remove what we don't need.
+
+111
+00:06:23,241 --> 00:06:24,661
+Let's give it a shot...
+
+112
+00:06:31,994 --> 00:06:35,994
+Sorry this video is so long...
+
+113
+00:06:38,128 --> 00:06:42,128
+The value of "tab2[3]" has been set to 42.
+
+114
+00:06:43,753 --> 00:06:46,823
+You'll see that this is all very logical.
+
+115
+00:06:47,240 --> 00:06:49,980
+How could I rewrite this with pointers?
+
+116
+00:06:50,121 --> 00:06:52,511
+And this is the last thing we'll see in this video.
+
+117
+00:06:52,563 --> 00:06:54,673
+So. How could I rewrite this with pointers?
+
+118
+00:06:54,673 --> 00:06:57,837
+As I've said, when you do : "something[something]"
+
+119
+00:06:57,837 --> 00:07:03,867
+it's the same thing as doing : " *(what's on the left + what's in brackets) "
+
+120
+00:07:04,390 --> 00:07:08,390
+So I'm going to transform "tabptr[1][3]"
+
+121
+00:07:08,390 --> 00:07:10,480
+into something with asterisks.
+
+122
+00:07:11,154 --> 00:07:14,624
+Let's start by moving the "[3]" and add an asterisk.
+
+123
+00:07:14,985 --> 00:07:18,985
+What's on the left of "[3]'? it's "tabptr[1]".
+
+124
+00:07:18,985 --> 00:07:21,855
+so "+ 3".
+
+125
+00:07:21,860 --> 00:07:24,700
+That, is equal to 42.
+
+126
+00:07:25,170 --> 00:07:27,870
+Normally those two lines do the same.
+
+127
+00:07:27,992 --> 00:07:29,142
+Let's test this.
+
+128
+00:07:32,670 --> 00:07:34,490
+Still displaying 42.
+
+129
+00:07:35,046 --> 00:07:39,046
+Now let's do the same with "[1]".
+
+130
+00:07:49,525 --> 00:07:51,315
+Recompiling... Relaunching...
+
+131
+00:07:51,666 --> 00:07:52,836
+Still displaying 42.
+
+132
+00:07:53,155 --> 00:07:55,035
+The point I wanted to make ...
+
+133
+00:07:55,229 --> 00:07:58,089
+The line bellow is equivalent to this.
+
+134
+00:08:00,424 --> 00:08:02,984
+So, the point I wanted to make ...
+
+135
+00:08:03,398 --> 00:08:08,818
+We said that "tabptr" was an array of pointers to int.
+
+136
+00:08:09,152 --> 00:08:12,342
+And I said earlier that "tab" was an array of ints.
+
+137
+00:08:12,454 --> 00:08:16,125
+So "tab" is some sort of pointer to int.
+
+138
+00:08:16,125 --> 00:08:18,735
+So "tabptr" is some sort of pointer to pointer to int.
+
+139
+00:08:18,735 --> 00:08:20,448
+And you can clearly see that.
+
+140
+00:08:20,450 --> 00:08:24,450
+'cause in order to access my int, (to set its value to 42)
+
+141
+00:08:25,473 --> 00:08:27,683
+I had to use two asterisks.
+
+142
+00:08:27,766 --> 00:08:31,766
+1st time, I took the address contained in "tabptr" and added 1.
+
+143
+00:08:32,907 --> 00:08:38,857
+- talks about bytes -
+
+144
+00:08:39,898 --> 00:08:42,158
+I checked what was at this address.
+
+145
+00:08:42,255 --> 00:08:44,685
+At this address, we actually have "tab2"
+
+146
+00:08:46,677 --> 00:08:49,077
+and then I added "+ 3" to "tab2"
+
+147
+00:08:49,077 --> 00:08:51,337
+and also checked what was at this address.
+
+148
+00:08:51,488 --> 00:08:55,488
+So it's as if I wrote "tab2[3]" and gave it the value 42.
+
+149
+00:08:56,534 --> 00:09:00,534
+Here you go, those were the basics of arrays.
+
+150
+00:09:00,980 --> 00:09:03,030
+Beware...
+
+151
+00:09:04,340 --> 00:09:06,180
+Sorry, I'm almost done.
+
+152
+00:09:06,548 --> 00:09:09,558
+Beware... If I write this... (look onscreen)
+
+153
+00:09:09,811 --> 00:09:13,811
+"tab" is NOT a pointer to pointer to int.
+
+154
+00:09:14,183 --> 00:09:16,753
+Be really careful with this.
+
+155
+00:09:16,808 --> 00:09:20,808
+Basically, behind your array, there's a pointer to int.
+
+156
+00:09:21,353 --> 00:09:26,703
+You can access it in the function, using two square brackets,
+
+157
+00:09:27,409 --> 00:09:31,087
+but as soon as you want to pass it another function, you'll have problems.
+
+158
+00:09:31,087 --> 00:09:33,872
+You'll have to try things with arrays of arrays.
+
+159
+00:09:33,872 --> 00:09:36,572
+But now that you've seen how to make array pointers, and
+
+160
+00:09:36,572 --> 00:09:39,722
+simple arrays, arrays of ints, arrays of pointers to (...) ints,
+
+161
+00:09:39,722 --> 00:09:40,954
+it's up to you to practice and test things.
+
+162
+00:09:40,965 --> 00:09:41,745
+That's it.

@@ -1,0 +1,507 @@
+1
+00:00:06,211 --> 00:00:09,601
+Let's get started with Libraries !
+
+2
+00:00:11,161 --> 00:00:14,751
+I've prepared two files : ft_putchar.c and ft_putstr.c
+
+3
+00:00:14,751 --> 00:00:18,141
+I'm sure you all know what these do.
+
+4
+00:00:18,560 --> 00:00:21,460
+The syntax may be a little different,
+
+5
+00:00:21,460 --> 00:00:23,630
+but I'm sure you'll understand how I did it.
+
+6
+00:00:23,630 --> 00:00:25,850
+But that's not our main focus right now.
+
+7
+00:00:27,392 --> 00:00:31,892
+I'll simply get back to
+
+8
+00:00:31,892 --> 00:00:34,091
+creating a basic program.
+
+9
+00:00:34,422 --> 00:00:37,382
+So. You know that if I wanted to write :
+
+10
+00:00:37,382 --> 00:00:39,102
+"bonjour les gens" ("Hello people")
+
+11
+00:00:39,124 --> 00:00:42,574
+thanks to our ft_putstr(),
+
+12
+00:00:42,574 --> 00:00:45,044
+I should write a main() that calls this function.
+
+13
+00:00:45,470 --> 00:00:46,880
+And then compile.
+
+14
+00:00:48,442 --> 00:00:52,342
+We agree that if I only compile my main.c ,
+
+15
+00:00:52,342 --> 00:00:55,042
+the compiler's gonna have a go at me, and tell me:
+
+16
+00:00:55,042 --> 00:00:58,122
+"Thanks for calling ft_putstr(), but as I don't know where it is,
+
+17
+00:00:58,141 --> 00:01:00,671
+I can't do what you're asking."
+
+18
+00:01:01,319 --> 00:01:03,209
+So let's add ft_putstr.c.
+
+19
+00:01:03,728 --> 00:01:05,488
+And now, it tells me:
+
+20
+00:01:05,488 --> 00:01:09,288
+"I can't find the ft_putchar() you're calling in ft_putstr()..."
+
+21
+00:01:09,288 --> 00:01:15,058
+So let's add ft_putchar.c. And now it should compile.
+
+22
+00:01:15,058 --> 00:01:17,228
+And display my "Bonjour les gens".
+
+23
+00:01:17,441 --> 00:01:19,551
+I'm telling you all of this (again),
+
+24
+00:01:19,551 --> 00:01:24,121
+because, in order to create libraries, we'll first need to compile
+
+25
+00:01:24,121 --> 00:01:27,591
+the functions you want to put in it.
+
+26
+00:01:28,651 --> 00:01:34,251
+If I compile just my ft_putstr.c, it'll tell me that
+
+27
+00:01:34,251 --> 00:01:39,171
+there still isn't a ft_putchar(), but most importantly, we need a main()
+
+28
+00:01:39,171 --> 00:01:43,101
+in order to create an executable, as we've learnt earlier on in the Bootcamp
+
+29
+00:01:43,152 --> 00:01:46,802
+But I need to add my ft_putstr() to my library...
+
+30
+00:01:46,802 --> 00:01:49,042
+and I don't need my main().
+
+31
+00:01:49,291 --> 00:01:51,591
+For that, GCC has an option "-c".
+
+32
+00:01:52,831 --> 00:01:55,111
+Check the man for more info.
+
+33
+00:01:55,111 --> 00:02:00,441
+But look, it's created a ".o"
+
+34
+00:02:01,092 --> 00:02:03,132
+ft_putstr.o
+
+35
+00:02:03,499 --> 00:02:06,779
+It's an object. It's computer language.
+
+36
+00:02:07,421 --> 00:02:09,871
+As you can see...
+
+37
+00:02:09,871 --> 00:02:12,581
+if you try to display it, it's nonsensical.
+
+38
+00:02:12,581 --> 00:02:15,731
+Only your computer can read it.
+
+39
+00:02:15,811 --> 00:02:18,471
+But in order to do anything, we'll need a main.
+
+40
+00:02:18,471 --> 00:02:20,331
+As I said earlier.
+
+41
+00:02:20,331 --> 00:02:22,751
+In order to create a library,
+
+42
+00:02:22,751 --> 00:02:24,361
+we'll need .o files.
+
+43
+00:02:24,361 --> 00:02:29,901
+Just imagine your program is a wall...
+
+44
+00:02:29,901 --> 00:02:32,631
+and your .o file is a brick...
+
+45
+00:02:32,631 --> 00:02:35,301
+a brick that's ready, and that you'll be able to
+
+46
+00:02:35,301 --> 00:02:38,581
+place in more than one wall! In the sense that
+
+47
+00:02:38,581 --> 00:02:42,681
+once you've made your brick, you won't need to make it again.
+
+48
+00:02:42,681 --> 00:02:45,611
+and each time, you'll be able to use it everywhere.
+
+49
+00:02:46,025 --> 00:02:48,585
+That's actually quite practical. GCC knows how to do it.
+
+50
+00:02:48,585 --> 00:02:51,655
+we could simply just use our .o like this
+
+51
+00:02:51,901 --> 00:02:57,641
+meaning I can create all of my .o
+
+52
+00:02:59,651 --> 00:03:01,121
+(object files)
+
+53
+00:03:01,451 --> 00:03:07,061
+and create my binary thanks to those.
+
+54
+00:03:12,352 --> 00:03:17,362
+If I create this... It works very well. GCC successfully manages
+
+55
+00:03:17,381 --> 00:03:19,431
+to create a binary for me.
+
+56
+00:03:19,443 --> 00:03:20,653
+A binary that works.
+
+57
+00:03:20,852 --> 00:03:24,252
+GCC can do anything. We can give it those famous bricks,
+
+58
+00:03:24,252 --> 00:03:28,862
+and it'll know how to gather them, and provide us with our a.out.
+
+59
+00:03:29,464 --> 00:03:33,074
+We're not gonna need a main, we just want a library (lib)
+
+60
+00:03:33,074 --> 00:03:37,074
+that'll contain both our ft_putstr() and ft_putchar().
+
+61
+00:03:38,641 --> 00:03:41,581
+In order to do this, the first step is to create the .o files.
+
+62
+00:03:41,581 --> 00:03:44,451
+Once we have those .o we'll use a program called "ar",
+
+63
+00:03:44,451 --> 00:03:47,111
+with options "r" and "c".
+
+64
+00:03:47,530 --> 00:03:50,270
+I won't tell you what they do,
+
+65
+00:03:50,270 --> 00:03:51,600
+you can search the man.
+
+66
+00:03:51,600 --> 00:03:56,700
+Then, after "rc", we'll pass it our first argument,
+
+67
+00:03:56,700 --> 00:04:00,390
+our library's name. For example : libstr.a
+
+68
+00:04:01,111 --> 00:04:05,111
+Why libstr.a ? Because a library always starts by "lib".
+
+69
+00:04:05,391 --> 00:04:09,041
+I'll tell you why later on. So you add the name of your library,
+
+70
+00:04:09,041 --> 00:04:13,061
+here "str" and ".a" which is the extension
+
+71
+00:04:13,061 --> 00:04:14,831
+for static libraries.
+
+72
+00:04:14,831 --> 00:04:18,641
+There also exist dynamic libraries, but that's for another lesson.
+
+73
+00:04:18,641 --> 00:04:21,241
+So. libstr.a as my library's name,
+
+74
+00:04:21,441 --> 00:04:25,181
+then the files that contain the functions I want to add
+
+75
+00:04:25,181 --> 00:04:29,821
+to this library. So the two .o that I've just created.
+
+76
+00:04:30,931 --> 00:04:32,751
+And with these info,
+
+77
+00:04:33,150 --> 00:04:38,810
+AR does it's job, and displays libstr.a, with both my functions in it.
+
+78
+00:04:40,131 --> 00:04:42,421
+Now... How do we use it?
+
+79
+00:04:42,421 --> 00:04:45,411
+As I've mentioned earlier on,
+
+80
+00:04:45,411 --> 00:04:49,141
+I can take my main.c, and tell it that, the library
+
+81
+00:04:49,141 --> 00:04:53,921
+I want to use, actually is in the current directory.
+
+82
+00:04:54,781 --> 00:04:58,341
+By using the option -L, followed by a "."
+
+83
+00:04:58,341 --> 00:05:01,611
+I can tell it to look for my library in this directory.
+
+84
+00:05:01,611 --> 00:05:05,001
+and tell it the library's name it should look for : libstr.
+
+85
+00:05:05,761 --> 00:05:09,051
+Here, you should only indicate "lstr". That's how it works.
+
+86
+00:05:09,051 --> 00:05:11,241
+and that's why the name of the library
+
+87
+00:05:11,251 --> 00:05:12,271
+must start by "lib".
+
+88
+00:05:12,271 --> 00:05:17,751
+The "-lstr" will tell GCC that it's libstr.a I need.
+
+89
+00:05:18,431 --> 00:05:21,061
+Works the same as earlier,
+
+90
+00:05:21,061 --> 00:05:23,221
+when I compiled with my .c.
+
+91
+00:05:23,221 --> 00:05:27,221
+The benefit is that now, I can move my libstr.c anywhere.
+
+92
+00:05:27,221 --> 00:05:32,941
+I could very well move it into my nfs directory,
+
+93
+00:05:32,941 --> 00:05:35,011
+and link it from there.
+
+94
+00:05:35,011 --> 00:05:40,401
+This will allow you not to have to rewrite functions that you've
+
+95
+00:05:40,401 --> 00:05:42,461
+known from the beginning.
+
+96
+00:05:48,611 --> 00:05:51,391
+So that's one thing...
+
+97
+00:05:52,051 --> 00:05:55,741
+You've seen that "ar rc" was enough to create my library.
+
+98
+00:05:56,951 --> 00:05:59,251
+After a while, you'll realise that
+
+99
+00:05:59,251 --> 00:06:03,251
+there are a number of functions, which you'll create during this bootcamp,
+
+100
+00:06:03,251 --> 00:06:06,731
+that may be worth putting in your lib.
+
+101
+00:06:13,081 --> 00:06:17,081
+GCC successfully compiled with this command.
+
+102
+00:06:21,191 --> 00:06:25,191
+But the day you'll have over 3000 functions...
+
+103
+00:06:25,191 --> 00:06:27,681
+or even before... For example:
+
+104
+00:06:27,681 --> 00:06:34,151
+when you'll need ft_putstr, which is halfway through your lib,
+
+105
+00:06:34,151 --> 00:06:37,571
+it'll have to browse through your library in order to find
+
+106
+00:06:37,571 --> 00:06:40,511
+ft_putstr() and create your binary.
+
+107
+00:06:40,622 --> 00:06:43,532
+It won't use all of your library
+
+108
+00:06:43,532 --> 00:06:47,532
+to just use ft_putstr.
+
+109
+00:06:48,251 --> 00:06:50,331
+It's a time-consuming operation
+
+110
+00:06:50,331 --> 00:06:53,491
+and when you'll manage to create more complicated programs,
+
+111
+00:06:53,491 --> 00:06:57,021
+and need to use libraries, and that it'll have to search through
+
+112
+00:06:57,041 --> 00:07:00,031
+all of your libs to find the function in question,
+
+113
+00:07:00,031 --> 00:07:02,331
+GCC will take its time, because
+
+114
+00:07:02,331 --> 00:07:04,251
+it'll have to browse through them all.
+
+115
+00:07:04,251 --> 00:07:08,101
+For that, there's a program called "ranlib".
+
+116
+00:07:08,101 --> 00:07:11,881
+"ranlib" simply takes your library as a parameter,
+
+117
+00:07:11,881 --> 00:07:17,121
+and creates an index in your library
+
+118
+00:07:17,121 --> 00:07:20,861
+which will allow GCC to know where to go.
+
+119
+00:07:20,861 --> 00:07:26,171
+For example, it'll set ft_putchar() at position 1,
+
+120
+00:07:26,171 --> 00:07:30,721
+and ft_putstr() at position 2, (and so on...)
+
+121
+00:07:30,721 --> 00:07:34,111
+for all of the functions you may want to add to your library.
+
+122
+00:07:34,111 --> 00:07:39,251
+It's extremely practical, and optimises compilation time.
+
+123
+00:07:39,251 --> 00:07:42,401
+You'll see when you'll start collecting
+
+124
+00:07:42,401 --> 00:07:44,981
+a great deal of functions.
+
+125
+00:07:44,981 --> 00:07:49,201
+You should adopt this method ASAP. It'll prevent a great deal of bad surprises.
+
+126
+00:07:49,201 --> 00:07:52,061
+And it always works the same.
+
+127
+00:07:52,061 --> 00:07:54,531
+That's it for libraries.

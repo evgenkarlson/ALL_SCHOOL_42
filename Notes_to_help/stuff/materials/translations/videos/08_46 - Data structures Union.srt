@@ -1,0 +1,472 @@
+1
+00:00:06,197 --> 00:00:06,917
+Hello,
+
+2
+00:00:06,917 --> 00:00:10,217
+In this video, I'm going to talk about a new keyword, called "union".
+
+3
+00:00:10,217 --> 00:00:11,886
+unions look a lot like structures,
+
+4
+00:00:11,886 --> 00:00:14,316
+except that structures use to add data,
+
+5
+00:00:14,316 --> 00:00:15,856
+one after the other.
+
+6
+00:00:16,241 --> 00:00:19,721
+When we did a points structure, earlier, as I showed you in another video,
+
+7
+00:00:19,721 --> 00:00:21,601
+where I had 2 ints next to each other,
+
+8
+00:00:21,637 --> 00:00:24,437
+This time, unions will allow us to access the memory areas,
+
+9
+00:00:24,437 --> 00:00:25,897
+but in several different ways.
+
+10
+00:00:26,256 --> 00:00:28,306
+Again, the best way for me to explain this
+
+11
+00:00:28,306 --> 00:00:29,316
+is to show you.
+
+12
+00:00:29,701 --> 00:00:31,721
+So, I've got a structure s_test, which has
+
+13
+00:00:31,721 --> 00:00:35,721
+an int "i", a char "c", a float "f", and a char "tab[4]",
+
+14
+00:00:37,160 --> 00:00:38,850
+Let's create the union.
+
+15
+00:00:38,850 --> 00:00:40,760
+The same way we'd create a structure.
+
+16
+00:00:41,008 --> 00:00:41,738
+Union
+
+17
+00:00:41,911 --> 00:00:43,611
+Let's call our union,
+
+18
+00:00:43,611 --> 00:00:44,631
+u_test.
+
+19
+00:00:46,338 --> 00:00:47,988
+Semi-colon at the end.
+
+20
+00:00:48,781 --> 00:00:50,971
+I'm going to do the same thing inside.
+
+21
+00:00:50,971 --> 00:00:52,401
+You'll see, it'll be useful.
+
+22
+00:00:54,302 --> 00:00:56,192
+As I've told you, the difference
+
+23
+00:00:56,192 --> 00:00:58,142
+between unions and structures, is that
+
+24
+00:00:58,142 --> 00:01:00,612
+structures add elements one after another,
+
+25
+00:01:00,612 --> 00:01:02,482
+and the union will allow us to access
+
+26
+00:01:02,482 --> 00:01:04,622
+the same memory area, in many different ways.
+
+27
+00:01:05,082 --> 00:01:08,622
+For example, if I use the keyword sizeof,
+
+28
+00:01:08,622 --> 00:01:11,732
+which will give us the size of an element,
+
+29
+00:01:12,259 --> 00:01:14,869
+so for example the size of my structure s_test.
+
+30
+00:01:15,943 --> 00:01:18,333
+Here we go. Let's display it.
+
+31
+00:01:19,686 --> 00:01:23,226
+Here, we notice my structure is 16 byte.
+
+32
+00:01:23,436 --> 00:01:25,536
+Let's check. An int = 4 bytes,
+
+33
+00:01:25,536 --> 00:01:28,056
+a char is one byte, so that makes it 5,
+
+34
+00:01:28,056 --> 00:01:30,176
+a float is 4 bytes, so we have 9.
+
+35
+00:01:30,176 --> 00:01:32,536
+and a char tab[4], so 4 more bytes.
+
+36
+00:01:32,536 --> 00:01:34,386
+That makes 13 bytes. Not 16...
+
+37
+00:01:34,596 --> 00:01:35,366
+But why?
+
+38
+00:01:35,818 --> 00:01:36,908
+It's quite simple:
+
+39
+00:01:38,110 --> 00:01:41,610
+My compiler does some padding between my char and the float,
+
+40
+00:01:41,610 --> 00:01:44,400
+because in order to access memory faster,
+
+41
+00:01:44,400 --> 00:01:46,810
+basically the compiler will position the elements,
+
+42
+00:01:46,810 --> 00:01:49,120
+at addresses that are multiples of 4,
+
+43
+00:01:49,120 --> 00:01:51,430
+as the processor is "32 bits",
+
+44
+00:01:51,430 --> 00:01:52,900
+it'll create access on 4,
+
+45
+00:01:52,971 --> 00:01:55,111
+if we had a 64 bits processor,
+
+46
+00:01:55,111 --> 00:01:56,881
+it'd have created access on 8...
+
+47
+00:01:56,881 --> 00:01:58,621
+and therefore padding on 8.
+
+48
+00:01:58,707 --> 00:02:00,247
+I'm gonna prove it to you.
+
+49
+00:02:00,325 --> 00:02:04,325
+If I set a char xx[3] here,
+
+50
+00:02:05,761 --> 00:02:08,801
+recompile, and relaunch. Still 16.
+
+51
+00:02:08,944 --> 00:02:11,224
+Now, if I moved this char,
+
+52
+00:02:11,224 --> 00:02:13,944
+and then added it bellow the float,
+
+53
+00:02:15,037 --> 00:02:16,907
+well with this, we'd get 20.
+
+54
+00:02:16,999 --> 00:02:17,709
+Why?
+
+55
+00:02:17,738 --> 00:02:20,098
+Simply because there's been an extra padding of 1
+
+56
+00:02:20,098 --> 00:02:21,758
+So, in the end, my char[3],
+
+57
+00:02:21,758 --> 00:02:24,098
+meaning that with 3 bytes, there's a padding of 4.
+
+58
+00:02:24,200 --> 00:02:28,200
+So the size of my structure,
+
+59
+00:02:28,200 --> 00:02:30,120
+is the sum of all the elements
+
+60
+00:02:30,120 --> 00:02:31,910
+to which we add the padding.
+
+61
+00:02:31,910 --> 00:02:33,180
+Now let's use Union,
+
+62
+00:02:33,180 --> 00:02:35,600
+and you'll see how it changes every thing.
+
+63
+00:02:36,037 --> 00:02:40,037
+I'm gonna use my sizeof on my union.
+
+64
+00:02:41,315 --> 00:02:42,125
+here,
+
+65
+00:02:43,171 --> 00:02:44,601
+it indicates a size of 4.
+
+66
+00:02:45,001 --> 00:02:47,391
+Actually it takes the size of the biggest element.
+
+67
+00:02:47,391 --> 00:02:50,351
+An int is 4, a chat is 1, a float is 4,
+
+68
+00:02:50,351 --> 00:02:51,901
+and a char tab[4] is 4.
+
+69
+00:02:52,058 --> 00:02:56,058
+If I replaced it with tab[10],
+
+70
+00:02:56,707 --> 00:02:57,627
+just for fun,
+
+71
+00:02:58,661 --> 00:02:59,671
+we'd be at 12.
+
+72
+00:02:59,889 --> 00:03:02,179
+Once again: padding (google it)
+
+73
+00:03:02,827 --> 00:03:05,107
+I'll put it back to 4.
+
+74
+00:03:05,484 --> 00:03:08,464
+Let me show you how it works.
+
+75
+00:03:08,773 --> 00:03:11,913
+Let's create a new object of type "union"
+
+76
+00:03:11,913 --> 00:03:13,293
+so "union u_test",
+
+77
+00:03:13,581 --> 00:03:16,381
+which we'll call "a"
+
+78
+00:03:16,951 --> 00:03:20,951
+and indicate that if "a.i = 42"
+
+79
+00:03:23,923 --> 00:03:27,603
+Let's use a bigger number than 42...
+
+80
+00:03:27,603 --> 00:03:29,283
+how about 424242,
+
+81
+00:03:29,976 --> 00:03:30,986
+It'll be clearer.
+
+82
+00:03:32,643 --> 00:03:33,393
+My idea...
+
+83
+00:03:34,300 --> 00:03:36,340
+is to first display "a.i"
+
+84
+00:03:36,340 --> 00:03:40,340
+to show you its value is indeed 424242.
+
+85
+00:03:42,136 --> 00:03:43,036
+Here we go.
+
+86
+00:03:47,681 --> 00:03:53,101
+Now, let's try accessing my int, going through my tab,
+
+87
+00:03:53,529 --> 00:03:58,229
+and using each char from my char tab[4].
+
+88
+00:03:58,229 --> 00:04:00,599
+as a piece of my int,
+
+89
+00:04:00,599 --> 00:04:02,189
+(remember: 1 int = 4 bytes)
+
+90
+00:04:02,586 --> 00:04:04,636
+Normally, if I display:
+
+91
+00:04:04,911 --> 00:04:08,911
+char tab[0], tab[1], tab[2], tab[3]
+
+92
+00:04:10,733 --> 00:04:14,733
+I should access different parts of my int.
+
+93
+00:04:17,526 --> 00:04:19,666
+Here we go. Let's start over.
+
+94
+00:04:20,240 --> 00:04:24,240
+I'm going to add something to separate them.
+
+95
+00:04:24,240 --> 00:04:26,160
+To make it clearer.
+
+96
+00:04:29,334 --> 00:04:33,334
+<mumbles>
+
+97
+00:04:35,496 --> 00:04:39,496
+At least you'll see better.
+
+98
+00:04:42,417 --> 00:04:46,417
+We can see 50, 121, 6 and 0.
+
+99
+00:04:46,918 --> 00:04:50,918
+Those are the 4 bytes my int is made of.
+
+100
+00:04:51,574 --> 00:04:53,904
+We could even do the math,
+
+101
+00:04:53,904 --> 00:04:54,804
+using "bc".
+
+102
+00:04:56,552 --> 00:04:59,832
+50 remains 50,
+
+103
+00:04:59,832 --> 00:05:03,832
++ 121 x 256
+
+104
+00:05:04,172 --> 00:05:05,912
+because the first byte
+
+105
+00:05:05,912 --> 00:05:08,322
+is multiplied by 256 to the power of 0.
+
+106
+00:05:08,322 --> 00:05:10,332
+the 2nd byte, 256 256 to the power of 1,
+
+107
+00:05:10,332 --> 00:05:12,072
+the 3rd byte, 256 to the power of 2,
+
+108
+00:05:12,072 --> 00:05:14,112
+the 4th byte, 256 to the power of 3;
+
+109
+00:05:14,167 --> 00:05:19,157
+So : + 6 x 256 x 256
+
+110
+00:05:19,261 --> 00:05:20,301
+and normally,
+
+111
+00:05:20,301 --> 00:05:22,111
+we get the value of origin.
+
+112
+00:05:23,465 --> 00:05:24,225
+You get it.
+
+113
+00:05:24,901 --> 00:05:28,551
+Union allows us to access a memory area
+
+114
+00:05:28,551 --> 00:05:30,101
+in many different ways.
+
+115
+00:05:30,544 --> 00:05:32,654
+There are many advantages to this.
+
+116
+00:05:32,654 --> 00:05:34,854
+Up to you to figure out the rest.
+
+117
+00:05:35,006 --> 00:05:37,436
+In the meantime, I hope your day won't be too tough.
+
+118
+00:05:37,436 --> 00:05:39,876
+We've seen about everything there was to see today.
+

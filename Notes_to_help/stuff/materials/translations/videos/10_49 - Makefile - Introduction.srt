@@ -1,0 +1,203 @@
+1
+00:00:05,841 --> 00:00:08,201
+Today you'll find out that there are tools,
+
+2
+00:00:08,201 --> 00:00:10,821
+that allow you to script your compilation,
+
+3
+00:00:10,821 --> 00:00:13,351
+thanks to a specific language.
+
+4
+00:00:13,607 --> 00:00:16,617
+The command <b>make</b> is one of them,
+
+5
+00:00:16,617 --> 00:00:19,240
+although it's not the only tool at your disposal
+
+6
+00:00:19,240 --> 00:00:21,540
+I strongly advise you to run a search on
+
+7
+00:00:21,540 --> 00:00:25,650
+the internet and check out other tools,
+
+8
+00:00:25,650 --> 00:00:29,562
+and why not try and learn how to use them.
+
+9
+00:00:29,821 --> 00:00:30,658
+Anyhow...
+
+10
+00:00:30,658 --> 00:00:34,048
+Today we're going to focus on <b>make</b> and Makefiles.
+
+11
+00:00:34,611 --> 00:00:36,931
+The command <b>make</b> goes along
+
+12
+00:00:36,931 --> 00:00:39,257
+with one, or several, Makefiles files.
+
+13
+00:00:39,257 --> 00:00:41,822
+Those files will describe, using a set of rules,
+
+14
+00:00:41,822 --> 00:00:44,652
+how to compile your program.
+
+15
+00:00:45,771 --> 00:00:48,501
+So, we use the command <b>make</b>
+
+16
+00:00:48,521 --> 00:00:50,511
+which will call the Makefile,
+
+17
+00:00:50,511 --> 00:00:51,972
+read it, and execute it.
+
+18
+00:00:53,699 --> 00:00:57,759
+A Makefile simply is a file named Makefile
+
+19
+00:01:00,621 --> 00:01:03,311
+which contains a set of rules
+
+20
+00:01:03,311 --> 00:01:04,891
+as well as some variables
+
+21
+00:01:04,891 --> 00:01:07,111
+that describe the behaviour
+
+22
+00:01:07,111 --> 00:01:09,151
+the compilation must adopt.
+
+23
+00:01:09,828 --> 00:01:12,048
+Of course, the rules will be able
+
+24
+00:01:12,050 --> 00:01:13,570
+to call themselves,
+
+25
+00:01:13,571 --> 00:01:16,111
+and will be able to use variables...
+
+26
+00:01:17,431 --> 00:01:19,181
+The most important thing
+
+27
+00:01:19,181 --> 00:01:21,311
+is to properly structure all of this
+
+28
+00:01:21,311 --> 00:01:23,161
+in order to reach our goal.
+
+29
+00:01:24,041 --> 00:01:26,031
+Let's assume that our Makefile
+
+30
+00:01:26,031 --> 00:01:28,451
+contains the rule <b>clean</b>,
+
+31
+00:01:29,420 --> 00:01:31,450
+to call this rule, I just have to type :
+
+32
+00:01:31,450 --> 00:01:34,594
+"make clean" in my terminal.
+
+33
+00:01:36,201 --> 00:01:39,521
+You need to know that all of the rules in a Makefile,
+
+34
+00:01:39,531 --> 00:01:41,651
+are not there to be executed
+
+35
+00:01:41,651 --> 00:01:43,931
+every time we use the command <b>make</b>.
+
+36
+00:01:44,451 --> 00:01:48,201
+Usually, only one rule is executed
+
+37
+00:01:48,201 --> 00:01:50,852
+and its dependencies (we'll see this later)
+
+38
+00:01:50,852 --> 00:01:52,861
+in order to perform the actions
+
+39
+00:01:52,861 --> 00:01:54,720
+this rule was created for.
+
+40
+00:01:56,601 --> 00:01:59,931
+<b>make</b>'s syntax is rather simple,
+
+41
+00:01:59,931 --> 00:02:02,311
+yet very powerful, and we'll discover it
+
+42
+00:02:02,311 --> 00:02:04,471
+in the next part of this course.
+
+43
+00:02:05,241 --> 00:02:09,241
+I'm not saying this lesson on Makefiles
+
+44
+00:02:09,241 --> 00:02:11,961
+will be exhaustive or perfect.
+
+45
+00:02:11,961 --> 00:02:14,692
+I just want to show you the technology
+
+46
+00:02:14,692 --> 00:02:18,870
+and lay the most basic basis
+
+47
+00:02:18,870 --> 00:02:20,192
+so you can get by,
+
+48
+00:02:20,366 --> 00:02:24,346
+but you'll learn much more on Makefiles
+
+49
+00:02:24,346 --> 00:02:28,526
+by reading documentation on the internet.
+
+50
+00:02:29,331 --> 00:02:30,841
+See you in the next video.
+
+51
+00:02:30,841 --> 00:02:34,840
+We'll discover the basics of Makefile's syntax

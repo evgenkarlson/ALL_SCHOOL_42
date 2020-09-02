@@ -1,0 +1,443 @@
+1
+00:00:05,811 --> 00:00:06,511
+Hello
+
+2
+00:00:06,511 --> 00:00:09,721
+Today's lesson will be about character string manipulation
+
+3
+00:00:09,721 --> 00:00:11,931
+What are they for ? And how to use them.
+
+4
+00:00:12,306 --> 00:00:16,866
+What's a character string ? It's an array of CHARs
+
+5
+00:00:17,281 --> 00:00:21,020
+Remember D03's lesson about arrays?
+
+6
+00:00:21,020 --> 00:00:23,900
+It's simply an array of type <i>char</i>
+
+7
+00:00:24,421 --> 00:00:30,671
+Let's declare our <i>char</i> array.
+
+8
+00:00:33,792 --> 00:00:35,692
+We're creating a main().
+
+9
+00:00:35,692 --> 00:00:40,472
+So the type is <i>char</i>. We need square brackets,
+
+10
+00:00:45,711 --> 00:00:48,621
+that's an array semantics.
+
+11
+00:00:48,621 --> 00:00:52,621
+Let's assign a value to our array : "Hello".
+
+12
+00:00:54,091 --> 00:00:59,211
+Basically, on the right, there's an exhaustive representation
+
+13
+00:00:59,211 --> 00:01:01,111
+of the memory.
+
+14
+00:01:01,111 --> 00:01:06,231
+How is our char-string stored?
+
+15
+00:01:07,251 --> 00:01:11,251
+We simply have, in box 0,
+
+16
+00:01:11,731 --> 00:01:15,231
+the character "H", in box 1, the character "e",
+
+17
+00:01:15,231 --> 00:01:16,941
+and so on.
+
+18
+00:01:20,310 --> 00:01:26,330
+Character strings have a particularity,
+
+19
+00:01:26,330 --> 00:01:30,990
+they have an exclusive way of ending themselves,
+
+20
+00:01:31,332 --> 00:01:36,812
+by using the special character "\0"
+
+21
+00:01:38,221 --> 00:01:40,821
+Soon you'll see why it's so useful.
+
+22
+00:01:45,761 --> 00:01:49,761
+Moving on from theory... to practice!
+
+23
+00:01:50,540 --> 00:01:54,540
+Let's create the function ft_putstr(). You've had to create this one
+
+24
+00:01:54,540 --> 00:01:58,540
+in previous Bootcamp days. So this is a gift ;-)
+
+25
+00:01:59,971 --> 00:02:04,751
+let's pass it the string,
+
+26
+00:02:04,751 --> 00:02:08,751
+and add another function : ft_putchar(),
+
+27
+00:02:11,721 --> 00:02:17,631
+so that we can have a line break ("\n") at the end of out program,
+
+28
+00:02:17,631 --> 00:02:18,751
+to make it clearer.
+
+29
+00:02:20,252 --> 00:02:23,652
+Let's start with the ft_putchar() function.
+
+30
+00:02:23,652 --> 00:02:25,482
+Which i'm sure you now know by heart.
+
+31
+00:02:26,861 --> 00:02:30,861
+I'm sure you also know everything about write() too,
+
+32
+00:02:33,341 --> 00:02:36,041
+so we won't expand on that.
+
+33
+00:02:36,434 --> 00:02:39,154
+write() of 1, with the address of <i>c</i>...
+
+34
+00:02:44,961 --> 00:02:52,501
+The heart of the matter: ft_putstr() takes our char-string as a parameter.
+
+35
+00:02:59,781 --> 00:03:01,801
+What does ft_putstr() do?
+
+36
+00:03:01,801 --> 00:03:07,061
+It iterates on each element in our table of <b>char</b>s
+
+37
+00:03:07,061 --> 00:03:09,051
+in order to display them.
+
+38
+00:03:09,250 --> 00:03:11,650
+How does it display ? It calls ft_putchar().
+
+39
+00:03:12,361 --> 00:03:18,081
+So we'll have a loop, and a stopping condition.
+
+40
+00:03:22,031 --> 00:03:25,231
+For each loop, a call to ft_putchar().
+
+41
+00:03:26,851 --> 00:03:27,881
+with...
+
+42
+00:03:37,231 --> 00:03:39,161
+our character string.
+
+43
+00:03:40,040 --> 00:03:43,160
+To use a loop means we need an index.
+
+44
+00:03:45,002 --> 00:03:48,692
+So let's initialise our index to 0.
+
+45
+00:03:48,692 --> 00:03:52,692
+and we'll use our index in the loop
+
+46
+00:03:53,710 --> 00:03:56,180
+in order to go through our string.
+
+47
+00:03:57,303 --> 00:03:59,983
+Finally, we'll increment our index.
+
+48
+00:04:01,401 --> 00:04:05,401
+We now need to figure out how to make it stop with a condition...
+
+49
+00:04:05,981 --> 00:04:09,981
+How can we know when a string has ended?
+
+50
+00:04:09,981 --> 00:04:17,021
+That's where the "\0" comes in and saves our lives!
+
+51
+00:04:18,321 --> 00:04:21,151
+We're simply...
+
+52
+00:04:24,381 --> 00:04:29,071
+going to stop as soon as we come across the first "\0".
+
+53
+00:04:43,471 --> 00:04:45,741
+Let's try and launch our program.
+
+54
+00:04:47,361 --> 00:04:49,451
+gcc test.c
+
+55
+00:04:49,870 --> 00:04:51,080
+./a.out
+
+56
+00:04:53,990 --> 00:04:57,210
+The string's displayed on the output.
+
+57
+00:04:57,210 --> 00:04:59,680
+So is the "\n".
+
+58
+00:05:03,683 --> 00:05:07,213
+Now let's get started with character string manipulation.
+
+59
+00:05:07,213 --> 00:05:09,433
+We've gone through our string,
+
+60
+00:05:09,433 --> 00:05:13,352
+now, let's change a value within our string.
+
+61
+00:05:14,301 --> 00:05:19,201
+Let's replace the first character
+
+62
+00:05:19,551 --> 00:05:20,771
+by a "Y".
+
+63
+00:05:23,204 --> 00:05:31,594
+So let's create a new function : replace_first_h_with_y().
+
+64
+00:05:32,511 --> 00:05:35,701
+Nothing exceptional about this function.
+
+65
+00:05:38,841 --> 00:05:44,341
+I'm sure it'll help you create much more useful functions for today's exercises
+
+66
+00:05:45,581 --> 00:05:49,581
+How do we get to our array's first box?
+
+67
+00:05:50,712 --> 00:05:58,602
+str[0], 1st box of our array, = 'y'.
+
+68
+00:06:00,911 --> 00:06:05,961
+Let's take a break, to check out what happens in the memory.
+
+69
+00:06:05,961 --> 00:06:09,961
+We're going to replace this "H", so the 1st box of our array,
+
+70
+00:06:10,322 --> 00:06:11,682
+by a "y".
+
+71
+00:06:14,601 --> 00:06:17,121
+That's the intended output...
+
+72
+00:06:17,121 --> 00:06:20,611
+so we're going to call our function
+
+73
+00:06:21,336 --> 00:06:27,266
+replace_first_h_with_y(str1).
+
+74
+00:06:28,681 --> 00:06:32,981
+and do some debugging just above,
+
+75
+00:06:32,981 --> 00:06:34,941
+to check if the replacement goes smoothly
+
+76
+00:06:36,304 --> 00:06:38,474
+gcc text.c
+
+77
+00:06:38,941 --> 00:06:39,911
+./a.out
+
+78
+00:06:40,510 --> 00:06:43,980
+"Hello", "yello". Perfect!
+
+79
+00:06:45,842 --> 00:06:48,952
+Let's create one last function for this lesson
+
+80
+00:06:48,952 --> 00:06:52,312
+that'll take 2 strings as parameters.
+
+81
+00:06:52,312 --> 00:06:56,111
+The 1st will be the source, the 2nd will be the destination,
+
+82
+00:06:56,111 --> 00:06:59,411
+and we're going to make a copy of the source's 1st character,
+
+83
+00:06:59,411 --> 00:07:01,021
+and add it to the destination.
+
+84
+00:07:02,081 --> 00:07:05,731
+I'm gonna start by declaring a second string,
+
+85
+00:07:07,536 --> 00:07:11,536
+str2[] = "yello".
+
+86
+00:07:16,008 --> 00:07:20,008
+Let's remove the previous function,
+
+87
+00:07:24,442 --> 00:07:28,442
+and create the function replace_first_char().
+
+88
+00:07:44,833 --> 00:07:46,733
+(resetting my array)
+
+89
+00:07:46,841 --> 00:07:49,931
+We have a second character string.
+
+90
+00:08:03,890 --> 00:08:10,350
+We're going to copy the 1st character (H) from our string <i>src</i>
+
+91
+00:08:10,357 --> 00:08:12,887
+into our second string <i>dest</i>
+
+92
+00:08:16,963 --> 00:08:22,423
+First character = src[0]
+
+93
+00:08:24,242 --> 00:08:34,912
+So dest[0] = src[0].
+
+94
+00:08:34,912 --> 00:08:45,042
+We just need to call our function replace_first_char(str1, str2).
+
+95
+00:08:46,400 --> 00:08:50,620
+And we'll display str1, then str2.
+
+96
+00:08:56,061 --> 00:08:56,991
+gcc ...
+
+97
+00:08:58,681 --> 00:08:59,571
+./a.out ...
+
+98
+00:08:59,821 --> 00:09:01,471
+"Hello", "Hello", "Hello".
+
+99
+00:09:01,587 --> 00:09:07,047
+Let's add debug lines, to see str2 before manipulation
+
+100
+00:09:19,862 --> 00:09:22,882
+"Hello", "yello", "Hello", "Hello".
+
+101
+00:09:23,388 --> 00:09:26,258
+So we've manipulated our string.
+
+102
+00:09:27,551 --> 00:09:31,551
+It doesn't have to be just the 1st box of our array...
+
+103
+00:09:31,551 --> 00:09:35,551
+we could do this for the 2nd box, or the 3rd...
+
+104
+00:09:35,682 --> 00:09:39,082
+It all depends on what you're trying to accomplish.
+
+105
+00:09:44,301 --> 00:09:47,251
+I hope that this lesson about string manipulation
+
+106
+00:09:47,251 --> 00:09:52,041
+will allow you to see clearer, and will help for today's exercises
+
+107
+00:09:52,041 --> 00:09:57,431
+which are mainly about loops and conditions
+
+108
+00:09:57,431 --> 00:10:00,241
+to be done when they're needed.
+
+109
+00:10:01,971 --> 00:10:04,421
+I hope this notion, which is quite simple,
+
+110
+00:10:04,421 --> 00:10:06,911
+and that will prove very useful today,
+
+111
+00:10:06,911 --> 00:10:07,731
+was clear.

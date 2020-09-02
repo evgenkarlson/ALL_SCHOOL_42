@@ -1,0 +1,268 @@
+1
+00:00:05,713 --> 00:00:08,754
+The syntax for declaring a pointer to function variable,
+
+2
+00:00:08,754 --> 00:00:12,086
+may seem a little overwhelming at first, because it's really different
+
+3
+00:00:12,086 --> 00:00:13,766
+from everything we've seen so far.
+
+4
+00:00:13,766 --> 00:00:17,344
+Here, I left the declaration of a variable of type int, the declaration
+
+5
+00:00:17,344 --> 00:00:20,214
+of a pointer to int, and, for your information,
+
+6
+00:00:20,214 --> 00:00:23,923
+I'm also going to write the syntax to declare a function
+
+7
+00:00:23,923 --> 00:00:28,004
+which will inspire us for the syntax of a pointer to function declaration
+
+8
+00:00:28,214 --> 00:00:30,388
+Remember, this is how we write a prototype
+
+9
+00:00:30,388 --> 00:00:33,838
+For example, "void f",
+
+10
+00:00:34,508 --> 00:00:38,081
+parameters between parenthesis, for example, char c.
+
+11
+00:00:38,881 --> 00:00:43,711
+Here, we've declared a function that returns nothing, so "void",
+
+12
+00:00:43,711 --> 00:00:47,431
+which is called "f", and which takes a character as a parameter, called "c".
+
+13
+00:00:47,828 --> 00:00:50,348
+In order to declare a pointer to function,
+
+14
+00:00:50,348 --> 00:00:53,898
+we're going to use a similar syntax, but with a subtle difference.
+
+15
+00:00:54,146 --> 00:00:56,156
+The syntax you're gonna use is as follows:
+
+16
+00:00:56,156 --> 00:00:59,106
+to declare a pointer to function which doesn't return anything,
+
+17
+00:00:59,106 --> 00:01:01,746
+so VOID, and that takes a character as a parameter,
+
+18
+00:01:01,746 --> 00:01:03,466
+we'd write :
+
+19
+00:01:03,466 --> 00:01:09,783
+void, then between parenthesis, "*" and the name of our pointer to function,
+
+20
+00:01:09,783 --> 00:01:14,653
+for example "funptr", and then
+
+21
+00:01:14,653 --> 00:01:17,973
+the parameters we want, so here a "char".
+
+22
+00:01:17,973 --> 00:01:22,128
+Notice how I didn't specify a name for my parameter's variable?
+
+23
+00:01:22,128 --> 00:01:24,058
+I could have named it, but I won't,
+
+24
+00:01:24,058 --> 00:01:26,958
+because for pointers to functions,
+
+25
+00:01:26,958 --> 00:01:28,628
+we can skip naming them.
+
+26
+00:01:28,628 --> 00:01:31,018
+What you need to notice, is that
+
+27
+00:01:31,018 --> 00:01:34,358
+I've set my pointer to function name between parenthesis,
+
+28
+00:01:34,358 --> 00:01:36,338
+and put an asterisk before it.
+
+29
+00:01:36,678 --> 00:01:40,368
+Let me show you a more complete example,
+
+30
+00:01:40,368 --> 00:01:42,608
+which we'll compile,
+
+31
+00:01:42,608 --> 00:01:44,658
+to see how it works.
+
+32
+00:01:44,658 --> 00:01:49,228
+I'm going to declare a variable of type pointer to function,
+
+33
+00:01:49,228 --> 00:01:53,478
+which I'll call "f", and which will take
+
+34
+00:01:53,478 --> 00:01:55,758
+a random char as a parameter.
+
+35
+00:01:58,198 --> 00:02:02,728
+Then I'm going to assign a function's address
+
+36
+00:02:02,728 --> 00:02:04,668
+to my pointer to function.
+
+37
+00:02:04,668 --> 00:02:08,638
+Here, I'm going to use the address of my function ft_putchar(),
+
+38
+00:02:09,058 --> 00:02:10,967
+which is defined just above.
+
+39
+00:02:13,328 --> 00:02:16,908
+Then I'll be able to call my function ft_putchar()
+
+40
+00:02:16,908 --> 00:02:19,328
+by using my pointer to function "f".
+
+41
+00:02:20,058 --> 00:02:22,648
+The syntax is the same as for a function call.
+
+42
+00:02:23,168 --> 00:02:27,578
+"f", open parenthesis, pass a parameter, for example the character "z",
+
+43
+00:02:27,578 --> 00:02:30,208
+close my parenthesis and add my semi-colon.
+
+44
+00:02:30,948 --> 00:02:33,068
+Now we'll be able to compile.
+
+45
+00:02:35,933 --> 00:02:37,813
+Looks like it compiled...
+
+46
+00:02:37,813 --> 00:02:39,703
+and here's my executable "a.out".
+
+47
+00:02:39,703 --> 00:02:43,013
+If I execute it, the character "z" is being displayed.
+
+48
+00:02:45,099 --> 00:02:48,929
+Note that, as pointers to functions have a syntax that can be quite tricky,
+
+49
+00:02:48,929 --> 00:02:52,759
+there's always the possibility to do a Typedef on their type,
+
+50
+00:02:52,759 --> 00:02:55,489
+to make them easier to use.
+
+51
+00:02:55,809 --> 00:02:59,379
+The syntax for a Typedef is as follows:
+
+52
+00:03:02,525 --> 00:03:06,885
+I'm going to make an alias of the type's name, instead of the variable,
+
+53
+00:03:06,885 --> 00:03:10,025
+as if I used this syntax
+
+54
+00:03:10,025 --> 00:03:12,385
+to declare my pointer to function.
+
+55
+00:03:12,385 --> 00:03:14,565
+I'm going to call it "funptr"
+
+56
+00:03:20,374 --> 00:03:24,984
+And pass it a parameter "char", for example, and add the semi-colon.
+
+57
+00:03:25,394 --> 00:03:29,214
+I can now use my Typedef as a type,
+
+58
+00:03:29,944 --> 00:03:32,184
+so I'll be able to use "funptr"
+
+59
+00:03:32,184 --> 00:03:34,754
+and call my variable, for example, "f",
+
+60
+00:03:34,754 --> 00:03:36,784
+for it to work.
+
+61
+00:03:36,980 --> 00:03:38,210
+Compiling....
+
+62
+00:03:39,860 --> 00:03:40,960
+Executing...
+
+63
+00:03:41,326 --> 00:03:43,644
+And the result is exactly the same.
+
+64
+00:03:43,674 --> 00:03:47,234
+See you in the next video, for the last part of today's lesson,
+
+65
+00:03:47,234 --> 00:03:49,204
+where I'll add some extra info
+
+66
+00:03:49,204 --> 00:03:51,680
+on pointers to function. I'll also show you examples
+
+67
+00:03:51,680 --> 00:03:52,980
+that are more extensive.
+

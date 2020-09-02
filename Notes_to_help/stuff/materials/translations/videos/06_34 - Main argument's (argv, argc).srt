@@ -1,0 +1,347 @@
+1
+00:00:06,801 --> 00:00:11,111
+In this second part of D02, we're gonna talk about program arguments.
+
+2
+00:00:11,111 --> 00:00:14,741
+You know that "ls" can take "-l" in order to display details
+
+3
+00:00:14,741 --> 00:00:17,131
+of a directory.
+
+4
+00:00:17,131 --> 00:00:19,741
+What you've learnt to do, so far,
+
+5
+00:00:19,741 --> 00:00:22,481
+is launching your binary.
+
+6
+00:00:22,481 --> 00:00:26,601
+But if you added arguments, nothing would change.
+
+7
+00:00:27,161 --> 00:00:30,451
+Let me just quickly rewrite my Super Main.
+
+8
+00:00:35,841 --> 00:00:38,211
+I'm going to display "bonjour" ("hello" in French)
+
+9
+00:00:43,481 --> 00:00:47,121
+I think we can all agree to say that
+
+10
+00:00:51,132 --> 00:00:54,572
+whether I do this or that,
+
+11
+00:00:54,572 --> 00:00:57,052
+it'll always display the same thing.
+
+12
+00:00:57,052 --> 00:01:00,112
+You don't know how to retrieve what I wrote. Yet.
+
+13
+00:01:00,112 --> 00:01:02,462
+and by that, I mean the parameters that
+
+14
+00:01:02,462 --> 00:01:03,622
+your binary could take.
+
+15
+00:01:03,628 --> 00:01:08,438
+We told you that your main could take
+
+16
+00:01:08,438 --> 00:01:11,828
+two arguments...
+
+17
+00:01:20,000 --> 00:01:23,040
+It's thanks to those that you'll be able
+
+18
+00:01:23,040 --> 00:01:26,050
+to retrieve the parameters that can be passed to your binary.
+
+19
+00:01:27,891 --> 00:01:32,531
+ARGC represents the number of parameters
+
+20
+00:01:32,531 --> 00:01:38,511
+that you can pass to your program, while ARGV is a <i>char</i>**
+
+21
+00:01:38,511 --> 00:01:41,691
+in other words, a string array.
+
+22
+00:01:41,691 --> 00:01:45,501
+Which will contain those parameters.
+
+23
+00:01:46,191 --> 00:01:48,961
+So, I'm going to display
+
+24
+00:01:51,102 --> 00:01:54,222
+my first parameter,
+
+25
+00:02:03,321 --> 00:02:07,321
+and then a line break.
+
+26
+00:02:10,991 --> 00:02:12,661
+Re-compiling...
+
+27
+00:02:14,533 --> 00:02:21,343
+Here I can see that even without arguments, "a.out" is displayed.
+
+28
+00:02:23,050 --> 00:02:29,040
+Because your string array's first element
+
+29
+00:02:29,040 --> 00:02:33,040
+is your binary's name.
+
+30
+00:02:36,922 --> 00:02:42,182
+If I launched my binary from somewhere else,
+
+31
+00:02:45,011 --> 00:02:49,011
+argv[0] would have that binary's path and its name.
+
+32
+00:02:51,135 --> 00:02:56,375
+So in <b>argv</b>'s first box, you have the binary's name,
+
+33
+00:02:57,371 --> 00:02:59,881
+the first element on your command line.
+
+34
+00:03:01,181 --> 00:03:05,681
+If I want my first argument,
+
+35
+00:03:09,081 --> 00:03:12,331
+I have to access to argv[1].
+
+36
+00:03:15,641 --> 00:03:19,211
+But if I don't set an argument, I'll get a segfault.
+
+37
+00:03:19,347 --> 00:03:23,347
+We cannot read in an empty array.
+
+38
+00:03:25,102 --> 00:03:27,152
+However, if I do this, it works.
+
+39
+00:03:27,692 --> 00:03:30,032
+If I do that, still works!
+
+40
+00:03:31,012 --> 00:03:33,342
+But if I do this ...
+
+41
+00:03:33,342 --> 00:03:35,082
+I'll only display the 1st argument.
+
+42
+00:03:35,082 --> 00:03:38,752
+the tric is to use inverted comas
+
+43
+00:03:39,971 --> 00:03:46,971
+to regroup multiple arguments within one same string.
+
+44
+00:03:51,305 --> 00:03:58,935
+We could say that ARGC is always, at least, equal to 1,
+
+45
+00:03:58,982 --> 00:04:01,772
+as argv[0] is always filled.
+
+46
+00:04:01,772 --> 00:04:06,142
+Then you'll be able to pass options to argv[1],
+
+47
+00:04:06,142 --> 00:04:07,432
+just like "ls" does
+
+48
+00:04:07,432 --> 00:04:10,412
+with its option "-l", or any other binary with options.
+
+49
+00:04:10,412 --> 00:04:15,642
+All of this will allow you to be a little more efficient in your program,
+
+50
+00:04:15,642 --> 00:04:19,722
+because you'll be able to use conditions.
+
+51
+00:04:20,013 --> 00:04:24,013
+For example, let's ask for argv[1] to be displayed,
+
+52
+00:04:24,013 --> 00:04:26,523
+only if ARGC is equal to 2.
+
+53
+00:04:29,663 --> 00:04:32,543
+This way we avoid a segfault
+
+54
+00:04:32,543 --> 00:04:35,483
+because we're testing whether there's an argument present.
+
+55
+00:04:35,573 --> 00:04:38,433
+and we allow it to be displayed, if it exists.
+
+56
+00:04:39,500 --> 00:04:45,430
+This way we don't need to test whether this string exists.
+
+57
+00:04:46,230 --> 00:04:50,700
+Thanks to ARGC, we can know how many arguments we have.
+
+58
+00:04:51,291 --> 00:04:54,261
+We can also use ARGC to display,
+
+59
+00:04:54,261 --> 00:04:58,471
+one by one, parameters passed to your program,
+
+60
+00:04:58,471 --> 00:05:00,351
+by scanning the array.
+
+61
+00:05:00,711 --> 00:05:02,181
+This could also allow us
+
+62
+00:05:02,181 --> 00:05:05,144
+to indicate whether the program needs an argument
+
+63
+00:05:05,144 --> 00:05:08,447
+and in the case where they don't exist,
+
+64
+00:05:08,847 --> 00:05:11,751
+tell the user
+
+65
+00:05:12,251 --> 00:05:15,514
+that the program needs
+
+66
+00:05:15,514 --> 00:05:19,147
+a certain number of arguments.
+
+67
+00:05:19,911 --> 00:05:22,621
+We can also warn them that the program
+
+68
+00:05:22,621 --> 00:05:24,941
+takes "toto" as an argument.
+
+69
+00:05:34,895 --> 00:05:39,815
+This way you can inform the user
+
+70
+00:05:39,815 --> 00:05:45,295
+on how to use your program properly.
+
+71
+00:05:48,241 --> 00:05:51,461
+With these examples, you can begin to imagine
+
+72
+00:05:51,461 --> 00:05:55,461
+the number of possibilities available to you, to make your program
+
+73
+00:05:55,461 --> 00:06:02,181
+more user-friendly.
+
+74
+00:06:02,271 --> 00:06:09,921
+Still... Watch out for segfaults. They'll force you to anticipate what
+
+75
+00:06:09,921 --> 00:06:13,231
+the user might try to do...
+
+76
+00:06:13,582 --> 00:06:16,382
+Up till now, you didn't have this constraint.
+
+77
+00:06:16,382 --> 00:06:19,752
+You'd launch your binary, being sure that you, and only you,
+
+78
+00:06:19,752 --> 00:06:22,252
+could choose how it behaves.
+
+79
+00:06:22,252 --> 00:06:27,062
+But now that you're allowing other users to interact with your program,
+
+80
+00:06:27,062 --> 00:06:30,412
+you'll never be sure of what they'll try and pass as arguments...
+
+81
+00:06:30,412 --> 00:06:33,732
+But we know what we're doing, and
+
+82
+00:06:33,732 --> 00:06:36,432
+we know what you might forget.
+
+83
+00:06:36,432 --> 00:06:38,782
+So here's a piece of advice:
+
+84
+00:06:38,782 --> 00:06:42,572
+Be careful, and bear in mind
+
+85
+00:06:42,572 --> 00:06:46,352
+that you'll never be able to guess everything the user
+
+86
+00:06:46,352 --> 00:06:49,161
+might pass to your program.
+
+87
+00:06:50,101 --> 00:06:53,301
+So test your arguments thoroughly, and check everything you do.

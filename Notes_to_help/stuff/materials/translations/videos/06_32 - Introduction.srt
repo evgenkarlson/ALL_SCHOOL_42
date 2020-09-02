@@ -1,0 +1,91 @@
+1
+00:00:05,711 --> 00:00:06,641
+Hello everyone,
+
+2
+00:00:06,641 --> 00:00:10,331
+Today we're going to learn a couple of new things.
+
+3
+00:00:10,981 --> 00:00:14,381
+The first thing will be libraries. What are those for?
+
+4
+00:00:14,381 --> 00:00:17,861
+how to create them, but most importantly
+
+5
+00:00:17,861 --> 00:00:21,261
+how will they be useful for this C bootcamp?
+
+6
+00:00:21,261 --> 00:00:23,901
+(and for anything you do later on in C)
+
+7
+00:00:25,310 --> 00:00:29,890
+In short, "libraries" are a set of built-in functions,
+
+8
+00:00:29,890 --> 00:00:32,520
+constants and header files, gathered into one place.
+
+9
+00:00:32,620 --> 00:00:35,470
+You can create your own libraries to gather useful functions
+
+10
+00:00:35,470 --> 00:00:37,800
+so you don't have to waste time,
+
+11
+00:00:37,800 --> 00:00:40,350
+re-writing them every time you need them.
+
+12
+00:00:40,583 --> 00:00:43,223
+More details to come in the next videos.
+
+13
+00:00:43,503 --> 00:00:45,773
+The second thing we'll talk about,
+
+14
+00:00:45,773 --> 00:00:48,413
+is how to retrieve a program's arguments.
+
+15
+00:00:48,413 --> 00:00:53,743
+Up till now, we've been using mains without arguments.
+
+16
+00:00:54,611 --> 00:00:57,491
+But actually we can use mains that take arguments!
+
+17
+00:00:57,491 --> 00:01:00,981
+That's really useful: it allows us to compile our program just once,
+
+18
+00:01:00,981 --> 00:01:04,431
+instead of having to recompile every time we change something.
+
+19
+00:01:04,431 --> 00:01:08,761
+Therefore it makes your program more efficient.
+
+20
+00:01:08,761 --> 00:01:13,271
+Your program will be conditional,
+
+21
+00:01:13,271 --> 00:01:15,991
+so you won't have to recompile every time you want it
+
+22
+00:01:15,991 --> 00:01:17,861
+to have a different behavior.
+
+23
+00:01:17,861 --> 00:01:22,741
+So let's learn how to retrievea program's argument(s).

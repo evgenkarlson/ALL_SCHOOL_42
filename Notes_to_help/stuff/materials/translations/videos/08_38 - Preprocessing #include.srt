@@ -1,0 +1,264 @@
+1
+00:00:06,192 --> 00:00:06,912
+Hello.
+
+2
+00:00:06,912 --> 00:00:08,842
+In today's first video,
+
+3
+00:00:08,842 --> 00:00:11,082
+we'll talk about a preprocessor command,
+
+4
+00:00:11,082 --> 00:00:12,232
+called "include".
+
+5
+00:00:12,232 --> 00:00:14,372
+We'll have to add an "#" before it,
+
+6
+00:00:14,372 --> 00:00:16,832
+because preprocessor commands usually start with <b>#</b>.
+
+7
+00:00:16,912 --> 00:00:19,782
+This command (include), allows you to include a file
+
+8
+00:00:19,782 --> 00:00:22,732
+within another file, BEFORE compilation.
+
+9
+00:00:22,732 --> 00:00:25,492
+So, during the preprocessing stage.
+
+10
+00:00:25,492 --> 00:00:28,872
+Let me know you how it works with an example.
+
+11
+00:00:29,412 --> 00:00:33,142
+Usually, you use the function <b>write()</b>.
+
+12
+00:00:33,142 --> 00:00:35,592
+If you wanted to use it in your <b>main()</b>,
+
+13
+00:00:35,592 --> 00:00:38,003
+you had to write the prototype at the top.
+
+14
+00:00:38,003 --> 00:00:40,683
+To know which prototype to use for write()
+
+15
+00:00:40,683 --> 00:00:43,743
+you had to check its <b>man</b> page
+
+16
+00:00:43,743 --> 00:00:49,483
+and you'd see that write() takes an <b>int</b>, a <b>const void </b>*,
+
+17
+00:00:49,483 --> 00:00:56,483
+a <b>size_t </b>* (which is an unsigned int, you'll see that in a following video),
+
+18
+00:00:56,483 --> 00:01:01,303
+and a <b>ssize_t</b>, which is an <b>int</b>.
+
+19
+00:01:01,303 --> 00:01:06,963
+So if I wanted to use write(), I'd have to add its prototype
+
+20
+00:01:06,963 --> 00:01:08,933
+above my main().
+
+21
+00:01:08,933 --> 00:01:12,593
+In the man, it says "#include <unistd.h>".
+
+22
+00:01:13,392 --> 00:01:18,512
+That means that write()'s prototype already exists in a file.h,
+
+23
+00:01:18,512 --> 00:01:20,992
+called "unistd.h".
+
+24
+00:01:20,992 --> 00:01:24,582
+So instead of writing my prototype and compiling with it,
+
+25
+00:01:24,582 --> 00:01:28,582
+we'll use a grown-up technique, a real programmer technique,
+
+26
+00:01:29,374 --> 00:01:31,144
+we'll use <b>include</b>s.
+
+27
+00:01:32,793 --> 00:01:38,573
+So we write "#include", and then <unistd.h>
+
+28
+00:01:38,613 --> 00:01:42,853
+The angle brackets mean we're getting this file from the PATH...
+
+29
+00:01:42,853 --> 00:01:46,323
+The PATH of the files that the compiler seeks.
+
+30
+00:01:46,442 --> 00:01:48,742
+You can specify this PATH, based on
+
+31
+00:01:48,742 --> 00:01:51,512
+the compiler's commands. Up to you to figure out how.
+
+32
+00:01:51,512 --> 00:01:54,192
+There also is another way that allows you
+
+33
+00:01:54,192 --> 00:01:58,192
+to include files in the present directory : "#include" followed by
+
+34
+00:01:58,192 --> 00:01:59,882
+the file's name in quotation marks
+
+35
+00:01:59,882 --> 00:02:03,812
+For example, I could include the file fct.h
+
+36
+00:02:06,093 --> 00:02:08,573
+What happens when I include unistd.h ?
+
+37
+00:02:08,573 --> 00:02:13,213
+You'll see. I'm going to try and compile with
+
+38
+00:02:13,213 --> 00:02:14,763
+-Wall -Wextra -Werror
+
+39
+00:02:14,763 --> 00:02:16,033
+No problem. No errors.
+
+40
+00:02:16,493 --> 00:02:18,893
+And here, I can indeed call my function write()
+
+41
+00:02:18,893 --> 00:02:21,623
+but let me show you what happened exactly.
+
+42
+00:02:21,623 --> 00:02:24,463
+The preprocessor command is called CPP.
+
+43
+00:02:24,463 --> 00:02:27,183
+It'll allow us to see what happens
+
+44
+00:02:27,183 --> 00:02:29,073
+before compilation.
+
+45
+00:02:29,073 --> 00:02:30,733
+Remember my main.c ?
+
+46
+00:02:30,733 --> 00:02:33,193
+I'll do a "cat" on it, so you can see.
+
+47
+00:02:33,193 --> 00:02:35,443
+Here. This was my main() with it's "#include"
+
+48
+00:02:35,443 --> 00:02:37,843
+Now, if I show you with CPP,
+
+49
+00:02:40,243 --> 00:02:42,343
+here's what's been added to it.
+
+50
+00:02:42,343 --> 00:02:46,613
+All of this, is the unistd.h file, which can include other files.
+
+51
+00:02:46,613 --> 00:02:49,863
+We can clearly see that.
+
+52
+00:02:50,442 --> 00:02:53,092
+See? There are many prototypes in it.
+
+53
+00:02:53,092 --> 00:02:55,492
+The prototype for write() is somewhere in there.
+
+54
+00:02:56,132 --> 00:02:58,612
+This allows us to use the write() function
+
+55
+00:02:58,612 --> 00:03:00,732
+without having to worry about its prototype.
+
+56
+00:03:00,732 --> 00:03:03,832
+This is incredibly useful, because every time unistd.h is updated,
+
+57
+00:03:03,832 --> 00:03:06,426
+depending on the distribution you're using,
+
+58
+00:03:06,426 --> 00:03:09,716
+you'll be able to include it, and you'll
+
+59
+00:03:09,716 --> 00:03:13,646
+have the correct prototype for write().
+
+60
+00:03:13,646 --> 00:03:16,596
+What you need to remember from this video,
+
+61
+00:03:16,596 --> 00:03:19,106
+is that when you do an "#include" of any file,
+
+62
+00:03:19,106 --> 00:03:23,556
+not necessarily a file.h,
+
+63
+00:03:23,556 --> 00:03:26,556
+you can include this file and its text directly,
+
+64
+00:03:26,556 --> 00:03:30,366
+before compiling,
+
+65
+00:03:30,366 --> 00:03:32,396
+without processing it.
+
+66
+00:03:32,396 --> 00:03:35,756
+And then, compilation can happen.
+

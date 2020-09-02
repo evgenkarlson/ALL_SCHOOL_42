@@ -1,0 +1,48 @@
+1
+00:00:05,953 --> 00:00:08,450
+Hello, and welcome to D08 of the C bootcamp.
+
+2
+00:00:08,450 --> 00:00:10,940
+Today we're going to talk about the preprocessor.
+
+3
+00:00:11,002 --> 00:00:14,312
+In D07's last video, you've learnt about the stages of compilation.
+
+4
+00:00:14,314 --> 00:00:17,104
+The first stage being the preprocessor,
+
+5
+00:00:17,104 --> 00:00:21,314
+the second being the compilation of files.c, and then you saw 'linkage'.
+
+6
+00:00:22,936 --> 00:00:27,556
+The preprocessor will allow you to generate code,
+
+7
+00:00:27,556 --> 00:00:30,846
+and set defines for what we call macros.
+
+8
+00:00:30,846 --> 00:00:33,386
+You've probably heard of those. In Excel, perhaps.
+
+9
+00:00:33,386 --> 00:00:36,850
+And that'll also allow you to protect you files from multiple inclusions.
+
+10
+00:00:37,080 --> 00:00:40,920
+And we'll end these videos with structures :
+
+11
+00:00:40,920 --> 00:00:44,380
+a new way to 'package' data, 
+
+12
+00:00:44,380 --> 00:00:48,540
+as well as "typedef" which will allow you to create your own types of variables.
+

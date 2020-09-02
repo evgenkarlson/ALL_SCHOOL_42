@@ -1,0 +1,559 @@
+1
+00:00:06,626 --> 00:00:07,630
+Let's now see,
+
+2
+00:00:07,630 --> 00:00:09,885
+how to dynamically allocate memory.
+
+3
+00:00:11,362 --> 00:00:13,903
+Let's open a new file.c
+
+4
+00:00:16,269 --> 00:00:19,428
+The idea is to define, as a pointer,
+
+5
+00:00:19,428 --> 00:00:22,039
+a variable whose size hasn't been defined yet,
+
+6
+00:00:22,205 --> 00:00:24,795
+and that'll just contain the address of a memory area
+
+7
+00:00:24,795 --> 00:00:27,980
+that we'll ask the system to provide us with.
+
+8
+00:00:34,887 --> 00:00:39,146
+Let's declare a pointer: char* ;
+
+9
+00:00:39,146 --> 00:00:43,307
+more specifically, a variable str, that's a pointer of type char*.
+
+10
+00:00:44,223 --> 00:00:47,973
+So, we're defining a pointer. Not a fixed-sized string.
+
+11
+00:00:48,361 --> 00:00:50,751
+And we'll make this string's size vary.
+
+12
+00:00:50,752 --> 00:00:53,439
+In order to make it vary, we'll use
+
+13
+00:00:53,439 --> 00:00:56,119
+a "define", that we'll call "LEN", for example,
+
+14
+00:00:59,419 --> 00:01:03,029
+and define it to 42 bytes, for now.
+
+15
+00:01:04,446 --> 00:01:05,996
+So we're simply going to use
+
+16
+00:01:06,016 --> 00:01:08,670
+a "malloc" system call,
+
+17
+00:01:08,670 --> 00:01:10,813
+to which we'll pass the size
+
+18
+00:01:10,823 --> 00:01:13,783
+that we wish to allocate.
+
+19
+00:01:15,970 --> 00:01:18,080
+And then, we'll scan
+
+20
+00:01:19,243 --> 00:01:21,511
+this character string,
+
+21
+00:01:22,684 --> 00:01:26,317
+and fill it with random characters.
+
+22
+00:01:39,380 --> 00:01:41,695
+Fore example, we'll tell it
+
+23
+00:01:41,695 --> 00:01:44,635
+to display the '0' character,
+
+24
+00:01:44,641 --> 00:01:47,321
+increased by i % 10,
+
+25
+00:01:49,008 --> 00:01:53,588
+which will do 0 1 2 3 4 5 6 7 8 9, and so on...
+
+26
+00:01:55,073 --> 00:01:57,433
+Now. Let me correct a few things...
+
+27
+00:01:58,970 --> 00:02:01,646
+First, we have to take care of the size
+
+28
+00:02:01,646 --> 00:02:03,926
+we pass to "malloc".
+
+29
+00:02:04,356 --> 00:02:06,766
+The idea is to ask a "malloc" of 42.
+
+30
+00:02:07,287 --> 00:02:10,918
+Our string has a size of 42,
+
+31
+00:02:10,918 --> 00:02:13,188
+we want a string made of 42 characters.
+
+32
+00:02:13,188 --> 00:02:15,087
+So we have to think about the "\0".
+
+33
+00:02:15,087 --> 00:02:18,311
+We'll add 1 to our <b>malloc</b>'s size.
+
+34
+00:02:18,311 --> 00:02:21,184
+<b>malloc</b> expects a size in bytes.
+
+35
+00:02:22,102 --> 00:02:25,665
+we assume that 1 character = 1 byte...
+
+36
+00:02:25,665 --> 00:02:26,722
+just to be sure,
+
+37
+00:02:26,722 --> 00:02:30,367
+we're going to use the code "sizeof" :
+
+38
+00:02:30,667 --> 00:02:33,563
+for example, to do a <b>sizeof</b> of <b>char</b>,
+
+39
+00:02:34,638 --> 00:02:37,159
+which we'll multiply by the number of
+
+40
+00:02:37,159 --> 00:02:38,207
+characters we need.
+
+41
+00:02:38,207 --> 00:02:41,727
+A <b>sizeof</b> will give us the variable's size, in bytes.
+
+42
+00:02:42,286 --> 00:02:44,826
+For example, instead of having a string,
+
+43
+00:02:44,826 --> 00:02:46,727
+we'd like to have an array of ints.
+
+44
+00:02:47,480 --> 00:02:49,749
+We could do the same with int* str.
+
+45
+00:02:49,749 --> 00:02:51,977
+But that would mean that
+
+46
+00:02:51,977 --> 00:02:55,488
+here, we'd have to replace that by an int.
+
+47
+00:02:55,488 --> 00:03:00,086
+So to make it easier, we'll put *<b>str</b>
+
+48
+00:03:00,089 --> 00:03:03,835
+so that <b>sizeof</b> will simply take the same type as str.
+
+49
+00:03:06,309 --> 00:03:08,566
+It allows us to just change the type here,
+
+50
+00:03:08,566 --> 00:03:12,159
+and prevents us from having to change it everywhere in our code.
+
+51
+00:03:12,966 --> 00:03:15,519
+Let's have a look
+
+52
+00:03:15,519 --> 00:03:18,465
+at <b>malloc</b>'s man.
+
+53
+00:03:19,987 --> 00:03:21,937
+To avoid warnings, errors,
+
+54
+00:03:21,937 --> 00:03:23,865
+or any other problem,
+
+55
+00:03:23,865 --> 00:03:28,075
+let's include the file defined here.
+
+56
+00:03:29,368 --> 00:03:30,984
+<stdlib.h>
+
+57
+00:03:34,591 --> 00:03:36,137
+As it says in the <b>man</b>,
+
+58
+00:03:36,612 --> 00:03:38,287
+we can notice that
+
+59
+00:03:38,297 --> 00:03:42,337
+<b>malloc</b>'s prototype
+
+60
+00:03:42,337 --> 00:03:44,593
+returns a <b>void </b>*
+
+61
+00:03:44,593 --> 00:03:46,574
+<b>void </b>* is an address without a type.
+
+62
+00:03:46,574 --> 00:03:49,796
+but <b>str</b> does have a type. So we're gonna have to cast it,
+
+63
+00:03:50,564 --> 00:03:55,574
+in order to give the type <b>char</b>* to what <b>malloc</b> returns.
+
+64
+00:03:56,171 --> 00:03:59,611
+So, we do have a type <b>char</b>* that corresponds to <b>str</b>...
+
+65
+00:03:59,611 --> 00:04:03,851
+<b>malloc</b> of the size of a character,
+
+66
+00:04:03,851 --> 00:04:06,878
+multiplied by the number of characters we want,
+
+67
+00:04:06,878 --> 00:04:12,210
++ 1, for the "\0" we'll place here.
+
+68
+00:04:12,609 --> 00:04:18,716
+Here "i' is worth "LEN", so we're at the end of our string,
+
+69
+00:04:19,616 --> 00:04:21,620
+which we'll end with a "\0".
+
+70
+00:04:26,182 --> 00:04:29,234
+Once we've done all of this,
+
+71
+00:04:29,234 --> 00:04:33,727
+we're going to display our string.
+
+72
+00:04:49,637 --> 00:04:51,634
+Our string is displayed,
+
+73
+00:04:51,634 --> 00:04:54,224
+from 0 to 41.
+
+74
+00:04:54,224 --> 00:04:55,956
+Because the index starts at 0.
+
+75
+00:04:55,956 --> 00:04:58,558
+All 42 bytes are here.
+
+76
+00:04:59,281 --> 00:05:04,105
+We'll just add a line break.
+
+77
+00:05:04,105 --> 00:05:05,489
+It'll be prettier.
+
+78
+00:05:06,469 --> 00:05:10,100
+Let's now change our size, for example.
+
+79
+00:05:10,100 --> 00:05:13,306
+We'll set it to 21 instead of 42.
+
+80
+00:05:17,404 --> 00:05:19,124
+Recompiling...
+
+81
+00:05:19,124 --> 00:05:20,348
+Relaunching...
+
+82
+00:05:20,348 --> 00:05:24,908
+and our string's now 21 characters long, and the allocation worked fine.
+
+83
+00:05:24,908 --> 00:05:30,670
+We didn't even have to change anything in our code.
+
+84
+00:05:30,670 --> 00:05:37,082
+We could have done something like this...
+
+85
+00:05:37,082 --> 00:05:39,052
+But the problem here, is that
+
+86
+00:05:39,052 --> 00:05:43,100
+we allocate memory in a stable and definitive way.
+
+87
+00:05:43,730 --> 00:05:46,511
+With our method, we'll be able to
+
+88
+00:05:46,521 --> 00:05:48,136
+temporarily take memory,
+
+89
+00:05:48,136 --> 00:05:49,702
+and then free it.
+
+90
+00:05:49,712 --> 00:05:51,458
+So, let's remove the display,
+
+91
+00:05:51,458 --> 00:05:54,009
+because otherwise, it's going to cause problems,
+
+92
+00:05:54,599 --> 00:05:58,651
+and simply put a very long string,
+
+93
+00:05:59,411 --> 00:06:01,771
+of 42 million bytes.
+
+94
+00:06:02,541 --> 00:06:05,642
+So it's going to require 42 Mo of memory.
+
+95
+00:06:07,679 --> 00:06:10,694
+Or a little less, because 1Mo is 1024 * 1024.
+
+96
+00:06:12,045 --> 00:06:14,846
+So, we do the same, we allocate 42Mo,
+
+97
+00:06:14,846 --> 00:06:16,418
+we fill up our 42Mo,
+
+98
+00:06:16,418 --> 00:06:18,426
+we simply don't display them onscreen,
+
+99
+00:06:18,426 --> 00:06:20,330
+to avoid problems.
+
+100
+00:06:20,750 --> 00:06:24,549
+We'll just add something here,
+
+101
+00:06:24,549 --> 00:06:26,507
+to stop our program.
+
+102
+00:06:26,507 --> 00:06:29,636
+- we'll kill it, in the end, to get rid of it -
+
+103
+00:06:29,636 --> 00:06:32,249
+in order to check, with "top",
+
+104
+00:06:32,249 --> 00:06:34,736
+the memory used by our program.
+
+105
+00:06:38,151 --> 00:06:41,168
+We don't need ft_putstr anymore.
+
+106
+00:06:42,579 --> 00:06:45,916
+Let's relaunch our program in the background
+
+107
+00:06:45,916 --> 00:06:51,278
+so that we can see in "top" the memory used
+
+108
+00:06:52,469 --> 00:06:53,897
+It's in the background,
+
+109
+00:06:53,897 --> 00:06:56,797
+it's in its while(1), running.
+
+110
+00:06:57,337 --> 00:06:59,654
+Here it is, in "top",
+
+111
+00:07:01,554 --> 00:07:05,522
+and we can see it's using 40Mo of memory.
+
+112
+00:07:07,263 --> 00:07:09,534
+Let's let it run.
+
+113
+00:07:09,964 --> 00:07:13,963
+And now, going back to <b>malloc</b>'s man,
+
+114
+00:07:17,517 --> 00:07:19,080
+we can see that there's another
+
+115
+00:07:19,080 --> 00:07:20,893
+system call : <b>free</b>.
+
+116
+00:07:20,893 --> 00:07:22,672
+Which will allow us to free memory,
+
+117
+00:07:22,672 --> 00:07:25,288
+previously allocated by <b>malloc</b>.
+
+118
+00:07:27,886 --> 00:07:32,376
+<b>free</b> takes <b>malloc</b>'s " void * ",
+
+119
+00:07:32,376 --> 00:07:33,945
+and doesn't return anything.
+
+120
+00:07:35,235 --> 00:07:37,965
+It's still the same "define".
+
+121
+00:07:38,265 --> 00:07:40,342
+So what we're going to do,
+
+122
+00:07:40,342 --> 00:07:41,850
+before our while(),
+
+123
+00:07:41,850 --> 00:07:44,091
+is call <b>free</b>,
+
+124
+00:07:44,091 --> 00:07:46,298
+and pass it str,
+
+125
+00:07:46,298 --> 00:07:50,260
+which is the address <b>malloc</b> has returned a few lines before,
+
+126
+00:07:56,177 --> 00:07:59,436
+and compile this into a "a.out2".
+
+127
+00:08:01,663 --> 00:08:06,819
+Let's launch this "a.out2". Still in the background.
+
+128
+00:08:08,099 --> 00:08:12,475
+and now we can do a comparison in "top".
+
+129
+00:08:13,065 --> 00:08:16,127
+Our first "a.out" still has its 40 Mo of memory.
+
+130
+00:08:16,347 --> 00:08:18,600
+and "a.out2" has gone down to 132 Ko of memory.
+
+131
+00:08:18,800 --> 00:08:22,298
+We've freed the memory used by <b>malloc</b>
+
+132
+00:08:22,708 --> 00:08:24,975
+So this will allow us to perform
+
+133
+00:08:24,975 --> 00:08:28,099
+occasional memory allocations
+
+134
+00:08:28,299 --> 00:08:30,689
+E.g.: for work, or for chained lists,
+
+135
+00:08:30,689 --> 00:08:33,100
+or for things that don't have a size at first,
+
+136
+00:08:33,100 --> 00:08:35,126
+and to which we can't set a size
+
+137
+00:08:35,126 --> 00:08:37,924
+in the program... :
+
+138
+00:08:38,644 --> 00:08:40,324
+such as strings, arrays,
+
+139
+00:08:40,324 --> 00:08:42,280
+and chained lists.
+
+140
+00:08:45,280 --> 00:08:48,697
+That's it for <b>malloc</b>.

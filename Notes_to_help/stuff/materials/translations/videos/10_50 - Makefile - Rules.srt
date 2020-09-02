@@ -1,0 +1,256 @@
+1
+00:00:06,241 --> 00:00:07,791
+Makefile rules have a
+
+2
+00:00:07,791 --> 00:00:09,121
+very simple syntax.
+
+3
+00:00:09,511 --> 00:00:11,171
+They are made of a name,
+
+4
+00:00:11,171 --> 00:00:13,951
+of a dependencies list,
+
+5
+00:00:13,951 --> 00:00:16,631
+as well as of a definition of the rule,
+
+6
+00:00:16,661 --> 00:00:19,431
+which is made of several Shell command lines.
+
+7
+00:00:20,301 --> 00:00:24,561
+Let's write an example together.
+
+8
+00:00:24,952 --> 00:00:27,602
+I'm going to edit a file named Makefile,
+
+9
+00:00:27,621 --> 00:00:29,791
+be careful here, it always starts
+
+10
+00:00:29,801 --> 00:00:31,291
+with an uppercase "M".
+
+11
+00:00:32,214 --> 00:00:33,984
+Let me set my header.
+
+12
+00:00:33,984 --> 00:00:36,684
+And now I can write my first rule.
+
+13
+00:00:36,685 --> 00:00:38,841
+I'm going to call it "regle_a",
+
+14
+00:00:38,841 --> 00:00:41,841
+/ in french "regle" means "rule" \
+
+15
+00:00:41,841 --> 00:00:43,347
+and add a colon
+
+16
+00:00:43,347 --> 00:00:45,364
+and immediatly after this colon
+
+17
+00:00:45,364 --> 00:00:47,141
+I'll be able to write a list of rules
+
+18
+00:00:47,141 --> 00:00:51,121
+I want to execute before "regle_a".
+
+19
+00:00:52,111 --> 00:00:55,211
+We'll get back to that later on.
+
+20
+00:00:57,141 --> 00:00:59,331
+The rule's list of definitions
+
+21
+00:00:59,331 --> 00:01:01,611
+(Shell commands to be executed)
+
+22
+00:01:01,621 --> 00:01:05,161
+starts on the line right after the rule's name.
+
+23
+00:01:05,962 --> 00:01:09,962
+Each line must start with a tabulation.
+
+24
+00:01:11,119 --> 00:01:15,119
+If I want "regle_a" to write something
+
+25
+00:01:15,119 --> 00:01:18,539
+I'll use the <b>echo</b> command
+
+26
+00:01:18,539 --> 00:01:21,209
+and make it write, for example, "regle a".
+
+27
+00:01:23,440 --> 00:01:28,680
+I backup my Makefile, & can now use <b>make</b>,
+
+28
+00:01:28,680 --> 00:01:31,736
+specifying my rule's name, "regle_a".
+
+29
+00:01:35,711 --> 00:01:38,071
+We can see that ...
+
+30
+00:01:38,861 --> 00:01:41,511
+the Makefile has displayed
+
+31
+00:01:41,511 --> 00:01:44,311
+the line 'echo "regle a"'
+
+32
+00:01:44,312 --> 00:01:46,342
+That's exactly what I wrote.
+
+33
+00:01:46,621 --> 00:01:49,851
+You need to know that when a Makefile rule is executed,
+
+34
+00:01:50,148 --> 00:01:52,768
+each Shell command line will be displayed
+
+35
+00:01:52,780 --> 00:01:54,850
+on your terminal, before execution.
+
+36
+00:01:55,240 --> 00:01:57,820
+That's why we can see "echo regle a"
+
+37
+00:01:57,820 --> 00:02:00,040
+an then "regle a".
+
+38
+00:02:00,731 --> 00:02:03,001
+You can prevent this behavior,
+
+39
+00:02:03,001 --> 00:02:07,001
+by adding "@" just before the command,
+
+40
+00:02:07,321 --> 00:02:10,081
+thus the command line won't be displayed
+
+41
+00:02:10,081 --> 00:02:11,901
+before being executed.
+
+42
+00:02:14,151 --> 00:02:20,171
+Let's go back to our Makefile
+
+43
+00:02:20,171 --> 00:02:23,071
+and define a new rule
+
+44
+00:02:23,071 --> 00:02:25,591
+"regle_b".
+
+45
+00:02:25,800 --> 00:02:29,800
+and set "regle_a" as a dependency, so that
+
+46
+00:02:29,800 --> 00:02:33,800
+"regle_a" is executed before "regle_b".
+
+47
+00:02:35,536 --> 00:02:41,246
+And I want "regle_b" to display "regle b".
+
+48
+00:02:41,246 --> 00:02:43,486
+(using <b>echo</b>)
+
+49
+00:02:45,496 --> 00:02:46,646
+Saving my Makefile...
+
+50
+00:02:46,871 --> 00:02:49,681
+executing my "regle_b".
+
+51
+00:02:53,451 --> 00:02:57,451
+Since my "regle_b" has "regle_a" as a dependency
+
+52
+00:02:58,540 --> 00:03:02,540
+"<b>make</b>" first executed "regle_a",
+
+53
+00:03:03,051 --> 00:03:04,541
+we can see "regle a",
+
+54
+00:03:04,785 --> 00:03:06,871
+then executed "regle_b"
+
+55
+00:03:07,001 --> 00:03:09,651
+("regle b" is displayed).
+
+56
+00:03:10,831 --> 00:03:14,831
+This way, a rule can call another
+
+57
+00:03:15,162 --> 00:03:18,290
+to solve its dependencies,
+
+58
+00:03:18,290 --> 00:03:21,040
+and we'll be able to instantiate variables,
+
+59
+00:03:21,059 --> 00:03:22,579
+change contents, etc.
+
+60
+00:03:25,701 --> 00:03:28,511
+Now that we've seen how to define rules in a Makefile,
+
+61
+00:03:28,511 --> 00:03:30,931
+we're going to learn, in the next session,
+
+62
+00:03:30,931 --> 00:03:33,007
+how to define variables,
+
+63
+00:03:33,007 --> 00:03:35,487
+and how to use them in your Makefile
+
+64
+00:03:35,487 --> 00:03:37,778
+to improve your program's semantics.
+
