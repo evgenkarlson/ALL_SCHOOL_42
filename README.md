@@ -1,3 +1,6 @@
+
+![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
+
 # ALL SUBJECTS of「 SCHOOL 42 」
 
 ### Содержание
@@ -7,8 +10,6 @@
 - [2. Основное обучение](#основное-обучение)
 - [3. Oстальные басейны Школы 42](#oстальные-басейны-школы-42)
 - [4. Групповые проекты (Rushes - миниХАКАТОНЫ)](#групповые-проекты--rushes---минихакатоны)
-
-![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
 
 ## Введение
 Этот репозиторий содержит все задания по программе обучения от французской школы программирования ["Ecole 42"](https://www.42.fr/), которая в игровой форме позволяет самостоятельно развить навыки программирования, помогая с нуля получить востребованную профессию. [[Shool 21 - филиал школы в Роосии ]](https://21-school.ru/) 
