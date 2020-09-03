@@ -159,7 +159,7 @@
 > - Shader Pixel
 
 > ### [[WEB ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
-> - piscine PHP - [смотри пункт 3]
+> - piscine PHP - [см.сл. главу]
 > - Camagru
 > - Matcha
 > - Hypertube
@@ -168,13 +168,13 @@
 > - Darkly
 
 > ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
-> - piscine Ocaml - [смотри пункт 3]
+> - piscine Ocaml - [см.сл. главу]
 > - ft_ality
 > - ft_turing
 > - H42N42
 
 > ### [[Android & iOS ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
-> - piscine Swift iOS - [смотри пункт 3]
+> - piscine Swift iOS - [см.сл. главу]
 > - Swifty Companion
 > - Swifty Proteins
 > - ft_hangouts
@@ -183,13 +183,13 @@
 > - fixme
 
 > ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
-> - piscine C++ - [смотри пункт 3]
+> - piscine C++ - [см.сл. главу]
 > - Abstract VM
 > - Nibbler
 > - Bomberman
 
 > ### [[Unity ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
-> - piscine Unity - [смотри пункт 3]
+> - piscine Unity - [см.сл. главу]
 > - XV
 > - In the Shadows
 
