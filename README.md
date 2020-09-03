@@ -11,7 +11,7 @@
 - Групповые проекты (Rushes - миниХАКАТОНЫ)
 
 
-## ◤ Введение ◢
+## ◤ Введение ◢ 
 Этот репозиторий содержит все задания по программе обучения от французской школы программирования ["Ecole 42"](https://www.42.fr/), которая в игровой форме позволяет самостоятельно развить навыки программирования, помогая с нуля получить востребованную профессию. [[Shool 21 - филиал школы в Роосии ]](https://21-school.ru/) 
 
 Последовательно перемещаясь по направлениям, языкам и учебным проектам ( используя [[карту Графов]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)), и выполняя задания содержащие проекты основного обучения Школы 42, вы сформируете у себя фундаментальные технические навыки:
@@ -34,7 +34,7 @@
 Программа индивидуализирована. Каждый прогрессирует в своем собственном темпе. Одни представления вам легче развить инстинктивно, в то время как другие требуют от вас дополнительных усилий. Основываясь на этом наблюдении, обучение в Школе 42 делится на части. С течением времени каждый ученик прогрессирует не в соответствии со всем классом студентов (где самый поздний элемент замедляет работу всей группы), а сам по себе - в своем собственном темпе.
 
 
-## ◤ 0. Документация по школе ◢
+## 0. Документация по школе
  * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/cursus_manual.en.pdf)
 
  * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Others/the_art_of_peer_evaluation.EN.pdf)
@@ -44,7 +44,7 @@
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.txt))  (2.0.0 [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_0.EN.pdf))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_2_0_1.RU.txt))
 
 
-## ◤ 1. Басейн по языку Си ◢
+## 1. Басейн по языку Си
 Именно с этого басейна начнётся обучение программированию в школе 42.
 - Бассейн по Си: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
 - Экзаменационные задания начального басейна по С :[[EN][FR][RO]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
@@ -58,7 +58,7 @@
 
 С первого же дня вы сталкиваетесь не просто со сложными задачами, а с целыми областями знаний, о существовании которых вы могли даже не знать. Таким образом, какой бы высокий начальный уровень у вас ни был, вы обязательно встретитесь с заданием, которое точно вызовет затруднения. Увидя его вы сначала войдете в ступор, но потом путем неимоверных усилий, совершая череду ошибок, вы все-таки справляетесь с заданием и приобретаете навык, который становится привычным инструментом. Басейн станет испытанием на прочность для тех кто решит начать путь программирования, что бы определить наиболее мотивированных.
 
-## ◤ 2. Основное обучение ◢
+## 2. Основное обучение
 
 Для продвижения по заданиям Основного обучения Школы 42 на английском[[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/) языке, вы можете скачать и использовать карту Графов: [[Holy Graph]](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
 > ### [[GLOBAL - Общая ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
@@ -201,7 +201,7 @@
 > - KIFT
 
 
-## ◤ 3. Oстальные басейны Школы 42 ◢
+## 3. Oстальные басейны Школы 42
 
 > #### Каждый из этих басейнов будет на какой то определенной, своей  ветви при прохождении основного обучения Школы 42.
 > - [C++](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_cpp)
@@ -217,7 +217,7 @@
 
 
 
-## ◤ 4. Групповые проекты  (Rushes - миниХАКАТОНЫ) ◢
+## 4. Групповые проекты  (Rushes - миниХАКАТОНЫ)
 
 > - [AlCu](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf.pdf)
 > - [Alum1](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf.pdf)
@@ -238,5 +238,3 @@
 > - Rush admin sys et réseau 1 (Not Available)
 > - [wong_kar_wai (2048)](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wong_kar_wai_2048.pdf)
 > - [YASL](https://github.com/evgenkarlson/Subjects___School_42/tree/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/yasl.pdf)
-
-
