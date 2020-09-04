@@ -1,5 +1,5 @@
 
-#  Cи за 42 минуты (ну почти) / [VIDEO_C_in_ 42_min_(almost)](https://youtu.be/tUfXuSI7rUU) #
+#  Cи за 42 минуты (ну почти) / [[VIDEO_by__C_in_ 42_min_(almost)]](https://youtu.be/tUfXuSI7rUU) #
 
 Привет всем и добро пожаловать на этот урок: Cи за 42 минуты / (ну почти).
 
