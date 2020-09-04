@@ -48,7 +48,7 @@
 ## Документация по школе
  * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/cursus_manual.ru.md)
 
- * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/the_art_of_peer_evaluation.EN.pdf)
+ * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/the_art_of_peer_evaluation.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/the_art_of_peer_evaluation.RU)
 
  * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/Others/vogsphere.git.EN.pdf)
 
