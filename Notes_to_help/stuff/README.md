@@ -12,8 +12,7 @@
 
  Polotence
 ---
-* [Unix OS](polotence/polotence.1_unix-os.md)
-* [bash](polotence/polotence.2_bash.md)
+* [Unix shell - bash](polotence/polotence.1_unix-shell_bash.md)
 * [Vim](polotence/polotence.3_vim.md)
 * [Code check](polotence/polotence.4_code-check.md)
 * [Other](polotence/polotence.5_other.md)
