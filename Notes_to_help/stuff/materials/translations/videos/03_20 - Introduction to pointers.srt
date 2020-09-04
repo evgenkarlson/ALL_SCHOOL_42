@@ -1,54 +1,54 @@
 1
 00:00:06,243 --> 00:00:10,243
-Hello and welcome to day 03, Pointers day!
+Привет и добро пожаловать в день 03 - День Указателей!
 
 2
 00:00:10,525 --> 00:00:14,525
-Pointers are a new variable type that I am going to teach you.
+Указатели являются новым переменным типом, которому я собираюсь научить вас.
 
 3
 00:00:14,947 --> 00:00:18,947
-It's one of the most useful type of variables in C.
+Это одна из самых полезных переменных в C.
 
 4
 00:00:18,947 --> 00:00:22,947
-It's the one that'll allow you to possess another variable's address
+Благоадря указателю вы сможете обладать адресом другой переменной
 
 5
 00:00:22,947 --> 00:00:24,887
-and modify it remotely.
+и удаленно изменять содержимое это переменной.
 
 6
 00:00:24,952 --> 00:00:27,952
-And that's what we're going to have a look at in a few moments.
+И это то, на что мы собираемся взглянуть в течение нескольких минут.
 
 7
 00:00:28,068 --> 00:00:31,698
-In order to use pointers, you need to understand something important first,
+Для того, чтобы использовать указатели, вы должны в первую очередь понимать,
 
 8
 00:00:31,698 --> 00:00:33,948
-that something is Memory.
+что то о Памяти.
 
 9
 00:00:34,006 --> 00:00:39,906
-When a process is launched, it has the right to virtually have all the existing memory.
+Когда процесс запущен, у него есть право иметь практически всю существующую память.
 
 10
 00:00:40,884 --> 00:00:44,884
-With 32 bits we'll be at 4GB and with 64 bits, we'll be at much more
+С 32 битной системой мы будем обладать 4GB памяти, а с 64 битной системой, мы будем обладать гораздо большим количеством памяти.
 
 11
 00:00:44,909 --> 00:00:48,909
-I don't know the numbers by heart... But it's 2 to the power of 64...
+Я не знаю наизусть точной цифры ... Но это 2 в 64 степени ...
 
 12
 00:00:48,909 --> 00:00:52,139
-There. You do the maths.
+Тут вам нужно использовать математику.
 
 13
 00:00:52,419 --> 00:00:54,649
-So this is virtual memory.
+Так же нужно понимать что вся эта память для каждого процесса является виртуальной.
 
 14
 00:00:54,695 --> 00:00:58,695
