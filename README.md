@@ -64,6 +64,8 @@
  
  * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
+ * 10 правил, для тех кто начинает плавать в бассейне [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/10_rules_for_piscine.md)
+ 
 > Для ускорения процесса перевода и понимания содержимого pdf файлов используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/).
  
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
