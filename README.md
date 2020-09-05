@@ -47,14 +47,6 @@
 
 ## Документация по школе
 
-> Как быть с английским?
->
-> Хочу обратить ваше внимание на [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который ОЧЕНЬ сильно мне помог ускорить процесс перевода и понимания содержимого документов.
->
-> Программа использует для перевода `api` таких ресурсов как: `google`, `yandex` и `bing`.
->
-> Она легко настраивается и к тому же бесплатна. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
-
  * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.ru.md)
 
  * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/the_art_of_peer_evaluation.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/the_art_of_peer_evaluation.RU.md)
@@ -65,6 +57,14 @@
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
 
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
+
+> Как быть с английским?
+>
+> Хочу обратить ваше внимание на [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который ОЧЕНЬ сильно мне помог ускорить процесс перевода и понимания содержимого документов.
+>
+> Программа использует для перевода `api` таких ресурсов как: `google`, `yandex` и `bing`.
+>
+> Она легко настраивается и к тому же бесплатна. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
 
 
 ## Бассейн по языку Си
