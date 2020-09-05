@@ -1,10 +1,9 @@
-# Unix Shell - Bash #
-[Unix shell](https://ru.wikipedia.org/wiki/Командная_оболочка_Unix) - (комaндная оболочка Unix, часто просто «шелл» или «sh») — командный интерпретатор, используемый в операционных системах семейства Unix. В нем пользователь может либо давать команды операционной системе по отдельности, либо запускать скрипты, состоящие из списка команд. В MacOS и Linux стандартной командой оболочкой является bash (одна из разновидностей оригинального shell).
 
-# 1. Как и где работать с bash: #
+---
+# Unix Shell  / Как и где работать с bash: #
 
 
-### способ 1.0 - Устанавливаем Linux дистрибутив семейства UNIX: ###
+## способ 1.0 - Устанавливаем Linux дистрибутив семейства UNIX: ##
 * Создание загрузочной флешки [[тут]](https://linuxvsem.ru/instructions/sozdanie-zagruzochnoj-fleshki)
 * УСТАНОВКА [[тут]](https://linuxvsem.ru/instructions/ustanovka-pop-os)
 * Помните что подготовка разметка диска для установки на него системы может может зависеть от того насколько давно была выпущен ваш компьютер(!).
@@ -15,7 +14,7 @@
 > Лучше всего проводить изменение раскладки с английской на какую либо свою или добавление новой раскладки(в настройках системы) только тогда, когда установка системы закончится и вы уже сможете зайти в свою учетную запись на компьютере.(ТОЛЬКО ПОСЛЕ ЭТОГО!)
 
 
-### способ 1.1 Используя подсистему Linux в Windows 10:  ###
+## способ 1.1 Используя подсистему Linux в Windows 10:  ##
 * Открываем Start menu в Windows 10 и ищем PowerShell, запускаем его от имени администратора
 * Прописываем в PowerShell чтобы активировать Bash в Windows и настроить ее под себя:
 ```
@@ -27,7 +26,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
   * Устанавливаем для теста gcc: ```sudo apt install gcc```. Если установка прошла успешно, то значит можно работать.
 
 
-### способ 1.2 - Используя виртуализацию VMware создадим установим Linux Ubuntu ###
+## способ 1.2 - Используя виртуализацию VMware создадим установим Linux Ubuntu ##
 * Скачиваем VMware (ищите на торрентах repack, могу лишь посоветовать nnm-club.ru).
 * Скачиваем [Ubuntu Desktop](https://ubuntu.ru/get).
 * Устанавливаем виртуалку в VMware, ничего сложного нету, главное выделите 20 гб свободного места.
@@ -38,7 +37,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
    gnome-tweak-tool нужна для изменения раскладки на alt-shift: заходим в Tweaks → KeyBoard&Mouse → Additional Layout Option → Switch to, меняем на нужную раскладку
 
 
-### способ 1.3 - Используя виртуализацию VMware создадим установим macOS Sierra ###
+## способ 1.3 - Используя виртуализацию VMware создадим установим macOS Sierra ##
 macOS Sierra - для тех, кто хочет понять с какой OS мы будем работать в школе 42/21.
 1) Образ macOS [Sierra v.10.12.5 (16F73)](https://nnmclub.to/forum/viewtopic.php?t=1151080)
 2) [Установка](https://youtu.be/WYkgtMEDUXQ) macOS Sierra VMWare Workstation 
@@ -48,6 +47,8 @@ cpuid.1.eax = "0000:0000:0000:0001:0000:0110:1010:0101"
 smc.version = "0"
 ```
 4) [Настройка клавиатуры](https://o7planning.org/ru/11555/how-to-use-windows-like-shortcuts-in-mac-os-virtual-machine)
+
+---
 
 # 2. bash #
 

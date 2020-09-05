@@ -1,7 +1,7 @@
 ![pageimage](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/Notes_to_help/src/page1image3852832-small-13.png)
 
 # The art of peer-evaluation #
-Искусство оценки peer’ов  
+Искусство оценки peer’ов
 
 Краткое изложение: Этот краткий текст призван описать необходимое душевное состояние, которое должно быть у человека, в момент оценки peer’ов, а также некоторые обязательные правила для тех немногих студентов, которые не в полной мере понимают это душевное состояние.
 > Summary: This short text aims to describe the state of mind one should have when starting a peer-evaluation, as well as a few mandatory rules for the few student who wouldn’t fully understand this state of mind.
