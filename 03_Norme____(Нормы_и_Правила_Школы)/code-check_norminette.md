@@ -57,10 +57,10 @@ bundle
 echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.bashrc
 ```
 
-Если у вас `zsh` то:
-```
-echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
-```
+> Если у вас `zsh` то:
+> ```
+> echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
+> ```
 
 Зарегистрируем изменения.
 
@@ -70,31 +70,32 @@ echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
 source ~/.bashrc
 ```
 
-Если у вас `zsh` то:
-```
-source ~/.zshrc
-```
+> Если у вас `zsh` то:
+> ```
+> source ~/.zshrc
+> ```
 
 ### Проверка кода на соответствие нормам через Norminette:
 
-   * Для проверки использовать команду norminette -R CheckForbiddenSourceHeader в каталоге файлов типа `.с`
-   * Для проверки файлов типа .h используется только norminette, без флагов
-   * Если у вас `bash` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.bashrc` вот эту строчку(если файла `~/.bashrc` нет то создайте его):
-   ```
-   alias norm="norminette -R CheckForbiddenSourceHeader"
-   ```
-   Затем перезапустите терминал и набирите 
-   ```
-   norm main.c
-   ```
-   * Если у вас `zsh` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.zshrc` вот эту строчку(если файла `~/.zshrc` нет то создайте его):
-   ```
-   alias norm="norminette -R CheckForbiddenSourceHeader"
-   ```
-   Затем перезапустите терминал и набирите 
-   ```
-   norm main.c
-   ```
+* Для проверки использовать команду norminette -R CheckForbiddenSourceHeader в каталоге файлов типа `.с`
+* Для проверки файлов типа .h используется только norminette, без флагов
+* Если у вас `bash` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.bashrc` вот эту строчку(если файла `~/.bashrc` нет то создайте его):
+```
+alias norm="norminette -R CheckForbiddenSourceHeader"
+```
+Затем перезапустите терминал и набирите 
+```
+norm main.c
+```
+> Если у вас `zsh` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.zshrc` вот эту строчку(если файла `~/.zshrc` нет то создайте его):
+> ```
+> alias norm="norminette -R CheckForbiddenSourceHeader"
+> ```
+> 
+> Затем перезапустите терминал и набирите 
+> ```
+> norm main.c
+> ```
 
 ## 2. Проверка через 42Stupidity ##
 
