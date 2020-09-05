@@ -1,4 +1,4 @@
- ![pic](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/src/page1image3852832-small-13.png)
+ ![pic](https://github.com/evgenkarlson/ALL___Subjects___School_42/raw/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/page1image3852832-small-13.png)
 
  # 42 Заповеди
 
