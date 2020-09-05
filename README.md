@@ -1,7 +1,9 @@
 
 ![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
 
+
 # ALL SUBJECTS of「 SCHOOL 42 」
+
 
 ### Содержание
 - [Введение](#введение)
@@ -21,6 +23,8 @@
   - [Side Projects - Сторонние Проекты](#side-projects---сторонние-проекты)
 - [3. Oстальные бассейны Школы 42](#oстальные-бассейны-школы-42)
 - [4. Групповые проекты (Rushes - миниХАКАТОНЫ)](#групповые-проекты--rushes---минихакатоны)
+
+
 
 ## Введение
 Этот репозиторий содержит все задания по программе обучения от французской школы программирования ["Ecole 42"](https://www.42.fr/), которая в игровой форме позволяет самостоятельно развить навыки программирования, помогая с нуля получить востребованную профессию. [[School 21 - филиал школы в России ]](https://21-school.ru/) 
@@ -45,6 +49,7 @@
 Программа индивидуализирована. Каждый прогрессирует в своем собственном темпе. Одни представления вам легче развить инстинктивно, в то время как другие требуют от вас дополнительных усилий. Основываясь на этом наблюдении, обучение в Школе 42 делится на части. С течением времени каждый ученик прогрессирует не в соответствии со всем классом студентов (где самый поздний элемент замедляет работу всей группы), а сам по себе - в своем собственном темпе.
 
 
+
 ## Документация по школе
 
  * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.ru.md)
@@ -53,16 +58,12 @@
 
  * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.RU.md)
 
-
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
+
+ * Как быть с английским? Используйте [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который ОЧЕНЬ сильно помог ускорить процесс перевода и понимания содержимого документов. Для перевода он использует `api` таких ресурсов как: `google`, `yandex` и `bing`. Он легко настраивается и бесплатен. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
 
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
 
-> Как быть с английским?
->
-> Хочу обратить ваше внимание на [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который ОЧЕНЬ сильно помог ускорить процесс перевода и понимания содержимого документов. Для перевода она использует `api` таких ресурсов как: `google`, `yandex` и `bing`.
->
-> Она легко настраивается и к тому же бесплатна. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
 
 
 ## Бассейн по языку Си
