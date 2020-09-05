@@ -48,6 +48,10 @@
 
 Программа индивидуализирована. Каждый прогрессирует в своем собственном темпе. Одни представления вам легче развить инстинктивно, в то время как другие требуют от вас дополнительных усилий. Основываясь на этом наблюдении, обучение в Школе 42 делится на части. С течением времени каждый ученик прогрессирует не в соответствии со всем классом студентов (где самый поздний элемент замедляет работу всей группы), а сам по себе - в своем собственном темпе.
 
+> Как быть с английским?
+>
+> Используйте [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который помог сильно ускорить процесс перевода и понимания содержимого документов. Для перевода он использует `api` таких ресурсов как: google, yandex и bing. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
+
 
 
 ## Документация по школе
@@ -59,8 +63,6 @@
  * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.RU.md)
 
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
-
- * Как быть с английским? Используйте [CROW TRANSLATE](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который помог сильно ускорить процесс перевода и понимания содержимого документов. Для перевода он использует `api` таких ресурсов как: google, yandex и bing. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
 
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
 
