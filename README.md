@@ -60,7 +60,7 @@
 
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
 
-> Переводы: используйте [Crow Translate](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который поможет сильно ускорить процесс перевода и понимания содержимого документов. Для перевода он использует `api` таких ресурсов как: google, yandex и bing. Исходники [[тут]](https://github.com/crow-translate/crow-translate).
+> Переводы: используйте [Crow Translate](https://crow-translate.github.io/) - кроссплатформенный перевочик текста, который поможет сильно ускорить процесс перевода и понимания содержимого документов. Для перевода он использует `api` таких ресурсов как: google, yandex и bing.
 
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
 
