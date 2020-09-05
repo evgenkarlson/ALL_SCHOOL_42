@@ -62,7 +62,7 @@
 
  * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
  
- * Видео по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
+ * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
  * Для ускорения процесса перевода и понимания содержимого pdf файлов используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/).
  
