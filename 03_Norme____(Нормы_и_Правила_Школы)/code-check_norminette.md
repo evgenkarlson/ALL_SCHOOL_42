@@ -44,7 +44,11 @@ source ~/.bashrc
 ```
 > Если у вас `zsh` то файл будет называться `~/.zshrc`.
 
+[[Видео по установке Norminette на Linux]](https://youtu.be/Y1Sz3GEzN6E)
 
+[[Видео по установке Norminette на maOS]](https://youtu.be/MpoAev-ds-o)
+
+[[Видео по установке Norminette на Windows]](https://youtu.be/hljxcMs_zxU)
 
 
 # 2. Проверка кода на соответствие нормам через Norminette: #
