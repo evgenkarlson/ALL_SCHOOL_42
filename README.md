@@ -60,11 +60,11 @@
 
  * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
 
- * Проверка кода через программу Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
+ * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
  
  * Видео по языку Си(очень хорошо подходит для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
- * Для ускорения процесса перевода и понимания содержимого `pdf файлов` с заданиями используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/). Он использует `api` таких ресурсов как: google, yandex и bing.
+ * Для ускорения процесса перевода и понимания содержимого pdf файлов с заданиями используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/). Он использует `api` таких ресурсов как: google, yandex и bing.
 
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
 
