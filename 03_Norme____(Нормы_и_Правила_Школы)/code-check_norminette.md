@@ -1,5 +1,7 @@
 # Проверка кода #
 
+![pageimage](src/page1image3852832-small-13.png)
+
 
 ## 0. Проверка используя компилятор и lifehack  c `alias`: ##
 
