@@ -87,7 +87,7 @@ alias norm="norminette -R CheckForbiddenSourceHeader"
 ```
 norm main.c
 ```
-> Если у вас `zsh` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.zshrc` вот эту строчку(если файла `~/.zshrc` нет то создайте его):
+> - Если у вас `zsh` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.zshrc` вот эту строчку(если файла `~/.zshrc` нет то создайте его):
 > ```
 > alias norm="norminette -R CheckForbiddenSourceHeader"
 > ```
