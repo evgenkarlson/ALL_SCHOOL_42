@@ -53,9 +53,7 @@
 >
 > Программа использует для перевода `api` таких ресурсов как: `google`, `yandex` и `bing`.
 >
-> Она легко настраивается и к тому же бесплатна. 
->
->Исходники этой программы можно найти [тут](https://github.com/crow-translate/crow-translate).
+> Она легко настраивается и к тому же бесплатна. Исходники [тут](https://github.com/crow-translate/crow-translate).
 
  * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.ru.md)
 
