@@ -1,4 +1,4 @@
-![pageimage](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/Notes_to_help/src/page1image3852832-small-13.png)
+![pageimage](src/page1image3852832-small-13.png)
 
 # The art of peer-evaluation #
 Искусство оценки peer’ов
