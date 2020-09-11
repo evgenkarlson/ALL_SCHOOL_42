@@ -177,7 +177,7 @@
 > - Shader Pixel
 
 > ### [[WEB ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
-> - piscine PHP - [см.сл. главу]
+> - piscine PHP
 > - Camagru
 > - Matcha
 > - Hypertube
@@ -186,13 +186,13 @@
 > - Darkly
 
 > ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
-> - piscine Ocaml - [см.сл. главу]
+> - piscine Ocaml
 > - ft_ality
 > - ft_turing
 > - H42N42
 
 > ### [[Android & iOS ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
-> - piscine Swift iOS - [см.сл. главу]
+> - piscine Swift iOS
 > - Swifty Companion
 > - Swifty Proteins
 > - ft_hangouts
@@ -201,13 +201,13 @@
 > - fixme
 
 > ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
-> - piscine C++ - [см.сл. главу]
+> - piscine C++
 > - Abstract VM
 > - Nibbler
 > - Bomberman
 
 > ### [[Unity ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
-> - piscine Unity - [см.сл. главу]
+> - piscine Unity
 > - XV
 > - In the Shadows
 
@@ -233,14 +233,9 @@
 ## Oстальные бассейны Школы 42
 
 > #### Каждый из этих бассейнов будет на какой то определенной, своей  ветви при прохождении основного обучения Школы 42.
-> - [C++](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_cpp)
-> - [PHP](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php)
 > - [PHP-Symphony](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony)
 > - [Python-Django](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django)
-> - [Ocaml](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_ocaml)
 > - [Ruby On Rails](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscines_ruby_on_rails)
-> - [Swift iOS](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_swift_ios)
-> - [Unity](https://github.com/evgenkarlson/Subjects___School_42/tree/master/01_Piscines__(%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_unity)
 
 
 
