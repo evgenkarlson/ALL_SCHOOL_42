@@ -28,6 +28,10 @@ zaz zaz@staff.42.fr
 
 - Официальная документация: [git-scm.com](http://git-scm.com/documentation)
 - Удивительная книга по Git [book_about_git.pdf](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/Notes_to_help/book_about_git.pdf)
+- [Знакомство с Git и GitHub: ч.1](https://nuancesprog.ru/p/5243/)
+- [Знакомство с Git и GitHub: ч.2](https://nuancesprog.ru/p/5272/)
+- [Git и Bash](https://nuancesprog.ru/p/4863/)
+
 
 
 
