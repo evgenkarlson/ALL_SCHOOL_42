@@ -31,7 +31,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ---
 
-### способ 3. Работаем c bash используя виртуализацию VMware создадим установим Linux Ubuntu ###
+### способ 3. Работаем c bash используя виртуализацию VMware - создадим установим Linux Ubuntu ###
 * Скачиваем VMware (ищите на торрентах repack, могу лишь посоветовать nnm-club.ru).
 * Скачиваем [Ubuntu Desktop](https://ubuntu.ru/get).
 * Устанавливаем виртуалку в VMware, ничего сложного нету, главное выделите 20 гб свободного места.
@@ -43,7 +43,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ---
 
-### способ 4. Работаем c bash используя виртуализацию VMware создадим установим macOS Sierra ###
+### способ 4. Работаем c bash используя виртуализацию VMware - создадим установим macOS Sierra ###
 macOS Sierra - для тех, кто хочет понять с какой OS мы будем работать в школе 42/21.
 1) Образ macOS [Sierra v.10.12.5 (16F73)](https://nnmclub.to/forum/viewtopic.php?t=1151080)
 2) [Установка](https://youtu.be/WYkgtMEDUXQ) macOS Sierra VMWare Workstation 
