@@ -6,7 +6,7 @@
 
 # Как и где работать с Bash в Unix #
 
-### способ 1. - Устанавливаем Linux дистрибутив семейства UNIX: ###
+### способ 1. Устанавливаем Linux дистрибутив семейства UNIX: ###
 * Создание загрузочной флешки [[тут]](https://linuxvsem.ru/instructions/sozdanie-zagruzochnoj-fleshki)
 * УСТАНОВКА [[тут]](https://linuxvsem.ru/instructions/ustanovka-pop-os)
 * Помните что подготовка и разметка диска для установки на него системы семейства Unix может может зависеть от того какой тип загрузки использует `BIOS` вашего компьютера(!).
@@ -18,7 +18,7 @@
 
 ---
 
-### способ 2. Используя подсистему Linux в Windows 10:  ###
+### способ 2. Работаем c bash используя подсистему Linux в Windows 10:  ###
 * Открываем Start menu в Windows 10 и ищем PowerShell, запускаем его от имени администратора
 * Прописываем в PowerShell чтобы активировать Bash в Windows и настроить ее под себя:
 ```
@@ -31,7 +31,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ---
 
-### способ 3. - Используя виртуализацию VMware создадим установим Linux Ubuntu ###
+### способ 3. Работаем c bash используя виртуализацию VMware создадим установим Linux Ubuntu ###
 * Скачиваем VMware (ищите на торрентах repack, могу лишь посоветовать nnm-club.ru).
 * Скачиваем [Ubuntu Desktop](https://ubuntu.ru/get).
 * Устанавливаем виртуалку в VMware, ничего сложного нету, главное выделите 20 гб свободного места.
@@ -43,7 +43,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ---
 
-### способ 4. - Используя виртуализацию VMware создадим установим macOS Sierra ###
+### способ 4. Работаем c bash используя виртуализацию VMware создадим установим macOS Sierra ###
 macOS Sierra - для тех, кто хочет понять с какой OS мы будем работать в школе 42/21.
 1) Образ macOS [Sierra v.10.12.5 (16F73)](https://nnmclub.to/forum/viewtopic.php?t=1151080)
 2) [Установка](https://youtu.be/WYkgtMEDUXQ) macOS Sierra VMWare Workstation 
@@ -56,7 +56,7 @@ smc.version = "0"
 
 ---
 
-## Шпаргалка bash: ##
+## Шпаргалка по bash: ##
 
 ```
 cd *каталог* – перейти в каталог
