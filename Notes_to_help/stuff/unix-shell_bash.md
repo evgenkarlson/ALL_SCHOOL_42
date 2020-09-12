@@ -31,7 +31,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
   * Устанавливаем для теста gcc: ```sudo apt install gcc```. Если установка прошла успешно, то значит можно работать.
 
 
-### способ 3. - Используя виртуализацию VMware создадим установим Linux Ubuntu ###
+### **способ 3. - Используя виртуализацию VMware создадим установим Linux Ubuntu** ###
 * Скачиваем VMware (ищите на торрентах repack, могу лишь посоветовать nnm-club.ru).
 * Скачиваем [Ubuntu Desktop](https://ubuntu.ru/get).
 * Устанавливаем виртуалку в VMware, ничего сложного нету, главное выделите 20 гб свободного места.
