@@ -30,8 +30,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
   * Переключаемся в root ```sudo su``` и скачиваем обновления: ```apt-get update```
   * Устанавливаем для теста gcc: ```sudo apt install gcc```. Если установка прошла успешно, то значит можно работать.
 
+---
 
-### <strong>способ 3. - Используя виртуализацию VMware создадим установим Linux Ubuntu</strong> ###
+### способ 3. - Используя виртуализацию VMware создадим установим Linux Ubuntu ###
 * Скачиваем VMware (ищите на торрентах repack, могу лишь посоветовать nnm-club.ru).
 * Скачиваем [Ubuntu Desktop](https://ubuntu.ru/get).
 * Устанавливаем виртуалку в VMware, ничего сложного нету, главное выделите 20 гб свободного места.
@@ -41,6 +42,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
    ```
    gnome-tweak-tool нужна для изменения раскладки на alt-shift: заходим в Tweaks → KeyBoard&Mouse → Additional Layout Option → Switch to, меняем на нужную раскладку
 
+---
 
 ### способ 4. - Используя виртуализацию VMware создадим установим macOS Sierra ###
 macOS Sierra - для тех, кто хочет понять с какой OS мы будем работать в школе 42/21.
