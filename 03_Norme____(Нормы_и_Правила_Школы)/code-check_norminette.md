@@ -33,7 +33,7 @@ bundle
 
 Для удобства использования мы возьмем `alias` и свяжем ассоциацией имя программмы с адресом до её исполняемого файла:
 ```
-echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.bashrc
+echo 'alias norm="~/.norminette/norminette.rb"' >> ~/.bashrc
 ```
 
 
@@ -57,11 +57,10 @@ source ~/.bashrc
 * Для проверки файлов типа `.h` используется только `norminette`, без флагов
 * Если у вас `bash` то для быстрой проверки файла `main.c` через программу Norminette добавляем в файл `~/.bashrc` вот эту строчку(если файла `~/.bashrc` нет то создайте его):
 > Если у вас `zsh` то файл будет называться `~/.zshrc`.
-
 ```
 alias norm="norminette -R CheckForbiddenSourceHeader"
 ```
-Затем перезапустите терминал и набирите 
+Затем перезапустите терминал и чтобы проверить код в файле `main.c` набирите 
 ```
 norm main.c
 ```
