@@ -1,0 +1,14 @@
+Exercitiu  : hello
+Fisiere de iesire  : hello.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program care afiseaza "Hello World!" urmat de '\n'.
+
+Example:
+
+$>./hello
+Hello World!
+$>./hello | cat -e
+Hello World!$
+$>

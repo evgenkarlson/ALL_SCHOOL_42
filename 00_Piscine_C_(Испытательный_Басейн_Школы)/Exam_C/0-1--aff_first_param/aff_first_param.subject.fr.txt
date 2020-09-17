@@ -1,0 +1,18 @@
+Assignment name  : aff_first_param
+Expected files   : aff_first_param.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètre des chaînes de caractères, et qui
+affiche son premier paramètre suivi d'un '\n'.
+
+Si le nombre de paramètres est inférieur à 1, le programme affiche '\n'.
+
+Exemple:
+
+$> ./aff_first_param vincent mit "l'ane" dans un pre et "s'en" vint | cat -e
+vincent$
+$> ./aff_first_param "j'aime le fromage de chevre" | cat -e
+j'aime le fromage de chevre$
+$> ./aff_first_param
+$
