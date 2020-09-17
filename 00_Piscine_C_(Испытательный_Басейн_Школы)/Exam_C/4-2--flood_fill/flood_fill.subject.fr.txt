@@ -1,0 +1,67 @@
+Assignment name  : flood_fill
+Expected files   : *.c, *.h
+Allowed functions: - 
+--------------------------------------------------------------------------------
+
+Ecrivez une fonction qui prends en paramètres un char** qui sera une aire à 2
+dimensions, une structure de type t_point qui donnera la longueur et la largeur
+de cette aire, et une structure de type t_point symbolisant le point de départ.
+
+Cette fonction devra 'colorer' une zone de l'aire donnée en argument, en 
+remplaçant les caractères de cette zone par des 'F'. Une zone est un ensemble 
+de mêmes caractères, délimitée horizontalement et verticalement par d'autres 
+caractères.
+
+La fonction flood_fill ne 'colore' pas en diagonale.
+
+La fonction flood_fill devra être prototypée comme suit :
+  void  flood_fill(char **tab, t_point size, t_point begin);
+
+La structure t_point sera prototypée elle comme suit:
+
+  typedef struct s_point
+  {
+      int        x;
+      int        y;
+  }              t_point;
+
+Exemple:
+
+$>cat test_main.c
+#include "test_functions.h"
+#include "t_point.h"
+
+int main(void)
+{
+	char **area;
+	t_point size = { 8, 5 };
+	t_point begin = { 2, 2 };
+	char *zone[] = {
+		"1 1 1 1 1 1 1 1",
+		"1 0 0 0 1 0 0 1",
+		"1 0 0 1 0 0 0 1",
+		"1 0 1 1 0 0 0 1",
+		"1 1 1 0 0 0 0 1",
+	}
+
+	area = make_area(zone);
+	print_tab(area);
+	flood_fill(area, size, begin);
+	putc('\n');
+	print_tab(area);
+	return (0);
+}
+
+$> gcc flood_fill.c test_main.c test_functions.c -o flood_fill ; ./flood_fill
+1 1 1 1 1 1 1 1
+1 0 0 0 1 0 0 1
+1 0 0 1 0 0 0 1
+1 0 1 0 0 0 0 1
+1 1 0 0 0 0 0 0
+
+1 1 1 1 1 1 1 1
+1 F F F 1 0 0 1
+1 F F 1 0 0 0 1
+1 F 1 0 0 0 0 1
+1 1 0 0 0 0 0 0
+$> 

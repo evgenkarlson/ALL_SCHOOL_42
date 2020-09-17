@@ -1,0 +1,13 @@
+Assignment name  : is_power_of_2
+Expected files   : is_power_of_2.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Ecrire une fonction qui permet de savoir si le nombre donné en paramètre est une
+puissance de 2.
+
+La fonction retournera 1 si le nombre est une puissance de 2, 0 sinon.
+
+Elle devra être prototypée de la façon suivante:
+
+int	    is_power_of_2(unsigned int n);

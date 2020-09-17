@@ -1,0 +1,11 @@
+Assignment name	: ft_strpbrk
+Expected files	: ft_strpbrk.c
+Allowed functions: None
+---------------------------------------------------------------
+
+Reproduisez à l'identique le comportement de la fonction
+strpbrk (man strpbrk).
+
+La fonction doit être prototypée comme suit:
+
+char	*ft_strpbrk(const char *s1, const char *s2);

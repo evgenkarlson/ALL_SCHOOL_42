@@ -1,0 +1,40 @@
+Assignment name  : check_mate 
+Expected files   : *.c, *.h
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+Ecrire un programme qui prendra en arguments les lignes d'un plateau de jeu 
+d'échecs, et verifie si le Roi est en échec ou non par rapport aux autres 
+pièces en jeu.
+
+Pour rappel, un jeu d'échecs est composé d'un plateau carré de 8 cases de coté 
+et est composé de pièces spécifiques: Roi, Reine, Fou, Cavalier, Tour et Pion.
+Pour cet exercice, nous ne garderons que les Pions, Fous, Tours et Dames, en
+plus du Roi.
+
+Chaque pièce peut se déplacer que selon un schéma précis et les patterns de 
+captures sont détaillés dans l'exemple fourni.
+
+Une piece ne peut capturer que la premiere piece possible sur leur trajectoire
+de capture.
+
+Le plateau peut être de taille différente que le plateau classique, mais sera
+TOUJOURS carré. Il ne peut y avoir qu'un seul Roi et toutes les autres 
+pièces seront contre lui. Tout autre caractere hormis ceux utilises pour les
+pieces d'echec sera considere comme une case vide.
+
+Le roi est considéré comme en échec si une pièce adverse est en position pour
+le capturer. Si il est en échec, vous devrez afficher "Success" suivi d'une new-
+line, sinon il affichera "Fail" suivi d'une newline.
+
+Si aucun argument n'est fourni, le programme affichera une newline.
+
+Exemples:
+
+$> ./check_mate '..' '.K' | cat -e
+Fail$
+$> ./check_mate 'R...' '.K..' '..P.' '....' | cat -e
+Success$
+$> ./check_mate | cat -e
+$
+$>

@@ -1,0 +1,28 @@
+Assignment name  : lcm
+Expected files   : lcm.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Ecrire une fonction qui calcule le LCM (Lowest Common Multiple ou Plus Petit
+Commun Multiple). Le LCM de deux nombres entiers naturels (non nuls) est leur 
+plus petit multiple commun non nul.
+
+Vous pouvez calculer le LCM de deux manieres:
+
+- Vous pouvez prendre tous les multiples de chaques entiers et definir le 
+premier multiple non nul commun aux deux entiers comme etant le LCM
+
+- Vous pouvez utiliser le HCF ou Highest Common Factor (ou PGCD) de ces deux 
+entiers et calculer le LCM comme suit :
+
+	LCM(x, y) = | x * y | / HCF(x, y)
+
+  | x * y | etant la valeur absolue du produit de x par y
+
+
+Si l'un des deux entiers est nul, alors le LCM est egal a 0.
+
+Votre fonction sera prototype comme suit :
+
+  unsigned int    lcm(unsigned int a, unsigned int b);
+

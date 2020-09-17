@@ -1,0 +1,34 @@
+Assignment name  : options
+Expected files   : *.c *.h
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes an undefined number of arguments and writes on
+standard output an integer representation of those options, stored as bit flags,
+followed by a newline.
+
+An option is an argument that begins by a '-' and has multiple characters which
+could be: abcdefghijklmnopqrstuvwxyz
+
+All options are stocked in a single int and each option represents a bit of that
+int, and should be stocked like this:
+
+00000000 00000000 00000000 00000000
+******zy xwvutsrq ponmlkji hgfedcba
+
+Launching the program without arguments, or with the '-h' flag, must print a
+usage on the standard output, as shown in the following examples.
+
+A wrong option must print "Invalid Option" followed by a newline.
+
+Examples:
+$>./options
+options: abcdefghijklmnopqrstuvwxyz
+$>./options -abc -ijk
+1799
+$>./options -z | cat -e
+33554432$
+$>./options -abc -hijk
+options: abcdefghijklmnopqrstuvwxyz
+$>./options -%
+Invalid Option

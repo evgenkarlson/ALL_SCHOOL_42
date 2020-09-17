@@ -1,0 +1,27 @@
+Exercitiu  : rstr_capitalizer
+Fisiere de iesire   : rstr_capitalizer.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia caparametru unul sau mai multe siruri de caractere si care, 
+pentru fiecare argument, transforma ultimul caracter al fiecarui cuvant (daca e 
+vorba de olitera, evident) in majuscula, iar restul in minuscule, afisand rezultatul 
+la iesirea standard urmat de '\n'.
+
+Numim "cuvant" o portiune din sirul de caractere delimitata, fie cu spatii si/sau 
+tabulatoare, fie de inceputul/sfarsitul sirului. Daca un cuvant are o singura litera, 
+ea va fi transormata in majuscula.
+
+Daca nu e transmis niciun parametru programul va afisa '\n'.
+
+Exemplu:
+
+$> ./rstr_capitalizer | cat -e
+$
+$> ./rstr_capitalizer "Premier PETIT TesT" | cat -e
+premieR petiT tesT$
+$> ./rstr_capitalizer "DeuxiEmE tEST uN PEU moinS  facile" "   attention C'EST pas dur QUAND mEmE" "ALLer UN DeRNier 0123456789pour LA rouTE    E " | cat -e
+deuxiemE tesT uN peU moinS  facilE$
+   attentioN c'esT paS duR quanD memE$
+alleR uN dernieR 0123456789pouR lA routE    E $
+$>
