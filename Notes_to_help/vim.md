@@ -5,8 +5,7 @@
 Не вышел
 ```
 
-
-# Vim: Шпаргалка #
+### Vim: Шпаргалка ###
 ```
 :term – открыть терминал в vim
 :q! – принудительно выйти
@@ -17,6 +16,13 @@
 Игра по vim: vim-adventures.com
 Шпаргалка: eax.me/vim-commands
 ```
+
+
+### Vim: [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim) ###
+Устанавливаем плагин согласно инструкции, в пункте, где надо прописывать в ~/.vimrc (если его нет, то создайте этот файл) - комментируем дефолтные плагины, которые показаны для иллюстрации.
+* Если ставили zsh, то следуя одному из пункту установки – пишем в ~/.vimrc в конце файла, под всеми настройками.
+`set shell=/bin/zsh`
+
 
 
 # Vim: 42header #
@@ -40,23 +46,23 @@ export MAIL=*usermail*
 
 
 # Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight #
- * Создаем папку под настройки vim в домашнем каталоге, если ее там нет
+ 1. Создаем папку под настройки vim в домашнем каталоге, если ее там нет
 ```
 mkdir -p ~/.vim/colors
 ```
 
- * Скачиваем, устанавливаем и удаляем скачанную папку
+ 2. Скачиваем, устанавливаем и удаляем скачанную папку
 ```
 git clone https://github.com/sickill/vim-monokai.git ~/vim-monokai && mv -v ~/vim-monokai/colors/monokai.vim ~/.vim/colors/ && rm -Rf ~/vim-monokai
 ```
 
- * [Airline: темы стрелок](https://github.com/vim-airline/vim-airline). Прописываем в ~/.vimrc в раздел bundle:
+ 3. [Airline: темы стрелок](https://github.com/vim-airline/vim-airline). Прописываем в ~/.vimrc в раздел bundle:
 ```
 Plugin 'vim-airline/vim-airline'
 Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
 ```
 
- * Прописываем в ~/.vimrc в конце дока:
+ 4. Прописываем в ~/.vimrc в конце дока:
 
    - Подсветка синтаксиса
    ```
@@ -74,7 +80,7 @@ Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
    let g:airline_powerline_fonts = 1
    ```
 
- * Для установки и обновления плагинов через Vundle в vim пишем 
+ 5. Для установки и обновления плагинов через Vundle в vim пишем 
 ```
 :PluginInstall
 ``` 
