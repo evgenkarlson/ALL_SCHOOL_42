@@ -59,20 +59,20 @@ Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
  * Прописываем в ~/.vimrc в конце дока:
 
    - Подсветка синтаксиса
-```
-syntax enable
-```
+   ```
+   syntax enable
+   ```
 
    - Выбор цветовой схемы
-```
-colorscheme monokai
-let g:airline_theme = 'monokai_subtle'
-```
+   ```
+   colorscheme monokai
+   let g:airline_theme = 'monokai_subtle'
+   ```
 
-  - Если стрелки не заработали
-```
-let g:airline_powerline_fonts = 1
-```
+   - Если стрелки не заработали
+   ```
+   let g:airline_powerline_fonts = 1
+   ```
 
  * Для установки и обновления плагинов через Vundle в vim пишем 
 ```
