@@ -58,7 +58,7 @@
 
  * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.RU.md)
 
- * Нормы, описывающие то, как нужно писать код: (1.8.0 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md))  (2.0.1 [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_2_0_1.RU.md))
+ * Нормы, описывающие то, как нужно писать код: [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md)
 
  * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
  
