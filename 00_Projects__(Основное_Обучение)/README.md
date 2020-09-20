@@ -141,7 +141,4 @@
  - ft_db
  - KIFT
 
-
-
-
-
+![42 Shool](./holy_graph_of_future_skills_.png)
