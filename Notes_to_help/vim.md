@@ -1,4 +1,4 @@
-# 「[Vim](https://ru.wikibooks.org/wiki/Vim)」 #
+# 「 [Vim](https://ru.wikibooks.org/wiki/Vim) 」 #
 ```
 Зашел в вим
 @
