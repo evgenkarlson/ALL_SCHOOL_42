@@ -1,11 +1,11 @@
-# [Vim](https://ru.wikibooks.org/wiki/Vim) #
+# 「[Vim](https://ru.wikibooks.org/wiki/Vim)」 #
 ```
 Зашел в вим
 @
 Не вышел
 ```
 
-# Vim: Шпаргалка  #
+# Шпаргалка  #
 
 `:term` – открыть терминал в vim
 
@@ -22,7 +22,7 @@
 
 
 
-# Vim: [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim)  #
+# [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim)  #
 
 `Vundle` - это сокращение от `Vim bundle`. Он упрощает установку плагинов и исполняемых файлов в `vim`
 
@@ -42,7 +42,7 @@ Vundle автоматически ...
 
 
 
-# Vim: Заголовок школы - 42header #
+# Заголовок школы - 42header #
 
 ![16](../03_Norme____(Нормы_и_Правила_Школы)/src/002.png)
 
@@ -91,7 +91,7 @@ nmap <f5> :Stdheader<CR>
 
 
 
-# Vim: [Monokai тема](https://github.com/tomasr/molokai) #
+# [Monokai тема](https://github.com/tomasr/molokai) #
 
  * Создаем папку под настройки vim в домашнем каталоге, если ее там нет
 ```
