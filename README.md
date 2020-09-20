@@ -1,28 +1,28 @@
 
-![42 School](./03_Norme____(Нормы_и_Правила_Школы)/src/header.png)
+![42 School](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header.png)
 
 
 # ALL SUBJECTS of「 SCHOOL 42 」
 
 
 ### Содержание
-- [Введение](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#введение)
-- [0. Документация по школе](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#документация-по-школе)
-- [1. Бассейн по языку Си](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#бассейн-по-языку-си)
-- [2. Основное обучение](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#основное-обучение)
-  - [Общая ветвь](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#global---общая-ветвь)
-  - [Ветвь UNIX](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#ветвь-unix)
-  - [Ветвь Алгоритмов](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#ветвь-алгоритмов)
-  - [Ветвь Графики](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#ветвь-графики)
-  - [WEB ветвь](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#web-ветвь)
-  - [OCaml ветвь](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#ocaml-ветвь)
-  - [Android & iOS ветвь](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#android--ios-ветвь)
-  - [C++ ветвь](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#c-ветвь)
-  - [Системное & Сетевое Администрирование](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#системное--сетевое-администрирование)
-  - [AI Projects - Искуственный интелект](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#ai-projects---искуственный-интелект)
-  - [Side Projects - Сторонние Проекты](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#side-projects---сторонние-проекты)
-- [3. Oстальные бассейны Школы 42](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#oстальные-бассейны-школы-42)
-- [4. Групповые проекты Школы 42(Rushes - миниХАКАТОНЫ)](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/README.md#групповые-проекты-школы-42rushes---минихакатоны)
+- [Введение](#введение)
+- [0. Документация по школе](#документация-по-школе)
+- [1. Бассейн по языку Си](#бассейн-по-языку-си)
+- [2. Основное обучение](#основное-обучение)
+  - [Общая ветвь](#global---общая-ветвь)
+  - [Ветвь UNIX](#ветвь-unix)
+  - [Ветвь Алгоритмов](#ветвь-алгоритмов)
+  - [Ветвь Графики](#ветвь-графики)
+  - [WEB ветвь](#web-ветвь)
+  - [OCaml ветвь](#ocaml-ветвь)
+  - [Android & iOS ветвь](#android--ios-ветвь)
+  - [C++ ветвь](#c-ветвь)
+  - [Системное & Сетевое Администрирование](#системное--сетевое-администрирование)
+  - [AI Projects - Искуственный интелект](#ai-projects---искуственный-интелект)
+  - [Side Projects - Сторонние Проекты](#side-projects---сторонние-проекты)
+- [3. Oстальные бассейны Школы 42](#oстальные-бассейны-школы-42)
+- [4. Групповые проекты Школы 42(Rushes - миниХАКАТОНЫ)](#групповые-проекты-школы-42rushes---минихакатоны)
 
 
 
@@ -52,17 +52,17 @@
 
 ## Документация по школе
 
- * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.ru.md)
+ * Описание учебного курса школы: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.ru.md)
 
- * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/the_art_of_peer_evaluation.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/the_art_of_peer_evaluation.RU.md)
+ * Информация о самой системе peer-to-peer обучения: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.RU.md)
 
- * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/vogsphere.git.RU.md)
+ * Подсказки по Git для взаимодействия с репозиторием в Vogsphere: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.EN.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.RU.md)
 
- * Нормы, описывающие то, как нужно писать код: [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md)
+ * Нормы, описывающие то, как нужно писать код: [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.md)
 
- * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
+ * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/code-check_norminette.md)
 
- * 10 правил, для тех кто начинает плавать в бассейне [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/10_rules_for_piscine.md)
+ * 10 правил, для тех кто начинает плавать в бассейне [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
 
  * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
