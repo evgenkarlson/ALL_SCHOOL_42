@@ -5,7 +5,8 @@
 Не вышел
 ```
 
-### Vim: Шпаргалка ###
+
+# Vim: Шпаргалка #
 ```
 :term – открыть терминал в vim
 :q! – принудительно выйти
@@ -17,7 +18,8 @@
 Шпаргалка: eax.me/vim-commands
 ```
 
-### Vim: 42header ###
+
+# Vim: 42header #
 ❗️ Плагин нужен только тем, кто работает на своем пк / ноутбуке. На компьютерах Школы все и так прекрасно работает. ❗️
 Обязательный заголовок школы 42, без него Normanette будет ругаться, а Moulinette откажется проверять.
 1.	Создаем папку под vim плагины в домашнем каталоге, если ее там нет ```mkdir -p ~/.vim/after/plugin```
@@ -35,41 +37,6 @@ export MAIL=*usermail*
     * Чтобы забиндить Хедер на f5, пропишите ```nmap <f5> :Stdheader<CR>``` в файле ~/.vimrc (если его нет, то создайте)
 * [42 Header на VSCode](https://marketplace.visualstudio.com/items?itemName=kube.42header)
 
-
-### Vim: [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim) ###
-Устанавливаем плагин согласно инструкции, в пункте, где надо прописывать в ~/.vimrc (если его нет, то создайте этот файл) - комментируем дефолтные плагины, которые показаны для иллюстрации.
-* Если ставили zsh, то следуя одному из пункту установки – пишем в ~/.vimrc в конце файла, под всеми настройками.
-`set shell=/bin/zsh`
-
-
-### Vim: [NERDTree + nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
-1. Прописываем в ~/.vimrc в разделе плагинов для Vundle
-```
-Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-```
-2. Под Vundle прописываем настройки для плагина
-```
-"/NERDTree settings/
-let g:NERDTreeIndicatorMapCustom = {
-    \ "Modified"  : "✹",
-    \ "Staged"    : "✚",
-    \ "Untracked" : "✭",
-    \ "Renamed"   : "➜",
-    \ "Unmerged"  : "═",
-    \ "Deleted"   : ":heavy_multiplication_x:",
-    \ "Dirty"     : "✗",
-    \ "Clean"     : "✔︎",
-    \ 'Ignored'   : '☒',
-    \ "Unknown"   : "?"
-    \ }
-"Stick this in your vimrc to open NERDTree with Ctrl+n (you can set whatever key you want):
-"Bind ctrl+n
-map <C-n> :NERDTreeToggle<CR>
-"Show hidden files
-let NERDTreeShowHidden=1
-```
-3. Для установки и обновления плагином в vim пишем ```:PluginInstall```, чтобы открыть дерево используем ctrl+n, переключаться между окон в vim ctrl+w
 
 
 # Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight #
@@ -112,6 +79,7 @@ let g:airline_powerline_fonts = 1
 :PluginInstall
 ``` 
 и перезагружаем терминал
+
 
 
 # Vim: Code lifehack's #
