@@ -1,10 +1,9 @@
 # Задания основного обучения Школы 42 #
 
-> Для продвижения по заданиям Основного обучения Школы 42 используйте карту заданий [[Holy Graph]](./Holy_Graph.png)
+> Для продвижения по заданиям основного обучения Школы 42 используйте карту [[Holy Graph]](./Holy_Graph.png)
 
-![42 Shool](./holy_graph_of_future_skills_.png)
 
- ### [GLOBAL - Общая ветвь]
+ ### [GLOBAL - Общая ветвь](./00_Global_(begin_cadet)/)
  - 42_commandements
  - piscine reloaded
  - libft
