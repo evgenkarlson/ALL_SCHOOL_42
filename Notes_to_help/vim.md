@@ -136,7 +136,7 @@ Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
 
 # Vim: Code lifehack's #
 
-Пропишите данные команды в конце файла vim ~/.vimrc:
+Пропишите данные команды в конце файла `~/.vimrc` программы `vim`:
 
  * показать нумерацию строк
 ```
