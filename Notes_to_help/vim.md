@@ -45,7 +45,7 @@ Vundle автоматически ...
 
 # Заголовок школы - 42header #
 
-> #### Используйте расширение [[42 Header]](https://marketplace.visualstudio.com/items?itemName=kube.42header), для создания заголовка через редактор [[VSCode]](https://code.visualstudio.com/)
+> #### Для создания заголовка через редактор [[VSCode]](https://code.visualstudio.com/) используйте расширение [[42 Header]](https://marketplace.visualstudio.com/items?itemName=kube.42header).
 
 ![16](../03_Norme____(Нормы_и_Правила_Школы)/src/002.png)
 
