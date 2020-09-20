@@ -1,5 +1,5 @@
 
-![42 School](./header.png)
+![42 School](./03_Norme____(Нормы_и_Правила_Школы)/src/header.png)
 
 
 # ALL SUBJECTS of「 SCHOOL 42 」
