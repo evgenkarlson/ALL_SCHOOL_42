@@ -61,7 +61,8 @@
 >     - KFS-4
 
 ### [[Ветвь Алгоритмов]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
-> - Ft_printf
+>> #### Эта ветвь содержит в себе сразу несколько других направлений: Algotyhms, Data Science, Cryptography.
+> - ft_printf
 >   - ft_ssl_md5
 >   - ft_ssl_des
 >   - ft_ssl_rsa
@@ -75,7 +76,7 @@
 >   - ComputorV2
 > - Expert System
 > - N-puzzle
-> - Ft_linear_regression
+> - ft_linear_regression
 >   - DSLR
 >   - Multilayer_perceptron
 >   - Total_perspective_vortex
