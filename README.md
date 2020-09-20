@@ -61,11 +61,11 @@
  * Нормы, описывающие то, как нужно писать код: [[FR]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.FR.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/norme_1_8.RU.md)
 
  * Проверка кода через Norminette [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/code-check_norminette.md)
- 
- * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
  * 10 правил, для тех кто начинает плавать в бассейне [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/10_rules_for_piscine.md)
- 
+
+ * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
+
 > Для ускорения процесса перевода и понимания содержимого pdf файлов используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/).(Помните, что символ перевода текста на следующую строку может восприниматься переводчиками как конец предложения!)
  
 > #### (!) Не торопитесь выполнять бассейн по Си, пока не прочли документацию.
