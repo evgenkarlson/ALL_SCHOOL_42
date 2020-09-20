@@ -1,4 +1,4 @@
-# 「 Vim 」 #
+#  Vim  #
 ```
 Зашел в вим
 @
@@ -45,6 +45,8 @@ Vundle автоматически ...
 
 # Заголовок школы - 42header #
 
+> #### Используйте расширение [[42 Header]](https://marketplace.visualstudio.com/items?itemName=kube.42header), для создания заголовка через редактор [[VSCode]](https://code.visualstudio.com/)
+
 ![16](../03_Norme____(Нормы_и_Правила_Школы)/src/002.png)
 
 
@@ -88,7 +90,6 @@ nmap <f5> :Stdheader<CR>
 ``` 
 (если его нет, то создайте).
 
-* Так же, вы можете использовать заголовок [[42 Header]](https://marketplace.visualstudio.com/items?itemName=kube.42header) через редактор [VSCode](https://code.visualstudio.com/).
 
 
 
