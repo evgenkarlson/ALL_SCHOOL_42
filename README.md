@@ -1,5 +1,5 @@
 
-![42 School](00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/_map_of_future_skills_.png)
+![42 School](./header.png)
 
 
 # ALL SUBJECTS of「 SCHOOL 42 」
