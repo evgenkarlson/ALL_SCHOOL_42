@@ -88,6 +88,7 @@ nmap <f5> :Stdheader<CR>
 
 
 # Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight #
+
  * Создаем папку под настройки vim в домашнем каталоге, если ее там нет
 ```
 mkdir -p ~/.vim/colors
@@ -130,7 +131,7 @@ Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
 ```
 :PluginInstall
 ``` 
-и перезагружаем терминал
+и перезагружаем терминал.
 
 
 
