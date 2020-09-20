@@ -1,7 +1,7 @@
 # Бассейн по языку Си #
 
 Именно с этого бассейна начнётся обучение программированию в школе 42.
-- Бассейн по Си: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/readme.md#бассейн-по-языку-си/)
+- Бассейн по Си: [[EN]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/README.md#бассейн-по-языку-си/)
 - Экзаменационные задания начального бассейна по Си: [[EN][FR][RO]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
 - Готовые и закомментированные решения заданий бассейна по Си: [[RU][EN]](https://github.com/evgenkarlson/Completed___Piscine_C___of___School_42)
 
