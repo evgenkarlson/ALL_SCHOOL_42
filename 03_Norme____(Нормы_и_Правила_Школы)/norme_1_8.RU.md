@@ -114,9 +114,9 @@ III.      [Норминетта(La Norminette)]((#глава-iii))
 
 * Все ваши файлы должны начинаться со стандартного `заголовка 42` с первой строки. 
 
-Этот заголовок доступен по умолчанию в редакторах `emacs` и [`vim`](https://github.com/pandark/42header.vim) в дампах.
-
 > #### Для создания заголовка через редактор [[VSCode]](https://code.visualstudio.com/) используйте расширение [[42 Header]](https://marketplace.visualstudio.com/items?itemName=kube.42header).
+
+Этот заголовок доступен по умолчанию в редакторах `emacs` и [`vim`](https://github.com/pandark/42header.vim) в дампах.
 
 ![2](src/002.png)
 
