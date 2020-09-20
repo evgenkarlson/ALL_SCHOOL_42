@@ -116,7 +116,7 @@ export MAIL=тут_будет_ваш_email
 
 
 
-# Скачиваем, устанавливаем цветовую схему `Monokai` для подсветки кода #
+# Скачиваем и устанавливаем цветовую схему `Monokai` для подсветки кода #
 ```
 mkdir -p ~/.vim/colors
 git clone https://github.com/sickill/vim-monokai.git ~/vim-monokai
