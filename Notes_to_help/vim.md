@@ -22,7 +22,7 @@
 
 
 
-# [Vundle plugin manager](https://github.com/VundleVim/Vundle.vim)  #
+# Vundle plugin manager [[EN]](https://github.com/VundleVim/Vundle.vim)  #
 
 `Vundle` - это сокращение от `Vim bundle`. Он упрощает установку плагинов и исполняемых файлов в `vim`
 
