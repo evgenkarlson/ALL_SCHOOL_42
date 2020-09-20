@@ -64,18 +64,18 @@ Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
 
  * ### 4. Прописываем в ~/.vimrc в конце дока:
 
-   - Подсветка синтаксиса
+>  - Подсветка синтаксиса
    ```
    syntax enable
    ```
 
-   - Выбор цветовой схемы
+>  - Выбор цветовой схемы
    ```
    colorscheme monokai
    let g:airline_theme = 'monokai_subtle'
    ```
 
-   - Если стрелки не заработали
+>  - Если стрелки не заработали
    ```
    let g:airline_powerline_fonts = 1
    ```
