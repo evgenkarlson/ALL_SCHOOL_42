@@ -102,7 +102,7 @@ mv -v ~/vim-monokai/colors/monokai.vim ~/.vim/colors/
 rm -Rf ~/vim-monokai
 ```
 
- * [Airline: темы стрелок](https://github.com/vim-airline/vim-airline). Прописываем в ~/.vimrc в раздел bundle:
+ * [Airline](https://github.com/vim-airline/vim-airline): темы стрелок. Прописываем в `~/.vimrc` в раздел `bundle`:
 ```
 Plugin 'vim-airline/vim-airline'
 Plugin 'Yavor-Ivanov/airline-monokai-subtle.vim'
