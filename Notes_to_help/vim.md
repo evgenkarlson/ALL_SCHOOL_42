@@ -91,7 +91,7 @@ nmap <f5> :Stdheader<CR>
 
 
 
-# Vim: [Monokai тема](https://github.com/tomasr/molokai) + Syntax hightlight #
+# Vim: [Monokai тема](https://github.com/tomasr/molokai) #
 
  * Создаем папку под настройки vim в домашнем каталоге, если ее там нет
 ```
