@@ -95,7 +95,11 @@ mkdir -p ~/.vim/colors
 
  * Скачиваем, устанавливаем и удаляем скачанную папку
 ```
-git clone https://github.com/sickill/vim-monokai.git ~/vim-monokai && mv -v ~/vim-monokai/colors/monokai.vim ~/.vim/colors/ && rm -Rf ~/vim-monokai
+git clone https://github.com/sickill/vim-monokai.git ~/vim-monokai
+
+mv -v ~/vim-monokai/colors/monokai.vim ~/.vim/colors/
+
+rm -Rf ~/vim-monokai
 ```
 
  * [Airline: темы стрелок](https://github.com/vim-airline/vim-airline). Прописываем в ~/.vimrc в раздел bundle:
