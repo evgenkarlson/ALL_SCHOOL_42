@@ -1,5 +1,4 @@
 
-![42 Shool](./holy_graph_of_future_skills_.png)
 
 
 # Основное обучение #
