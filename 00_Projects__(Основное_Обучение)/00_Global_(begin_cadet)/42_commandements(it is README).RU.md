@@ -1,4 +1,4 @@
- ![pageimage](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/cursus_manual.en.pdf) [[RU]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/src/page1image3852832-small-13.png)
+ ![pageimage](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(Нормы_и_Правила_Школы)/src/page1image3852832-small-13.png)
 
  # 42 Заповеди
 
