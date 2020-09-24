@@ -4,4 +4,6 @@
 
 ![42 Shool](./Holy_Graph.png)
 
+> # Наглядная карта проектов #
+
 ![42 Shool](./highlighting_branches_Holy_Graph.gif)
