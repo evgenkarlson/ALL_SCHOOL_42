@@ -5,7 +5,7 @@
 
 ![42 Shool](./highlighting_branches_Holy_Graph.gif)
 
-> ### Подробная карта проектов ###
+> ## Подробная карта проектов ###
 
 ![42 Shool](./Holy_Graph.png)
 
