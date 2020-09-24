@@ -23,7 +23,7 @@
 ![42 School](https://github.com/evgenkarlson/Subjects___School_42/blob/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header.png)
 
 
-### Введение ###
+# Введение #
 
 Этот репозиторий содержит ВСЕ ЗАДАНИЯ по программе обучения от [французской школы программирования "Ecole 42"](https://www.42.fr/).
 
