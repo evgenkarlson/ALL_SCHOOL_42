@@ -2,7 +2,7 @@
 
 > ### С этой ветки начинается основное обучение.
 
-![global branch](./algoritmic_branch.gif)
+![global branch](./algorithmic_branch.gif)
 
 > ## Подробная карта проектов ###
 
