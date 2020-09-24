@@ -96,6 +96,7 @@
 
 Для продвижения по заданиям/проектам основного обучения Школы 42 используйте [карту проектов Holy Graph](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png)
 
+![42 Shool](./00_Projects__(Основное_Обучение)/highlighting_branches_Holy_Graph.gif)
 
 >> ### [[GLOBAL - Общая ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
 >> #### С этой ветки начинается основное обучение.
