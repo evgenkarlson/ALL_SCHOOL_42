@@ -1,6 +1,6 @@
 # Ветвь Алгоритмов #
 
-> ### С этой ветки начинается основное обучение.
+> ### Эта ветвь содержит в себе несколько направлений: Algorithms, Data Science, Cryptography.
 
 ![global branch](./algorithmic_branch.gif)
 
