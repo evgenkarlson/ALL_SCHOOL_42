@@ -63,7 +63,7 @@
 
  * 10 правил, для тех кто начинает плавать в бассейне [[ru]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
 
- * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[RU]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
+ * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ru]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
 > Для ускорения процесса перевода и понимания содержимого pdf файлов используйте кроссплатформенный перевочик текста [Crow Translate](https://crow-translate.github.io/).(Помните, что символ перевода текста на следующую строку может восприниматься переводчиками как конец предложения!)
  
