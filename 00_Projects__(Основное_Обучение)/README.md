@@ -1,8 +1,7 @@
 
 > # Проекты и Задания основного курса обучения школы 42  #
 
-  <p>
-    <img src="./Holy_Graph.png" alt="Holy_Graph" width="520" height=auto>
-    <img src="./highlighting_branches_Holy_Graph.gif" alt="highlighting_branches_Holy_Graph" width="520" height=auto>
-  </p>
 
+![42 Shool](./Holy_Graph.png)
+
+![42 Shool](./highlighting_branches_Holy_Graph.gif)
