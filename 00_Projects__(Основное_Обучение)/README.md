@@ -3,4 +3,4 @@
 
 ![42 Shool](./Holy_Graph.png)
 
-![42 Shool](./holy_graph_of_future_skills.png)
+![42 Shool](./highlighting_branches_Holy_Graph.gif)
