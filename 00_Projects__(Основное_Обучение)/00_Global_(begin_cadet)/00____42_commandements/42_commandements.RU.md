@@ -1,4 +1,4 @@
- ![pic](https://github.com/evgenkarlson/ALL___Subjects___School_42/raw/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/page1image3852832-small-13.png)
+ ![pageimage](https://github.com/evgenkarlson/ALL___Subjects___School_42/raw/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/page1image3852832-small-13.png)
 
  # 42 Заповеди
 
@@ -115,4 +115,8 @@ Pedago Team pedago@42.fr
 
 # Глава III. Обязательная часть
 
-Вы должны переписать НА БУКВУ следующее предложение, за которым следует разрыв строки с именем `turn_in`.
+Вы должны переписать ПИСЬМЕННО следующее предложение, за которым следует разрыв строки с именем `turn_in`.
+
+ ![to_the_letter](./to_the_letter.png)
+
+    By choosing the pedagogy of 42, I do solemny swear that I will respect the rules mentionned above, so as the moral values the convey.
