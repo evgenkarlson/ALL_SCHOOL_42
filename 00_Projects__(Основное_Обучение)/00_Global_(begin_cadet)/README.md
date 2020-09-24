@@ -1,10 +1,9 @@
 # Ветвь Global #
 
-> ### С этой ветки начинается основное обучение.
 
 ![global branch](./global.png)
 
 > ## Подробная карта проектов ###
 
-![42 Shool](../Holy_Graph.png)
+![map Holy_Graph](../Holy_Graph.png)
 

@@ -1,7 +1,7 @@
-# Ветвь UNIX  #
+# Ai Projects - Искуственный интелект #
 
 
-![unix branch](./unix.gif)
+![ai branch](./ai_projects.png)
 
 > ## Подробная карта проектов ###
 

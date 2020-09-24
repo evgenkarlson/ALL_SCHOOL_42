@@ -1,9 +1,9 @@
 # Ветвь Графики #
 
 
-![global branch](./graphic.png)
+![graphic branch](./graphic.png)
 
 > ## Подробная карта проектов ###
 
-![42 Shool](../Holy_Graph.png)
+![map Holy_Graph](../Holy_Graph.png)
 

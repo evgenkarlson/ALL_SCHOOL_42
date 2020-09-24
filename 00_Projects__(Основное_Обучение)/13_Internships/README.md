@@ -1,7 +1,5 @@
-# Ветвь UNIX  #
+# Internships - Стажировки #
 
-
-![unix branch](./unix.gif)
 
 > ## Подробная карта проектов ###
 

@@ -1,10 +1,9 @@
 # Ветвь Алгоритмов #
 
-> ### Эта ветвь содержит в себе несколько направлений: Algorithms, Data Science, Cryptography.
 
-![global branch](./algorithmic_branch.gif)
+![algorithmic branch](./algorithmic.gif)
 
 > ## Подробная карта проектов ###
 
-![42 Shool](../Holy_Graph.png)
+![map Holy_Graph](../Holy_Graph.png)
 

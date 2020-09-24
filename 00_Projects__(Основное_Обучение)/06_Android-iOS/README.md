@@ -1,7 +1,7 @@
-# Ветвь UNIX  #
+# Android & iOS ветвь #
 
 
-![unix branch](./unix.gif)
+![ios and android branch](./ios_android.png)
 
 > ## Подробная карта проектов ###
 

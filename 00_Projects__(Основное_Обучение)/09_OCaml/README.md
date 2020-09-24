@@ -1,7 +1,7 @@
-# Ветвь UNIX  #
+# Ocaml ветвь #
 
 
-![unix branch](./unix.gif)
+![ocaml branch](./ocaml.png)
 
 > ## Подробная карта проектов ###
 

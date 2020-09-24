@@ -1,7 +1,7 @@
-# Ветвь UNIX  #
+# C++ ветвь #
 
 
-![unix branch](./unix.gif)
+![cpp branch](./cpp.png)
 
 > ## Подробная карта проектов ###
 
