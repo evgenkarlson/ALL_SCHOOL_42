@@ -9,5 +9,5 @@
 * [Калькулятор](./d04.en.pdf), с круглыми скобками.
 * [Игра `ft_retro`](./rush00.en.pdf) a shell game made using <ncurses> library (in collaboration with @etugoluk)
 
-#### Скриншот проекта `ft_retro`:
+Скриншот проекта `ft_retro`:
 ![ft_retro game by @itiievskyi and @etugoluk](./img.png)
