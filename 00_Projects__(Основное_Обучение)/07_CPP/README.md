@@ -1,6 +1,6 @@
 # C++ ветвь #
 
 
-![cpp branch](./cpp.png)
+![cpp branch](./cpp.gif)
 ![map Holy_Graph](../Holy_Graph.png)
 
