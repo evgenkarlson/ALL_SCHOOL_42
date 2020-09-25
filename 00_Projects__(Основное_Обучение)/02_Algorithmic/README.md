@@ -1,6 +1,6 @@
 # Ветвь Алгоритмов #
 
 
-![algorithmic branch](./algorithmic.gif)
+![algorithmic branch](./algorithmic1.gif)
 ![map Holy_Graph](../Holy_Graph.png)
 
