@@ -1,6 +1,6 @@
 # Ветвь Графики #
 
 
-![graphic branch](./graphic1.gif)
+![graphic branch](./graphic2.gif)
 ![map Holy_Graph](../Holy_Graph.png)
 
