@@ -104,7 +104,6 @@
 Для продвижения по заданиям/проектам основного обучения Школы 42 используйте [карту проектов `Holy Graph`](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png) и [наглядную карту направлений `highlighting_branches`](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/highlighting_branches_Holy_Graph.gif)
 
 ---
-
 > - ### [[GLOBAL - Общая ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
 ---
 >> #### С этой ветки начинается основное обучение.
@@ -114,9 +113,11 @@
 > - ft_debut
 > - get_next_Line
 > - fillit
+---
 
-
+---
 > - ### [[Ветвь UNIX]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+---
 >> #### Эта ветвь содержит в себе несколько направлений: Unix, Kernel, Virus, Security, Network.
 > - ft_ls
 > - minishell
@@ -162,9 +163,12 @@
 >     - KFS-8
 >     - KFS-9
 >     - KFS-X
+---
 
 
+---
 > - ### [[Ветвь Алгоритмов]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
+---
 >> #### Эта ветвь содержит в себе несколько  направлений: Algorithms, Data Science, Cryptography.
 > - ft_printf
 >   - ft_ssl_md5
@@ -187,9 +191,12 @@
 > - Rubik
 > - KrpSim
 > - Gomoku
+---
 
 
+---
 > - ### [[Ветвь Графики]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
+---
 > - FDF
 > - Fract'Ol
 > - Wolf3D
@@ -202,9 +209,12 @@
 > - ft_vox
 > - Particle System
 > - Shader Pixel
+---
 
 
+---
 > - ### [[WEB ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+---
 > - piscine PHP
 > - Camagru
 > - Matcha
@@ -212,16 +222,22 @@
 > - Friends with Benefits
 > - Red Tetris
 > - Darkly
+---
 
 
+---
 > - ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+---
 > - piscine Ocaml
 > - ft_ality
 > - ft_turing
 > - H42N42
+---
 
 
+---
 > - ### [[Android & iOS ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
+---
 > - piscine Swift iOS
 > - Swifty Companion
 > - Swifty Proteins
@@ -229,38 +245,54 @@
 > - avaj-launcher
 > - swingy
 > - fixme
+---
 
 
+---
 > - ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
+---
 > - piscine C++
 > - Abstract VM
 > - Nibbler
 > - Bomberman
+---
 
 
+---
 > - ### [[Unity ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
+---
 > - piscine Unity
 > - XV
 > - In the Shadows
+---
 
 
+---
 > - ### [[Системное & Сетевое Администрирование]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)//05_Infrastructure_and_Admin/)
+---
 > - init
 > - docker-1
 > - cloud-1
 > - roger-skyline-1
 > - roger-skyline-2
+---
 
 
+---
 > - ### [[Ai Projects - Искуственный интелект]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
+---
 > - walking_marvin
 > - ft_sommelier
 > - reverse_game_of_life
+---
 
 
+---
 > - ### [[Side Projects - Сторонние Проекты]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/12_Side_Projects/)
+---
 > - ft_db
 > - KIFT
+---
 
 
 # 3. Oстальные бассейны Школы 42 #
