@@ -72,7 +72,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
  
 ---
 
-> #### (!) Do not rush to perform the `Piscine by language C` until you have read the documentation.
+> #### (!) Do not rush to perform the `Piscine` by language `C` until you have read the documentation.
 
 ---
 
@@ -90,11 +90,11 @@ Every day of the pool you will receive a portion of tasks (usually 10 - 25), arr
 
 To help you understand them, you are provided with training [videos](https://www.youtube.com/playlist?list=PLnI5O9CyX5MFaOvTB1EWSHFC7EzB61UIp) for 10-30 minutes with theory and examples (use the function of subtitles in the player and their translation into the language you need), but, as a rule, this will never be enough. Therefore, you are looking for all the necessary information for training yourself via the Internet.. 
 
-From the very first day, you are faced not only with difficult tasks, but with whole areas of knowledge, the existence of which you might not even know. Thus, no matter how high your starting level is, you will surely come across a task that will definitely cause difficulties. Seeing him, you will first go into a stupor, but then, through incredible efforts, making a series of mistakes, you still cope with the task and acquire a skill that becomes a familiar tool. The `Piscine by lanuage C` will be a test of endurance for those who decide to start the programming path to determine the most motivated.
+From the very first day, you are faced not only with difficult tasks, but with whole areas of knowledge, the existence of which you might not even know. Thus, no matter how high your starting level is, you will surely come across a task that will definitely cause difficulties. Seeing him, you will first go into a stupor, but then, through incredible efforts, making a series of mistakes, you still cope with the task and acquire a skill that becomes a familiar tool. The `Piscine` by lanuage `C` will be a test of endurance for those who decide to start the programming path to determine the most motivated.
 
 ---
 
-> #### (!) Do not be a fool and do not rush to move on to main training until you have passed and fully assimilated the material `Piscine by lanhuage C`.
+> #### (!) Do not be a fool and do not rush to move on to main training until you have passed and fully assimilated the material `Piscine` by lanhuage `C`.
 
 ---
 
