@@ -72,12 +72,12 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
  
 ---
 
-> #### (!) Do not rush to perform the `Piscine` by language `C` until you have read the documentation.
+> #### (!) Do not rush to perform the `Piscine C` until you have read the documentation.
 
 ---
 
 
-# 1. Piscine by language C #
+# 1. Piscine C #
 
 It is from this place that the teaching of programming in School 42 will begin.
 - `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
