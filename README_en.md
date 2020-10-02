@@ -72,7 +72,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
  
 ---
 
-> #### (!) Do not rush to perform the `Piscine` by language `C` until you have read the documentation.
+> #### (!) Do not rush to perform the `Piscine by language C` until you have read the documentation.
 
 ---
 
@@ -80,7 +80,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 # 1. Piscine by language C #
 
 It is from this place that the teaching of programming in School 42 will begin.
-- Initial `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
+- `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
 - Exam tasks of the initial `Piscine` by language `C`: [[ en ][ fr ][ ro ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
 - Ready-made and commented solutions for `Piscine` by language `C`: [[ ru ][ en ]](https://github.com/evgenkarlson/Completed___Piscine_C___of___School_42)
 
@@ -90,7 +90,7 @@ Every day of the pool you will receive a portion of tasks (usually 10 - 25), arr
 
 To help you understand them, you are provided with training [videos](https://www.youtube.com/playlist?list=PLnI5O9CyX5MFaOvTB1EWSHFC7EzB61UIp) for 10-30 minutes with theory and examples (use the function of subtitles in the player and their translation into the language you need), but, as a rule, this will never be enough. Therefore, you are looking for all the necessary information for training yourself via the Internet.. 
 
-From the very first day, you are faced not only with difficult tasks, but with whole areas of knowledge, the existence of which you might not even know. Thus, no matter how high your starting level is, you will surely come across a task that will definitely cause difficulties. Seeing him, you will first go into a stupor, but then, through incredible efforts, making a series of mistakes, you still cope with the task and acquire a skill that becomes a familiar tool. The `Piscine` by lanuage `C` will be a test of endurance for those who decide to start the programming path to determine the most motivated.
+From the very first day, you are faced not only with difficult tasks, but with whole areas of knowledge, the existence of which you might not even know. Thus, no matter how high your starting level is, you will surely come across a task that will definitely cause difficulties. Seeing him, you will first go into a stupor, but then, through incredible efforts, making a series of mistakes, you still cope with the task and acquire a skill that becomes a familiar tool. The `Piscine by lanuage C` will be a test of endurance for those who decide to start the programming path to determine the most motivated.
 
 ---
 
