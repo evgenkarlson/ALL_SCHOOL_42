@@ -80,7 +80,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 # 1. Piscine by language C #
 
 It is from this place that the teaching of programming in School 42 will begin.
-- `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
+- Initial `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
 - Exam tasks of the initial `Piscine` by language `C`: [[ en ][ fr ][ ro ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
 - Ready-made and commented solutions for `Piscine` by language `C`: [[ ru ][ en ]](https://github.com/evgenkarlson/Completed___Piscine_C___of___School_42)
 
