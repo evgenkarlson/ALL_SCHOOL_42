@@ -7,7 +7,7 @@
 
 - [Introduction](#introduction)
 - [0. School Documentation](#0-school-documentation)
-- [1. Piscine by language C](#1-piscine-by-language-c)
+- [1. Piscine by language C](#1-piscine-c)
 - [2. Main training](#2-main-training)
   - [Global branch](#global---shared-branch)
   - [UNIX branch](#unix-branch)
