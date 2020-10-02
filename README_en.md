@@ -94,7 +94,7 @@ From the very first day, you are faced not only with difficult tasks, but with w
 
 ---
 
-> #### (!) Do not be a fool and do not rush to move on to main training until you have passed and fully assimilated the material `Piscine` by lanhuage `C`.
+> #### (!) Do not be a fool and do not rush to move on to main training until you have passed and fully assimilated the material `Piscine` by language `C`.
 
 ---
 
