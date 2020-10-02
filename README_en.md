@@ -26,7 +26,7 @@
 
 # Introduction #
 
-This repository contains ALL the TASKS and the PROJECTS in the training program from the [French programming school `Ecole 42`](https://www.42.fr/).
+This repository contains ALL the TASKS and the PROJECTS in the training program from the [french programming school `Ecole 42`](https://www.42.fr/).
 
 Projects and assignments will allow you to independently develop your programming skills, and the practical experience and knowledge gained while completing assignments and projects of School 42 will give you the necessary basis for professional integration, helping you to get a demanded profession from scratch.
 
