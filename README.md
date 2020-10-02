@@ -3,7 +3,7 @@
 
 # ALL SUBJECTS of「 SCHOOL 42 」 #
 
-> ###### Chose language: [[ russian ]]() - [[ english ]](./README_en.md)
+> ####### Chose language: [[ russian ]]() - [[ english ]](./README_en.md)
 
 - [Введение](#введение)
 - [0. Документация по школе](#0-документация-по-школе)
