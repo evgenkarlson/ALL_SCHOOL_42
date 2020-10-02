@@ -72,7 +72,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
  
 ---
 
-> #### (!) Do not rush to perform the `Piscine C` until you have read the documentation.
+> #### (!) Do not rush to execute the `Piscine C` until you have read the documentation.
 
 ---
 
