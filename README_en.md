@@ -44,7 +44,7 @@ By sequentially moving through the directions, languages ​​and educational p
 - DB and Data.
 - etc.
 
-The School's 42 curriculum is individualized. Here, everyone progresses on their own, at their own pace, rather than studying in a class of students, where one student can slow down the progress of all the students, thus gaining their own understanding of programming paradigms.
+The School's 42 curriculum is individualized. Here, everyone progresses on their own, at their own pace, rather than according to the entire class of students (where the latest element of group slows down work of the entire group), thus gaining their own understanding of programming paradigms.
  
 
 
