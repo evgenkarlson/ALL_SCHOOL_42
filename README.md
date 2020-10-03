@@ -3,7 +3,7 @@
 
 # ALL SUBJECTS of「 SCHOOL 42 」 #
 
-> ###### Chose language: [[ russian ]](https://github.com/evgenkarlson/Subjects___School_42/) - [[ english ]](README_en.md)
+> ###### _Chose language: [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/) or [[ en ]](README_en.md)_
 
 - [Введение](#введение)
 - [0. Документация по школе](#0-документация-по-школе)
