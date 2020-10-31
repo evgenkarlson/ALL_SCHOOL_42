@@ -27,16 +27,16 @@ ___
 Combinations (Комбинации): ft_strncpy : ft_strnlen + ft_strcpy + ft_bzero, ft_memccpy : ft_memcpy + ft_memchr, ft_memmove : ft_memcpy + ft_memrcpy, ft_memchr : ft_ischar etc. (и т.д.)*
 
 ___
-- **ft_ischar**. Takes two character values, returns 1 if the characters are equal, and 0 otherwise. Принимает два символьных значения, возвращает 1, если символы равны, и иначе 0.
-- **ft_islower**. Is an ASCII lowercase letter. Является ли строчной буквой из множества ASCII
+- **ft_ischar**. Принимает два символьных значения, возвращает 1, если символы равны, и иначе 0.
+- **ft_islower**.  Является ли строчной буквой из множества 'ASCII'
 - **ft_isnotprint**. Denial ft_isprint. Отрицание ft_isprint.
-- **ft_isspace**. Whether the input character is a void character is one of 5 from ASCII set. Является ли входной символ знаком пустоты, одним из 5 из множества ASCII.
-- **ft_isupper**. Is it an ASCII capital letter? Является ли заглавной буквой из множества ASCII?
-- **ft_itostr**. Accepts an integer value and a pointer to a string. Converts an integer to a string. Принимает целое значение и указатель на строку. Преобразует целое в строку.
-- **ft_memjoin**. Some combination of ft_realloc and ft_strjoin, but only the boundaries of the memory sections are the sizes of the buffers. Некоторое объединение ft_realloc и ft_strjoin, но только границами участков памяти выступают размеры буферов.
-- **ft_memrcpy**. Copies, moving from the last character to the first. Копирует, двигаясь от последнего символа к первому.
-- **ft_realloc**. The handwritten implementation of the function of the same name, only this can be better protected, and then there is no way to do without passing the size of the buffer. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
-- **ft_strnlen**. Returns the minimum value of the length of the string and the maximum size (buffer). Возвращает минимальное значение из длины строки и максимального размера (буфера).
+- **ft_isspace**. Является ли входной символ знаком пустоты, одним из 5 из множества 'ASCII'.
+- **ft_isupper**. Является ли заглавной буквой из множества 'ASCII'?
+- **ft_itostr**. Принимает целое значение и указатель на строку. Преобразует целое в строку.
+- **ft_memjoin**. Некоторое объединение ft_realloc и ft_strjoin, но только границами участков памяти выступают размеры буферов.
+- **ft_memrcpy**. Копирует, двигаясь от последнего символа к первому.
+- **ft_realloc**. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
+- **ft_strnlen**. Возвращает минимальное значение из длины строки и максимального размера (буфера).
 ___
 ### Table 2. Таблица 2.
 | name/имя      | part/часть    | order/порядок |
