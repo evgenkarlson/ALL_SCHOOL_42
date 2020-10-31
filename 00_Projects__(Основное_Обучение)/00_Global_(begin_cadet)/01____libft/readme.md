@@ -22,7 +22,8 @@ ___
 ## Коротко.
 ### Я предлагаю вашему вниманию **таблицу 2**, последний столбец которой содержит рекомендуемый мной порядок проектирования функций. Помните о том, что я писал про общий и частный случай, про сходства функций. Используйте эту информацию.
 ___
-> &gt; _**Picture 1. Рисунок 1**_
+> &gt; _**Рисунок 1**_
+>
 > &gt; *ft_bzero ⊆ ft_memset, ft_strcpy ⊆ ft_memccpy, ft_strcmp ⊆ ft_strncmp, ft_strcat ⊆ ft_strncat, ft_strstr ⊆ ft_strnstr, ft_strequ ⊆ ft_strnequ, ft_ischar ⊆ ft_isalpha, (ft_isupper ∪ ft_islower) = ft_isalpha, (ft_isdigit ∪ ft_isalpha) = ft_isalnum ⊆ ft_isprint, (ft_isnotprint ∪ ft_isprint) = ft_isascii, ft_isspace ⊆ ft_isascii, ft_strnew ⊆ ft_memalloc, ft_strdel ⊆ ft_memdel, ft_strdup ⊆ ft_strjoin, ft_putnbr ⊆ ft_putnbr_fd, ft_putchar ⊆ ft_putchar_fd, ft_putstr ⊆ ft_putstr_fd ⊆ ft_putchar_fd, ft_lstdelone ⊆ ft_lstdel, ft_putendl ⊆ ft_putendl_fd ⊆ ft_putchar_fd, ft_strlen ⊆ ft_strnlen, ft_malloc ⊆ ft_realloc ⊆ ft_memjoin, (ft_itoa ⋂ ft_putnbr_fd) = ft_itostr, ft_strnequ \ ft_strncmp = logic_op().
 Combinations (Комбинации): ft_strncpy : ft_strnlen + ft_strcpy + ft_bzero, ft_memccpy : ft_memcpy + ft_memchr, ft_memmove : ft_memcpy + ft_memrcpy, ft_memchr : ft_ischar etc. (и т.д.)*
 
@@ -38,7 +39,7 @@ ___
 - **ft_realloc**. Рукописная реализация одноимённой функции, только эту можно лучше защитить, и тут никак не обойтись без передачи размера буфера.
 - **ft_strnlen**. Возвращает минимальное значение из длины строки и максимального размера (буфера).
 ___
-### Table 2. Таблица 2.
+### Таблица 2.
 | name/имя      | part/часть    | order/порядок |
 | ------------- | ------------- | ------------- |
 |ft_ischar      | Expansion	    |  1            |      
