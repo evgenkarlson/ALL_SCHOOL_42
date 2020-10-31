@@ -1,8 +1,8 @@
 ## Libft. Головоломки первой библиотеки. [ RU ]
 
-#### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
+> #### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
 
-___
+
 
 Здесь вы сможете найти оптимальынй порядок проектирования функций. Из-за того что код многих функций повторяется здесь вы можете увидеть реализацию принципа ["Не повторяй себя" или по-аглийски DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself).
 
