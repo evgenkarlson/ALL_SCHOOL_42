@@ -1,6 +1,6 @@
 ## Libft. Головоломки первой библиотеки. [ RU ]
 
-#### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur) / [Orignal](https://forum.intra.42.fr/topics/20397/
+#### Authour: [@ftothmur](https://profile.intra.42.fr/users/ftothmur)
 
 ___
 
