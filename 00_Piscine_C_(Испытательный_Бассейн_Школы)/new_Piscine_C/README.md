@@ -85,4 +85,4 @@ git push origin master                         //Загружаем файл н�
 
 # Карта Обновленного Бассейна по Си:
 
-![map_of_old_Piscine_C](map_of_new_Piscine_C.png)
+![map_of_old_Piscine_C](map_of_the _new_Piscine_C.png)
