@@ -6,4 +6,7 @@
 
 > Как правило, информации из видео никогда не будет достаточно. Поэтому всю нужную информацию для обучения вы ищите самостоятельно через интернет!
 
-<p align=center ><img src='map_of_the_new_Piscine_C.png'></p>
+<details>
+<summary> карта нового Бассейна по Си </summary>
+<p align=center ><img src='./map_of_the_new_Piscine_C.png'></p>
+</details>
