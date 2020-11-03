@@ -1,7 +1,7 @@
 
 # Старый Бассейн по Си:
 
-![map_of_old_Piscine_C](map_of_old_Piscine_C.png)
+<img src='map_of_old_Piscine_C.png' width=700>
 
 
 
