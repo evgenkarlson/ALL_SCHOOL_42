@@ -1,0 +1,84 @@
+.TH MiniLibX 3 "September 19, 2002"
+.SH NAME
+MiniLibX - Drawing inside windows
+.SH SYNOPSYS
+
+.nf
+.I int
+.fi
+.B mlx_pixel_put
+(
+.I void *mlx_ptr, void *win_ptr, int x, int y, int color
+);
+
+.nf
+.I int
+.fi
+.B mlx_string_put
+(
+.I void *mlx_ptr, void *win_ptr, int x, int y, int color, char *string
+);
+
+
+.SH DESCRIPTION
+The
+.B mlx_pixel_put
+() function draws a defined pixel in the window
+.I win_ptr
+using the (
+.I x
+,
+.I y
+) coordinates, and the specified
+.I color
+\&. The origin (0,0) is the upper left corner of the window, the x and y axis
+respectively pointing right and down. The connection
+identifier,
+.I mlx_ptr
+, is needed (see the
+.B mlx
+man page).
+
+Parameters for
+.B mlx_string_put
+() have the same meaning. Instead of a simple pixel, the specified
+.I string
+will be displayed at (
+.I x
+,
+.I y
+).
+
+In both functions, it is impossible to display anything outside the
+specified window, nor display in another window in front of the selected one.
+
+.SH COLOR MANAGEMENT
+The
+.I color
+parameter has an integer type. The displayed color needs to be encoded
+in this integer, following a defined scheme. All displayable colors
+can be split in 3 basic colors: red, green and blue. Three associated
+values, in the 0-255 range, represent how much of each color is mixed up
+to create the original color. Theses three values must be set inside the
+integer to display the right color. The three least significant bytes of
+this integer are filled as shown in the picture below:
+
+.TS
+allbox;
+c	s	s	s	s
+r	c	c	c	c.
+Color Integer
+Interpretation	\[*a]	R	G	B
+Bit numbers	31..24	23..16	15..8	7..0
+.TE
+
+While filling the integer, make sure you avoid endian problems. Remember
+that the "blue" byte should always be the least significant one.
+
+
+.SH SEE ALSO
+mlx(3), mlx_new_window(3), mlx_new_image(3), mlx_loop(3)
+
+
+.SH AUTHOR
+Copyright ol@ - 2002-2014 - Olivier Crouzet

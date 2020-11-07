@@ -154,6 +154,9 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 >   - Woody Woodpacker
 >     - Famine
 >     - Dr Quine
+>	  - Pestilence
+>	  - War
+>	  - Death
 >   - ft_linux
 >     - KFS-1
 >     - KFS-2

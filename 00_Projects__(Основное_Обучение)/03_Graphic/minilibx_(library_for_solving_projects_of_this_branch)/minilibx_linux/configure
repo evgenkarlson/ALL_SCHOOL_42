@@ -1,0 +1,87 @@
+#!/bin/sh
+
+
+if [ -n "$1" -a "$1" = "--help" ] ; then
+	echo "Usage : $0\n Auto-configure and make MinilibX"
+	exit
+fi
+
+
+conf_inc=NO
+
+for inc in \
+    /usr/X11/include          \
+    /usr/X11R6/include        \
+    /usr/X11R5/include        \
+    /usr/X11R4/include        \
+                              \
+    /usr/include/X11          \
+    /usr/include/X11R6        \
+    /usr/include/X11R5        \
+    /usr/include/X11R4        \
+                              \
+    /usr/local/X11/include    \
+    /usr/local/X11R6/include  \
+    /usr/local/X11R5/include  \
+    /usr/local/X11R4/include  \
+                              \
+    /usr/local/include/X11    \
+    /usr/local/include/X11R6  \
+    /usr/local/include/X11R5  \
+    /usr/local/include/X11R4  \
+                              \
+    /usr/X386/include         \
+    /usr/x386/include         \
+    /usr/XFree86/include/X11  \
+                              \
+    /usr/include              \
+    /usr/local/include        \
+    /usr/athena/include       \
+    /usr/local/x11r5/include  \
+    /usr/lpp/Xamples/include  \
+                              \
+    /usr/openwin/include      \
+    /usr/openwin/share/include
+ do
+	if [ -f "$inc/X11/Xlib.h" -a -f "$inc/X11/extensions/XShm.h" ]; then
+		conf_inc=$inc
+		break
+	fi
+ done
+
+
+if [ "$conf_inc" = "NO" ]; then
+	echo "\r\033[38;5;196mCan't find a suitable X11 include directory.\033[0m\033[K"
+	exit
+fi
+
+if [ -z "$HOSTTYPE" ]; then
+    conf_ht=`uname -s`
+else
+    conf_ht=$HOSTTYPE
+fi
+
+if [ -z "$conf_ht" ]; then
+    conf_docp=""
+else
+    conf_docp="do_cp"
+fi
+
+cat Makefile | grep "#\*" > Makefile.gen
+/bin/echo "INC=$conf_inc" >> Makefile.gen
+/bin/echo "HT=$conf_ht" >> Makefile.gen
+/bin/echo "DOCP=$conf_docp" >> Makefile.gen
+cat Makefile | grep -v %%%% | grep -v "#\*" | grep -v "INC=" | grep -v "HT=" | grep -v "DOCP=" >> Makefile.gen
+mv Makefile.gen Makefile
+
+if [ -n "$1" -a "$1" = "clean" ] ; then
+    make libclean
+    exit
+fi
+
+if [ -n "$1" -a "$1" = "fclean" ] ; then
+    make libfclean
+    exit
+fi
+
+make -j lib

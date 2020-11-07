@@ -154,6 +154,9 @@
 >   - Woody Woodpacker
 >     - Famine
 >     - Dr Quine
+>	  - Pestilence
+>	  - War
+>	  - Death
 >   - ft_linux
 >     - KFS-1
 >     - KFS-2
