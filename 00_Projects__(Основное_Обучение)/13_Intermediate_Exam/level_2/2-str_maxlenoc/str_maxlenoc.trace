@@ -1,0 +1,81 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r6p10.42.us.org
+Darwin 17.5.0 x86_64
+$> date
+Sun Sep  1 11:29:24 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst2
+
+= Git history ==================================================================
+$> git -C /var/folders/_5/rz4f7xms45s7rxtqxjql_7nr0000gp/T/tmp7GnnRq/user log --pretty='%H - %an, %ad : %s'
+0aab6147650d8393c7d50216f0f562198d2e138c - Evan Johnston, Sun Sep 1 11:27:34 2019 -0700 : .
+5cef895c4ead60a830e8bac29960d16824a87c0f - Evan Johnston, Sun Sep 1 11:27:32 2019 -0700 : .
+6f4abcec686c72d46955f696b09563d8c8f620ec - Evan Johnston, Sun Sep 1 11:25:36 2019 -0700 : .
+bee962faa4e99eb0796f08951baee1a1ed602894 - Evan Johnston, Sun Sep 1 11:25:34 2019 -0700 : .
+5596d4a9d1e0df921278d77ed4498a139ef0cd71 - Evan Johnston, Sun Sep 1 11:25:18 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/_5/rz4f7xms45s7rxtqxjql_7nr0000gp/T/tmp7GnnRq/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1182 Sep  1 11:29 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:29 is_anagram
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:29 stack
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:29 str_maxlenoc
+
+/var/folders/_5/rz4f7xms45s7rxtqxjql_7nr0000gp/T/tmp7GnnRq/user/is_anagram:
+total 8
+-rw-r--r--  1 deepthought  deepthought  777 Sep  1 11:29 is_anagram.c
+
+/var/folders/_5/rz4f7xms45s7rxtqxjql_7nr0000gp/T/tmp7GnnRq/user/stack:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1791 Sep  1 11:29 stack.c
+
+/var/folders/_5/rz4f7xms45s7rxtqxjql_7nr0000gp/T/tmp7GnnRq/user/str_maxlenoc:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1644 Sep  1 11:29 str_maxlenoc.c
+ 
+= str_maxlenoc =================================================================
+$> gcc -Wextra -Wall -Werror str_maxlenoc.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./18qnh5uttpkxz71gy4rmmbcb "Bonjour"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./uc7ssaslu3wx26wj1htgoyob "bonjouran" "bonjouran" "confiseriean" "bonne annee"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./od12y831s6s80hn0wlmfxl91 "bonjour an" "bonjour an" "confiserie an" "bonne annee"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./4d9wc17nxrflmmrx5of5wr67 "voila" "voila" "ouais ben voila"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./rfiwuw0xyosfyyv6fmud1ib4 "bosdsdfnjodur" "atehhellosd" "afkuonjosurafg" "headfgllosf" "fghellosag afdfbosnjourafg"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

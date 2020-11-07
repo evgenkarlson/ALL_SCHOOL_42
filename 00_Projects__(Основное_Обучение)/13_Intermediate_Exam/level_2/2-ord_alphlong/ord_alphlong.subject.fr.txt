@@ -1,0 +1,41 @@
+Assignment name  : ord_alphlong
+Expected files   : *.c, *.h
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètre une chaîne de caractères et qui
+affiche les mots de cette chaîne par ordre de longueur puis dans l'ordre
+alphabétique, avec une petite variante: En cas d'égalité alphabétique (par
+exemple aA et Aa) les mots doivent rester dans l'ordre où ils
+étaient dans la chaîne d'origine (Les majuscules et minuscules sont identiques
+dans l'ordre alphabétique). En cas de doublons, les doublons sont conservés.
+
+Si le nombre de paramètres transmis est différent de 1, le programme affiche
+\n.
+
+Dans les chaînes, il n'y aura que des espaces, des tabulations et des
+caractères alphanumériques.
+
+Vous n'afficherez qu'un espace entre les mots. Aucun avant le premier ni après
+le dernier de chaque ligne.
+
+Exemples:
+
+$>./ord_alphlong
+$
+$>./ord_alphlong "De son baton il frappa la pierre et l eau jaillit" | cat -e
+l$
+De et il la$
+eau son$
+baton$
+frappa pierre$
+jaillit$
+$>./ord_alphlong "A a b B cc ca cd" | cat -e
+A a b B$
+ca cc cd$
+$>./ord_alphlong "Pour l Imperium de l humanite" | cat -e
+l l$
+de$
+Pour$
+humanite Imperium$
+$>

@@ -1,0 +1,27 @@
+Assignment name  : intersection
+Expected files   : intersection.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Given two singly linked lists, determine if the two lists intersect.
+Return the intersecting node.
+
+The intersection is defined based on reference, not value.
+That is, if the kth node of the first linked list is the exact same node
+(by reference) as the jth node of the second linked list, then they are
+intersecting.
+
+The linked lists will use the following structure :
+
+	struct s_node {
+		void *content;
+		struct s_node *next;
+	};
+
+
+The function must be declared as follows:
+
+	void *intersection(struct s_node *lst1, struct s_node *lst2);
+
+If the two linked lists are not intersecting, the function returns NULL.
+The function does not modify the two linked list.

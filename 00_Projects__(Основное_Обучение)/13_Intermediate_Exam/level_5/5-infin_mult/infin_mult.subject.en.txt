@@ -1,0 +1,26 @@
+Assignment name  : infin_mult
+Expected files   : *.c, *.h
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+Write a program that takes as parameters two strings that represent two
+numbers potentially infinite, and displays on stdout the result of the
+multiplication of these two numbers, followed by a '\n'.
+
+A negative number will always be prefixed by one and only one -. The only
+characters that can be part of the strings are digits and the sign -.
+
+Both parameters will always be well formated, and you will always have exactly
+two parameters, no tricks.
+
+Example:
+
+$> ./infin_mult "879879087" "67548976597" | cat -e
+59434931855952726939$
+$> ./infin_mult "-876435" "987143265" | cat -e
+-865166907460275$
+$> ./infin_mult "-807965" "-34532" | cat -e
+27900647380$
+$> ./infin_mult "-807965" "0"
+0
+$>

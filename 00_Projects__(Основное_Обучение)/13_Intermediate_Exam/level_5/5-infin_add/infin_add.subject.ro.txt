@@ -1,0 +1,23 @@
+Exercitiu  : infin_add
+Fisiere de iesire    : *.c, *.h
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru doua siruri de caractere reprezentand 
+numere cu lungime potential infinita si care afiseaza la iesirea standard 
+rezultatul adunarii acestor numere, urmat de un '\n'.
+
+Un numar negativ va fi precedat de un singur semn -. Singurele caractere ce vor 
+face parte din aceste siruri vor fi doar cifrele si semnul -.
+
+Ambi parametri vor fi bine formatati si intotdeauna vor fi doi, fara alte capcane.
+
+Exemplu:
+
+$> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+$> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+$> ./infin_add "-807965" "-34532"
+-842497
+$>

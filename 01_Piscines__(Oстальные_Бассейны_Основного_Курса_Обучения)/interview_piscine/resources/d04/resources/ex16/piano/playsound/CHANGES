@@ -1,0 +1,23 @@
+1.2.1 (Feb. 27, 2016)
+
+    * Fixes bug that prevented relative paths from working on OS X.
+
+1.2.0 (Feb. 20, 2016)
+
+    * Now uses   NSSound.initWithContentsOfURL_byReference_ on OS X
+      instead of NSSound.initWithContentsOfFile_byReference_. This allows it to
+      handle both local file paths and URLs. This capability was already
+      unintentionally present on Windows by using windll.winmm. Since I lack a
+      Linux machine to test on, and nobody is offering assistance, many things
+      that work well on OS X and Windows probably don't work at all on Linux.
+
+1.1.0 (Jan. 26, 2016)
+
+    * Changed from using winsound.PlaySound on Windows to windll.winmm.
+      Appears to be just as common as winsound, and has the advantage of playing
+      more file formats, such as MP3, than winsound (which only plays WAVE as
+      far as I can tell).
+
+1.0.0 (Jan. 24, 2016)
+
+    * Initial commit

@@ -1,0 +1,25 @@
+Exercitiu  : count_alpha
+Fisiere de iesire   : count_alpha.c
+Functii autorizate : write, printf
+--------------------------------------------------------------------------------
+
+Scrieti un program numit count_alpha care primeste un sir de caractere si
+afiseaza numarul de aparitii ale caracterelor alfabetice. Alte caractere nu sunt
+numarate. Ordinea este ordinea de aparitie a caracterelor. Afisarea se va termina
+cu '\n'.
+
+Formatul este dat in exemple.
+
+Daca numarul de argumente nu este 1, se va afisa '\n'.
+
+Examples :
+$> ./count_alpha abbcc
+1a, 2b, 2c
+$> ./count_alpha "abbcc"
+1a, 2b, 2c
+$> ./count_alpha "abbcc" "dddeef" | cat -e
+$
+$> ./count_alpha "My Hyze 47y 7." | cat -e
+1m, 3y, 1h, 1z, 1e$
+$> ./count_alpha "" | cat -e
+$

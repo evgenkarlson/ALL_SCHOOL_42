@@ -1,0 +1,3516 @@
+503
+Place Gilbert-Perroy
+200
+5
+1
+2
+3
+4
+5
+Place Francis-Poulenc
+1191
+5
+6
+7
+2
+0
+5
+Place Maubert
+1800
+5
+8
+9
+3
+0
+1
+Place de l'Abbé-Basset
+1477
+5
+10
+11
+4
+0
+2
+Place Léon-Blum
+1366
+5
+12
+13
+5
+0
+3
+Place Bienvenüe
+803
+5
+14
+15
+1
+0
+4
+Place de Valois
+1413
+5
+16
+17
+7
+1
+15
+Place Saint-Georges
+833
+5
+18
+19
+8
+1
+6
+Place de la Résistance
+1566
+5
+20
+21
+9
+2
+7
+Place de l'Abbé-Georges-Hénocque
+170
+5
+22
+23
+10
+2
+8
+Place Mireille-Havet
+1989
+5
+24
+25
+11
+3
+9
+Place Ozanam
+976
+5
+26
+27
+12
+3
+10
+Place Saint-Blaise
+1402
+5
+28
+29
+13
+4
+11
+Place André-Malraux
+803
+5
+30
+31
+14
+4
+12
+Place du Cardinal-Amette
+1626
+5
+32
+33
+15
+5
+13
+Place Jacques-Demy
+1001
+5
+34
+35
+6
+5
+14
+Place Simone-Michel-Lévy
+1651
+5
+36
+37
+17
+6
+35
+Place des Vosges
+315
+5
+38
+39
+18
+6
+16
+Place Fréhel
+1606
+5
+40
+41
+19
+7
+17
+Place Fernand-Mourlot
+597
+5
+42
+43
+20
+7
+18
+Place du 25-Août-1944
+1954
+5
+44
+45
+21
+8
+19
+Place de Bolivie
+383
+5
+46
+47
+22
+8
+20
+Place du Docteur-Antoine-Béclère
+215
+5
+48
+49
+23
+9
+21
+Place du Nicaragua
+552
+5
+50
+51
+24
+9
+22
+Place de la Chapelle
+933
+5
+52
+53
+25
+10
+23
+Place d'Acadie
+1877
+5
+54
+55
+26
+10
+24
+Place Yvon-et-Claire-Morandat
+1703
+5
+56
+57
+27
+11
+25
+Place Johann-Strauss
+868
+5
+58
+59
+28
+11
+26
+Place du Tertre
+461
+5
+60
+61
+29
+12
+27
+Place du Dix-Neuf-Mars-1962
+557
+5
+62
+63
+30
+12
+28
+Place de l'Abbé-Franz-Stock
+344
+5
+64
+65
+31
+13
+29
+Place Édouard-Renard
+645
+5
+66
+67
+32
+13
+30
+Place Edmond-Michelet
+1679
+5
+68
+69
+33
+14
+31
+Place Alfred-Dreyfus
+277
+5
+70
+71
+34
+14
+32
+Place Jacques-Copeau
+486
+5
+72
+73
+35
+15
+33
+Place Marie-José-Nicoli
+702
+5
+74
+75
+16
+15
+34
+Place Pierre-Lazareff
+961
+5
+76
+77
+37
+16
+75
+Place Pierre-Emmanuel
+458
+5
+78
+79
+38
+16
+36
+Place André-Trannoy
+1744
+5
+80
+81
+39
+17
+37
+Place Igor-Stravinsky
+311
+5
+82
+83
+40
+17
+38
+Place Jean-Rostand
+245
+5
+84
+85
+41
+18
+39
+Place de l'Amiral-de-Grasse
+1303
+5
+86
+87
+42
+18
+40
+Place du Lieutenant-Stéphane-Piobetta
+301
+5
+88
+89
+43
+19
+41
+Place du Marché-Sainte-Catherine
+119
+5
+90
+91
+44
+19
+42
+Place Camille-Jullian
+487
+5
+92
+93
+45
+20
+43
+Place des Magasins-de-l'Opéra-Comique
+591
+5
+94
+95
+46
+20
+44
+Place Maurice-de-Fontenay
+1509
+5
+96
+97
+47
+21
+45
+Place Pasdeloup
+725
+5
+98
+99
+48
+21
+46
+Place Jules-Hénaffe
+804
+5
+100
+101
+49
+22
+47
+Place de Lévis
+1426
+5
+102
+103
+50
+22
+48
+Place Ambroise-Croizat
+932
+5
+104
+105
+51
+23
+49
+Place Goldoni
+126
+5
+106
+107
+52
+23
+50
+Place du Havre
+620
+5
+108
+109
+53
+24
+51
+Place Maurice-Barrès
+837
+5
+110
+111
+54
+24
+52
+Place de Port-au-Prince
+892
+5
+112
+113
+55
+25
+53
+Place du Bataillon-du-Pacifique
+1168
+5
+114
+115
+56
+25
+54
+Place de l'Odéon
+1774
+5
+116
+117
+57
+26
+55
+Place du Docteur-Hayem
+468
+5
+118
+119
+58
+26
+56
+Place Henri-Bergson
+989
+5
+120
+121
+59
+27
+57
+Place Moussa-et-Odette-Abadi
+1776
+5
+122
+123
+60
+27
+58
+Place Jacques-Bonsergent
+1917
+5
+124
+125
+61
+28
+59
+Place Michel-Audiard
+1307
+5
+126
+127
+62
+28
+60
+Place Henry-de-Montherlant
+1116
+5
+128
+129
+63
+29
+61
+Place Prosper-Goubaux
+306
+5
+130
+131
+64
+29
+62
+Place Jacques-Rouché
+138
+5
+132
+133
+65
+30
+63
+Place Benjamin-Fondane
+418
+5
+134
+135
+66
+30
+64
+Place de Budapest
+883
+5
+136
+137
+67
+31
+65
+Place Stuart-Merrill
+271
+5
+138
+139
+68
+31
+66
+Place Pierre-Brisson
+177
+5
+140
+141
+69
+32
+67
+Place Alphonse-Deville
+602
+5
+142
+143
+70
+32
+68
+Place Alphonse-Allais
+1271
+5
+144
+145
+71
+33
+69
+Place Wassily-Kandinsky
+981
+5
+146
+147
+72
+33
+70
+Place de la Porte-Molitor
+785
+5
+148
+149
+73
+34
+71
+Place de l'Escadrille-Normandie-Niemen
+1447
+5
+150
+151
+74
+34
+72
+Place du Cardinal-Lavigerie
+1229
+5
+152
+153
+75
+35
+73
+Place des Ternes
+1495
+5
+154
+155
+36
+35
+74
+Place du Colonel-Fabien
+1018
+5
+156
+157
+77
+36
+155
+Place Richard-Baret
+1646
+5
+158
+159
+78
+36
+76
+Place André-Breton
+784
+5
+160
+161
+79
+37
+77
+Place de la Porte-de-Saint-Cloud
+1460
+5
+162
+163
+80
+37
+78
+Place Sully-Lombard
+1573
+5
+164
+165
+81
+38
+79
+Place Saint-Charles
+893
+5
+166
+167
+82
+38
+80
+Place de la Reine-Astrid
+535
+5
+168
+169
+83
+39
+81
+Place Jules-Rimet
+451
+5
+170
+171
+84
+39
+82
+Place Clemenceau
+349
+5
+172
+173
+85
+40
+83
+Place Louis-Marin
+763
+5
+174
+175
+86
+40
+84
+Place du Palais-Bourbon
+1830
+5
+176
+177
+87
+41
+85
+Place de la Porte-de-Pantin
+922
+5
+178
+179
+88
+41
+86
+Place Maria-Callas
+1694
+5
+180
+181
+89
+42
+87
+Place Gambetta
+251
+5
+182
+183
+90
+42
+88
+Place Suzanne-Valadon
+1458
+5
+184
+185
+91
+43
+89
+Place Jean-Monnet
+1341
+5
+186
+187
+92
+43
+90
+Place Eugène-Claudius-Petit
+1197
+5
+188
+189
+93
+44
+91
+Place du Canada
+391
+5
+190
+191
+94
+44
+92
+Place Henri-Rollet
+243
+5
+192
+193
+95
+45
+93
+Place Victor-Hugo
+1734
+5
+194
+195
+96
+45
+94
+Place de Vénétie
+216
+5
+196
+197
+97
+46
+95
+Place Gaillon
+712
+5
+198
+199
+98
+46
+96
+Place de la Porte-de-Versailles
+1077
+5
+200
+201
+99
+47
+97
+Place Claude-François
+1357
+5
+202
+203
+100
+47
+98
+Place Romain-Gary
+1685
+5
+204
+205
+101
+48
+99
+Place Saint-Pierre
+1462
+5
+206
+207
+102
+48
+100
+Place des Saussaies
+1983
+5
+208
+209
+103
+49
+101
+Place Dalida
+1683
+5
+210
+211
+104
+49
+102
+Place Robert-Antelme
+880
+5
+212
+213
+105
+50
+103
+Place de Colombie
+782
+5
+214
+215
+106
+50
+104
+Place Émile-Goudeau
+1043
+5
+216
+217
+107
+51
+105
+Place du Général-Catroux
+1726
+5
+218
+219
+108
+51
+106
+Place Paul-Verlaine
+419
+5
+220
+221
+109
+52
+107
+Place Pigalle
+1775
+5
+222
+223
+110
+52
+108
+Place Ferdinand-Brunot
+582
+5
+224
+225
+111
+53
+109
+Place Jeanne-d'Arc
+269
+5
+226
+227
+112
+53
+110
+Place Georges-Guillaumin
+714
+5
+228
+229
+113
+54
+111
+Place de l'Estrapade
+1938
+5
+230
+231
+114
+54
+112
+Place de Clichy
+1250
+5
+232
+233
+115
+55
+113
+Place d'Estienne-d'Orves
+267
+5
+234
+235
+116
+55
+114
+Place Pierre-Vaudrey
+165
+5
+236
+237
+117
+56
+115
+Place Arnault-Tzanck
+386
+5
+238
+239
+118
+56
+116
+Place du Châtelet
+1238
+5
+240
+241
+119
+57
+117
+Place des Cinq-Martyrs-du-Lycée-Buffon
+260
+5
+242
+243
+120
+57
+118
+Place Blanche
+442
+5
+244
+245
+121
+58
+119
+Place Sainte-Marthe
+1478
+5
+246
+247
+122
+58
+120
+Place de la République-de-l'Équateur
+1688
+5
+248
+249
+123
+59
+121
+Place des Martyrs-Juifs-du-Vélodrome-d'Hiver
+1702
+5
+250
+251
+124
+59
+122
+Place Léonard-Bernstein
+989
+5
+252
+253
+125
+60
+123
+Place Augusta-Holmes
+578
+5
+254
+255
+126
+60
+124
+Place de la République
+1036
+5
+256
+257
+127
+61
+125
+Place de la Nation
+1767
+5
+258
+259
+128
+61
+126
+Place de Roubaix
+679
+5
+260
+261
+129
+62
+127
+Place de Mexico
+1423
+5
+262
+263
+130
+62
+128
+Place Marcel-Paul
+1212
+5
+264
+265
+131
+63
+129
+Place Saint-Sulpice
+1568
+5
+266
+267
+132
+63
+130
+Place de Brazzaville
+1036
+5
+268
+269
+133
+64
+131
+Place Marguerite-de-Navarre
+628
+5
+270
+271
+134
+64
+132
+Place du Carrousel
+1965
+5
+272
+273
+135
+65
+133
+Place des Grès
+1796
+5
+274
+275
+136
+65
+134
+Place Gustave-Toudouze
+655
+5
+276
+277
+137
+66
+135
+Place Ernest-Denis
+1507
+5
+278
+279
+138
+66
+136
+Place Maurice-Quentin
+1986
+5
+280
+281
+139
+67
+137
+Place Gabriel-Péri
+1239
+5
+282
+283
+140
+67
+138
+Place Jean-Marais
+553
+5
+284
+285
+141
+68
+139
+Place des Abbesses
+569
+5
+286
+287
+142
+68
+140
+Place Madeleine-Renaud-et-Jean-Louis-Barrault
+1994
+5
+288
+289
+143
+69
+141
+Place de la Porte-de-Châtillon
+1960
+5
+290
+291
+144
+69
+142
+Place du Venezuela
+1730
+5
+292
+293
+145
+70
+143
+Place Jacob-Kaplan
+914
+5
+294
+295
+146
+70
+144
+Place du Général-Patton
+949
+5
+296
+297
+147
+71
+145
+Place du Lieutenant-Henri-Karcher
+1844
+5
+298
+299
+148
+71
+146
+Place Rutebeuf
+1668
+5
+300
+301
+149
+72
+147
+Place Dupleix
+1666
+5
+302
+303
+150
+72
+148
+Place de la Madeleine
+974
+5
+304
+305
+151
+73
+149
+Place de l'Europe
+1222
+5
+306
+307
+152
+73
+150
+Place Rochambeau
+477
+5
+308
+309
+153
+74
+151
+Place Jean-Vilar
+1318
+5
+310
+311
+154
+74
+152
+Place de la Contrescarpe
+128
+5
+312
+313
+155
+75
+153
+Place de la Porte-de-Champerret
+941
+5
+314
+315
+76
+75
+154
+Place de Rio-de-Janeiro
+1174
+5
+316
+317
+157
+76
+315
+Place des Victoires
+840
+5
+318
+319
+158
+76
+156
+Place Charles-Dullin
+1948
+5
+320
+321
+159
+77
+157
+Place de Catalogne
+1501
+5
+322
+323
+160
+77
+158
+Place de Finlande
+385
+5
+324
+325
+161
+78
+159
+Place Balard
+223
+5
+326
+327
+162
+78
+160
+Place Jacques-et-Thérèse-Tréfouël
+1184
+5
+328
+329
+163
+79
+161
+Place Jacques-Froment
+1816
+5
+330
+331
+164
+79
+162
+Place d'Anvers
+1504
+5
+332
+333
+165
+80
+163
+Place Antoine-Furetière
+873
+5
+334
+335
+166
+80
+164
+Place des Deux-Écus
+1174
+5
+336
+337
+167
+81
+165
+Place Carrée
+1319
+5
+338
+339
+168
+81
+166
+Place des Insurgés-de-Varsovie
+277
+5
+340
+341
+169
+82
+167
+Place Rhin-et-Danube
+805
+5
+342
+343
+170
+82
+168
+Place Pierre-Laroque
+807
+5
+344
+345
+171
+83
+169
+Place Félix-Éboué
+978
+5
+346
+347
+172
+83
+170
+Place Saint-Germain-des-Prés
+1198
+5
+348
+349
+173
+84
+171
+Place Salvador-Allende
+1323
+5
+350
+351
+174
+84
+172
+Place de la Bastille
+323
+5
+352
+353
+175
+85
+173
+Place Martin-Nadaud
+324
+5
+354
+355
+176
+85
+174
+Place des Petits-Pères
+1103
+5
+356
+357
+177
+86
+175
+Place Chassaigne-Goyon
+243
+5
+358
+359
+178
+86
+176
+Place Octave-Chanute
+405
+5
+360
+361
+179
+87
+177
+Place du Colonel-Bourgoin
+1556
+5
+362
+363
+180
+87
+178
+Place de Joinville
+1595
+5
+364
+365
+181
+88
+179
+Place du Québec
+1312
+5
+366
+367
+182
+88
+180
+Place Jean-Gabin
+1631
+5
+368
+369
+183
+89
+181
+Place Saint-Fargeau
+1592
+5
+370
+371
+184
+89
+182
+Place Boulnois
+1145
+5
+372
+373
+185
+90
+183
+Place de Bitche
+1361
+5
+374
+375
+186
+90
+184
+Place Loulou-Gasté
+1446
+5
+376
+377
+187
+91
+185
+Place de l'Île-de-la-Réunion
+869
+5
+378
+379
+188
+91
+186
+Place Gilbert-Privat
+311
+5
+380
+381
+189
+92
+187
+Place de Barcelone
+1309
+5
+382
+383
+190
+92
+188
+Place de Dublin
+977
+5
+384
+385
+191
+93
+189
+Place Monseigneur-Loutil
+817
+5
+386
+387
+192
+93
+190
+Place Blanche-Lefebvre (dénommée en juin 2013)
+357
+5
+388
+389
+193
+94
+191
+Place René-Char
+121
+5
+390
+391
+194
+94
+192
+Place Jane-Evrard
+597
+5
+392
+393
+195
+95
+193
+Place Constantin-Pecqueur
+298
+5
+394
+395
+196
+95
+194
+Place Saint-Michel
+1799
+5
+396
+397
+197
+96
+195
+Place Louis-Armstrong
+1744
+5
+398
+399
+198
+96
+196
+Place Édith-Piaf
+661
+5
+400
+401
+199
+97
+197
+Place du Père-Marcellin-Champagnat
+891
+5
+402
+403
+200
+97
+198
+Place de Beyrouth
+1078
+5
+404
+405
+201
+98
+199
+Place Souham
+1927
+5
+406
+407
+202
+98
+200
+Place Paul-Léautaud
+1679
+5
+408
+409
+203
+99
+201
+Place du Docteur-Navarre
+1068
+5
+410
+411
+204
+99
+202
+Place de l'Assommoir
+1669
+5
+412
+413
+205
+100
+203
+Place Beauvau
+1784
+5
+414
+415
+206
+100
+204
+Place Henri-Langlois
+1058
+5
+416
+417
+207
+101
+205
+Place François-Ier
+1984
+5
+418
+419
+208
+101
+206
+Place Jussieu
+797
+5
+420
+421
+209
+102
+207
+Place Jean-Delay
+922
+5
+422
+423
+210
+102
+208
+Place de la Porte-de-Vanves
+1418
+5
+424
+425
+211
+103
+209
+Place Marie-de-Miribel
+941
+5
+426
+427
+212
+103
+210
+Place de l'École
+1186
+5
+428
+429
+213
+104
+211
+Place Kossuth
+1877
+5
+430
+431
+214
+104
+212
+Place Casadesus
+774
+5
+432
+433
+215
+105
+213
+Place Jean-Ferrat
+1606
+5
+434
+435
+216
+105
+214
+Place Basse
+1586
+5
+436
+437
+217
+106
+215
+Place Hébert
+843
+5
+438
+439
+218
+106
+216
+Place du Maréchal-Juin
+260
+5
+440
+441
+219
+107
+217
+Place Lachambeaudie
+1603
+5
+442
+443
+220
+107
+218
+Place du Général-Gouraud
+1706
+5
+444
+445
+221
+108
+219
+Place Chavarche-Missakian
+712
+5
+446
+447
+222
+108
+220
+Place du Maréchal-de-Lattre-de-Tassigny
+312
+5
+448
+449
+223
+109
+221
+Place Paul-Signac
+1378
+5
+450
+451
+224
+109
+222
+Place du Parvis-Notre-Dame
+832
+5
+452
+453
+225
+110
+223
+Place du Moulin-de-Javel
+796
+5
+454
+455
+226
+110
+224
+Place du Paraguay
+1939
+5
+456
+457
+227
+111
+225
+Place Georges-Berry
+1919
+5
+458
+459
+228
+111
+226
+Place Saint-Estèphe
+1975
+5
+460
+461
+229
+112
+227
+Place Cambronne
+574
+5
+462
+463
+230
+112
+228
+Place Denfert-Rochereau
+1063
+5
+464
+465
+231
+113
+229
+Place Flora-Tristan
+835
+5
+466
+467
+232
+113
+230
+Place Pinel
+842
+5
+468
+469
+233
+114
+231
+Place Henri-Queuille
+1388
+5
+470
+471
+234
+114
+232
+Place Sainte-Geneviève
+1169
+5
+472
+473
+235
+115
+233
+Place Henri-Krasucki
+141
+5
+474
+475
+236
+115
+234
+Place du Caire
+1195
+5
+476
+477
+237
+116
+235
+Place Le Corbusier
+596
+5
+478
+479
+238
+116
+236
+Place du Marché-Saint-Honoré
+826
+5
+480
+481
+239
+117
+237
+Place du Chancelier-Adenauer
+420
+5
+482
+483
+240
+117
+238
+Place de l'Abbé-Jean-Lebeuf
+481
+5
+484
+485
+241
+118
+239
+Place du Panthéon
+1992
+5
+486
+487
+242
+118
+240
+Place Dulcie-September
+1650
+5
+488
+489
+243
+119
+241
+Place de Valenciennes
+671
+5
+490
+491
+244
+119
+242
+Place de Tokyo
+307
+5
+492
+493
+245
+120
+243
+Place de la République-Dominicaine
+533
+5
+494
+495
+246
+120
+244
+Place de Breteuil
+990
+5
+496
+497
+247
+121
+245
+Place de Sydney
+164
+5
+498
+499
+248
+121
+246
+Place de Kyoto
+635
+5
+500
+501
+249
+122
+247
+Place Jean-Paul-II
+1080
+4
+502
+250
+122
+248
+Place Boieldieu
+712
+3
+251
+123
+249
+Place André-Tardieu
+572
+3
+252
+123
+250
+Place Rodin
+1093
+3
+253
+124
+251
+Place des Invalides
+1100
+3
+254
+124
+252
+Place de la Porte-de-Passy
+941
+3
+255
+125
+253
+Place de l'Uruguay
+194
+3
+256
+125
+254
+Place Jean-Pronteau
+1217
+3
+257
+126
+255
+Place Falguière
+437
+3
+258
+126
+256
+Place José-Marti
+1891
+3
+259
+127
+257
+Place d'Aligre
+1160
+3
+260
+127
+258
+Place Richard-de-Coudenhove-Kalergi
+1100
+3
+261
+128
+259
+Place du Docteur-Félix-Lobligeois
+1319
+3
+262
+128
+260
+Place Henri-Mondor
+1036
+3
+263
+129
+261
+Place Chopin
+1264
+3
+264
+129
+262
+Place Armand-Carrel
+1716
+3
+265
+130
+263
+Place Henri-Fiszbin
+1065
+3
+266
+130
+264
+Place Saint-Thomas-d’Aquin
+1387
+3
+267
+131
+265
+Place du Père-Teilhard-de-Chardin
+111
+3
+268
+131
+266
+Place Alfred-Kastler
+873
+3
+269
+132
+267
+Place du Pont-Neuf
+698
+3
+270
+132
+268
+Place Jacques-Debu-Bridel
+1018
+3
+271
+133
+269
+Place Marcel-Aymé
+1754
+3
+272
+133
+270
+Place Émile-Landrin
+802
+3
+273
+134
+271
+Place du Petit-Pont
+1829
+3
+274
+134
+272
+Place Marc-Bloch
+1022
+3
+275
+135
+273
+Place Edwige-Feuillère
+1215
+3
+276
+135
+274
+Place Constantin-Brancusi
+310
+3
+277
+136
+275
+Place Dauphine
+533
+3
+278
+136
+276
+Place Maurice-Chevalier
+321
+3
+279
+137
+277
+Place du Guignier
+1507
+3
+280
+137
+278
+Place Alphonse-Humbert
+1945
+3
+281
+138
+279
+Place José-Rizal
+560
+3
+282
+138
+280
+Place Léon-Deubel
+376
+3
+283
+139
+281
+Place Paul-Éluard
+131
+3
+284
+139
+282
+Place du Général-Teissier-de-Marguerittes
+415
+3
+285
+140
+283
+Place de Moro-Giafferi
+1471
+3
+286
+140
+284
+Place de Passy
+134
+3
+287
+141
+285
+Place Pierre-Mac-Orlan
+443
+3
+288
+141
+286
+Place de Narvik
+1357
+3
+289
+142
+287
+Place Franz-Liszt
+582
+3
+290
+142
+288
+Place Jules-Joffrin
+492
+3
+291
+143
+289
+Place de la Fontaine-aux-Lions
+826
+3
+292
+143
+290
+Place Victor-et-Hélène-Basch
+1729
+3
+293
+144
+291
+Place du Général-Ingold
+965
+3
+294
+144
+292
+Place Étienne-Pernet
+1032
+3
+295
+145
+293
+Place Joachim-du-Bellay
+412
+3
+296
+145
+294
+Place Valhubert
+1493
+3
+297
+146
+295
+Place de l'Émir-Abdelkader
+447
+3
+298
+146
+296
+Place Jacques-Marette
+495
+3
+299
+147
+297
+Place Georges-Pompidou
+1911
+3
+300
+147
+298
+Place du Docteur-Yersin
+622
+3
+301
+148
+299
+Place Édouard-VII
+273
+3
+302
+148
+300
+Place Raoul-Dautry
+817
+3
+303
+149
+301
+Place Jules-Renard
+377
+3
+304
+149
+302
+Place Adrien-Oudin
+1235
+3
+305
+150
+303
+Place de Ménilmontant
+1613
+3
+306
+150
+304
+Place Pierre-Dux
+1643
+3
+307
+151
+305
+Place de la Sorbonne
+382
+3
+308
+151
+306
+Place du Général-Kœnig
+951
+3
+309
+152
+307
+Place d'Alleray
+241
+3
+310
+152
+308
+Place Robert-Guillemard
+301
+3
+311
+153
+309
+Place Paul-Tortelier
+1807
+3
+312
+153
+310
+Place Madeleine-Daniélou
+498
+3
+313
+154
+311
+Place du 18-Juin-1940
+334
+3
+314
+154
+312
+Place Cécile-Brunschvicg
+1841
+3
+315
+155
+313
+Place Paul-Painlevé
+695
+3
+156
+155
+314
+Place Albert-Kahn
+226
+2
+317
+156
+Place Bernard-Halpern
+748
+3
+318
+156
+316
+Place du Palais-Royal
+687
+3
+319
+157
+317
+Place Olympe-de-Gouges
+498
+3
+320
+157
+318
+Place Denys-Cochin
+585
+3
+321
+158
+319
+Place de la Porte-de-Bagnolet
+1146
+3
+322
+158
+320
+Place du Vingt-Deux-Novembre-1943
+461
+3
+323
+159
+321
+Place de la République-de-Panama
+1207
+3
+324
+159
+322
+Place Napoléon-III
+1094
+3
+325
+160
+323
+Place Georges-Mulot
+220
+3
+326
+160
+324
+Place Charles-Garnier
+583
+3
+327
+161
+325
+Place Hubert-Monmarché
+1613
+3
+328
+161
+326
+Place du Commerce
+959
+3
+329
+162
+327
+Place de la Réunion
+831
+3
+330
+162
+328
+Place Vendôme
+1303
+3
+331
+163
+329
+Place de l'École-Militaire
+884
+3
+332
+163
+330
+Place de l'Hôtel-de-Ville - Esplanade de la Libération
+1614
+3
+333
+164
+331
+Place de la Montagne-du-Goulet
+806
+3
+334
+164
+332
+Place des Martyrs-de-la-Résistance-de-la-Porte-de-Sèvres
+1547
+3
+335
+165
+333
+Place Paul-Beauregard
+1738
+3
+336
+165
+334
+Place de la Commune-de-Paris
+939
+3
+337
+166
+335
+Place Pierre-Lampué
+359
+3
+338
+166
+336
+Place Élisabeth-Dmitrieff
+1900
+3
+339
+167
+337
+Place du Bataillon-Français-de-l'ONU-en-Corée
+1858
+3
+340
+167
+338
+Place du Général-Monclar
+456
+3
+341
+168
+339
+Place d'Italie
+1576
+3
+342
+168
+340
+Place de la Bataille-de-Stalingrad
+1299
+3
+343
+169
+341
+Place de Costa-Rica
+1733
+3
+344
+169
+342
+Place de Torcy
+1959
+3
+345
+170
+343
+Place de l'Île-de-Sein
+698
+3
+346
+170
+344
+Place de Verdun
+1633
+3
+347
+171
+345
+Place des Combattants-en-Afrique-du-Nord
+319
+3
+348
+171
+346
+Place Tattegrain
+1916
+3
+349
+172
+347
+Place André-Honnorat
+644
+3
+350
+172
+348
+Place de la Porte-de-Montreuil
+1316
+3
+351
+173
+349
+Place Camille-Claudel
+1559
+3
+352
+173
+350
+Place des 44-Enfants-d'Izieu
+337
+3
+353
+174
+351
+Place Louis-Bernier
+881
+3
+354
+174
+352
+Place Paul-Émile-Victor
+747
+3
+355
+175
+353
+Place Lili-Boulanger
+651
+3
+356
+175
+354
+Place Joséphine-Baker
+653
+3
+357
+176
+355
+Place Tristan-Bernard
+572
+3
+358
+176
+356
+Place Saint-Jacques
+1062
+3
+359
+177
+357
+Place Louis-Armand
+1783
+3
+360
+177
+358
+Place Diaghilev
+109
+3
+361
+178
+359
+Place du Préfet-Claude-Érignac
+1120
+3
+362
+178
+360
+Place de l'Amphithéâtre
+912
+3
+363
+179
+361
+Place du Général-Stefanik
+1099
+3
+364
+179
+362
+Place d'Andorre
+1819
+3
+365
+180
+363
+Place Louis-Lépine
+1916
+3
+366
+180
+364
+Place Marcelin-Berthelot
+396
+3
+367
+181
+365
+Place du Château-Rouge
+122
+3
+368
+181
+366
+Place René-Cassin
+1734
+3
+369
+182
+367
+Place Jacques-Bainville
+643
+3
+370
+182
+368
+Place des Vins-de-France
+1227
+3
+371
+183
+369
+Place Violet
+611
+3
+372
+183
+370
+Place du Trocadéro-et-du-11-Novembre
+282
+3
+373
+184
+371
+Place Michel-Petrucciani
+1881
+3
+374
+184
+372
+Place Skanderbeg
+1887
+3
+375
+185
+373
+Place Clément-Ader
+1808
+3
+376
+185
+374
+Place Coluche
+1115
+3
+377
+186
+375
+Place de Rungis
+1122
+3
+378
+186
+376
+Place des Généraux-de-Trentinian
+1012
+3
+379
+187
+377
+Place de l'Institut
+1100
+3
+380
+187
+378
+Place Justin-Godart
+685
+3
+381
+188
+379
+Place Aimé-Maillart
+184
+3
+382
+188
+380
+Place d'Israël
+443
+3
+383
+189
+381
+Place du Maroc
+1359
+3
+384
+189
+382
+Place du Docteur-Paul-Michaux
+681
+3
+385
+190
+383
+Place de l'Alma
+1949
+3
+386
+190
+384
+Place de Fontenoy
+1719
+3
+387
+191
+385
+Place Marie-Madeleine-Fourcade
+1482
+3
+388
+191
+386
+Place Lino-Ventura
+741
+3
+389
+192
+387
+Place Paul-Reynaud
+246
+3
+390
+192
+388
+Place Joffre
+1078
+3
+391
+193
+389
+Place du Calvaire
+236
+3
+392
+193
+390
+Place Joseph-Epstein
+619
+3
+393
+194
+391
+Place Saint-Augustin
+833
+3
+394
+194
+392
+Place Vauban
+783
+3
+395
+195
+393
+Place Jean-Lorrain
+371
+3
+396
+195
+394
+Place du Maquis-du-Vercors
+1529
+3
+397
+196
+395
+Place Emmanuel-Levinas
+1970
+3
+398
+196
+396
+Place d'Iéna
+575
+3
+399
+197
+397
+Place Ginette-Hamelin
+333
+3
+400
+197
+398
+Place Marcel-Cerdan
+963
+3
+401
+198
+399
+Place Gérard-Oury
+405
+3
+402
+198
+400
+Place Maurice-Audin
+659
+3
+403
+199
+401
+Place André-Masson
+1392
+3
+404
+199
+402
+Place du 11-Novembre-1918
+1019
+3
+405
+200
+403
+Place du Président-Mithouard
+956
+3
+406
+200
+404
+Place de l'Édit-de-Nantes
+153
+3
+407
+201
+405
+Place Charles-Bernard
+608
+3
+408
+201
+406
+Place de l'Église-de-l'Assomption
+1076
+3
+409
+202
+407
+Place du Brésil
+943
+3
+410
+202
+408
+Place de la Garenne
+1650
+3
+411
+203
+409
+Place du Guatemala
+1367
+3
+412
+203
+410
+Place Jean-Pierre-Lévy
+186
+3
+413
+204
+411
+Place du Général-Brocard
+408
+3
+414
+204
+412
+Place Paul-Claudel
+518
+3
+415
+205
+413
+Place Baudoyer
+1467
+3
+416
+205
+414
+Place de Varsovie
+1264
+3
+417
+206
+415
+Place Roger-Priou-Valjean
+933
+3
+418
+206
+416
+Place Michel-Debré
+1875
+3
+419
+207
+417
+Place Mehdi-Ben-Barka
+756
+3
+420
+207
+418
+Place du Puits-de-l'Ermite
+699
+3
+421
+208
+419
+Place des États-Unis
+1860
+3
+422
+208
+420
+Place du 8-Novembre-1942
+736
+3
+423
+209
+421
+Place de l'Argonne
+1839
+3
+424
+209
+422
+Place Pablo-Picasso
+171
+3
+425
+210
+423
+Place Théodore-Rivière
+1811
+3
+426
+210
+424
+Place Monge
+922
+3
+427
+211
+425
+Place Marlène-Dietrich
+1470
+3
+428
+211
+426
+Place de l'Église-d'Auteuil
+1157
+3
+429
+212
+427
+Place des Fêtes
+1893
+3
+430
+212
+428
+Place Henri-Matisse
+1767
+3
+431
+213
+429
+Place Nationale
+827
+3
+432
+213
+430
+Place du Père-Chaillet
+1042
+3
+433
+214
+431
+Place du Docteur-Alfred-Fournier
+1904
+3
+434
+214
+432
+Place Pierre-Lafue
+702
+3
+435
+215
+433
+Place Adolphe-Chérioux
+1253
+3
+436
+215
+434
+Place Auguste-Baron
+1121
+3
+437
+216
+435
+Place de la Porte-d'Auteuil
+1053
+3
+438
+216
+436
+Place Edmond-Rostand
+417
+3
+439
+217
+437
+Place Adolphe-Max
+1770
+3
+440
+217
+438
+Place du Pérou (déplacée en 2005, ancien emplacement rebaptisé place Gérard-Oury en 2011)
+1418
+3
+441
+218
+439
+Place Colette
+794
+3
+442
+218
+440
+Place Claude-Bourdet
+835
+3
+443
+219
+441
+Place Amédée-Gordini
+1522
+3
+444
+219
+442
+Place Auguste-Métivier
+1131
+3
+445
+220
+443
+Place Jean-Baptiste-Clément
+1500
+3
+446
+220
+444
+Place Jean-Lauprêtre
+1803
+3
+447
+221
+445
+Place Mazas
+1811
+3
+448
+221
+446
+Place Jules-Senard
+1569
+3
+449
+222
+447
+Place des Pyramides
+1869
+3
+450
+222
+448
+Place de la Bourse
+849
+3
+451
+223
+449
+Place Mireille
+1151
+3
+452
+223
+450
+Place de la Porte-Maillot
+1260
+3
+453
+224
+451
+Place Raoul-Follereau
+1751
+3
+454
+224
+452
+Place de l'Opéra
+345
+3
+455
+225
+453
+Place Jacques-Rueff
+1765
+3
+456
+225
+454
+Place Nathalie-Lemel
+1978
+3
+457
+226
+455
+Place Charles-Michels
+1343
+3
+458
+226
+456
+Place de Séoul
+266
+3
+459
+227
+457
+Place Jean-Paul-Sartre-Simone-de-Beauvoir
+1133
+3
+460
+227
+458
+Place de la Concorde
+1029
+3
+461
+228
+459
+Place Sainte-Opportune
+107
+3
+462
+228
+460
+Place Léon-Paul-Fargue
+955
+3
+463
+229
+461
+Place Albert-Cohen
+646
+3
+464
+229
+462
+Place Henri-Frenay
+152
+3
+465
+230
+463
+Place Alfred-Sauvy
+1418
+3
+466
+230
+464
+Place Paul-Delouvrier
+1992
+3
+467
+231
+465
+Place Saint-Jean
+335
+3
+468
+231
+466
+Place du Louvre
+1852
+3
+469
+232
+467
+Place Renée-Vivien
+1337
+3
+470
+232
+468
+Place Charles-de-Gaulle
+469
+3
+471
+233
+469
+Place Theodor-Herzl
+1763
+3
+472
+233
+470
+Place Mohamed-Bouazizi
+1470
+3
+473
+234
+471
+Place de la Rotonde
+721
+3
+474
+234
+472
+Place Saint-Gervais
+514
+3
+475
+235
+473
+Place El Salvador
+1855
+3
+476
+235
+474
+Place des Alpes
+1041
+3
+477
+236
+475
+Place Charles-Tillon
+1039
+3
+478
+236
+476
+Place Saint-Ferdinand
+1496
+3
+479
+237
+477
+Place de la Bergère-d'Ivry
+942
+3
+480
+237
+478
+Place Marcel-Achard
+508
+3
+481
+238
+479
+Place Émile-Mâle
+1894
+3
+482
+238
+480
+Place Robert-Desnos
+990
+3
+483
+239
+481
+Place Albert-Londres
+1936
+3
+484
+239
+482
+Place Bernard-Lazare
+1269
+3
+485
+240
+483
+Place de Thorigny
+1184
+3
+486
+240
+484
+Place Possoz
+1375
+3
+487
+241
+485
+Place Alphonse-Laveran
+1405
+3
+488
+241
+486
+Place Mohammed-V
+1662
+3
+489
+242
+487
+Place Charles-Vallin
+1816
+3
+490
+242
+488
+Place des Antilles
+1609
+3
+491
+243
+489
+Place Saint-André-des-Arts
+122
+3
+492
+243
+490
+Place du Général-Beuret
+525
+3
+493
+244
+491
+Place de Wagram
+504
+3
+494
+244
+492
+Place Nattier
+1435
+3
+495
+245
+493
+Place des Grandes-Rigoles
+1645
+3
+496
+245
+494
+Place du Président-Édouard-Herriot
+552
+3
+497
+246
+495
+Place Lucien-Herr
+1012
+3
+498
+246
+496
+Place Charles-Fillion
+1568
+3
+499
+247
+497
+Place de l'Adjudant-Vincenot
+1589
+3
+500
+247
+498
+Place du Comtat-Venaissin
+607
+3
+501
+248
+499
+Place Hannah-Arendt
+519
+3
+502
+248
+500
+Place du Général-Cochet
+1496
+2
+249
+501

@@ -1,0 +1,112 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r5p12.42.us.org
+Darwin 17.5.0 x86_64
+$> date
+Sun Sep  1 12:00:12 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst3
+
+= Git history ==================================================================
+$> git -C /var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user log --pretty='%H - %an, %ad : %s'
+fe68e5a79095c0691980e1d4d05cefcb11e53c26 - Evan Johnston, Sun Sep 1 11:58:22 2019 -0700 : .
+640149dfc2960a53ca9661c3ea66b9b2a0948520 - Evan Johnston, Sun Sep 1 11:58:20 2019 -0700 : .
+1f6eeb810a5950422c3e73f04aa5fe516b452441 - Evan Johnston, Sun Sep 1 11:56:20 2019 -0700 : .
+2cc698acfa5c78e164429f03b9422dda7fa763a0 - Evan Johnston, Sun Sep 1 11:52:14 2019 -0700 : .
+a3e1102ce818d77438622bba8d81476594353b9b - Evan Johnston, Sun Sep 1 11:50:15 2019 -0700 : .
+a195da621922dff6336cebac18e5376b3d9de27e - Evan Johnston, Sun Sep 1 11:46:08 2019 -0700 : .
+5bdda5e0db3a85e946005c56dd37ac9fb025c776 - Evan Johnston, Sun Sep 1 11:44:17 2019 -0700 : .
+82191bf4a61ab14547f427fe7fa7230b8f241f67 - Evan Johnston, Sun Sep 1 11:44:16 2019 -0700 : .
+99f8d25118ab99f936764a6df26386a84976deb0 - Evan Johnston, Sun Sep 1 11:42:04 2019 -0700 : .
+c4a32db9e4908870eb2d3376349788287000e720 - Evan Johnston, Sun Sep 1 11:40:01 2019 -0700 : .
+2a57f305eb0647711797f4d6b36038cfe2b5a05a - Evan Johnston, Sun Sep 1 11:38:02 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  2601 Sep  1 12:00 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 equation
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 height_tree
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 infin_add
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 intersection
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 is_looping
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:00 width_tree
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/equation:
+total 8
+-rw-r--r--  1 deepthought  deepthought  481 Sep  1 12:00 equation.c
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/height_tree:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1851 Sep  1 12:00 height_tree.c
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/infin_add:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2241 Sep  1 12:00 infin_add.c
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/intersection:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1324 Sep  1 12:00 intersection.c
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/is_looping:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1821 Sep  1 12:00 is_looping.c
+
+/var/folders/j8/ws0ygxpj1w5_6x9vv06l4vrr0000gp/T/tmpUMqx5M/user/width_tree:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1484 Sep  1 12:00 width_tree.c
+ 
+= infin_add ====================================================================
+$> gcc -Wextra -Wall -Werror infin_add.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./boskiyc8rashm3e3swiqa2s9 "0" "0"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./l3xrd8991nbw6p0ii2nl3whz "1" "0"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./in43xdp5brk70ghhor9zssx2 "0" "-2"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./9rcrdijfk4rqovjl0tpo9489 "21" "42"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./r2gev0qwkde0ie5f5lwdfmnc "4894398524132130" "5906754239"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./f5142bnl9tgs3qey8kiqih3h "-4495409524185401471245" "1320806358203958045104122132132146"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./2svegsfgkd33561hgotymnb0 "-395450348096354305805" "-65849062158917658342568439612590230455643092"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

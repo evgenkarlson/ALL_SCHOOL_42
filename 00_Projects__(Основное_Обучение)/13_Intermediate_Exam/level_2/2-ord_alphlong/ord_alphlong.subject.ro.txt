@@ -1,0 +1,38 @@
+Exercitiu  : ord_alphlong
+Fisiere de iesire   : *.c, *.h
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru un sir de caractere si care afiseaza cuvintele 
+din acest sir ordonate intaii pe lungime si apoi alfabetic, cu o mica varianta: 
+In caz de egalitate alfabetica (exemplul: aA si Aa) cuvintele trebuie sa ramana in 
+ordinea in care erau in sirul de origine (Literele mari si mici sunt identice in 
+ordinea alfabetica). In casul unui sir dublu, el va fi conservat.
+
+Daca numarul de parametri transmis este diferit de 1, programul va afisa '\n'.
+
+Sirurile de caractere nu vor contine decat spatii, tabulatoare si caractere alfanumerice.
+
+Veti afisa un singur spatiu intre cuvinte, dar niciunul inainte sau dupa ultimul, din fiecare rand.
+
+Exemple:
+
+$>./ord_alphlong
+$
+$>./ord_alphlong "De son baton il frappa la pierre et l eau jaillit" | cat -e
+l$
+De et il la$
+eau son$
+baton$
+frappa pierre$
+jaillit$
+$>./ord_alphlong "A a b B cc ca cd" | cat -e
+A a b B$
+ca cc cd$
+$>./ord_alphlong "Pour l Imperium de l humanite" | cat -e
+l l$
+de$
+Pour$
+humanite Imperium$
+$>
+

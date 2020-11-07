@@ -1,0 +1,22 @@
+Exercitiu  : g_diam
+Fisiere de iesire  : *.c, *.h
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program care ia ca parametru un sir de caractere. Acest sir reprezinta 
+un graf si repreazinta o retea de legaturi intre nodurile grafului. Legaturile 
+sunt separate printr-un spatiu. Nodurile sunt reprezentate de numere si 
+legaturile de '-'. De exemplu, daca exista o legatura intre nodul 2 si 3, 
+reprezentarile posibile sunt "2-3" si "3-2".
+
+Programul trebuie sa afiseze numarul nodurilor de pe calea cea mai lunga, urmat 
+de '\n', cunoscandu-se ca este imposibil sa se treaca printr-un nod de mai multe ori.
+
+Daca numarul de parametri transmis este diferit de 1, programul va afisa '\n'.
+
+Exemplu:
+
+$>./g_diam "17-5 5-8 8-2 2-8 2-8 17-21 21-2 5-2 2-6 6-14 6-12 12-19 19-14 14-42" | cat -e
+10$
+$>./g_diam "1-2 2-3 4-5 5-6 6-7 7-8 9-13 13-10 10-2 10-11 11-12 12-8 16-4 16-11 21-8 21-12 18-10 18-13 21-18" | cat -e
+15$

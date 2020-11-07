@@ -1,0 +1,49 @@
+Assignment name  : volume_histogram
+Expected files   : volume_histogram.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Implement a function which computes, for a given histogram (bar graph)
+of positive integers, the volume of water it could hold if someone poured
+water across the top.
+Each histogram bar has width 1.
+
+Your function must be declared as follows:
+
+int    volume_histogram(int *histogram, int size);
+
+Example 1:
+
+With the following input:
+
+int    histogram[] = {1, 0, 2, 0, 2};
+int    size = 5;
+
+('#' bars are the histogram. '.' is water)
+
+           # . #
+       # . # . #
+       ---------
+       1 0 2 0 2
+
+The function here returns 3 (because there is 3 emplacement of water).
+
+Example 2:
+
+With the following input:
+
+int    histogram[] = {0, 0, 4, 0, 0, 6, 0, 0, 3, 0, 5, 0, 1, 0, 0, 0};
+int    size = 16;
+
+('#' bars are the histogram. '.' is water)
+
+                 #
+                 # . . . . #
+           # . . # . . . . #
+           # . . # . . # . #
+           # . . # . . # . #
+           # . . # . . # . # . #
+       -------------------------------
+       0 0 4 0 0 6 0 0 3 0 5 0 1 0 0 0
+
+The function returns 26.

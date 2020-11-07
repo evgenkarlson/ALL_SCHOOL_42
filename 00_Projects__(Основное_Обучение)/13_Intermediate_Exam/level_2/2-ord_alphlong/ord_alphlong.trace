@@ -1,0 +1,74 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p22.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Sep  1 13:21:09 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst6
+
+= Git history ==================================================================
+$> git -C /var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp1RWbP6/user log --pretty='%H - %an, %ad : %s'
+88a2927abd438246696f06796baf02725f2d1358 - Evan Johnston, Sun Sep 1 13:19:17 2019 -0700 : .
+bf2ec0faef63921a523bac61b7081a2e105a21ed - Evan Johnston, Sun Sep 1 13:17:15 2019 -0700 : .
+d98613ee59e003aa8c8700ec877b9944a379db56 - Evan Johnston, Sun Sep 1 13:17:03 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp1RWbP6/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  762 Sep  1 13:21 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 13:21 find_pivot
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 13:21 height_tree
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 13:21 ord_alphlong
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp1RWbP6/user/find_pivot:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1582 Sep  1 13:21 find_pivot.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp1RWbP6/user/height_tree:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1851 Sep  1 13:21 height_tree.c
+
+/var/folders/vg/tn6wb9d126v7hvtvlvvbgptc0000gp/T/tmp1RWbP6/user/ord_alphlong:
+total 8
+-rw-r--r--  1 deepthought  deepthought  2201 Sep  1 13:21 ord_alphlong.c
+ 
+= ord_alphlong =================================================================
+$> gcc -Wextra -Wall -Werror ord_alphlong.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./3ucojsujcbie538sr2onguxd "lorem ipsum dolor sit amet consectetur adipiscing elit curabitur sollicitudin pretium nibh"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./264v492f3vq2d716kqvxl947 "kohlrabies aghas tv sued ox retry gardant bulk cornetter putt gruesome whelk centenary decd bite capo in ok lax empaled ox saga um bandboxical ugh cephalomotor becassine boletaceous sees alkanet friarbird a pucker entour beautifiers guenons tod arracacha porus"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./qjdcsesj7oms4609uz6g85wg "a why thrast my pimple pow pew allegiance deer menise euhemeristic sarge or brigatry antialbumid oars gif phthisicky a fore lash champing thule moody a detoxify fem a logs uh sprit tower ha beudanite inlet sat bedebt menses ya consulates beau red pawl chartographically egg mia ghazi mispled damper ped autoput lawless fireplug see boil bargehouse counterplan en off boiserie a bundy frugs sidder fishy ok ack clue selah brim oxygen a footsies tome closh oleraceous dam tug on bauge glood depolariser"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./yflw9gsr4jkmaanrnp351iim "garotes foreboder hash arsenicating accolent ow dims twain handsew outasks fratries hill tot a footraces a comanches potheen skim bike one bacterially nest nay my en dub areostyle railly pre fee joys nepit cite ow coadunate um pox conclavist a axon sparta corelational gyms em daemonian creepingly mirdha buy boxings detruncated vex catbird derealization juts stope gonial ear ziff a a ebionite am smug rue chiasm it preter bitripartite conglobing eflagelliferous gematria corrugator obliger koumyses bye uh oopak ye sos anagogics toughy of prexy fads laigh ok a buss dismiss glimmering aquiform push applenut doest a oh sedged mild decoy fally do seal mien indubitate uh pic yale kymnel aortoiliac beniseed a cercus acroesthesia bradyseismical utick creirgist tuts bostonite kiyas candidacies aye neo pow earl til a intakes ox entocnemial"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

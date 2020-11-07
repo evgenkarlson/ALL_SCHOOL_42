@@ -1,0 +1,18 @@
+$>./ord_alphlong
+$
+$>./ord_alphlong "De son baton il frappa la pierre et l eau jaillit" | cat -e
+l$
+De et il la$
+eau son$
+baton$
+frappa pierre$
+jaillit$
+$>./ord_alphlong "A a b B cc ca cd" | cat -e
+A a b B$
+ca cc cd$
+$>./ord_alphlong "Pour l Imperium de l humanite" | cat -e
+l l$
+de$
+Pour$
+humanite Imperium$
+$>

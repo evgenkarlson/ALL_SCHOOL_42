@@ -1,0 +1,25 @@
+Exercitiu : infin_mult
+Fisiere de iesire   : *.c, *.h
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru doua siruri de caractere reprezentand 
+numere de lungime potential infinita si care afiseaza la iesirea standard 
+rezultatul inmultirii acestor doua numere, urmat de un '\n'.
+
+Un numar negativ va fi precedat de un singur semn -. Singurele caractere ce vor 
+face parte din aceste numere sunt doar cifrele si semnul -.
+
+Ambi parametri vor fi bine formatati si intotdeauna vor fi doi, fara alte capcane.
+
+Exemplu:
+
+$> ./infin_mult "879879087" "67548976597" | cat -e
+59434931855952726939$
+$> ./infin_mult "-876435" "987143265" | cat -e
+-865166907460275$
+$> ./infin_mult "-807965" "-34532" | cat -e
+27900647380$
+$> ./infin_mult "-807965" "0"
+0
+$>

@@ -1,0 +1,28 @@
+Exercitiu : str_maxlenoc
+Fisiere de iesire   : str_maxlenoc.c
+Functii autorizate : write, malloc, free
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametri n siruri de caractere si care afiseaza, 
+urmat de un retur de linie, cel mai mare sir de caractere inclus in toate celelalte 
+siruri de caractere transmise ca parametri.  Daca mai multe siruri corespund acestui 
+criteriu, se va afisa acela care apare primul ca parametru. De notat ca "" sunt in 
+mod obligatoriu in toate sirurile.
+
+Daca nici un parametru nu este transmis programul va afisa '\n'.
+
+Fie A si B doua siruri de caractere. Spunem ca A este inclus in B daca A este un 
+subsir al sirului B sau daca A si B sunt identice.
+
+Exemple :
+
+$>./str_maxlenoc ab bac abacabccabcb
+a
+$>./str_maxlenoc bonjour salut bonjour bonjour
+u
+$>./str_maxlenoc xoxAoxo xoxAox  oxAox oxo  A ooxAoxx oxooxo Axo | cat -e
+$
+$>./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjourafg
+os
+$>./str_maxlenoc | cat -e
+$

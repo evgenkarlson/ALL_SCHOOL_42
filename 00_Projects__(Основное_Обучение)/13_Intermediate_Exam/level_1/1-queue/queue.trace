@@ -1,0 +1,74 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r5p31.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Sep  1 12:06:36 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst4
+
+= Git history ==================================================================
+$> git -C /var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user log --pretty='%H - %an, %ad : %s'
+b1d434fa6a561ebcfa08578891c6cb3ca0444a3d - Evan Johnston, Sun Sep 1 12:04:45 2019 -0700 : .
+77de6f7d507957bfb55111982c2c8a51f873c963 - Evan Johnston, Sun Sep 1 12:02:47 2019 -0700 : .
+c6c954b31859939b2c6a233ea1cbd2a236fd79d1 - Evan Johnston, Sun Sep 1 12:00:41 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  730 Sep  1 12:06 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 12:06 print_doublon
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 12:06 queue
+
+/var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user/print_doublon:
+total 8
+-rw-r--r--  1 deepthought  deepthought  719 Sep  1 12:06 print_doublon.c
+
+/var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user/queue:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1970 Sep  1 12:06 queue.c
+ 
+= queue ========================================================================
+$> gcc -Wextra -Wall -Werror main.c queue.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./40t5m77m59jsp1pcnrnk4eqk NULL
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ucj1nczfx0jiyvw2e1k0gto3 1 2 3 4 5
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./9s5uib8enphyrkobyo69yp2i We wants it, we needs it. Must have the precious. They stole it from us. Sneaky little hobbitses. Wicked, tricksy, false!
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./8a9gq5cck0w81f94ujg4a6bu 42
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./d00hudzpoxqvfcbxhlwfq2yx I have a bad feeling about this
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

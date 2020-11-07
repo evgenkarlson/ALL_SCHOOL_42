@@ -1,0 +1,25 @@
+Assignment name  : infin_add
+Expected files   : *.c, *.h
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètres deux chaînes de caractères
+représentant des nombres de longueur potentiellement infinie, et affiche sur la
+sortie standard le résultat de l'addition de ces deux nombres, suivi d'un '\n'.
+
+Un nombre négatif sera précédé d'un et un seul signe -. Les seuls
+caractères qui feront potentiellement partie de ces chaînes sont les chiffres
+et le signe -.
+
+Tous les paramètres seront bien formatés, et il y a toujours exactement deux
+paramètres, pas de pièges.
+
+Exemple:
+
+$> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+$> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+$> ./infin_add "-807965" "-34532"
+-842497
+$>

@@ -1,0 +1,10 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.rst
+playsound.py
+setup.py
+playsound.egg-info/PKG-INFO
+playsound.egg-info/SOURCES.txt
+playsound.egg-info/dependency_links.txt
+playsound.egg-info/top_level.txt

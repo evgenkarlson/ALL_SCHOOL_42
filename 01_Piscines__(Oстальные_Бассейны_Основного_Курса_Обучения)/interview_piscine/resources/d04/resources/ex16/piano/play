@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+import os
+import sys
+import argparse
+
+#don't forget to add the path like this: scriptDir + '/...'
+scriptDir= os.path.dirname(os.path.realpath(__file__))
+
+import sys
+sys.path.append(scriptDir + "/pysynth")
+sys.path.append(scriptDir + "/playsound")
+
+import pysynth
+from playsound import playsound
+
+def file_put_contents(filename, data, opener="w"):
+        f = open(filename, opener)
+        f.write(data.encode("utf-8"))
+        f.close()
+
+def file_get_contents(filename):
+        with open(filename, 'r') as content_file:
+            content = content_file.read()
+        return content
+
+def addNote(pos, elapse):
+	keys_s = ('a', 'a#', 'b', 'c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#')
+	keys_f = ('a', 'bb', 'b', 'c', 'db', 'd', 'eb', 'e', 'f', 'gb', 'g', 'ab')
+	oct = ((60-pos)+9) // 12
+	note = '%s%u' % (keys_s[(60-pos)%12], oct)
+	return (note, elapse)
+
+def createSong(m):
+	t = ()
+	pos = -1
+	elapse = 0	
+	for r in range(0,len(m)):
+		i = 0
+		s = ''
+		for c in range(0, len(m[r])):
+			if m[r][c] != 0:
+				i = c
+		if i != pos and pos != -1:
+			t = t + (addNote(pos, elapse),)
+			pos = i
+			elapse = 0
+		else:
+			pos = i
+			elapse += 1
+	return t
+
+def main():
+	a = sys.stdin.read()
+	m = []
+	rows = a.split('\n')
+	for row in rows:
+		j = []
+		s = row.split()
+		for e in s:
+			j.append(int(e))
+		m.append(j)
+	song = createSong(m)
+	print song
+	pysynth.make_wav(song, fn = '/tmp/test.wav')
+	playsound('/tmp/test.wav')
+	os.remove('/tmp/test.wav')
+
+if __name__ == "__main__":
+	main()
