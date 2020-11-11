@@ -78,6 +78,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 7) https://www.programmingsimplified.com/c-program-examples
 
 </details>
+
 ---
 
 > To speed up the process of translation and understanding of the content downloaded to the computer pdf files with the tasks, use the cross-platform text translator [`Crow Translate`](https://crow-translate.github.io/).(Remember, that the character of a line break to the next line can be perceived by translators as the end of a sentence!)
