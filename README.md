@@ -170,9 +170,9 @@
 >   - Woody Woodpacker
 >     - Dr Quine
 >     - Famine
->	    - Pestilence
->	    - War
->	    - Death
+>     - Pestilence
+>     - War
+>     - Death
 >   - ft_linux
 >     - KFS-1
 >     - KFS-2
