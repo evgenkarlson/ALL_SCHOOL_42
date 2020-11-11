@@ -168,11 +168,11 @@
 >     - Drivers and Interrupts -=OR=- Drivers and Keyboard
 >     - Filesystem
 >   - Woody Woodpacker
->     - Famine
 >     - Dr Quine
->	  - Pestilence
->	  - War
->	  - Death
+>     - Famine
+>	    - Pestilence
+>	    - War
+>	    - Death
 >   - ft_linux
 >     - KFS-1
 >     - KFS-2
