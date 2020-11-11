@@ -123,9 +123,10 @@
 ---
 >> #### С этой ветки начинается основное обучение.
 > - 42_commandements
+> - ft_debut
 > - piscine reloaded
 > - libft
-> - ft_debut
+> - netwhat
 > - get_next_Line
 > - fillit
 ---
@@ -154,13 +155,15 @@
 >     - Matt Daemon
 >     - Durex
 >   - LibftASM
->     - Root-me | App-Systeme
->     - Root-me | Cracking
 >     - Snow Crash
->     - RainFall
->     - strace
+>       - RainFall
+>       - Override
 >     - GBmu
+>     - strace
+>       - Root-me | App-Systeme
+>       - Root-me | Cracking
 >   - little-penguin-1
+>     - userspace digressions
 >     - Process and Memory 
 >     - Drivers and Interrupts -=OR=- Drivers and Keyboard
 >     - Filesystem
@@ -195,9 +198,9 @@
 > - Push_swap
 > - Filler
 > - Lem_in
->   - Mod1 (Optional Project)
+>   - Mod1 (Дополнительный Проект)
 > - Corewar
->   - Corewar Championship (Optional Project)
+>   - Corewar Championship (Дополнительный Проект)
 > - ComputorV1
 >   - ComputorV2
 > - Expert System
@@ -217,8 +220,8 @@
 ---
 > - FDF
 > - Fract'Ol
-> - Wolf3D
-> - RTv1
+> - Wolf3D (cub3d)
+> - RTv1 (miniRT)
 > - Doom Nukem
 > - RT
 > - Scop
@@ -240,6 +243,7 @@
 > - Friends with Benefits
 > - Red Tetris
 > - Darkly
+> - ft_transcendence
 ---
 
 
@@ -263,13 +267,18 @@
 > - avaj-launcher
 > - swingy
 > - fixme
+> - Music Room
 ---
 
 
 
 > ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
 ---
-> - piscine C++
+> - modules С++ (это то же самое, что и `piscine C++`, но новая версия)
+> - piscine C++ (это то же самое, что и `modules С++` но старая версия)
+> - webserv
+> - ft_irc
+> - ft_containers
 > - Abstract VM
 > - Nibbler
 > - Bomberman
@@ -293,6 +302,8 @@
 > - cloud-1
 > - roger-skyline-1
 > - roger-skyline-2
+> - ft_server
+> - ft_services
 ---
 
 

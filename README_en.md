@@ -123,9 +123,10 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 ---
 >> #### Basic training begins with this branch.
 > - 42_commandements
+> - ft_debut
 > - piscine reloaded
 > - libft
-> - ft_debut
+> - netwhat
 > - get_next_Line
 > - fillit
 ---
@@ -154,13 +155,15 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 >     - Matt Daemon
 >     - Durex
 >   - LibftASM
->     - Root-me | App-Systeme
->     - Root-me | Cracking
 >     - Snow Crash
->     - RainFall
->     - strace
+>       - RainFall
+>       - Override
 >     - GBmu
+>     - strace
+>       - Root-me | App-Systeme
+>       - Root-me | Cracking
 >   - little-penguin-1
+>     - userspace digressions
 >     - Process and Memory 
 >     - Drivers and Interrupts -=OR=- Drivers and Keyboard
 >     - Filesystem
@@ -217,8 +220,8 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 ---
 > - FDF
 > - Fract'Ol
-> - Wolf3D
-> - RTv1
+> - Wolf3D (cub3d)
+> - RTv1 (miniRT)
 > - Doom Nukem
 > - RT
 > - Scop
@@ -240,6 +243,7 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 > - Friends with Benefits
 > - Red Tetris
 > - Darkly
+> - ft_transcendence
 ---
 
 
@@ -263,13 +267,18 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 > - avaj-launcher
 > - swingy
 > - fixme
+> - Music Room
 ---
 
 
 
 > ### [[C++ branch]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
 ---
-> - piscine C++
+> - modules С++ (this is the same as `piscine C++`, but a new version)
+> - piscine C++ (this is the same as `modules C++` but the old version)
+> - webserv
+> - ft_irc
+> - ft_containers
 > - Abstract VM
 > - Nibbler
 > - Bomberman
@@ -293,6 +302,8 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 > - cloud-1
 > - roger-skyline-1
 > - roger-skyline-2
+> - ft_server
+> - ft_services
 ---
 
 
