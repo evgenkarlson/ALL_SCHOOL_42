@@ -67,7 +67,7 @@
  * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
 <details>
-<summary> Список упражнений по программированию на C: </summary>
+<summary> Список упражнений по программированию на языке Cи: </summary>
 
 1) https://www.sanfoundry.com/simple-c-programs/
 2) https://www.w3resource.com/c-programming-exercises/file-handling/index.php
