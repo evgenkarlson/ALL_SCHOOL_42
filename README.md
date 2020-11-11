@@ -66,6 +66,18 @@
 
  * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
+<details>
+<summary> Список упражнений по программированию на C: </summary>
+
+1) https://www.sanfoundry.com/simple-c-programs/
+2) https://www.w3resource.com/c-programming-exercises/file-handling/index.php
+3) http://www.c4learn.com/learn-c-programming-language/
+4) https://www.tutorialspoint.com/learn_c_by_examples/index.htm
+5) https://www.learn-html.org/
+6) https://beginnersbook.com/2015/02/simple-c-programs/
+7) https://www.programmingsimplified.com/c-program-examples
+
+</details>
 ---
 
 > Для ускорения процесса перевода и понимания содержимого, скачанных на компьютер pdf файлов с задниями, используйте кроссплатформенный перевочик текста [`Crow Translate`](https://crow-translate.github.io/).(Помните, что символ перевода текста на следующую строку может восприниматься переводчиками как конец предложения!)

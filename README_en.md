@@ -66,6 +66,18 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 
  * C language video course (for those who start the pool from scratch): [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
+<details>
+<summary> A list of C programming exercises: </summary>
+
+1) https://www.sanfoundry.com/simple-c-programs/
+2) https://www.w3resource.com/c-programming-exercises/file-handling/index.php
+3) http://www.c4learn.com/learn-c-programming-language/
+4) https://www.tutorialspoint.com/learn_c_by_examples/index.htm
+5) https://www.learn-html.org/
+6) https://beginnersbook.com/2015/02/simple-c-programs/
+7) https://www.programmingsimplified.com/c-program-examples
+
+</details>
 ---
 
 > To speed up the process of translation and understanding of the content downloaded to the computer pdf files with the tasks, use the cross-platform text translator [`Crow Translate`](https://crow-translate.github.io/).(Remember, that the character of a line break to the next line can be perceived by translators as the end of a sentence!)
