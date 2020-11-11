@@ -137,9 +137,9 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 >> #### This branch contains several directions: Unix, Kernel, Virus, Security, Network.
 > - ft_ls
 > - minishell
->   - ft_select (Optional Project)
+>   - ft_select
 > - 21sh
->   - Taskmaster (Optional Project)
+>   - Taskmaster
 > - 42sh
 > - Malloc
 >   - ft_script
@@ -198,9 +198,9 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 > - Push_swap
 > - Filler
 > - Lem_in
->   - Mod1 (Optional Project)
+>   - Mod1
 > - Corewar
->   - Corewar Championship (Optional Project)
+>   - Corewar Championship
 > - ComputorV1
 >   - ComputorV2
 > - Expert System

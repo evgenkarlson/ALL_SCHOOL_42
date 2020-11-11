@@ -137,9 +137,9 @@
 >> #### Эта ветвь содержит в себе несколько направлений: Unix, Kernel, Virus, Security, Network.
 > - ft_ls
 > - minishell
->   - ft_select (Optional Project)
+>   - ft_select
 > - 21sh
->   - Taskmaster (Optional Project)
+>   - Taskmaster
 > - 42sh
 > - Malloc
 >   - ft_script
@@ -198,9 +198,9 @@
 > - Push_swap
 > - Filler
 > - Lem_in
->   - Mod1 (Дополнительный Проект)
+>   - Mod1
 > - Corewar
->   - Corewar Championship (Дополнительный Проект)
+>   - Corewar Championship
 > - ComputorV1
 >   - ComputorV2
 > - Expert System
