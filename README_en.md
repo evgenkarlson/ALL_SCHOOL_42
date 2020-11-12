@@ -155,6 +155,7 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 >     - Matt Daemon
 >     - Durex
 >   - LibftASM
+>     - boot2root
 >     - Snow Crash
 >       - RainFall
 >       - Override
