@@ -44,10 +44,12 @@ sudo apt-get install -y libx11-dev
 sudo apt-get install -y libbsd-dev 
 sudo apt-get install -y libssl-dev
 
-cd /usr/local/man/ && sudo mkdir man1
+cd /usr/local/man/
+sudo mkdir man1
 cd ~
 git clone https://github.com/42Paris/minilibx-linux.git
-cd minilibx-linux && make
+cd minilibx-linux
+make
 
 sudo cp man/man1/* /usr/local/man/man1/
 sudo cp libmlx.a /usr/local/lib/
