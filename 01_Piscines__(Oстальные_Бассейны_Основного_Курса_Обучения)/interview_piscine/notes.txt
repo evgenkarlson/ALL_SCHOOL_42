@@ -1,22 +1,15 @@
 --------------------- Big-O ---------------------
-Cheatsheet https://www.alispit.tel/coding-cheat-sheets/fundamentals/big_o_notation.html
 
-Big-O Notation is used to describe how well an algorithm scales.
-There are two types of complexity:
-1) Time complexity refers to the number of operations
-2) Space complexity refers to how much memory the algorithm will use when executing.
+https://www.alispit.tel/coding-cheat-sheets/fundamentals/big_o_notation.html
 
-O(1) complexity is really good, 
-O(N) complexity is usually pretty good as well, 
-O(N^2) and up complexity is typically avoided when possible.
+Нотация `Big-O` используется для описания того, насколько хорошо алгоритм масштабируется.
 
-Complexity	1	    10	    100
-O(1)	      1	    1     	1                                   O(1) Complexity (Constant)            - an algorithm is static or constant.
-O(log N)	  0	    2	      5
-O(N)	      1	    10	    100                                 O(N) Complexity (Linear)              - the code goes through each input once.
-O(N log N)	0	    20	    461                                 O(log n) and O(n log(n)) complexity   - mostly found in sorting algorithms, e.g. binary search.
-O(N^2)	    1	    100	    10000                               O(N^2) Complexity (Quadratic)         - the code doubly iterates over an input.
-O(2^N)	    1	    1024	  1267650600228229401496703205376
-O(N!)	      1	    3628800	doesn’t fit on screen!
+Есть два типа сложности алгоритмов:
+1) Сложность по времени - относится к количеству операций
+2) Сложность по памяти - относится к тому, сколько памяти алгоритм будет использовать при выполнении.
 
+
+`O(1)` - низкая сложность алгоритма - хорошая
+`O(N)` - сложность обычная алгоритма, но тоже неплохая
+`O(N^2)`  - высокая сложность алгоритма - такую, как правило, избегают, когда это возможно.
 

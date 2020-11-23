@@ -1,4 +1,4 @@
-![42 School](03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header3.png)
+![42 School](03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header000000.png)
 
 
 # ALL SUBJECTS「 SCHOOL 42 」 #
@@ -48,7 +48,7 @@ The School's 42 curriculum is individualized. Here, everyone progresses on their
  
 
 
-# 0. School Documentation #
+# 0. SCHOOL DOCUMENTATION #
 
 Here you can familiarize yourself with the rules in force within the walls of School 42, learn about the curriculum itself, read about the standards by which you will need to write code when solving tasks and projects, and also see everything that will help you start learning programming according to the program Schools 42.
 
@@ -90,7 +90,7 @@ Here you can familiarize yourself with the rules in force within the walls of Sc
 ---
 
 
-# 1. Piscine C #
+# 1. PISCINE C #
 
 It is from this place that the teaching of programming in School 42 will begin.
 - `Piscine` by language `C`: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
@@ -112,7 +112,7 @@ From the very first day, you are faced not only with difficult tasks, but with w
 ---
 
 
-# 2. Main training #
+# 2. MAIN TRAINING #
 
 [Core Learning Projects](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/)  represent the next step in programming learning. All of them are grouped by directions, which are represented as branches. Remember that each subsequent project of your chosen branch is more difficult than the previous one and can only be solved using the skills acquired in previous projects.
 
@@ -325,7 +325,7 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 ---
 
 
-# 3. Other Piscines by School 42 #
+# 3. OTHER PISCINES BY SCHOOL 42 #
 
 > - [PHP-Symphony](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony)
 > - [Python-Django](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django)
@@ -335,7 +335,7 @@ Use [ the `Holy Graph` projects map](https://github.com/evgenkarlson/Subjects___
 
 
 
-# 4. Group project by School 42(Rushes - miniHACKATHONS) #
+# 4. GROUP PROJECT BY SCHOOL 42(Rushes - miniHACKATHONS) #
 
 > - [AlCu](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf)
 > - [Alum1](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
