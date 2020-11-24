@@ -140,6 +140,7 @@ clang -Wall -Wextra -Werror main.c -lbsd -lmlx -lXext -lX11
 
 ## Полезные ссылки ##
 
+* [Руководство по ветке Графики](https://qst0.github.io/ft_libgfx/)
 * [42Paris/minilibx-linux](https://github.com/42Paris/minilibx-linux)
 * [Tutorial on MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx)
 * [Useful links and info by lcouto et al](https://www.notion.so/miniRT-5f6fcdf6d05e4742b6c38f0588f12436)
