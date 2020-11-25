@@ -64,11 +64,11 @@ sudo cp mlx.h /usr/local/include/
 
 ### РУКОВОДСТВО ПО БИБЛИОТЕКЕ MiniLibX :
 
-* [mlx](man_mlx.md) - описание библиотеки;
-* [mlx_new_window](man_mlx_new_window.md) - управление окнами;
-* [mlx_pixel_put](man_mlx_pixel_put.md) - вывод пикселей и рисование внутри окна;
-* [mlx_new_image](man_mlx_new_image.md) - манипулирование изображениями;
-* [mlx_loop](man_mlx_loop.md) - обработка событий клавиатуры или мыши;
+* [mlx](./minilibx_(library_for_solving_projects_of_this_branch)/man_mlx.md) - описание библиотеки;
+* [mlx_new_window](./minilibx_(library_for_solving_projects_of_this_branch)/man_mlx_new_window.md) - управление окнами;
+* [mlx_pixel_put](./minilibx_(library_for_solving_projects_of_this_branch)/man_mlx_pixel_put.md) - вывод пикселей и рисование внутри окна;
+* [mlx_new_image](./minilibx_(library_for_solving_projects_of_this_branch)/man_mlx_new_image.md) - манипулирование изображениями;
+* [mlx_loop](./minilibx_(library_for_solving_projects_of_this_branch)/man_mlx_loop.md) - обработка событий клавиатуры или мыши;
 
 
 </details>
