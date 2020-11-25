@@ -1,4 +1,4 @@
-#### Intermediate Exam 42 ####
+<h1 align="center"><code> Intermediate Exam 42 </code></h1>
 
 
 <details>

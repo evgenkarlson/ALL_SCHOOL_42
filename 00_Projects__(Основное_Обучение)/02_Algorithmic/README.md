@@ -1,4 +1,5 @@
-# Ветвь Алгоритмов #
+<h1 align="center"><code> Ветвь Алгоритмов </code></h1>
+
 
 
 ![algorithmic branch](./algorithmic.gif)

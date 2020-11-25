@@ -1,4 +1,5 @@
-# Системное & Сетевое Администрирование #
+<h1 align="center"><code> Системное & Сетевое Администрирование </code></h1>
+
 
 
 ![infrastructure and admin branch](./infrastructure_and_administration.gif)

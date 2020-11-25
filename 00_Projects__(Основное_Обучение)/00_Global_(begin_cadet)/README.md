@@ -1,4 +1,5 @@
-# Ветвь Global #
+<h1 align="center"><code> Ветвь Global </code></h1>
+
 
 
 ![global branch](./global.gif)

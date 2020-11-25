@@ -1,4 +1,5 @@
-# Android & iOS ветвь #
+<h1 align="center"><code> Android & iOS ветвь </code></h1>
+
 
 
 ![ios and android branch](./ios_android.gif)
