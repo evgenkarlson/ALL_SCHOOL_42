@@ -1,9 +1,12 @@
 # Руководство по викторине netwhat #
 
-- [Подробно и понятно про сети](https://www.asozykin.ru/courses/networks_online)
-- [Описание каждого пункта задания netwhat](https://github.com/markveligod/netwhat)
-- [IP Калькулятор подсетей](http://infocisco.ru/ip_calculator.php)
-- [Лекция CS](https://www.youtube.com/watch?v=BJSITWkSDQg&t=71s&ab_channel=IndustrialSoftwareEngineeringOnline)
+---
+> Полезные ссылки:
+>
+> - [Подробно и понятно про сети](https://www.asozykin.ru/courses/networks_online)
+> - [IP Калькулятор подсетей](http://infocisco.ru/ip_calculator.php)
+> - [Лекция CS](https://www.youtube.com/watch?v=BJSITWkSDQg&t=71s&ab_channel=IndustrialSoftwareEngineeringOnline)
+---
 
 Что из предложенных является допустимым диапазоном хостов для подсети, в которой находится `IP-адрес` `158.167.18.156/15`:
 

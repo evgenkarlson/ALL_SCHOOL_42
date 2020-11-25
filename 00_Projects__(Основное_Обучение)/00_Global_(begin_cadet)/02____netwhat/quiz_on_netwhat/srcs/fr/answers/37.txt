@@ -1,0 +1,4 @@
+UDP est plus rapide, plus simple et plus efficace que TCP
+UDP fournit des mecanismes de verification d'erreur etendus. C'est parce qu'il fournit le controle de flux et l'acquittement des donees
+UDP est un protocole oriente datagramme
+UDP prend en charge la diffusion

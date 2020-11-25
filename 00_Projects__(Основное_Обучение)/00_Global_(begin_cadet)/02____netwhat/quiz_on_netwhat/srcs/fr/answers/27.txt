@@ -1,0 +1,7 @@
+TCP est un protocole oriente connexion
+TCP ne prend pas en charge la diffusion
+TCP fournit des mecanismes de verification d'erreur etendus. C'est parce qu'il fournit le controle de flux et l'acquittement des donees
+Le sequencage des donnees est une caracteristique de TCP (cela signifie que les paquets arrivent dans l'ordre dans le destinataire)
+La livraison des donnees a la destination ne peut pas etre garantie en TCP
+TCP est fiable car il garantit la livraison des donnees au routeur de la destination
+

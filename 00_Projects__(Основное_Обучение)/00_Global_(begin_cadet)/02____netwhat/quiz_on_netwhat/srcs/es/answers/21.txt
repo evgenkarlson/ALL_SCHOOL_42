@@ -1,0 +1,4 @@
+﻿Aplicación - Presentación - Sesión - Transporte - Red - Enlace de datos - Físico
+Aplicación - Mediación - Sesión - Transporte - Red - Enlace de datos - Físico
+Presentación - Sesión - Transporte - Red - Enlace de datos - Aplicación - Real
+Relación - Transporte - Sesión - Enlace de datos - Mediación - Presentación - Aplicación

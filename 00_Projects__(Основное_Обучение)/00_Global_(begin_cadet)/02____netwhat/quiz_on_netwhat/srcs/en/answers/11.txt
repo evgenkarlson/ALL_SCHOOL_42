@@ -1,0 +1,6 @@
+TCP is a datagram oriented protocol
+TCP does not support broadcasting
+TCP provides extended error checking mechanisms. This is because it provides flow control and data acknowledgement
+Data sequencing is a TCP feature (this means that packets arrive in order in the recipient)
+TCP is reliable because it guarantees the delivery of data to the router of the destination
+TCP is comparatively slower than UDP

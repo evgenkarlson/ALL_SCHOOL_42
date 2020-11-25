@@ -1,0 +1,37 @@
+Which of the following proposals is the valid host range for the subnet on which the IP address 158.167.18.156/15 resides?
+If the IP address 123.48.189.194/21 is assigned to an Ethernet port of a router, what host address could communicate with it?
+Which of the following proposals is a private IP address?
+What is the network address of a host with an IP address of 182.161.121.118/24?
+What is the maximum number of IP addresses that can be assigned to hosts on a local subnet using the 255.255.128.0 subnet mask?
+You want to implement a mechanism that automates IP configuration, including IP address, subnet mask, default gateway and DNS information. What protocol will you use to achieve this?
+You have an interface on a router with the IP address of 124.144.156.248/21. Including the router interface, how many hosts can have IP addresses on the local network connected to the router interface?
+Which of the following proposals is the valid host range for the subnet on which the IP address 1.93.149.6/17 resides?
+What is the network address of a host with an IP address of 107.212.146.212.212/25?
+Which of the following proposals is the valid host range for the subnet on which the IP address 233.249.146.36/21 resides?
+Which of the following propositions is not true?
+What is the network address of a host with an IP address of 166.175.144.121/23?
+What is the maximum number of IP addresses that can be assigned to hosts on a local subnet using the 255.255.255.255.128 subnet mask?
+What is the maximum number of IP addresses that can be assigned to hosts on a local subnet using the 255.224.0.0 subnet mask?
+Which of the following proposals is a private IP address?
+What DHCP protocol does it use at the transport layer level?
+You have an interface on a router with the IP address of 240.19.3.205/12. Including the router interface, how many hosts can have IP addresses on the local network connected to the router interface?
+What is the broadcast address of a host with an IP address of 51,254,122,100/24?
+What is the CIDR notation of the 255.255.128.0 subnet mask?
+What is the CIDR notation of the 255.255.192.0 subnet mask?
+What are the different layers of the OSI model?
+What is the network address of a host with an IP address of 116.45.224.50/8?
+What is the network address of a host with an IP address of 45.195.37.187/16?
+_______ translates Internet domain names and host names into IP addresses
+Which IP address class has more host addresses available by default?
+Which of the following propositions is not true?
+Which of the following propositions is not true?
+What is the default IP address class available?
+What is the subnet mask of /24?
+Which of the following IP addresses is a private address?
+Which of the following IP addresses is a private address?
+Which of the following IP addresses is a private address?
+What is the size of an IPV4 address?
+What is the size of an IPV6 address?
+What type of address is supported by DHCP?
+Which protocol does Ping use?
+Which of the following propositions is not true?

@@ -1,0 +1,6 @@
+TCP est un protocole oriente datagramme
+TCP ne prend pas en charge la diffusion
+TCP fournit des mecanismes de verification d'erreur etendus. C'est parce qu'il fournit le controle de flux et l'acquittement des donnees
+Le sequencage des donnees est une caracteristique de TCP (cela signifie que les paquets arrivent dans l'ordre dans le destinataire)
+TCP est fiable car il garantit la livraison des donnees au routeur de la destination
+TCp est comparativement plus lent que UDP

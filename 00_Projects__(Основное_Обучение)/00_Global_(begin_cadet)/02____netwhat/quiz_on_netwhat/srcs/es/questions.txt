@@ -1,0 +1,37 @@
+¿Cuál de las siguientes propuestas es el rango de host válido para la subred en la que reside la dirección IP 158.167.18.156/15?
+Si la dirección IP 123.48.189.194/21 se asigna a un puerto Ethernet de un enrutador, ¿qué dirección de host podría comunicarse con ella?
+¿Cuál de las siguientes propuestas es una dirección IP privada?
+¿Cuál es la dirección de red de un host con una dirección IP de 182.161.121.118/24?
+¿Cuál es el número máximo de direcciones IP que se pueden asignar a los hosts en una subred local utilizando la máscara de subred 255.255.128.0?
+Desea implementar un mecanismo que automatice la configuración de IP, incluida la dirección IP, la máscara de subred, la puerta de enlace predeterminada y la información de DNS. ¿Qué protocolo usarás para lograr esto?
+Tiene una interfaz en un enrutador con la dirección IP 124.144.156.248/21. Incluyendo la interfaz del enrutador, ¿cuántos hosts pueden tener direcciones IP en la red local conectadas a la interfaz del enrutador?
+¿Cuál de las siguientes propuestas es el rango de host válido para la subred en la que reside la dirección IP 1.93.149.6/17?
+¿Cuál es la dirección de red de un host con una dirección IP de 107.212.146.212.212 / 25?
+¿Cuál de las siguientes propuestas es el rango de host válido para la subred en la que reside la dirección IP 233.249.146.36/21?
+¿Cuál de las siguientes proposiciones no es verdadera?
+¿Cuál es la dirección de red de un host con una dirección IP de 166.175.144.121/23?
+¿Cuál es el número máximo de direcciones IP que se pueden asignar a los hosts en una subred local utilizando la máscara de subred 255.255.255.255.128?
+¿Cuál es el número máximo de direcciones IP que se pueden asignar a los hosts en una subred local utilizando la máscara de subred 255.224.0.0?
+¿Cuál de las siguientes propuestas es una dirección IP privada?
+¿Qué protocolo DHCP utiliza en el nivel de la capa de transporte?
+Tiene una interfaz en un enrutador con la dirección IP 240.19.3.205/12. Incluyendo la interfaz del enrutador, ¿cuántos hosts pueden tener direcciones IP en la red local conectadas a la interfaz del enrutador?
+¿Cuál es la dirección de transmisión de un host con una dirección IP de 51,254,122,100 / 24?
+¿Cuál es la notación CIDR de la máscara de subred 255.255.128.0?
+¿Cuál es la notación CIDR de la máscara de subred 255.255.192.0?
+¿Cuáles son las diferentes capas del modelo OSI?
+¿Cuál es la dirección de red de un host con una dirección IP de 116.45.224.50/8?
+¿Cuál es la dirección de red de un host con una dirección IP de 45.195.37.187/16?
+_______ traduce nombres de dominio de Internet y nombres de host en direcciones IP
+¿Qué clase de dirección IP tiene más direcciones de host disponibles de forma predeterminada?
+¿Cuál de las siguientes proposiciones no es verdadera?
+¿Cuál de las siguientes proposiciones no es verdadera?
+¿Cuál es la clase de dirección IP predeterminada disponible?
+¿Cuál es la máscara de subred de / 24?
+¿Cuál de las siguientes direcciones IP es una dirección privada?
+¿Cuál de las siguientes direcciones IP es una dirección privada?
+¿Cuál de las siguientes direcciones IP es una dirección privada?
+¿Cuál es el tamaño de una dirección IPV4?
+¿Cuál es el tamaño de una dirección IPV6?
+¿Qué tipo de dirección es compatible con DHCP?
+¿Qué protocolo usa Ping?
+¿Cuál de las siguientes proposiciones no es verdadera?

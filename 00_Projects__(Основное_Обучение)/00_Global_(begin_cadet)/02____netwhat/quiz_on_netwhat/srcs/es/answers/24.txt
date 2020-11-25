@@ -1,0 +1,4 @@
+﻿Protocolo de tiempo de red
+Protocolo de enrutamiento predeterminado
+Sistema de nombres de dominio
+Sistema modelo OSI

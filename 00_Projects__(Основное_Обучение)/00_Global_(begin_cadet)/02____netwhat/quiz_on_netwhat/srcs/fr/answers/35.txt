@@ -1,0 +1,4 @@
+IPV4
+IPV6
+IPV4 et IPV6
+Aucune d'entre elles

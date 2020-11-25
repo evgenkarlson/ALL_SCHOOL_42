@@ -1,0 +1,4 @@
+UDP est plus rapide, plus simple et plus efficace que TCP
+UDP ne dispose que du mecanisme de controle d'erreur de base
+UDP est un protocole oriente datagramme
+UDP ne prend pas en charge la diffusion

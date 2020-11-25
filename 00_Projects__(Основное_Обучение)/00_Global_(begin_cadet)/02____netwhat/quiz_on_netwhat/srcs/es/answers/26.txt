@@ -1,0 +1,4 @@
+﻿UDP es más rápido, más simple y más eficiente que TCP
+UDP solo tiene el mecanismo básico de control de errores
+UDP es un protocolo orientado a datagramas
+UDP no es compatible con la transmisión

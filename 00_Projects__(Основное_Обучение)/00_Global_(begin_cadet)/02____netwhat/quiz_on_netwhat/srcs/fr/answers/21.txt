@@ -1,0 +1,4 @@
+Application - Presentation - Session - Transport - Reseau - Liaison - Physique
+Application - Mediation - Session - Transport - Reseau - Liaison - Physique
+Presentation - Session - Transport - Reseau - Liaison - Application - Reel
+Relation - Transport - Session - Liaison - Mediation - Presentation - Application

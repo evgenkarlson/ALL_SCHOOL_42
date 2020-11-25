@@ -1,0 +1,6 @@
+﻿TCP es un protocolo orientado a datagramas
+TCP no admite transmisión
+TCP proporciona mecanismos extendidos de verificación de errores. Esto se debe a que proporciona control de flujo y reconocimiento de datos
+La secuencia de datos es una característica de TCP (esto significa que los paquetes llegan en orden al destinatario)
+TCP es confiable porque garantiza la entrega de datos al enrutador del destino
+TCP es comparativamente más lento que UDP
