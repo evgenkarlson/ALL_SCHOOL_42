@@ -1,4 +1,4 @@
-<h1 align="center"><code> Intermediate Exam 42 </code></h1>
+# Intermediate Exam 42
 
 
 <details>

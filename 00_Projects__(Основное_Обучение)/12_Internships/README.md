@@ -1,4 +1,4 @@
-<h1 align="center"><code> Internships - Стажировки </code></h1>
+# Internships - Стажировки
 
 
 <details>

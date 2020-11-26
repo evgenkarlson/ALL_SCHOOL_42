@@ -1,4 +1,4 @@
-<h1 align="center"><code> Ai Projects - Искуственный интелект </code></h1>
+# AI Projects - Искуственный интелект 
 
 
 ![ai branch](./ai_projects.gif)

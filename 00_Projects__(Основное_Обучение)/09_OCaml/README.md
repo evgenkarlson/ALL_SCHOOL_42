@@ -1,4 +1,4 @@
-<h1 align="center"><code> Ocaml ветвь </code></h1>
+# Ocaml ветвь 
 
 
 ![ocaml branch](./ocaml.gif)

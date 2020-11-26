@@ -1,4 +1,4 @@
-<h1 align="center"><code> Side Projects - Сторонние Проекты </code></h1>
+# Side Projects - Сторонние Проекты
 
 
 <details>

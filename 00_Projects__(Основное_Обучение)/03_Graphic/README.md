@@ -1,4 +1,4 @@
-<h1 align="center"><code>Ветвь Графики</code></h1>
+# Ветвь Графики
 
 
 ![graphic branch](./graphic.gif)

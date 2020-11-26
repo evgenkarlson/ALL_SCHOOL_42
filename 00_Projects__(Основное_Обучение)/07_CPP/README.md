@@ -1,4 +1,4 @@
-<h1 align="center"><code> C++ ветвь </code></h1>
+# C++ ветвь
 
 
 ![cpp branch](./cpp.gif)
