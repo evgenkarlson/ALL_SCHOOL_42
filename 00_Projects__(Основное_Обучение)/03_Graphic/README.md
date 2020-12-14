@@ -130,6 +130,8 @@ sudo cp mlx.h /usr/local/include/
   - [документация по функции open()](https://man7.org/linux/man-pages/man2/open.2.html)
   - [Использование режима аргумента "O_CREAT"](https://stackoverflow.com/a/28466757)
 * [Изучение компьютерной графики с нуля на `Scratchapixel.com`](https://www.scratchapixel.com/)
+* [ВИДЕО ПО ЛИНЕЙНОЙ АЛГЕБРЕ [RU]](https://www.youtube.com/channel/UC6hAYNOWMmuqOBvFOuAFKwA)
+* [ЛИНЕЙНАЯ АЛГЕБРА ДЛЯ РАЗРАБОТЧИКОВ ИГР [RU]](https://habr.com/ru/post/131931/)
 * [Сущность линейной алгебры](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 * [Вектор](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
 * [Линейные комбинации и промежутки векторов](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span)
