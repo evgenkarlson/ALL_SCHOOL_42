@@ -1,5 +1,4 @@
-
-<h1 align="center"><code>ALL SUBJECTS「SCHOOL 42」</code></h1>
+<h1 align="center"><code>ALL SCHOOL 42</code></h1>
 
 
 ![42 School](03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header000000.png)
@@ -71,6 +70,7 @@
 <details>
 <summary> Список упражнений по программированию на языке Cи: </summary>
 
+0) https://fresh2refresh.com/c-programming/
 1) https://www.sanfoundry.com/simple-c-programs/
 2) https://www.w3resource.com/c-programming-exercises/file-handling/index.php
 3) http://www.c4learn.com/
@@ -106,6 +106,8 @@
 Чтобы помочь в них разобраться вам предоставляются обучающие видео на 10-30 минут с теорией и примерами(используйте в плеере функцию субтитров и их перевода на нужный вам язык), но, как правило, этого никогда не будет достаточно. Поэтому всю нужную информацию для обучения вы ищите самостоятельно через интернет. 
 
 С первого же дня вы сталкиваетесь не просто со сложными задачами, а с целыми областями знаний, о существовании которых вы могли даже не знать. Таким образом, какой бы высокий начальный уровень у вас ни был, вы обязательно встретитесь с заданием, которое точно вызовет затруднения. Увидя его, вы сначала войдете в ступор, но потом, путем неимоверных усилий, совершая череду ошибок, вы все-таки справляетесь с заданием и приобретаете навык, который становится привычным инструментом. Бассейн станет испытанием на прочность для тех, кто решит начать путь программирования, чтобы определить наиболее мотивированных.
+
+Помните, что изучение языка программирования C является основным для изучения всех других языков программирования, таких как C++, Java, Python и т.д. Потому что все другие продвинутые языки программирования были получены только на основе концепций языка C.
 
 ---
 
@@ -251,12 +253,15 @@
 
 
 
-> ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+> ### [[Системное & Сетевое Администрирование]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)//05_Infrastructure_and_Admin/)
 ---
-> - piscine Ocaml
-> - ft_ality
-> - ft_turing
-> - H42N42
+> - init
+> - docker-1
+> - cloud-1
+> - roger-skyline-1
+> - roger-skyline-2
+> - ft_server
+> - ft_services
 ---
 
 
@@ -298,15 +303,12 @@
 
 
 
-> ### [[Системное & Сетевое Администрирование]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)//05_Infrastructure_and_Admin/)
+> ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
 ---
-> - init
-> - docker-1
-> - cloud-1
-> - roger-skyline-1
-> - roger-skyline-2
-> - ft_server
-> - ft_services
+> - piscine Ocaml
+> - ft_ality
+> - ft_turing
+> - H42N42
 ---
 
 
