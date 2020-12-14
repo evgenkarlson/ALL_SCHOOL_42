@@ -43,5 +43,4 @@ int     mlx_string_put ( void *mlx_ptr, void *win_ptr, int x, int y, int color, 
 
 ## СМОТРИТЕ ТАКЖЕ
 
-| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) |
-[mlx_new_image(3)](man_mlx_new_image.md) | [mlx_loop(3)](man_mlx_loop.md) |
+| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) | [mlx_new_image(3)](man_mlx_new_image.md) | [mlx_loop(3)](man_mlx_loop.md) |  [Руководство по использованию изображений в minilibX](how_use_images_in_mimilibx.md)

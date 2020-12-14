@@ -61,6 +61,5 @@ MiniLibX обеспечивает универсальный доступ ко �
        
 ## СМОТРИТЕ ТАКЖЕ
 
-| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) |
-[mlx_pixel_put(3)](man_mlx_pixel_put.md) | [mlx_new_image(3)](man_mlx_new_image.md) |
+| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) | [mlx_pixel_put(3)](man_mlx_pixel_put.md) | [mlx_new_image(3)](man_mlx_new_image.md) | [Руководство по использованию изображений в minilibX](how_use_images_in_mimilibx.md)
 

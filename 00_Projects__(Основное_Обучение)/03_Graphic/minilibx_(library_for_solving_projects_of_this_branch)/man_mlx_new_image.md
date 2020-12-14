@@ -68,6 +68,6 @@ int     mlx_destroy_image ( void *mlx_ptr, void *img_ptr );
 Три функции, которые создают изображения, `mlx_new_image()`, `mlx_xpm_to_image()` и `mlx_xpm_file_to_image()`, вернут нулевой указатель (`NULL`) в случае возникновения ошибки. В противном случае они возвращают ненулевой указатель в качестве идентификатора изображения.
 
 ## СМОТРИТЕ ТАКЖЕ
-
-| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) |
-[mlx_pixel_put(3)](man_mlx_pixel_put.md) | [mlx_loop(3)](man_mlx_loop.md) /
+ [Руководство по использованию изображений в minilibX](how_use_images_in_mimilibx.md)
+ 
+| [mlx(3)](man_mlx.md) | [mlx_new_window(3)](man_mlx_new_window.md) | [mlx_pixel_put(3)](man_mlx_pixel_put.md) | [mlx_loop(3)](man_mlx_loop.md) |
