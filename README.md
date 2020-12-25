@@ -1,9 +1,9 @@
 <h1 align="center"><code>ALL SCHOOL 42</code></h1>
 
-![42 School](03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header/header_004_.png)
+![42 School](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/header/header_004_.png)
 
 
-> ###### _Chose language: [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/) [[ en ]](README_en.md)_
+> ###### _Chose language: [[ ru ]](https://github.com/evgenkarlson/ALL_SCHOOL_42/) [[ en ]](README_en.md)_
 
 - [Введение](#введение)
 - [0. Документация по школе](#0-документация-по-школе)
@@ -30,7 +30,7 @@
 
 Проекты и задания позволят вам самостоятельно развить навыки программирования, а практический опыт и знания, полученные при выполнении заданий и проектов Школы 42, дадут вам необходимую основу для профессиональной интеграции, помогая с нуля получить востребованную профессию. 
 
-Последовательно двигаясь по направлениям, языкам и учебным проектам Школы 42, используя [карту проектов `Holy Graph`](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png), вы сформируете у себя фундаментальные технические навыки:
+Последовательно двигаясь по направлениям, языкам и учебным проектам Школы 42, используя [карту проектов `Holy Graph`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png), вы сформируете у себя фундаментальные технические навыки:
 
 - Навыки системного программирования.
 - Знание и понимание сути операционных систем, сетей, облаков и содержащихся в них служб.
@@ -52,17 +52,17 @@
 
 Здесь вы сможете ознакомиться с правилами, действующими в стенах Школы 42, узнаете о самом учебном курсе, прочтете о стандартах, по которым нужно будет писать код при решении заданий и проектов, а также же увидите все то, что поможет вам начать обучение програмированию по программе Школы 42.
 
- * Описание учебного курса школы: [[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.en.pdf) [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.ru.md)
+ * Описание учебного курса школы: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.en.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/cursus_manual.ru.md)
 
- * Информация о самой системе `peer-to-peer` обучения: [[ en ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.EN.pdf) [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.RU.md)
+ * Информация о самой системе `peer-to-peer` обучения: [[ en ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/the_art_of_peer_evaluation.RU.md)
 
- * Подсказки по `Git` для взаимодействия с репозиторием в `Vogsphere`: [[ fr ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.EN.pdf) [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.RU.md)
+ * Подсказки по `Git` для взаимодействия с репозиторием в `Vogsphere`: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.EN.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/vogsphere.git.RU.md)
 
- * Нормы, описывающие то, как нужно писать код: [[ fr ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.md)
+ * Нормы, описывающие то, как нужно писать код: [[ fr ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.FR.pdf) [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/norme_1_8.RU.md)
 
- * Проверка кода через `Norminette` [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/code-check_norminette.md)
+ * Проверка кода через `Norminette` [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/code-check_norminette.md)
 
- * 10 правил, для тех кто начинает плавать в бассейне [[ ru ]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
+ * 10 правил, для тех кто начинает плавать в бассейне [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
 
  * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
 
@@ -94,9 +94,9 @@
 # 1. БАССЕЙН ПО ЯЗЫКУ СИ #
 
 Именно с этого бассейна начнётся обучение программированию в Школе 42.
-- Бассейн по Си: [[ en ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
-- Экзаменационные задания начального бассейна по Си: [[ en ][ fr ][ ro ]](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
-- Готовые и закомментированные решения заданий бассейна по Си: [[ ru ][ en ]](https://github.com/evgenkarlson/Completed___Piscine_C___of___School_42)
+- Бассейн по Си: [[ en ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B))
+- Экзаменационные задания начального бассейна по Си: [[ en ][ fr ][ ro ]](./00_Piscine_C_(%D0%98%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/Exam_C)
+- Готовые и закомментированные решения заданий бассейна по Си: [[ ru ][ en ]](https://github.com/evgenkarlson/COMPLETED_PISCINE_C)
 
 Здесь вас будет ждать полное погружение в глубокую часть кода, которое позволит по-настоящему открыть для себя школу, ее уникальный метод обучения и, прежде всего, что такое программирование на самом деле.
 
@@ -117,12 +117,12 @@
 
 # 2. ОСНОВНОЕ ОБУЧЕНИЕ #
 
-[Проекты основного обучения](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/)  представляют собой следующий этап обучения программированию. Все они сгруппированы по направлениям, которые представлены в виде ветвей. Помните, что каждый последующий проект выбранной вами ветки сложнее предыдущего и может быть решен только с помощью навыков полученных в предыдущих проектах.
+[Проекты основного обучения](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/)  представляют собой следующий этап обучения программированию. Все они сгруппированы по направлениям, которые представлены в виде ветвей. Помните, что каждый последующий проект выбранной вами ветки сложнее предыдущего и может быть решен только с помощью навыков полученных в предыдущих проектах.
 
-Для продвижения по заданиям/проектам основного обучения Школы 42 используйте [карту проектов `Holy Graph`](https://github.com/evgenkarlson/Subjects___School_42/blob/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png) и [наглядную карту направлений `highlighting_branches`](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/highlighting_branches_Holy_Graph.gif)
+Для продвижения по заданиям/проектам основного обучения Школы 42 используйте [карту проектов `Holy Graph`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/Holy_Graph.png) и [наглядную карту направлений `highlighting_branches`](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/highlighting_branches_Holy_Graph.gif)
 
 ---
-> ### [[GLOBAL - Общая ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
+> ### [[GLOBAL - Общая ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/00_Global_(begin_cadet)/)
 ---
 >> #### С этой ветки начинается основное обучение.
 > - 42_commandements
@@ -135,7 +135,7 @@
 ---
 
 
-> ### [[Ветвь UNIX]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
+> ### [[Ветвь UNIX]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/01_Unix/)
 ---
 >> #### Эта ветвь содержит в себе несколько направлений: Unix, Kernel, Virus, Security, Network.
 > - ft_ls
@@ -192,7 +192,7 @@
 
 
 
-> ### [[Ветвь Алгоритмов]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
+> ### [[Ветвь Алгоритмов]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/02_Algorithmic/)
 ---
 >> #### Эта ветвь содержит в себе несколько  направлений: Algorithms, Data Science, Cryptography.
 > - ft_printf
@@ -220,7 +220,7 @@
 
 
 
-> ### [[Ветвь Графики]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
+> ### [[Ветвь Графики]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/03_Graphic/)
 ---
 > - FDF
 > - Fract'Ol
@@ -238,7 +238,7 @@
 
 
 
-> ### [[WEB ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
+> ### [[WEB ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/04_Web/)
 ---
 > - piscine PHP
 > - Camagru
@@ -252,7 +252,7 @@
 
 
 
-> ### [[Системное & Сетевое Администрирование]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)//05_Infrastructure_and_Admin/)
+> ### [[Системное & Сетевое Администрирование]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/05_Infrastructure_and_Admin/)
 ---
 > - init
 > - docker-1
@@ -265,7 +265,7 @@
 
 
 
-> ### [[Android & iOS ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
+> ### [[Android & iOS ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/06_Android-iOS/)
 ---
 > - piscine Swift iOS
 > - Swifty Companion
@@ -279,7 +279,7 @@
 
 
 
-> ### [[C++ ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
+> ### [[C++ ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/07_CPP/)
 ---
 > - modules С++ (это то же самое, что и `piscine C++`, но новая версия)
 > - piscine C++ (это то же самое, что и `modules С++` но старая версия)
@@ -293,7 +293,7 @@
 
 
 
-> ### [[Unity ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
+> ### [[Unity ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/08_Unity/)
 ---
 > - piscine Unity
 > - XV
@@ -302,7 +302,7 @@
 
 
 
-> ### [[OCaml ветвь]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
+> ### [[OCaml ветвь]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/09_OCaml/)
 ---
 > - piscine Ocaml
 > - ft_ality
@@ -312,7 +312,7 @@
 
 
 
-> ### [[Ai Projects - Искуственный интелект]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
+> ### [[Ai Projects - Искуственный интелект]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/10_Ai/)
 ---
 > - walking_marvin
 > - ft_sommelier
@@ -321,7 +321,7 @@
 
 
 
-> ### [[Side Projects - Сторонние Проекты]](https://github.com/evgenkarlson/Subjects___School_42/tree/master/00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/)
+> ### [[Side Projects - Сторонние Проекты]](./00_Projects__(%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)/11_Side_Projects/)
 ---
 > - ft_db
 > - KIFT
@@ -330,32 +330,32 @@
 
 # 3. ОСТАЛЬНЫЕ БАССЕЙНЫ ШКОЛЫ 42 #
 
-> - [PHP-Symphony](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony)
-> - [Python-Django](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django)
-> - [Ruby On Rails](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscines_ruby_on_rails)
-> - [Interview](https://github.com/evgenkarlson/ALL___Subjects___School_42/tree/master/01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/interview_piscine)
+> - [PHP-Symphony](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_php_symfony)
+> - [Python-Django](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscine_python-django)
+> - [Ruby On Rails](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/piscines_ruby_on_rails)
+> - [Interview](./01_Piscines__(O%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%91%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/interview_piscine)
 
 
 
 
 # 4. ГРУППОВЫЕ ПРОЕКТЫ ШКОЛЫ 42(Rushes - миниХАКАТОНЫ) #
 
-> - [AlCu](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf)
-> - [Alum1](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
-> - [Arkanoid](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/arkanoid.pdf)
-> - [Carnifex (LISP)](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Carniflex.pdf)
-> - [Cluedo (Prolog)](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/cluedo.pdf)
-> - [Domino](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Domino.pdf)
-> - [Factrace](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/factrace.pdf)
-> - [Hotrace](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/hotrace.pdf)
-> - [Introduction to iOS](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/sujet_ios.pdf)
-> - [Help_wordpress](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Help_wordpress.pdf)
-> - [Introduction to Wordpress](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wordpress.pdf)
-> - [LLDB](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/LLDB.pdf)
-> - [Mexican Standoff](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/mexican_standoff.pdf)
-> - [Puissance 4](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/puissance4.pdf)
-> - [Rage Against The aPi](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/rage-against-the-api.pdf)
+> - [AlCu](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alcu.pdf)
+> - [Alum1](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/alum1.pdf)
+> - [Arkanoid](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/arkanoid.pdf)
+> - [Carnifex (LISP)](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Carniflex.pdf)
+> - [Cluedo (Prolog)](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/cluedo.pdf)
+> - [Domino](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Domino.pdf)
+> - [Factrace](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/factrace.pdf)
+> - [Hotrace](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/hotrace.pdf)
+> - [Introduction to iOS](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/sujet_ios.pdf)
+> - [Help_wordpress](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/Help_wordpress.pdf)
+> - [Introduction to Wordpress](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wordpress.pdf)
+> - [LLDB](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/LLDB.pdf)
+> - [Mexican Standoff](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/mexican_standoff.pdf)
+> - [Puissance 4](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/puissance4.pdf)
+> - [Rage Against The aPi](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/rage-against-the-api.pdf)
 > - Rush admin sys et réseau 0 (Not Available)
 > - Rush admin sys et réseau 1 (Not Available)
-> - [wong_kar_wai (2048)](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wong_kar_wai_2048.pdf)
-> - [YASL](https://github.com/evgenkarlson/ALL___Subjects___School_42/blob/master/02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/yasl.pdf)
+> - [wong_kar_wai (2048)](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/wong_kar_wai_2048.pdf)
+> - [YASL](./02_Rushes___(%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE_%D0%9A%D1%83%D1%80%D1%81%D0%B0_%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)/yasl.pdf)
