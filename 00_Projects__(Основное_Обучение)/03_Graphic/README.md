@@ -98,7 +98,7 @@ sudo cp mlx.h /usr/local/include/
   * [Домашний репозиторий библиотеки minilibx](https://github.com/42Paris/minilibx-linux)
   * [Установка библиотеки minilibX](https://achedeuzot.me/2014/12/20/installer-la-minilibx/)
   * [Руководство по библиотеке `miniLibX`](https://harm-smits.github.io/42docs/libs/minilibx)
-  * [Руководство по использованию изображений в minilibX](how_use_images_in_mimilibx.md)
+  * [Руководство по использованию изображений в minilibX](./minilibx_(library_for_solving_projects_of_this_branch)/how_use_images_in_mimilibx.md)
 
 
 </details>
