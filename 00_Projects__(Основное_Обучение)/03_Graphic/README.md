@@ -211,6 +211,7 @@ sudo cp mlx.h /usr/local/include/
 
 > СОЗДАНИЕ ИГРОВОГО ДВИЖКА, ТАКОГО ЖЕ КАК В ИГРЕ `wolfenstein`, C ПРОБРОСКОЙ ЛУЧЕЙ(`raycasting`)
 
+* [Книга о том как создавался `Wolfenstein 3D`. О том как конкретно 'id Software' удалось превратить компьютер предназначеный для отображения статических изображений, текстовых редакторов и электронных таблиц в лучшую игровую платформу в мире, способную запускать игры со скоростью семьдесят кадров в секунду](./books_for_graphics/Wolfenstein_3D__Fabien_Sanglard_Game_Engine_Black_Book__CreateSpace.pdf)
 * [Проброска лучей(`raycasting`) - Википедия](https://en.wikipedia.org/wiki/Ray_casting)
 * [Полное руководство по проброске лучей(raycasting) 'Lode' ](http://lodev.org/cgtutor/raycasting.html)
 * [Полное руководство по проброске лучей(raycasting) на французском языке (перевод английского руководства)](http://forums.mediabox.fr/wiki/tutoriaux/flashplatform/affichage/3d/raycasting)
