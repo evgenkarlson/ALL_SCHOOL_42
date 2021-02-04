@@ -28,7 +28,7 @@ then
     exit 1
 fi
 
-langs=("fr" "en" "es")
+langs=("fr" "en" "es" "ru")
 current_lang=langs[0]
 
 path_q="srcs/${current_lang}/questions.txt"
