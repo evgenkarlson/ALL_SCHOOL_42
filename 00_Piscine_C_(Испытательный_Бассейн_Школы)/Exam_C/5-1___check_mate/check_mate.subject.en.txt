@@ -34,7 +34,7 @@ $> ./check_mate '..' '.K' | cat -e
 Fail$
 $> ./check_mate 'R...' '.K..' '..P.' '....' | cat -e
 Success$
-$> ./check_mate 'R...' 'iheK' '....' 'jeiR' | cat -e
+$> ./check_mate 'R...' 'iheK' '....' 'jei.' | cat -e
 Success$
 $> ./check_mate | cat -e
 $
