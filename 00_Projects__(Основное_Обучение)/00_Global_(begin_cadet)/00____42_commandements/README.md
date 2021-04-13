@@ -1,17 +1,11 @@
-</br>
-</br>
-</br>
-</br>
+
 <center><image src="https://github.com/evgenkarlson/ALL_SCHOOL_42/raw/master/03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/src/page1image3852832-small-13.png"></center>
-</br>
-</br>
 </br>
 <center><h1>42 Commandments</h1></center>
 <center><h2>42Staff <a href="pedago@42.fr">pedago@42.fr</a></h2></center>
 </br>
-</br>
-</br>
 <center><i>Резюме: Добро пожаловать на курс Школы 42! Здесь перечислены основные заповеди Школы 42.</i></center>
+</br>
 </br>
 </br>
 
