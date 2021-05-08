@@ -1,4 +1,4 @@
 IPV4
 IPV6
-IPV4 и IPV6
-Ни один из них
+IPV4 and IPV6
+None of them

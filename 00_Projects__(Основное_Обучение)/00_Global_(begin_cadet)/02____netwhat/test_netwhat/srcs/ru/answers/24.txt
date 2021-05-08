@@ -1,4 +1,4 @@
-Протокол сетевого времени
-Протокол маршрутизации по умолчанию
-Система доменных имен
-Модель системы OSI
+Network time protocol
+Default routing protocol
+Domain name system
+OSI model system

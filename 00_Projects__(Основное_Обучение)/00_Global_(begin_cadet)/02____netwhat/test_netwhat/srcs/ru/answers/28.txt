@@ -1,4 +1,4 @@
 A AND B
-FIRST(ПЕРВЫЙ)
+FIRST
 C
 B

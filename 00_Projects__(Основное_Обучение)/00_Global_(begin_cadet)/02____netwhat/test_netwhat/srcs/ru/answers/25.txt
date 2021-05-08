@@ -2,4 +2,4 @@ C
 D
 E
 F
-FIRST(ПЕРВЫЙ)
+FIRST

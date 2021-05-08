@@ -143,10 +143,16 @@ function set_phrases_lang() {
     bad_answer="Respuesta incorrecta !"
     answer_was="La respuesta correcta fue :"
     final_score="Resultado final :"
+    elif [ $current_lang == "ru" ]
+    then
+    good_answer="Правильный ответ !"
+    bad_answer="Ответ не верный !"
+    answer_was="Правильный ответ был :"
+    final_score="Результат :"
     else
-    good_answer="Bonne reponse !"
-    bad_answer="Mauvaise reponse !"
-    answer_was="La bonne reponse etait :"
+    good_answer="Bonne réponse !"
+    bad_answer="Mauvaise réponse !"
+    answer_was="La bonne réponse était :"
     final_score="Score final :"
     fi
 }
