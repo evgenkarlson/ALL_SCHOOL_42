@@ -5,7 +5,6 @@
 
 
 ### Содержание <a name="Contents"></a>
-* [Тренировочные тесты по Netwhat ](#test)
 * [What is an IP address ?](#IPaddress) 
 * [What is a Netmask ?](#Netmask)
 * [What is the subnet of an IP with Netmask ?](#IPwithNetmask)
