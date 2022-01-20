@@ -66,7 +66,9 @@
 
  * 10 правил, для тех кто начинает плавать в бассейне [[ ru ]](./03_Norme____(%D0%9D%D0%BE%D1%80%D0%BC%D1%8B_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%A8%D0%BA%D0%BE%D0%BB%D1%8B)/10_rules_for_piscine.md)
 
- * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG)
+ * Видеокурс по языку Си(для тех кто начинает бассейн с нуля) [[ ru ]](https://www.youtube.com/watch?v=kCYT19xs8mE&list=PLG9dLrY9JZKgXfVYlg_0lq6s-i5r0Lw0w&ab_channel=GenaANTG) 
+
+ * Очень хорошо составленые видеоуроки по языку Си на английском языке (используйте яндекс браузер для просмотра этих видео на русском языке )[[ en ]] (https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM)
 
 <details>
 <summary> Список упражнений по программированию на языке Cи: </summary>
